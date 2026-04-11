@@ -75,7 +75,8 @@
     nightsMax: '',
     priceMin: '',
     priceMax: '',
-    starMin: ''
+    starMin: '',
+    cabinType: ''
   };
   var EMPTY_TABLE_COLSPAN = 17;
 
@@ -138,6 +139,7 @@
     dom.filterPriceMin = root.document.getElementById('filterPriceMin');
     dom.filterPriceMax = root.document.getElementById('filterPriceMax');
     dom.filterStarMin = root.document.getElementById('filterStarMin');
+    dom.filterCabinType = root.document.getElementById('filterCabinType');
     dom.resetFiltersButton = root.document.getElementById('resetFiltersButton');
     dom.sortSelect = root.document.getElementById('sortSelect');
     dom.compareButton = root.document.getElementById('compareButton');
@@ -203,6 +205,7 @@
     bindFilterInput(dom.filterPriceMin, 'priceMin', 'input');
     bindFilterInput(dom.filterPriceMax, 'priceMax', 'input');
     bindFilterInput(dom.filterStarMin, 'starMin', 'change');
+    bindFilterInput(dom.filterCabinType, 'cabinType', 'change');
 
     if (dom.resetFiltersButton) {
       dom.resetFiltersButton.addEventListener('click', resetFilters);
@@ -776,6 +779,9 @@
     if (dom.filterStarMin) {
       dom.filterStarMin.value = state.filters.starMin;
     }
+    if (dom.filterCabinType) {
+      dom.filterCabinType.value = state.filters.cabinType;
+    }
   }
 
   function syncSortSelect() {
@@ -904,6 +910,13 @@
       return false;
     }
 
+    if (filters.cabinType && cruise && cruise.cabinPrices) {
+      var cabinPrice = cruise.cabinPrices[filters.cabinType];
+      if (!cabinPrice || cabinPrice <= 0) {
+        return false;
+      }
+    }
+
     return true;
   }
 
@@ -940,9 +953,9 @@
       case 'arrival':
         return String(cruise && cruise.arrivalPort || '');
       case 'inside':
-        return getLowestPrice(cruise);
+        return getCabinFilteredPrice(cruise);
       case 'pernight':
-        return getPerNight(cruise);
+        return getCabinFilteredPerNight(cruise);
       case 'discount':
         return Number(cruise && cruise.discountPct) || 0;
       case 'deal':
@@ -992,12 +1005,28 @@
     dom.cruiseCards.innerHTML = cruises.map(renderCruiseCard).join('');
   }
 
+  function getCabinFilteredPrice(cruise) {
+    var cabinType = state.filters.cabinType;
+    if (cabinType && cruise && cruise.cabinPrices && cruise.cabinPrices[cabinType] > 0) {
+      return cruise.cabinPrices[cabinType];
+    }
+    return getLowestPrice(cruise);
+  }
+
+  function getCabinFilteredPerNight(cruise) {
+    var cabinType = state.filters.cabinType;
+    if (cabinType && cruise && cruise.cabinPrices && cruise.cabinPrices[cabinType] > 0 && cruise.nights > 0) {
+      return cruise.cabinPrices[cabinType] / cruise.nights;
+    }
+    return getPerNight(cruise);
+  }
+
   function renderTableRow(cruise) {
     var num = Number(cruise && cruise.num) || 0;
     var isFavorite = favoritesApi && favoritesApi.isFavorite && favoritesApi.isFavorite(num);
     var isCompared = state.compareSelection.indexOf(num) !== -1;
-    var lowestPrice = getLowestPrice(cruise);
-    var perNight = getPerNight(cruise);
+    var lowestPrice = getCabinFilteredPrice(cruise);
+    var perNight = getCabinFilteredPerNight(cruise);
     var dealScore = getBestScore(cruise && cruise.dealScores);
     var valueScore = getBestScore(cruise && cruise.valueScores);
     var itineraryMarkup = renderItineraryMarkup(cruise);
@@ -1029,8 +1058,8 @@
     var num = Number(cruise && cruise.num) || 0;
     var isFavorite = favoritesApi && favoritesApi.isFavorite && favoritesApi.isFavorite(num);
     var isCompared = state.compareSelection.indexOf(num) !== -1;
-    var lowestPrice = getLowestPrice(cruise);
-    var perNight = getPerNight(cruise);
+    var lowestPrice = getCabinFilteredPrice(cruise);
+    var perNight = getCabinFilteredPerNight(cruise);
     var discountPct = Number(cruise && cruise.discountPct) || 0;
     var dealScore = getBestScore(cruise && cruise.dealScores);
     var valueScore = getBestScore(cruise && cruise.valueScores);
