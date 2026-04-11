@@ -1319,10 +1319,64 @@
     ].join('');
   }
 
+  var COUNTRY_MAP = {
+    'south korea': '한', 'korea': '한', '대한민국': '한', '한국': '한',
+    'japan': '일', '일본': '일',
+    'china': '중', '중국': '중',
+    'taiwan': '대', '대만': '대',
+    'singapore': '싱', '싱가포르': '싱',
+    'hong kong': '홍', '홍콩': '홍',
+    'malaysia': '말', '말레이시아': '말',
+    'thailand': '태', '태국': '태',
+    'vietnam': '베', '베트남': '베',
+    'philippines': '필', '필리핀': '필',
+    'indonesia': '인니',
+    'india': '인',
+    'australia': '호',
+    'at sea': '바'
+  };
+
+  function getCountryCode(portName) {
+    if (!portName) return '?';
+    var lower = portName.toLowerCase();
+    if (lower === 'at sea' || lower === '해상') return '바';
+    for (var key in COUNTRY_MAP) {
+      if (lower.indexOf(key) !== -1) return COUNTRY_MAP[key];
+    }
+    // 한글 포트면 국가 추측
+    if (/부산|제주|인천|서울|강정|속초/.test(portName)) return '한';
+    if (/상하이|홍콩/.test(portName)) return '중';
+    if (/후쿠오카|오사카|도쿄|나가사키|가고시마|사세보/.test(portName)) return '일';
+    return '?';
+  }
+
+  function summarizeRoute(cruise) {
+    var ports = [];
+    if (cruise && cruise.stopPorts && cruise.stopPorts.length > 0) {
+      ports = cruise.stopPorts.map(function (p) { return p.port || ''; });
+    } else if (cruise && cruise.itinerary) {
+      ports = cruise.itinerary.split('→').map(function (s) { return s.trim(); });
+    }
+    if (ports.length === 0) return '-';
+
+    // 국가별 카운트
+    var counts = {};
+    var order = [];
+    for (var i = 0; i < ports.length; i++) {
+      var code = getCountryCode(ports[i]);
+      if (!counts[code]) { counts[code] = 0; order.push(code); }
+      counts[code]++;
+    }
+    // "한1,일2,바3" 형태
+    var parts = order.map(function (code) { return code + counts[code]; });
+    var result = parts.join(',');
+    return result.length > 20 ? result.substring(0, 20) + '..' : result;
+  }
+
   function renderItineraryMarkup(cruise) {
     var itinerary = cruise && cruise.itinerary ? String(cruise.itinerary) : '-';
     var stopPorts = Array.isArray(cruise && cruise.stopPorts) ? cruise.stopPorts : [];
-    var previewText = CruiseUtils.truncateText ? CruiseUtils.truncateText(itinerary, 52) : itinerary;
+    var previewText = summarizeRoute(cruise);
     var tooltipMarkup;
 
     if (!stopPorts.length) {
@@ -1341,7 +1395,6 @@
       '<td class="itinerary-cell">',
       '<div class="itinerary-preview">',
       '<span>', escapeHtml(previewText), '</span>',
-      stopPorts.length ? '<span class="price-pill">' + escapeHtml(stopPorts.length + '개 기항') + '</span>' : '',
       '</div>',
       '<div class="itinerary-tooltip">',
       '<h4>기항 일정</h4>',
