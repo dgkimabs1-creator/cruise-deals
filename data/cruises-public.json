@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-04-11T10:49:50.235Z",
+  "exportedAt": "2026-04-11T10:57:10.828Z",
   "exchangeRate": 1482.800503,
   "count": 772,
   "cruises": [
@@ -5000,7 +5000,7 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "itinerary": "Tokyo (Yokohama), Japan → At Sea → Hakodate, Japan → Niigata, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → At Sea → Tokyo (Yokohama), Japan → Toba, Japan → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → At Sea → Shimizu, Japan → Tokyo (Yokohama), Japan",
+      "itinerary": "Tokyo (Yokohama), Japan → At Sea → Hakodate, Japan → Niigata, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → At Sea → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
       "stopPorts": [
@@ -5348,7 +5348,7 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "itinerary": "Tokyo (Yokohama), Japan → At Sea → At Sea → Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan → Miyako-jima, Japan → Okinawa (Naha), Japan → At Sea → At Sea → Tokyo (Yokohama), Japan → At Sea → Hakodate, Japan → Niigata, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → At Sea → Tokyo (Yokohama), Japan",
+      "itinerary": "Tokyo (Yokohama), Japan → At Sea → At Sea → Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan → Miyako-jima, Japan → Okinawa (Naha), Japan → At Sea → At Sea → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
       "stopPorts": [
@@ -5690,9 +5690,9 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "itinerary": "Tokyo (Koto City), Japan → At Sea → At Sea → Taipei (Keelung), Taiwan → Ishigaki Island, Japan → Miyako, Japan → Okinawa (Naha), Japan",
+      "itinerary": "Tokyo (Koto City), Japan → At Sea → At Sea → Taipei (Keelung), Taiwan",
       "departurePort": "Tokyo (Koto City), Japan",
-      "arrivalPort": "Okinawa (Naha), Japan",
+      "arrivalPort": "Taipei (Keelung), Taiwan",
       "stopPorts": [
         {
           "port": "Tokyo (Koto City), Japan",
@@ -12511,7 +12511,7 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "itinerary": "Tokyo (Yokohama), Japan → Toba, Japan → Osaka, Japan → At Sea → Nagasaki, Japan → Busan, South Korea → At Sea → Kochi, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan → At Sea → At Sea → Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan → Miyako-jima, Japan → Okinawa (Naha), Japan → At Sea → At Sea → Tokyo (Yokohama), Japan",
+      "itinerary": "Tokyo (Yokohama), Japan → Toba, Japan → Osaka, Japan → At Sea → Nagasaki, Japan → Busan, South Korea → At Sea → Kochi, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
       "stopPorts": [
@@ -13404,7 +13404,7 @@
       "cruiseLine": "Princess",
       "shipName": "Sapphire Princess",
       "shipRating": 5,
-      "itinerary": "Tokyo (Koto City), Japan → Toba, Japan → Kochi, Japan → At Sea → Seogwipo City, South Korea → Nagasaki, Japan → At Sea → Tokyo (Koto City), Japan → Nagoya, Japan → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → At Sea → Hakodate, Japan → At Sea → Hitachinaka, Japan → Tokyo (Koto City), Japan",
+      "itinerary": "Tokyo (Koto City), Japan → Toba, Japan → Kochi, Japan → At Sea → Seogwipo City, South Korea → Nagasaki, Japan → At Sea → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
       "stopPorts": [
@@ -13621,7 +13621,7 @@
       "cruiseLine": "Princess",
       "shipName": "Sapphire Princess",
       "shipRating": 5,
-      "itinerary": "Tokyo (Koto City), Japan → Toba, Japan → Kochi, Japan → At Sea → Seogwipo City, South Korea → Kagoshima, Japan → At Sea → Tokyo (Koto City), Japan → Toba, Japan → Wakayama (Shimotsu), Japan → Miyazaki (Aburatsu), Japan → Yatsushiro, Japan → Busan, South Korea → At Sea → Hiroshima, Japan → Kochi, Japan → Shimizu, Japan → Tokyo (Koto City), Japan",
+      "itinerary": "Tokyo (Koto City), Japan → Toba, Japan → Kochi, Japan → At Sea → Seogwipo City, South Korea → Kagoshima, Japan → At Sea → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
       "stopPorts": [
@@ -14074,7 +14074,7 @@
       "cruiseLine": "Holland America",
       "shipName": "Noordam",
       "shipRating": 5,
-      "itinerary": "Tokyo (Yokohama), Japan → Shimizu, Japan → Osaka, Japan → At Sea → Hiroshima, Japan → At Sea → Busan, South Korea → Sakaiminato, Japan → Maizuru, Japan → Kanazawa, Japan → At Sea → Hakodate, Japan → Miyako, Japan → Hitachinaka, Japan → Tokyo (Koto City), Japan → At Sea → Kobe, Japan → Kochi, Japan → Kagoshima, Japan → Fukuoka, Japan → Sokcho-si, South Korea → At Sea → Kanazawa, Japan → Sakata, Japan → Hakodate, Japan → Aomori, Japan → Miyako, Japan → At Sea → Tokyo (Koto City), Japan",
+      "itinerary": "Tokyo (Yokohama), Japan → Shimizu, Japan → Osaka, Japan → At Sea → Hiroshima, Japan → At Sea → Busan, South Korea → Sakaiminato, Japan → Maizuru, Japan → Kanazawa, Japan → At Sea → Hakodate, Japan → Miyako, Japan → Hitachinaka, Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
       "stopPorts": [
@@ -15163,9 +15163,9 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "itinerary": "Incheon, South Korea → At Sea → Busan, South Korea → Sasebo, Japan → Yatsushiro, Japan → Kagoshima, Japan → Nagasaki, Japan → At Sea → Shanghai, China → Shanghai, China → At Sea → Incheon, South Korea",
+      "itinerary": "Incheon, South Korea → At Sea → Busan, South Korea → Sasebo, Japan → Yatsushiro, Japan → Kagoshima, Japan → Nagasaki, Japan",
       "departurePort": "Incheon, South Korea",
-      "arrivalPort": "Incheon, South Korea",
+      "arrivalPort": "Nagasaki, Japan",
       "stopPorts": [
         {
           "port": "Incheon, South Korea",
@@ -16818,7 +16818,7 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "itinerary": "Tokyo (Yokohama), Japan → Toba, Japan → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → At Sea → Shimizu, Japan → Tokyo (Yokohama), Japan → Toba, Japan → Kochi, Japan → At Sea → Seogwipo City, South Korea → Nagasaki, Japan → At Sea → Tokyo (Yokohama), Japan",
+      "itinerary": "Tokyo (Yokohama), Japan → Toba, Japan → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → At Sea → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
       "stopPorts": [
@@ -18334,7 +18334,7 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "itinerary": "Tokyo (Yokohama), Japan → At Sea → Aomori, Japan → At Sea → Sakaiminato, Japan → Busan, South Korea → At Sea → Kochi, Japan → Tokushima, Japan → Osaka, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan → Kumano, Japan → Wakayama (Shimotsu), Japan → Kochi, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → At Sea → Shimizu, Japan → Tokyo (Yokohama), Japan",
+      "itinerary": "Tokyo (Yokohama), Japan → At Sea → Aomori, Japan → At Sea → Sakaiminato, Japan → Busan, South Korea → At Sea → Kochi, Japan → Tokushima, Japan → Osaka, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
       "stopPorts": [
@@ -18799,7 +18799,7 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "itinerary": "Tokyo (Yokohama), Japan → Kumano, Japan → Osaka, Japan → Kochi, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → Miyazaki (Aburatsu), Japan → At Sea → Tokyo (Yokohama), Japan → Toba, Japan → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → At Sea → Shimizu, Japan → Tokyo (Yokohama), Japan",
+      "itinerary": "Tokyo (Yokohama), Japan → Kumano, Japan → Osaka, Japan → Kochi, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → Miyazaki (Aburatsu), Japan → At Sea → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
       "stopPorts": [
@@ -19206,7 +19206,7 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "itinerary": "Tokyo (Yokohama), Japan → Toba, Japan → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → At Sea → Shimizu, Japan → Tokyo (Yokohama), Japan → At Sea → Hakodate, Japan → Niigata, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → Kochi, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan",
+      "itinerary": "Tokyo (Yokohama), Japan → Toba, Japan → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → At Sea → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
       "stopPorts": [
@@ -19626,7 +19626,7 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "itinerary": "Tokyo (Yokohama), Japan → At Sea → Hakodate, Japan → Niigata, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → Kochi, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan → Toba, Japan → Osaka, Japan → Kochi, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → At Sea → Shimizu, Japan → Tokyo (Yokohama), Japan",
+      "itinerary": "Tokyo (Yokohama), Japan → At Sea → Hakodate, Japan → Niigata, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → Kochi, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
       "stopPorts": [
@@ -22172,7 +22172,7 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "itinerary": "Tokyo (Yokohama), Japan → At Sea → Hakodate, Japan → Aomori, Japan → Akita, Japan → Niigata, Japan → Kanazawa, Japan → Sakaiminato, Japan → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → Miyazaki (Aburatsu), Japan → At Sea → Omaezaki, Japan → Tokyo (Yokohama), Japan → At Sea → Aomori, Japan → Sakata, Japan → Kanazawa, Japan → Sakaiminato, Japan → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → Beppu, Japan → Kochi, Japan → Osaka, Japan → At Sea → Shimizu, Japan → Tokyo (Yokohama), Japan",
+      "itinerary": "Tokyo (Yokohama), Japan → At Sea → Hakodate, Japan → Aomori, Japan → Akita, Japan → Niigata, Japan → Kanazawa, Japan → Sakaiminato, Japan → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → Miyazaki (Aburatsu), Japan → At Sea → Omaezaki, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
       "stopPorts": [
@@ -22546,9 +22546,9 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "itinerary": "Tokyo (Yokohama), Japan → At Sea → Aomori, Japan → Sakata, Japan → Kanazawa, Japan → Sakaiminato, Japan → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → Beppu, Japan → Kochi, Japan → Osaka, Japan → At Sea → Shimizu, Japan → Tokyo (Yokohama), Japan → At Sea → Kagoshima, Japan → Nagasaki, Japan → At Sea → Ishigaki Island, Japan → Taipei (Keelung), Taiwan → At Sea → Hong Kong → At Sea → Da Nang, Vietnam → At Sea → Ho Chi Minh City (Phu My), Vietnam → At Sea → Singapore",
+      "itinerary": "Tokyo (Yokohama), Japan → At Sea → Aomori, Japan → Sakata, Japan → Kanazawa, Japan → Sakaiminato, Japan → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → Beppu, Japan → Kochi, Japan → Osaka, Japan → At Sea → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
-      "arrivalPort": "Singapore",
+      "arrivalPort": "Tokyo (Yokohama), Japan",
       "stopPorts": [
         {
           "port": "Tokyo (Yokohama), Japan",
@@ -24127,7 +24127,7 @@
       "cruiseLine": "Princess",
       "shipName": "Sapphire Princess",
       "shipRating": 5,
-      "itinerary": "Tokyo (Koto City), Japan → Toba, Japan → Kochi, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → Matsuyama, Japan → Miyazaki (Aburatsu), Japan → Kobe, Japan → At Sea → Tokyo (Koto City), Japan → Nagoya, Japan → Toba, Japan → Tokushima, Japan → Kochi, Japan → At Sea → Nagasaki, Japan → Busan, South Korea → At Sea → Hiroshima, Japan → Beppu, Japan → At Sea → Tokyo (Koto City), Japan",
+      "itinerary": "Tokyo (Koto City), Japan → Toba, Japan → Kochi, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → Matsuyama, Japan → Miyazaki (Aburatsu), Japan → Kobe, Japan → At Sea → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
       "stopPorts": [
@@ -24719,7 +24719,7 @@
       "cruiseLine": "Princess",
       "shipName": "Sapphire Princess",
       "shipRating": 5,
-      "itinerary": "Tokyo (Koto City), Japan → Nagoya, Japan → Toba, Japan → Tokushima, Japan → Kochi, Japan → At Sea → Nagasaki, Japan → Busan, South Korea → At Sea → Hiroshima, Japan → Beppu, Japan → At Sea → Tokyo (Koto City), Japan → Toba, Japan → Wakayama (Shimotsu), Japan → Kochi, Japan → Kagoshima, Japan → Yatsushiro, Japan → Busan, South Korea → At Sea → Hiroshima, Japan → At Sea → Tokyo (Koto City), Japan",
+      "itinerary": "Tokyo (Koto City), Japan → Nagoya, Japan → Toba, Japan → Tokushima, Japan → Kochi, Japan → At Sea → Nagasaki, Japan → Busan, South Korea → At Sea → Hiroshima, Japan → Beppu, Japan → At Sea → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
       "stopPorts": [
@@ -25155,149 +25155,10 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "itinerary": "Tokyo (Yokohama), Japan → At Sea → Yatsushiro, Japan → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → Beppu, Japan → Matsuyama, Japan → Kochi, Japan → Osaka, Japan → Tokushima, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan → Toba, Japan → At Sea → Nagasaki, Japan → Busan, South Korea → Sakaiminato, Japan → Maizuru, Japan → Toyama, Japan → Sakata, Japan → Hakodate, Japan → Miyako, Japan → Hitachinaka, Japan → Tokyo (Yokohama), Japan",
+      "itinerary": "Tokyo (Yokohama), Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
-      "stopPorts": [
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Yatsushiro, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Busan, South Korea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Nagasaki, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Kagoshima, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Beppu, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Matsuyama, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Kochi, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Osaka, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Tokushima, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Shimizu, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Tokyo (Yokohama), Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Toba, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Nagasaki, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Busan, South Korea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Sakaiminato, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Maizuru, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Toyama, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Sakata, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Hakodate, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Miyako, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Hitachinaka, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        }
-      ],
+      "stopPorts": [],
       "departureDate": "2027-03-27",
       "nights": 12,
       "days": 13,
@@ -25462,7 +25323,7 @@
       "cruiseLine": "Holland America",
       "shipName": "Westerdam",
       "shipRating": 5,
-      "itinerary": "Tokyo (Koto City), Japan → At Sea → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Sakaiminato, Japan → Tsuruga, Japan → Toyama, Japan → Sakata, Japan → Aomori, Japan → Hakodate, Japan → At Sea → Tokyo (Koto City), Japan → Omaezaki, Japan → Osaka, Japan → Kochi, Japan → At Sea → Fukuoka, Japan → Sokcho-si, South Korea → At Sea → Kanazawa, Japan → Sakata, Japan → Aomori, Japan → Otaru, Japan → Hakodate, Japan → At Sea → Tokyo (Koto City), Japan",
+      "itinerary": "Tokyo (Koto City), Japan → At Sea → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Sakaiminato, Japan → Tsuruga, Japan → Toyama, Japan → Sakata, Japan → Aomori, Japan → Hakodate, Japan → At Sea → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
       "stopPorts": [
@@ -25705,143 +25566,10 @@
       "cruiseLine": "Princess",
       "shipName": "Sapphire Princess",
       "shipRating": 5,
-      "itinerary": "Tokyo (Koto City), Japan → Toba, Japan → Wakayama (Shimotsu), Japan → Kochi, Japan → Kagoshima, Japan → Yatsushiro, Japan → Busan, South Korea → At Sea → Hiroshima, Japan → At Sea → Tokyo (Koto City), Japan → At Sea → Miyako, Japan → Hakodate, Japan → Aomori, Japan → Akita, Japan → Niigata, Japan → Kanazawa, Japan → Sakaiminato, Japan → Busan, South Korea → Nagasaki, Japan → At Sea → Shimizu, Japan → Tokyo (Koto City), Japan",
+      "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
-      "stopPorts": [
-        {
-          "port": "Toba, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Wakayama (Shimotsu), Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Kochi, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Kagoshima, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Yatsushiro, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Busan, South Korea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Hiroshima, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Tokyo (Koto City), Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Miyako, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Hakodate, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Aomori, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Akita, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Niigata, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Kanazawa, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Sakaiminato, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Busan, South Korea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Nagasaki, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Shimizu, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        }
-      ],
+      "stopPorts": [],
       "departureDate": "2027-03-29",
       "nights": 10,
       "days": 11,
@@ -26226,7 +25954,7 @@
       "cruiseLine": "Princess",
       "shipName": "Sapphire Princess",
       "shipRating": 5,
-      "itinerary": "Tokyo (Koto City), Japan → At Sea → Miyako, Japan → Hakodate, Japan → Aomori, Japan → Akita, Japan → Niigata, Japan → Kanazawa, Japan → Sakaiminato, Japan → Busan, South Korea → Nagasaki, Japan → At Sea → Shimizu, Japan → Tokyo (Koto City), Japan → At Sea → Aomori, Japan → Sapporo (Muroran), Japan → Hakodate, Japan → At Sea → Sakaiminato, Japan → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → At Sea → Tokyo (Koto City), Japan",
+      "itinerary": "Tokyo (Koto City), Japan → At Sea → Miyako, Japan → Hakodate, Japan → Aomori, Japan → Akita, Japan → Niigata, Japan → Kanazawa, Japan → Sakaiminato, Japan → Busan, South Korea → Nagasaki, Japan → At Sea → Shimizu, Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
       "stopPorts": [
@@ -26479,7 +26207,7 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "itinerary": "Tokyo (Yokohama), Japan → Toba, Japan → At Sea → Nagasaki, Japan → Busan, South Korea → Sakaiminato, Japan → Maizuru, Japan → Toyama, Japan → Sakata, Japan → Hakodate, Japan → Miyako, Japan → Hitachinaka, Japan → Tokyo (Yokohama), Japan → At Sea → Aomori, Japan → Sapporo (Muroran), Japan → Hakodate, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → At Sea → Tokyo (Yokohama), Japan",
+      "itinerary": "Tokyo (Yokohama), Japan → Toba, Japan → At Sea → Nagasaki, Japan → Busan, South Korea → Sakaiminato, Japan → Maizuru, Japan → Toyama, Japan → Sakata, Japan → Hakodate, Japan → Miyako, Japan → Hitachinaka, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
       "stopPorts": [
@@ -27913,9 +27641,9 @@
       "cruiseLine": "Princess",
       "shipName": "Sapphire Princess",
       "shipRating": 5,
-      "itinerary": "Tokyo (Koto City), Japan → At Sea → Hakodate, Japan → Niigata, Japan → At Sea → Busan, South Korea → Sasebo, Japan → Kagoshima, Japan → At Sea → Tokyo (Koto City), Japan → Nagoya, Japan → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → At Sea → Shimizu, Japan → Tokyo (Yokohama), Japan",
+      "itinerary": "Tokyo (Koto City), Japan → At Sea → Hakodate, Japan → Niigata, Japan → At Sea → Busan, South Korea → Sasebo, Japan → Kagoshima, Japan → At Sea → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
-      "arrivalPort": "Tokyo (Yokohama), Japan",
+      "arrivalPort": "Tokyo (Koto City), Japan",
       "stopPorts": [
         {
           "port": "Tokyo (Koto City), Japan",
@@ -28309,7 +28037,7 @@
       "cruiseLine": "Princess",
       "shipName": "Sapphire Princess",
       "shipRating": 5,
-      "itinerary": "Tokyo (Koto City), Japan → Nagoya, Japan → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → At Sea → Shimizu, Japan → Tokyo (Koto City), Japan → Toba, Japan → Kochi, Japan → At Sea → Seogwipo City, South Korea → Kagoshima, Japan → At Sea → Tokyo (Koto City), Japan",
+      "itinerary": "Tokyo (Koto City), Japan → Nagoya, Japan → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → At Sea → Shimizu, Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
       "stopPorts": [
@@ -28987,7 +28715,7 @@
       "cruiseLine": "Princess",
       "shipName": "Sapphire Princess",
       "shipRating": 5,
-      "itinerary": "Tokyo (Koto City), Japan → At Sea → Hakodate, Japan → Aomori, Japan → Sakata, Japan → Kanazawa, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → At Sea → Tokyo (Koto City), Japan → Nagoya, Japan → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → At Sea → Shimizu, Japan → Tokyo (Koto City), Japan",
+      "itinerary": "Tokyo (Koto City), Japan → At Sea → Hakodate, Japan → Aomori, Japan → Sakata, Japan → Kanazawa, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → At Sea → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
       "stopPorts": [
@@ -29385,7 +29113,7 @@
       "cruiseLine": "Princess",
       "shipName": "Sapphire Princess",
       "shipRating": 5,
-      "itinerary": "Tokyo (Koto City), Japan → Nagoya, Japan → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → At Sea → Shimizu, Japan → Tokyo (Koto City), Japan → At Sea → Hakodate, Japan → Sakata, Japan → Kanazawa, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → At Sea → Tokyo (Koto City), Japan",
+      "itinerary": "Tokyo (Koto City), Japan → Nagoya, Japan → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → At Sea → Shimizu, Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
       "stopPorts": [
@@ -29783,7 +29511,7 @@
       "cruiseLine": "Princess",
       "shipName": "Sapphire Princess",
       "shipRating": 5,
-      "itinerary": "Tokyo (Koto City), Japan → At Sea → Hakodate, Japan → Sakata, Japan → Kanazawa, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → At Sea → Tokyo (Koto City), Japan → Nagoya, Japan → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → At Sea → Shimizu, Japan → Tokyo (Koto City), Japan",
+      "itinerary": "Tokyo (Koto City), Japan → At Sea → Hakodate, Japan → Sakata, Japan → Kanazawa, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → At Sea → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
       "stopPorts": [
@@ -30237,7 +29965,7 @@
       "cruiseLine": "Princess",
       "shipName": "Sapphire Princess",
       "shipRating": 5,
-      "itinerary": "Tokyo (Koto City), Japan → Nagoya, Japan → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → At Sea → Shimizu, Japan → Tokyo (Koto City), Japan → Toba, Japan → Kochi, Japan → At Sea → Seogwipo City, South Korea → Nagasaki, Japan → At Sea → Tokyo (Koto City), Japan",
+      "itinerary": "Tokyo (Koto City), Japan → Nagoya, Japan → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → At Sea → Shimizu, Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
       "stopPorts": [
@@ -30629,7 +30357,7 @@
       "cruiseLine": "Princess",
       "shipName": "Sapphire Princess",
       "shipRating": 5,
-      "itinerary": "Tokyo (Koto City), Japan → Nagoya, Japan → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → At Sea → Hakodate, Japan → At Sea → Hitachinaka, Japan → Tokyo (Koto City), Japan → At Sea → Akita, Japan → Sakata, Japan → At Sea → Kanazawa, Japan → Sakaiminato, Japan → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → At Sea → Tokyo (Koto City), Japan",
+      "itinerary": "Tokyo (Koto City), Japan → Nagoya, Japan → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → At Sea → Hakodate, Japan → At Sea → Hitachinaka, Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
       "stopPorts": [
@@ -31082,7 +30810,7 @@
       "cruiseLine": "Princess",
       "shipName": "Sapphire Princess",
       "shipRating": 5,
-      "itinerary": "Tokyo (Koto City), Japan → At Sea → Akita, Japan → Sakata, Japan → At Sea → Kanazawa, Japan → Sakaiminato, Japan → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → At Sea → Tokyo (Koto City), Japan → Nagoya, Japan → Kumano, Japan → Kobe, Japan → Wakayama (Shimotsu), Japan → Beppu, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → Kochi, Japan → Shimizu, Japan → Tokyo (Koto City), Japan",
+      "itinerary": "Tokyo (Koto City), Japan → At Sea → Akita, Japan → Sakata, Japan → At Sea → Kanazawa, Japan → Sakaiminato, Japan → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → At Sea → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
       "stopPorts": [
@@ -31535,7 +31263,7 @@
       "cruiseLine": "Princess",
       "shipName": "Sapphire Princess",
       "shipRating": 5,
-      "itinerary": "Tokyo (Koto City), Japan → Nagoya, Japan → Kumano, Japan → Kobe, Japan → Wakayama (Shimotsu), Japan → Beppu, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → Kochi, Japan → Shimizu, Japan → Tokyo (Koto City), Japan → Toba, Japan → Kochi, Japan → At Sea → Seogwipo City, South Korea → Kagoshima, Japan → At Sea → Tokyo (Koto City), Japan",
+      "itinerary": "Tokyo (Koto City), Japan → Nagoya, Japan → Kumano, Japan → Kobe, Japan → Wakayama (Shimotsu), Japan → Beppu, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → Kochi, Japan → Shimizu, Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
       "stopPorts": [
@@ -32220,9 +31948,9 @@
       "cruiseLine": "Princess",
       "shipName": "Sapphire Princess",
       "shipRating": 5,
-      "itinerary": "Tokyo (Koto City), Japan → Toba, Japan → Wakayama (Shimotsu), Japan → Miyazaki (Aburatsu), Japan → Yatsushiro, Japan → Busan, South Korea → At Sea → Hiroshima, Japan → Kochi, Japan → Shimizu, Japan → Tokyo (Koto City), Japan → At Sea → Kochi, Japan → At Sea → Okinawa (Naha), Japan → At Sea → Kao-hsiung, Taiwan → At Sea → Hong Kong → At Sea → Da Nang, Vietnam → At Sea → Ho Chi Minh City (Phu My), Vietnam → At Sea → Singapore",
+      "itinerary": "Tokyo (Koto City), Japan → Toba, Japan → Wakayama (Shimotsu), Japan → Miyazaki (Aburatsu), Japan → Yatsushiro, Japan → Busan, South Korea → At Sea → Hiroshima, Japan → Kochi, Japan → Shimizu, Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
-      "arrivalPort": "Singapore",
+      "arrivalPort": "Tokyo (Koto City), Japan",
       "stopPorts": [
         {
           "port": "Tokyo (Koto City), Japan",
@@ -32975,7 +32703,7 @@
       "cruiseLine": "Holland America",
       "shipName": "Noordam",
       "shipRating": 5,
-      "itinerary": "Tokyo (Koto City), Japan → Shimizu, Japan → Osaka, Japan → At Sea → Hiroshima, Japan → At Sea → Busan, South Korea → Sakaiminato, Japan → Maizuru, Japan → Kanazawa, Japan → At Sea → Hakodate, Japan → Miyako, Japan → Hitachinaka, Japan → Tokyo (Koto City), Japan → Shimizu, Japan → Osaka, Japan → Kochi, Japan → At Sea → Fukuoka, Japan → Yeosu, South Korea → At Sea → Kanazawa, Japan → Niigata, Japan → Hakodate, Japan → Aomori, Japan → Miyako, Japan → At Sea → Tokyo (Koto City), Japan",
+      "itinerary": "Tokyo (Koto City), Japan → Shimizu, Japan → Osaka, Japan → At Sea → Hiroshima, Japan → At Sea → Busan, South Korea → Sakaiminato, Japan → Maizuru, Japan → Kanazawa, Japan → At Sea → Hakodate, Japan → Miyako, Japan → Hitachinaka, Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
       "stopPorts": [
@@ -34329,9 +34057,9 @@
       "cruiseLine": "Holland America",
       "shipName": "Noordam",
       "shipRating": 5,
-      "itinerary": "Tokyo (Koto City), Japan → Shimizu, Japan → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Fukuoka, Japan → Nagasaki, Japan → Busan, South Korea → At Sea → Shanghai, China → Shanghai, China → At Sea → At Sea → Hong Kong → At Sea → Halong Bay, Vietnam → Halong Bay, Vietnam → At Sea → Da Nang, Vietnam → At Sea → Ho Chi Minh City (Phu My), Vietnam → At Sea → Sihanoukville, Cambodia → Laem Chabang, Thailand → Laem Chabang, Thailand → Ko Samui, Thailand → At Sea → Singapore",
+      "itinerary": "Tokyo (Koto City), Japan → Shimizu, Japan → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Fukuoka, Japan → Nagasaki, Japan → Busan, South Korea → At Sea → Shanghai, China → Shanghai, China → At Sea → At Sea → Hong Kong",
       "departurePort": "Tokyo (Koto City), Japan",
-      "arrivalPort": "Singapore",
+      "arrivalPort": "Hong Kong",
       "stopPorts": [
         {
           "port": "Tokyo (Koto City), Japan",
@@ -35808,9 +35536,9 @@
       "cruiseLine": "Holland America",
       "shipName": "Noordam",
       "shipRating": 5,
-      "itinerary": "Tokyo (Koto City), Japan → At Sea → Kochi, Japan → Kagoshima, Japan → Nagasaki, Japan → At Sea → Seoul, South Korea → Seoul, South Korea → Jeju Island, South Korea → Busan, South Korea → Fukuoka, Japan → At Sea → Osaka, Japan → At Sea → Tokyo (Yokohama), Japan → Shimizu, Japan → Osaka, Japan → At Sea → Hiroshima, Japan → At Sea → Busan, South Korea → Sakaiminato, Japan → Maizuru, Japan → Kanazawa, Japan → At Sea → Hakodate, Japan → Miyako, Japan → Hitachinaka, Japan → Tokyo (Koto City), Japan",
+      "itinerary": "Tokyo (Koto City), Japan → At Sea → Kochi, Japan → Kagoshima, Japan → Nagasaki, Japan → At Sea → Seoul, South Korea → Seoul, South Korea → Jeju Island, South Korea → Busan, South Korea → Fukuoka, Japan → At Sea → Osaka, Japan → At Sea → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
-      "arrivalPort": "Tokyo (Koto City), Japan",
+      "arrivalPort": "Tokyo (Yokohama), Japan",
       "stopPorts": [
         {
           "port": "Tokyo (Koto City), Japan",
@@ -37871,9 +37599,9 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "itinerary": "Okinawa (Naha), Japan → Taipei (Keelung), Taiwan → At Sea → Sasebo, Japan → Kagoshima, Japan → At Sea → Taipei (Keelung), Taiwan → Okinawa (Naha), Japan",
+      "itinerary": "Okinawa (Naha), Japan → Taipei (Keelung), Taiwan → At Sea → Sasebo, Japan",
       "departurePort": "Okinawa (Naha), Japan",
-      "arrivalPort": "Okinawa (Naha), Japan",
+      "arrivalPort": "Sasebo, Japan",
       "stopPorts": [
         {
           "port": "Okinawa (Naha), Japan",
@@ -45125,7 +44853,7 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "itinerary": "Tokyo (Yokohama), Japan → At Sea → Kagoshima, Japan → Nagasaki, Japan → At Sea → Ishigaki Island, Japan → Taipei (Keelung), Taiwan → At Sea → Hong Kong → At Sea → Da Nang, Vietnam → At Sea → Ho Chi Minh City (Phu My), Vietnam → At Sea → Singapore → At Sea → Ho Chi Minh City (Phu My), Vietnam → Nha Trang, Vietnam → At Sea → Cai Lan, Vietnam → Cai Lan, Vietnam → Da Nang, Vietnam → At Sea → At Sea → Singapore",
+      "itinerary": "Tokyo (Yokohama), Japan → At Sea → Kagoshima, Japan → Nagasaki, Japan → At Sea → Ishigaki Island, Japan → Taipei (Keelung), Taiwan → At Sea → Hong Kong → At Sea → Da Nang, Vietnam → At Sea → Ho Chi Minh City (Phu My), Vietnam → At Sea → Singapore",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Singapore",
       "stopPorts": [
@@ -45614,9 +45342,9 @@
       "cruiseLine": "Princess",
       "shipName": "Sapphire Princess",
       "shipRating": 5,
-      "itinerary": "Tokyo (Koto City), Japan → At Sea → Kagoshima, Japan → At Sea → Okinawa (Naha), Japan → At Sea → At Sea → Hong Kong → At Sea → Chan May, Vietnam → At Sea → Nha Trang, Vietnam → Ho Chi Minh City (Phu My), Vietnam → At Sea → Singapore → At Sea → Laem Chabang, Thailand → Laem Chabang, Thailand → Ko Samui, Thailand → Sihanoukville, Cambodia → At Sea → Ho Chi Minh City (Phu My), Vietnam → At Sea → At Sea → Penang, Malaysia → Phuket, Thailand → Langkawi, Malaysia → Kuala Lumpur (Port Kelang), Malaysia → Singapore → At Sea → Nha Trang, Vietnam → At Sea → Cai Lan, Vietnam → Cai Lan, Vietnam → Halong Bay, Vietnam (Cruising) → At Sea → Hong Kong → At Sea → Taipei (Keelung), Taiwan → Miyako-jima, Japan → At Sea → Nagasaki, Japan → At Sea → Tokyo (Koto City), Japan",
+      "itinerary": "Tokyo (Koto City), Japan → At Sea → Kagoshima, Japan → At Sea → Okinawa (Naha), Japan → At Sea → At Sea → Hong Kong → At Sea → Chan May, Vietnam → At Sea → Nha Trang, Vietnam → Ho Chi Minh City (Phu My), Vietnam → At Sea → Singapore",
       "departurePort": "Tokyo (Koto City), Japan",
-      "arrivalPort": "Tokyo (Koto City), Japan",
+      "arrivalPort": "Singapore",
       "stopPorts": [
         {
           "port": "Tokyo (Koto City), Japan",
@@ -46653,9 +46381,9 @@
       "cruiseLine": "Princess",
       "shipName": "Sapphire Princess",
       "shipRating": 5,
-      "itinerary": "Singapore → At Sea → Nha Trang, Vietnam → At Sea → Cai Lan, Vietnam → Cai Lan, Vietnam → Halong Bay, Vietnam (Cruising) → At Sea → Hong Kong → At Sea → Taipei (Keelung), Taiwan → Miyako-jima, Japan → At Sea → Nagasaki, Japan → At Sea → Tokyo (Yokohama), Japan → At Sea → Kagoshima, Japan → At Sea → Okinawa (Naha), Japan → At Sea → Kao-hsiung, Taiwan → At Sea → Hong Kong → At Sea → Da Nang, Vietnam → At Sea → Ho Chi Minh City (Phu My), Vietnam → At Sea → Singapore → At Sea → Ko Samui, Thailand → Laem Chabang, Thailand → At Sea → Sihanoukville, Cambodia → At Sea → Ho Chi Minh City (Phu My), Vietnam → At Sea → At Sea → Langkawi, Malaysia → Phuket, Thailand → Penang, Malaysia → Kuala Lumpur (Port Kelang), Malaysia → Singapore",
+      "itinerary": "Singapore → At Sea → Nha Trang, Vietnam → At Sea → Cai Lan, Vietnam → Cai Lan, Vietnam → Halong Bay, Vietnam (Cruising) → At Sea → Hong Kong → At Sea → Taipei (Keelung), Taiwan → Miyako-jima, Japan → At Sea → Nagasaki, Japan → At Sea → Tokyo (Koto City), Japan",
       "departurePort": "Singapore",
-      "arrivalPort": "Singapore",
+      "arrivalPort": "Tokyo (Koto City), Japan",
       "stopPorts": [
         {
           "port": "Singapore",
@@ -47287,7 +47015,7 @@
       "cruiseLine": "Princess",
       "shipName": "Sapphire Princess",
       "shipRating": 5,
-      "itinerary": "Tokyo (Koto City), Japan → At Sea → Kagoshima, Japan → At Sea → Okinawa (Naha), Japan → At Sea → Kao-hsiung, Taiwan → At Sea → Hong Kong → At Sea → Da Nang, Vietnam → At Sea → Ho Chi Minh City (Phu My), Vietnam → At Sea → Singapore → At Sea → Ko Samui, Thailand → Laem Chabang, Thailand → At Sea → Sihanoukville, Cambodia → At Sea → Ho Chi Minh City (Phu My), Vietnam → At Sea → At Sea → Langkawi, Malaysia → Phuket, Thailand → Penang, Malaysia → Kuala Lumpur (Port Kelang), Malaysia → Singapore",
+      "itinerary": "Tokyo (Koto City), Japan → At Sea → Kagoshima, Japan → At Sea → Okinawa (Naha), Japan → At Sea → Kao-hsiung, Taiwan → At Sea → Hong Kong → At Sea → Da Nang, Vietnam → At Sea → Ho Chi Minh City (Phu My), Vietnam → At Sea → Singapore",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Singapore",
       "stopPorts": [
@@ -54950,173 +54678,10 @@
       "cruiseLine": "Holland America",
       "shipName": "Noordam",
       "shipRating": 5,
-      "itinerary": "Tokyo (Koto City), Japan → At Sea → Kobe, Japan → Kochi, Japan → Kagoshima, Japan → Fukuoka, Japan → Sokcho-si, South Korea → At Sea → Kanazawa, Japan → Sakata, Japan → Hakodate, Japan → Aomori, Japan → Miyako, Japan → At Sea → Tokyo (Koto City), Japan → At Sea → Kushiro, Japan → Crossing International Dateline (Cruising) → At Sea → At Sea → At Sea → At Sea → At Sea → Kodiak, AK → At Sea → Sitka, AK → Ketchikan, AK → Prince Rupert, BC, Canada → Seattle, WA",
+      "itinerary": "Tokyo (Koto City), Japan → Seattle, WA",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Seattle, WA",
-      "stopPorts": [
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Kobe, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Kochi, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Kagoshima, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Fukuoka, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Sokcho-si, South Korea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Kanazawa, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Sakata, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Hakodate, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Aomori, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Miyako, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Tokyo (Koto City), Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Kushiro, Japan",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Crossing International Dateline (Cruising)",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Kodiak, AK",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Sitka, AK",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Ketchikan, AK",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Prince Rupert, BC, Canada",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        }
-      ],
+      "stopPorts": [],
       "departureDate": "2027-04-09",
       "nights": 14,
       "days": 15,
@@ -56617,7 +56182,7 @@
       "cruiseLine": "Holland America",
       "shipName": "Westerdam",
       "shipRating": 5,
-      "itinerary": "Hong Kong → At Sea → Halong Bay, Vietnam → At Sea → Da Nang, Vietnam → At Sea → Nha Trang, Vietnam → Ho Chi Minh City (Phu My), Vietnam → At Sea → Sihanoukville, Cambodia → Laem Chabang, Thailand → Laem Chabang, Thailand → Ko Samui, Thailand → At Sea → Singapore → At Sea → At Sea → Puerto Princesa, Palawan, Philippines → At Sea → Bitung, Indonesia → At Sea → At Sea → Jayapura, Papua Province, Indonesia → At Sea → Rabaul, Papua New Guinea → Kiriwina, Papua New Guinea → At Sea → Townsville, Australia → Cairns, Australia → Cairns, Australia → At Sea → At Sea → At Sea → Darwin, Australia → At Sea → At Sea → Komodo, Indonesia → Benoa, Bali, Indonesia → Benoa, Bali, Indonesia → At Sea → Krakatoa Volcano, Indonesia (Cruising) → At Sea → Singapore",
+      "itinerary": "Hong Kong → At Sea → Halong Bay, Vietnam → At Sea → Da Nang, Vietnam → At Sea → Nha Trang, Vietnam → Ho Chi Minh City (Phu My), Vietnam → At Sea → Sihanoukville, Cambodia → Laem Chabang, Thailand → Laem Chabang, Thailand → Ko Samui, Thailand → At Sea → Singapore",
       "departurePort": "Hong Kong",
       "arrivalPort": "Singapore",
       "stopPorts": [
@@ -58734,9 +58299,9 @@
       "cruiseLine": "Cunard",
       "shipName": "Queen Victoria",
       "shipRating": 5,
-      "itinerary": "Sydney, Australia → Sydney, Australia → At Sea → At Sea → Airlie Beach, Australia → Townsville, Australia → Cairns, Australia → At Sea → At Sea → At Sea → At Sea → At Sea → Bitung, Indonesia → At Sea → Puerto Princesa, Palawan, Philippines → At Sea → Manila, Philippines → At Sea → Hong Kong → Hong Kong → At Sea → Da Nang, Vietnam → At Sea → Nha Trang, Vietnam → Ho Chi Minh City (Phu My), Vietnam → At Sea → Singapore",
+      "itinerary": "Sydney, Australia → Sydney, Australia → At Sea → At Sea → Airlie Beach, Australia → Townsville, Australia → Cairns, Australia → At Sea → At Sea → At Sea → At Sea → At Sea → Bitung, Indonesia → At Sea → Puerto Princesa, Palawan, Philippines → At Sea → Manila, Philippines → At Sea → Hong Kong → Hong Kong",
       "departurePort": "Sydney, Australia",
-      "arrivalPort": "Singapore",
+      "arrivalPort": "Hong Kong",
       "stopPorts": [
         {
           "port": "Sydney, Australia",
@@ -61746,9 +61311,9 @@
       "cruiseLine": "Holland America",
       "shipName": "Noordam",
       "shipRating": 5,
-      "itinerary": "Hong Kong → At Sea → Halong Bay, Vietnam → Halong Bay, Vietnam → At Sea → Da Nang, Vietnam → At Sea → Ho Chi Minh City (Phu My), Vietnam → At Sea → Sihanoukville, Cambodia → Laem Chabang, Thailand → Laem Chabang, Thailand → Ko Samui, Thailand → At Sea → Singapore → At Sea → Laem Chabang, Thailand → Laem Chabang, Thailand → At Sea → Ho Chi Minh City (Phu My), Vietnam → At Sea → Kota Kinabalu, Malaysia → At Sea → Puerto Princesa, Palawan, Philippines → Boracay, Philippines → Manila, Philippines → Manila, Philippines → At Sea → Hong Kong",
+      "itinerary": "Hong Kong → At Sea → Halong Bay, Vietnam → Halong Bay, Vietnam → At Sea → Da Nang, Vietnam → At Sea → Ho Chi Minh City (Phu My), Vietnam → At Sea → Sihanoukville, Cambodia → Laem Chabang, Thailand → Laem Chabang, Thailand → Ko Samui, Thailand → At Sea → Singapore",
       "departurePort": "Hong Kong",
-      "arrivalPort": "Hong Kong",
+      "arrivalPort": "Singapore",
       "stopPorts": [
         {
           "port": "Hong Kong",
@@ -62672,191 +62237,10 @@
       "cruiseLine": "Cunard",
       "shipName": "Queen Anne",
       "shipRating": 5,
-      "itinerary": "Hong Kong → At Sea → Halong Bay, Vietnam → At Sea → Da Nang, Vietnam → At Sea → At Sea → Laem Chabang, Thailand → Laem Chabang, Thailand → At Sea → At Sea → Singapore → Singapore → Kuala Lumpur (Port Kelang), Malaysia → At Sea → At Sea → At Sea → At Sea → At Sea → At Sea → Port Louis, Mauritius → Pointe des Galets, Reunion Island → At Sea → At Sea → At Sea → Durban, South Africa → At Sea → Port Elizabeth, South Africa → Port Elizabeth, South Africa → At Sea → Cape Town, South Africa → Cape Town, South Africa",
+      "itinerary": "Hong Kong → Cape Town, South Africa",
       "departurePort": "Hong Kong",
       "arrivalPort": "Cape Town, South Africa",
-      "stopPorts": [
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Halong Bay, Vietnam",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Da Nang, Vietnam",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Laem Chabang, Thailand",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Laem Chabang, Thailand",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Singapore",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Singapore",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Kuala Lumpur (Port Kelang), Malaysia",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Port Louis, Mauritius",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Pointe des Galets, Reunion Island",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Durban, South Africa",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Port Elizabeth, South Africa",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Port Elizabeth, South Africa",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Cape Town, South Africa",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        }
-      ],
+      "stopPorts": [],
       "departureDate": "2027-03-15",
       "nights": 12,
       "days": 13,
@@ -68821,161 +68205,10 @@
       "cruiseLine": "Princess",
       "shipName": "Royal Princess",
       "shipRating": 5,
-      "itinerary": "Singapore → Kuala Lumpur (Port Kelang), Malaysia → At Sea → At Sea → Nha Trang, Vietnam → Ho Chi Minh City (Phu My), Vietnam → At Sea → Laem Chabang, Thailand → Laem Chabang, Thailand → Ko Samui, Thailand → At Sea → Singapore → At Sea → At Sea → Bali, Indonesia → At Sea → At Sea → Darwin, Australia → At Sea → At Sea → At Sea → Yorkeys Knob, Australia → At Sea → At Sea → Brisbane, Australia → At Sea → Sydney, Australia",
+      "itinerary": "Singapore → Sydney, Australia",
       "departurePort": "Singapore",
       "arrivalPort": "Sydney, Australia",
-      "stopPorts": [
-        {
-          "port": "Kuala Lumpur (Port Kelang), Malaysia",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Nha Trang, Vietnam",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Ho Chi Minh City (Phu My), Vietnam",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Laem Chabang, Thailand",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Laem Chabang, Thailand",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Ko Samui, Thailand",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Singapore",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Bali, Indonesia",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Darwin, Australia",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Yorkeys Knob, Australia",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "Brisbane, Australia",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        },
-        {
-          "port": "At Sea",
-          "date": "",
-          "arrive": "",
-          "depart": ""
-        }
-      ],
+      "stopPorts": [],
       "departureDate": "2026-10-30",
       "nights": 11,
       "days": 12,
@@ -71914,7 +71147,7 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "itinerary": "Singapore → At Sea → Ho Chi Minh City (Phu My), Vietnam → Nha Trang, Vietnam → At Sea → Cai Lan, Vietnam → Cai Lan, Vietnam → Da Nang, Vietnam → At Sea → At Sea → Singapore → At Sea → Phuket, Thailand → Langkawi, Malaysia → Penang, Malaysia → Kuala Lumpur (Port Kelang), Malaysia → At Sea → At Sea → Nha Trang, Vietnam → Ho Chi Minh City (Phu My), Vietnam → At Sea → Laem Chabang, Thailand → At Sea → At Sea → Singapore",
+      "itinerary": "Singapore → At Sea → Ho Chi Minh City (Phu My), Vietnam → Nha Trang, Vietnam → At Sea → Cai Lan, Vietnam → Cai Lan, Vietnam → Da Nang, Vietnam → At Sea → At Sea → Singapore",
       "departurePort": "Singapore",
       "arrivalPort": "Singapore",
       "stopPorts": [
@@ -83313,9 +82546,9 @@
       "cruiseLine": "Princess",
       "shipName": "Sapphire Princess",
       "shipRating": 5,
-      "itinerary": "Singapore → Kuala Lumpur (Port Kelang), Malaysia → Penang, Malaysia → Phuket, Thailand → At Sea → At Sea → At Sea → Bali, Indonesia → Bali, Indonesia → At Sea → At Sea → At Sea → Perth (Fremantle), Australia → At Sea → At Sea → Broome, Australia → Kimberley Coast, Australia (Cruising) → At Sea → Darwin, Australia → At Sea → At Sea → At Sea → Cairns, Australia → Willis Island, Australia (Cruising) → At Sea → Brisbane, Australia → At Sea → At Sea → Sydney, Australia",
+      "itinerary": "Singapore → Kuala Lumpur (Port Kelang), Malaysia → Penang, Malaysia → Phuket, Thailand → At Sea → At Sea → At Sea → Bali, Indonesia → Bali, Indonesia → At Sea → At Sea → At Sea → Perth (Fremantle), Australia",
       "departurePort": "Singapore",
-      "arrivalPort": "Sydney, Australia",
+      "arrivalPort": "Perth (Fremantle), Australia",
       "stopPorts": [
         {
           "port": "Singapore",
