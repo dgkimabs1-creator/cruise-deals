@@ -841,9 +841,34 @@
         return Number.isFinite(perNight) && perNight <= 100;
       case 'luxury':
         return rating >= 5;
+      case 'drop1d':
+        return hasPriceDrop(cruise, 1);
+      case 'drop3d':
+        return hasPriceDrop(cruise, 3);
+      case 'drop7d':
+        return hasPriceDrop(cruise, 7);
       default:
         return true;
     }
+  }
+
+  function hasPriceDrop(cruise, days) {
+    if (!cruise || !cruise.priceHistory || cruise.priceHistory.length < 2) return false;
+    var now = Date.now();
+    var cutoff = now - (days * 24 * 60 * 60 * 1000);
+    var history = cruise.priceHistory;
+    var latest = history[history.length - 1];
+    var latestPrice = latest && latest.prices ? (latest.prices.inside || latest.prices.oceanview || latest.prices.balcony || latest.prices.suite || 0) : 0;
+    if (latestPrice <= 0) return false;
+
+    for (var i = history.length - 2; i >= 0; i--) {
+      var entry = history[i];
+      var entryTime = new Date(entry.date).getTime();
+      if (entryTime < cutoff) break;
+      var entryPrice = entry.prices ? (entry.prices.inside || entry.prices.oceanview || entry.prices.balcony || entry.prices.suite || 0) : 0;
+      if (entryPrice > latestPrice) return true;
+    }
+    return false;
   }
 
   function matchesManualFilters(cruise) {
