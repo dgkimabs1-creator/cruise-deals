@@ -314,6 +314,7 @@
     매시 자동 업데이트 | 가격은 세금 포함
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
   <script>
     let allCruises = [];
     let currentFilter = 'all';
@@ -634,11 +635,11 @@
         itinHtml += '</tbody></table></div>';
       }
 
-      // Price history
+      // Price history chart + text
       let historyHtml = '';
       if (c.priceHistory && c.priceHistory.length > 1) {
-        historyHtml = '<h3>📈 가격 변동</h3>';
-        for (const h of c.priceHistory.slice(-10)) {
+        historyHtml = '<h3>📈 가격 변동</h3><canvas id="priceChart" style="max-height:200px;margin-bottom:12px;"></canvas>';
+        for (const h of c.priceHistory.slice(-15)) {
           const d = new Date(h.date).toLocaleString('ko-KR', { timeZone: 'Asia/Seoul', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
           const p = h.prices || {};
           const vals = [
@@ -670,6 +671,43 @@
         </div>
       `;
       document.getElementById('modal').classList.add('show');
+
+      // Draw price chart
+      if (c.priceHistory && c.priceHistory.length > 1) {
+        const ctx = document.getElementById('priceChart');
+        if (ctx && typeof Chart !== 'undefined') {
+          const history = c.priceHistory.slice(-30);
+          const labels = history.map(h => {
+            const d = new Date(h.date);
+            return d.toLocaleString('ko-KR', { timeZone: 'Asia/Seoul', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+          });
+          const datasets = [];
+          const colors = { inside: '#4fc3f7', oceanview: '#66bb6a', balcony: '#ffd54f', suite: '#ff6b6b' };
+          const names = { inside: '내측', oceanview: '바다전망', balcony: '발코니', suite: '스위트' };
+          for (const type of ['inside', 'oceanview', 'balcony', 'suite']) {
+            const data = history.map(h => (h.prices && h.prices[type]) || null);
+            if (data.some(v => v !== null)) {
+              datasets.push({
+                label: names[type], data, borderColor: colors[type],
+                backgroundColor: colors[type] + '20', tension: 0.3,
+                pointRadius: 2, borderWidth: 2, spanGaps: true,
+              });
+            }
+          }
+          new Chart(ctx, {
+            type: 'line',
+            data: { labels, datasets },
+            options: {
+              responsive: true, maintainAspectRatio: false,
+              plugins: { legend: { labels: { color: '#8899aa', font: { size: 11 } } } },
+              scales: {
+                x: { ticks: { color: '#8899aa', font: { size: 9 }, maxRotation: 45 }, grid: { color: '#2a3a4a' } },
+                y: { ticks: { color: '#8899aa', callback: v => '$' + v.toLocaleString() }, grid: { color: '#2a3a4a' } },
+              },
+            },
+          });
+        }
+      }
     }
 
     function closeModal() {
