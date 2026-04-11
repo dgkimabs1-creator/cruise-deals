@@ -97,6 +97,7 @@
     compareSelection: [],
     page: 1,
     pageSize: 50,
+    expandedGroups: {},
     filtersCollapsed: false,
     filters: cloneFilters(DEFAULT_FILTERS),
     initialized: false,
@@ -1091,12 +1092,17 @@
       cardHtml += renderCruiseCard(g.lead);
       if (g.children.length > 0) {
         var groupId = 'group-' + (g.lead.num || i);
+        var isExpanded = !!state.expandedGroups[groupId];
+        var hiddenClass = isExpanded ? '' : ' hidden';
+        var toggleText = isExpanded
+          ? '같은 일정 ' + g.children.length + '개 접기 ▲'
+          : '같은 일정 ' + g.children.length + '개 더보기 ▼';
         tableHtml += '<tr class="group-toggle-row"><td colspan="' + EMPTY_TABLE_COLSPAN + '">' +
-          '<button type="button" class="group-toggle-btn" data-group="' + groupId + '">같은 일정 ' + g.children.length + '개 더보기 ▼</button></td></tr>';
+          '<button type="button" class="group-toggle-btn" data-group="' + groupId + '">' + toggleText + '</button></td></tr>';
         for (var j = 0; j < g.children.length; j++) {
           var childRow = renderTableRow(g.children[j]);
-          tableHtml += childRow.replace('<tr class="cruise-row">', '<tr class="cruise-row group-child-row hidden" data-group="' + groupId + '">');
-          cardHtml += '<div class="group-child hidden" data-group-card="' + groupId + '">' + renderCruiseCard(g.children[j]) + '</div>';
+          tableHtml += childRow.replace('<tr class="cruise-row">', '<tr class="cruise-row group-child-row' + hiddenClass + '" data-group="' + groupId + '">');
+          cardHtml += '<div class="group-child' + hiddenClass + '" data-group-card="' + groupId + '">' + renderCruiseCard(g.children[j]) + '</div>';
         }
       }
     }
@@ -1118,6 +1124,7 @@
         var count = rows.length;
         Array.prototype.slice.call(rows).forEach(function (r) { r.classList.toggle('hidden'); });
         Array.prototype.slice.call(cards).forEach(function (c) { c.classList.toggle('hidden'); });
+        state.expandedGroups[groupId] = isHidden;
         btn.textContent = isHidden
           ? '같은 일정 ' + count + '개 접기 ▲'
           : '같은 일정 ' + count + '개 더보기 ▼';
