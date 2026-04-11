@@ -13,7 +13,7 @@ const LINE_PRICES = path.resolve(__dirname, '../../zmfnwm/src/storage/data/linep
 const SHIP_PHOTOS = path.resolve(__dirname, '../../zmfnwm/cruise_ship_photos.json');
 const DEST = path.resolve(__dirname, '../data/cruises-public.json');
 
-function run() {
+async function run() {
   const raw = JSON.parse(fs.readFileSync(SOURCE, 'utf8'));
   const cruises = raw.cruises || {};
 
@@ -103,8 +103,16 @@ function run() {
   // sort by num
   publicList.sort((a, b) => (a.num || 9999) - (b.num || 9999));
 
+  // 환율
+  let exchangeRate = 1480;
+  try {
+    const { getUsdToKrw } = require(path.resolve(__dirname, '../../zmfnwm/src/utils/exchange'));
+    exchangeRate = await getUsdToKrw();
+  } catch (e) {}
+
   const output = {
     exportedAt: new Date().toISOString(),
+    exchangeRate,
     count: publicList.length,
     cruises: publicList,
   };
