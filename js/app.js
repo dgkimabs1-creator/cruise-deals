@@ -1086,6 +1086,24 @@
     return getPerNight(cruise);
   }
 
+  function getCruiseBadges(cruise) {
+    var badges = '';
+    if (!cruise) return badges;
+    var now = Date.now();
+    // 신규: 24시간 이내 첫 등록
+    if (cruise.priceHistory && cruise.priceHistory.length > 0) {
+      var firstSeen = new Date(cruise.priceHistory[0].date).getTime();
+      if (now - firstSeen < 24 * 60 * 60 * 1000) {
+        badges += ' <span class="badge badge-new">NEW</span>';
+      }
+    }
+    // 하락: 24시간 이내 가격 하락
+    if (hasPriceDrop(cruise, 1)) {
+      badges += ' <span class="badge badge-drop">▼하락</span>';
+    }
+    return badges;
+  }
+
   function renderTableRow(cruise) {
     var num = Number(cruise && cruise.num) || 0;
     var isFavorite = favoritesApi && favoritesApi.isFavorite && favoritesApi.isFavorite(num);
@@ -1095,12 +1113,13 @@
     var dealScore = getBestScore(cruise && cruise.dealScores);
     var valueScore = getBestScore(cruise && cruise.valueScores);
     var itineraryMarkup = renderItineraryMarkup(cruise);
+    var badges = getCruiseBadges(cruise);
 
     return [
       '<tr class="cruise-row">',
       '<td><input type="checkbox" class="compare-checkbox" data-num="', escapeHtml(num), '"', isCompared ? ' checked' : '', ' aria-label="비교 선택"></td>',
       '<td><button type="button" class="favorite-btn', isFavorite ? ' is-active' : '', '" data-action="favorite" data-num="', escapeHtml(num), '" aria-pressed="', isFavorite ? 'true' : 'false', '" aria-label="즐겨찾기 토글">', isFavorite ? '★' : '☆', '</button></td>',
-      '<td><a href="#" class="row-link" data-action="detail" data-num="', escapeHtml(num), '">#', escapeHtml(num), '</a></td>',
+      '<td><a href="#" class="row-link" data-action="detail" data-num="', escapeHtml(num), '">#', escapeHtml(num), '</a>', badges, '</td>',
       '<td>', escapeHtml(cruise && cruise.cruiseLine || '-'), '</td>',
       '<td><a href="#" class="row-link" data-action="detail" data-num="', escapeHtml(num), '">', escapeHtml(cruise && cruise.shipName || '-'), '</a></td>',
       '<td>', escapeHtml(formatStar(cruise && cruise.shipRating)), '</td>',
@@ -1136,7 +1155,7 @@
       '<article class="cruise-card">',
       '<div class="card-head">',
       '<div>',
-      '<div class="card-subtitle">#', escapeHtml(num), ' · ', escapeHtml(cruise && cruise.cruiseLine || '-'), '</div>',
+      '<div class="card-subtitle">#', escapeHtml(num), getCruiseBadges(cruise), ' · ', escapeHtml(cruise && cruise.cruiseLine || '-'), '</div>',
       '<h3 class="card-title"><a href="#" class="row-link" data-action="detail" data-num="', escapeHtml(num), '">', escapeHtml(cruise && cruise.shipName || '-'), '</a></h3>',
       '<div class="card-subtitle">', escapeHtml(formatDepartureDate(cruise && cruise.departureDate)), ' · ', escapeHtml(formatNights(cruise && cruise.nights)), ' · ', escapeHtml(formatStar(cruise && cruise.shipRating)), '</div>',
       '</div>',
