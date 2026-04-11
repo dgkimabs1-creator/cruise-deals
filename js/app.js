@@ -1102,7 +1102,8 @@
           '<button type="button" class="group-toggle-btn" data-group="' + groupId + '">' + toggleText + '</button></td></tr>';
         for (var j = 0; j < g.children.length; j++) {
           var childRow = renderTableRow(g.children[j]);
-          tableHtml += childRow.replace('<tr class="cruise-row">', '<tr class="cruise-row group-child-row' + hiddenClass + '" data-group="' + groupId + '">');
+          var posClass = (j === 0 ? ' group-first' : '') + (j === g.children.length - 1 ? ' group-last' : '');
+          tableHtml += childRow.replace('<tr class="cruise-row">', '<tr class="cruise-row group-child-row' + posClass + hiddenClass + '" data-group="' + groupId + '">');
           cardHtml += '<div class="group-child' + hiddenClass + '" data-group-card="' + groupId + '">' + renderCruiseCard(g.children[j]) + '</div>';
         }
       }
