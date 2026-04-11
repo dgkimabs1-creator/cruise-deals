@@ -52,7 +52,7 @@ function run() {
     if (c.detailedItinerary && c.detailedItinerary.length > 0) {
       stopPorts = c.detailedItinerary
         .map(p => ({ port: p.port, date: p.date, arrive: p.arrive || '', depart: p.depart || '' }))
-        .filter(p => p.port && p.port !== 'At Sea');
+        .filter(p => p.port);
     } else if (ports.length > 2) {
       stopPorts = ports.slice(1, -1).map(p => ({ port: p, date: '', arrive: '', depart: '' }));
     }
