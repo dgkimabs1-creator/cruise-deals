@@ -235,6 +235,7 @@
     }
 
     if (dom.cruiseTable) {
+      dom.cruiseTable.addEventListener('click', handleGroupToggle);
       dom.cruiseTable.addEventListener('click', handleListActionClick);
       dom.cruiseTable.addEventListener('change', handleCompareCheckboxChange);
     }
@@ -1114,22 +1115,34 @@
   }
 
   function bindGroupToggles() {
-    var buttons = root.document.querySelectorAll('.group-toggle-btn');
-    Array.prototype.slice.call(buttons).forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        var groupId = btn.getAttribute('data-group');
-        var rows = root.document.querySelectorAll('[data-group="' + groupId + '"]');
-        var cards = root.document.querySelectorAll('[data-group-card="' + groupId + '"]');
-        var isHidden = rows.length > 0 && rows[0].classList.contains('hidden');
-        var count = rows.length;
-        Array.prototype.slice.call(rows).forEach(function (r) { r.classList.toggle('hidden'); });
-        Array.prototype.slice.call(cards).forEach(function (c) { c.classList.toggle('hidden'); });
-        state.expandedGroups[groupId] = isHidden;
-        btn.textContent = isHidden
-          ? '같은 일정 ' + count + '개 접기 ▲'
-          : '같은 일정 ' + count + '개 더보기 ▼';
-      });
+    // 이벤트 위임은 initializeEventListeners에서 처리
+  }
+
+  function handleGroupToggle(event) {
+    var btn = event.target.closest('.group-toggle-btn');
+    if (!btn) return;
+    event.preventDefault();
+    event.stopPropagation();
+
+    var groupId = btn.getAttribute('data-group');
+    var rows = root.document.querySelectorAll('.group-child-row[data-group="' + groupId + '"]');
+    var cards = root.document.querySelectorAll('[data-group-card="' + groupId + '"]');
+    var isHidden = rows.length > 0 && rows[0].classList.contains('hidden');
+    var count = rows.length;
+
+    Array.prototype.slice.call(rows).forEach(function (r) {
+      if (isHidden) r.classList.remove('hidden');
+      else r.classList.add('hidden');
     });
+    Array.prototype.slice.call(cards).forEach(function (c) {
+      if (isHidden) c.classList.remove('hidden');
+      else c.classList.add('hidden');
+    });
+
+    state.expandedGroups[groupId] = isHidden;
+    btn.textContent = isHidden
+      ? '같은 일정 ' + count + '개 접기 ▲'
+      : '같은 일정 ' + count + '개 더보기 ▼';
   }
 
   function renderPagination(total) {
