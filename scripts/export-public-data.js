@@ -75,6 +75,7 @@ function run() {
       salePrice: c.salePrice || null,
       discountPct: c.discountPct || 0,
       bookingUrl: c.bookingUrl || '',
+      itineraryImageUrl: c.itineraryImageUrl || null,
       isBusanRelated: !!c.isBusanRelated,
       source: c.source || '',
       dealScores,

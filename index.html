@@ -214,6 +214,10 @@
     <!-- Filter Panel -->
     <div class="filter-panel">
       <div class="filter-group">
+        <label>크루즈 #</label>
+        <input type="number" id="filterNum" placeholder="번호" style="width:70px">
+      </div>
+      <div class="filter-group">
         <label>출발지</label>
         <input type="text" id="filterDeparture" placeholder="예: Busan, Tokyo">
       </div>
@@ -361,6 +365,7 @@
 
     function filterCruises(list) {
       const search = document.getElementById('searchInput').value.toLowerCase();
+      const numFilter = parseInt(document.getElementById('filterNum').value) || 0;
       const depFilter = document.getElementById('filterDeparture').value;
       const arrFilter = document.getElementById('filterArrival').value;
       const stopFilter = document.getElementById('filterStopover').value;
@@ -369,6 +374,9 @@
       const nightsMax = parseInt(document.getElementById('filterNightsMax').value) || Infinity;
 
       let filtered = list;
+
+      // Num filter
+      if (numFilter > 0) filtered = filtered.filter(c => c.num === numFilter);
 
       // Tab filter
       if (currentFilter === 'busan') filtered = filtered.filter(c => c.isBusanRelated);
@@ -593,6 +601,7 @@
         <div class="row"><span class="label">출발일</span><span>${c.departureDate} | ${c.nights}박${c.days}일</span></div>
         ${c.discountPct ? `<div class="row"><span class="label">할인</span><span class="discount">${c.discountPct}% (원가 $${(c.origPrice||0).toLocaleString()})</span></div>` : ''}
         <div class="row"><span class="label">출처</span><span>${c.source || '-'}</span></div>
+        ${c.itineraryImageUrl ? `<div style="text-align:center;margin:12px 0;"><img src="${c.itineraryImageUrl}" alt="일정 지도" style="max-width:100%;border-radius:8px;border:1px solid var(--border);"></div>` : ''}
         <h3>💰 객실별 가격</h3>
         ${priceRows || '<div class="row"><span>가격 정보 없음</span></div>'}
         ${itinHtml}
@@ -609,6 +618,7 @@
     }
 
     function resetFilters() {
+      document.getElementById('filterNum').value = '';
       document.getElementById('filterDeparture').value = '';
       document.getElementById('filterArrival').value = '';
       document.getElementById('filterStopover').value = '';
@@ -633,7 +643,7 @@
     });
 
     // Filter inputs
-    ['searchInput', 'filterDeparture', 'filterArrival', 'filterStopover', 'filterStarMin', 'filterNightsMin', 'filterNightsMax'].forEach(id => {
+    ['filterNum', 'searchInput', 'filterDeparture', 'filterArrival', 'filterStopover', 'filterStarMin', 'filterNightsMin', 'filterNightsMax'].forEach(id => {
       document.getElementById(id).addEventListener('input', render);
       document.getElementById(id).addEventListener('change', render);
     });
