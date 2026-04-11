@@ -1293,12 +1293,12 @@ a:hover {
   color: var(--bg);
 }
 
-.group-body.hidden,
+.group-child-row.hidden,
 .group-child.hidden {
   display: none;
 }
 
-.group-body tr {
+.group-child-row {
   background: var(--surface-alt, rgba(79, 195, 247, 0.03));
 }
 

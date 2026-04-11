@@ -1093,12 +1093,11 @@
         var groupId = 'group-' + (g.lead.num || i);
         tableHtml += '<tr class="group-toggle-row"><td colspan="' + EMPTY_TABLE_COLSPAN + '">' +
           '<button type="button" class="group-toggle-btn" data-group="' + groupId + '">같은 일정 ' + g.children.length + '개 더보기 ▼</button></td></tr>';
-        tableHtml += '<tbody class="group-body hidden" id="' + groupId + '">';
         for (var j = 0; j < g.children.length; j++) {
-          tableHtml += renderTableRow(g.children[j]);
+          var childRow = renderTableRow(g.children[j]);
+          tableHtml += childRow.replace('<tr class="cruise-row">', '<tr class="cruise-row group-child-row hidden" data-group="' + groupId + '">');
           cardHtml += '<div class="group-child hidden" data-group-card="' + groupId + '">' + renderCruiseCard(g.children[j]) + '</div>';
         }
-        tableHtml += '</tbody>';
       }
     }
 
@@ -1113,13 +1112,14 @@
     Array.prototype.slice.call(buttons).forEach(function (btn) {
       btn.addEventListener('click', function () {
         var groupId = btn.getAttribute('data-group');
-        var body = root.document.getElementById(groupId);
+        var rows = root.document.querySelectorAll('[data-group="' + groupId + '"]');
         var cards = root.document.querySelectorAll('[data-group-card="' + groupId + '"]');
-        if (body) body.classList.toggle('hidden');
+        var isHidden = rows.length > 0 && rows[0].classList.contains('hidden');
+        Array.prototype.slice.call(rows).forEach(function (r) { r.classList.toggle('hidden'); });
         Array.prototype.slice.call(cards).forEach(function (c) { c.classList.toggle('hidden'); });
-        btn.textContent = body && body.classList.contains('hidden')
-          ? btn.textContent.replace('▲', '▼')
-          : btn.textContent.replace('▼', '▲');
+        btn.textContent = isHidden
+          ? btn.textContent.replace('▼', '▲')
+          : btn.textContent.replace('▲', '▼');
       });
     });
   }
