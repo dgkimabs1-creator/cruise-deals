@@ -621,18 +621,23 @@
         }
       }
 
-      // Itinerary table
+      // Itinerary table or text
       let itinHtml = '';
       if (c.stopPorts && c.stopPorts.length > 0) {
-        itinHtml = '<h3>🗺 전체 일정</h3><div class="itinerary-detail"><table><thead><tr><th>날짜</th><th>항구</th><th>도착</th><th>출발</th></tr></thead><tbody>';
-        for (const p of c.stopPorts) {
-          const isSea = (p.port || '').toLowerCase().includes('at sea');
-          itinHtml += `<tr${isSea ? ' style="color:var(--muted);font-style:italic"' : ''}>
-            <td>${esc(p.date)}</td><td>${esc(p.port)}</td>
-            <td>${esc(p.arrive) || '-'}</td><td>${esc(p.depart) || '-'}</td>
-          </tr>`;
+        const hasDateInfo = c.stopPorts.some(p => p.date);
+        if (hasDateInfo) {
+          itinHtml = '<h3>🗺 전체 일정</h3><div class="itinerary-detail"><table><thead><tr><th>날짜</th><th>항구</th><th>도착</th><th>출발</th></tr></thead><tbody>';
+          for (const p of c.stopPorts) {
+            const isSea = (p.port || '').toLowerCase().includes('at sea');
+            itinHtml += `<tr${isSea ? ' style="color:var(--muted);font-style:italic"' : ''}>
+              <td>${esc(p.date)}</td><td>${esc(p.port)}</td>
+              <td>${esc(p.arrive) || '-'}</td><td>${esc(p.depart) || '-'}</td>
+            </tr>`;
+          }
+          itinHtml += '</tbody></table></div>';
+        } else {
+          itinHtml = `<h3>🗺 경유지</h3><div style="color:var(--text);font-size:0.9em;padding:4px 0;">${esc(c.itinerary)}</div>`;
         }
-        itinHtml += '</tbody></table></div>';
       }
 
       // Price history chart + text
