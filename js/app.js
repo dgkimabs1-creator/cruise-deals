@@ -317,6 +317,7 @@
         syncFilterInputs();
         syncExternalModules();
         applyStateAndRender();
+        checkHashNavigation();
       })
       .catch(function () {
         state.loadError = true;
@@ -710,8 +711,23 @@
       return;
     }
 
+    var cruises = state.cruises;
     Array.prototype.slice.call(dom.quickTabs.querySelectorAll('[data-filter]')).forEach(function (button) {
-      button.classList.toggle('active', button.getAttribute('data-filter') === state.quickFilter);
+      var filter = button.getAttribute('data-filter');
+      button.classList.toggle('active', filter === state.quickFilter);
+      // 탭에 개수 표시
+      var label = button.getAttribute('data-label');
+      if (!label) {
+        label = button.textContent.replace(/\s*\d+$/, '');
+        button.setAttribute('data-label', label);
+      }
+      if (filter !== 'all' && cruises.length > 0) {
+        var savedQuick = state.quickFilter;
+        state.quickFilter = filter;
+        var count = cruises.filter(function (c) { return matchesQuickFilter(c); }).length;
+        state.quickFilter = savedQuick;
+        button.textContent = label + ' ' + count;
+      }
     });
   }
 
@@ -1086,6 +1102,25 @@
     return getPerNight(cruise);
   }
 
+  function getDropPercent(cruise, days) {
+    if (!cruise || !cruise.priceHistory || cruise.priceHistory.length < 2) return 0;
+    var now = Date.now();
+    var cutoff = now - (days * 24 * 60 * 60 * 1000);
+    var history = cruise.priceHistory;
+    var latest = history[history.length - 1];
+    var latestPrice = latest && latest.prices ? (latest.prices.inside || latest.prices.oceanview || latest.prices.balcony || latest.prices.suite || 0) : 0;
+    if (latestPrice <= 0) return 0;
+    var maxPrice = 0;
+    for (var i = history.length - 2; i >= 0; i--) {
+      var entry = history[i];
+      if (new Date(entry.date).getTime() < cutoff) break;
+      var p = entry.prices ? (entry.prices.inside || entry.prices.oceanview || entry.prices.balcony || entry.prices.suite || 0) : 0;
+      if (p > maxPrice) maxPrice = p;
+    }
+    if (maxPrice <= latestPrice) return 0;
+    return Math.round(((maxPrice - latestPrice) / maxPrice) * 100);
+  }
+
   function getCruiseBadges(cruise) {
     var badges = '';
     if (!cruise) return badges;
@@ -1097,9 +1132,15 @@
         badges += ' <span class="badge badge-new">NEW</span>';
       }
     }
-    // 하락: 24시간 이내 가격 하락
-    if (hasPriceDrop(cruise, 1)) {
-      badges += ' <span class="badge badge-drop">▼하락</span>';
+    // 딜 90+: 🔥
+    var dealScore = getBestScore(cruise.dealScores);
+    if (dealScore >= 90) {
+      badges += ' <span class="badge badge-fire">🔥' + dealScore + '</span>';
+    }
+    // 하락: 7일 이내 하락률
+    var dropPct = getDropPercent(cruise, 7);
+    if (dropPct > 0) {
+      badges += ' <span class="badge badge-drop">▼' + dropPct + '%</span>';
     }
     return badges;
   }
@@ -1498,6 +1539,27 @@
     }
 
     root.CruiseModal.showDetail(num);
+    trackRecentView(num);
+  }
+
+  function checkHashNavigation() {
+    var hash = location.hash || '';
+    var match = hash.match(/cruise=(\d+)/);
+    if (match) {
+      var num = parseInt(match[1]);
+      if (num > 0) openCruiseDetail(num);
+    }
+  }
+
+  function trackRecentView(num) {
+    try {
+      var key = 'cruise_recent_views';
+      var recent = JSON.parse(localStorage.getItem(key) || '[]');
+      recent = recent.filter(function (n) { return n !== num; });
+      recent.unshift(num);
+      if (recent.length > 20) recent = recent.slice(0, 20);
+      localStorage.setItem(key, JSON.stringify(recent));
+    } catch (e) {}
   }
 
   function syncExternalModules() {

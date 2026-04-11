@@ -526,6 +526,7 @@
     actions.push(buildFavoriteButton(cruise.num));
     actions.push(buildActionLink(alertUrl, '텔레그램 알림', false));
     actions.push(buildActionLink(cruise.bookingUrl, '예약하기', true));
+    actions.push('<button type="button" class="modal-chip" data-modal-action="copy-link" data-num="' + escapeHtml(cruise.num) + '">🔗 링크 복사</button>');
 
     return actions.join('');
   }
@@ -1204,6 +1205,15 @@
       } else if (action === 'carousel-next') {
         event.preventDefault();
         moveCarousel(carouselId, 1);
+      } else if (action === 'copy-link') {
+        event.preventDefault();
+        var shareUrl = location.origin + location.pathname + '#cruise=' + id;
+        if (navigator.clipboard) {
+          navigator.clipboard.writeText(shareUrl).then(function () {
+            trigger.textContent = '✅ 복사됨!';
+            setTimeout(function () { trigger.textContent = '🔗 링크 복사'; }, 2000);
+          });
+        }
       }
     });
 
