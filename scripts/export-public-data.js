@@ -54,7 +54,7 @@ async function run() {
     // 출발지/도착지 분리
     const ports = (c.itinerary || '').split('→').map(s => s.trim());
     const departurePort = ports[0] || c.departurePort || '';
-    const arrivalPort = ports.length > 1 ? ports[ports.length - 1] : departurePort;
+    const arrivalPort = ports.length > 1 ? ports[ports.length - 1] : (c.arrivalPort || departurePort);
 
     // 경유지 (detailedItinerary에서 추출, 출발/도착 제외)
     let stopPorts = [];
