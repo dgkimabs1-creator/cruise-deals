@@ -194,7 +194,7 @@
     <p>부산 출발 크루즈 + 아시아 특가 딜 한눈에 비교</p>
     <div class="stats">
       <div class="stat-box"><div class="num" id="totalCount">-</div><div class="label">전체</div></div>
-      <div class="stat-box"><div class="num" id="busanCount">-</div><div class="label">부산 출발</div></div>
+      <div class="stat-box"><div class="num" id="busanCount">-</div><div class="label">부산 관련</div></div>
       <div class="stat-box"><div class="num" id="dealCount">-</div><div class="label">50%+ 특가</div></div>
       <div class="stat-box"><div class="num" id="updateTime">-</div><div class="label">업데이트</div></div>
     </div>
@@ -204,7 +204,7 @@
     <!-- Tabs -->
     <div class="tabs">
       <div class="tab active" data-filter="all">전체</div>
-      <div class="tab" data-filter="busan">부산 출발</div>
+      <div class="tab" data-filter="busan">부산 관련</div>
       <div class="tab" data-filter="deal80">80%+ 초특가</div>
       <div class="tab" data-filter="deal50">50%+ 특가</div>
       <div class="tab" data-filter="cheap">$100/박 이하</div>
@@ -319,6 +319,15 @@
     let currentFilter = 'all';
     let currentSort = 'price-asc';
     let sortDirection = {}; // track toggle per column
+
+    function esc(str) {
+      if (!str) return '';
+      return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    }
+    function safeUrl(url) {
+      if (!url) return '#';
+      try { const u = new URL(url); return ['http:','https:'].includes(u.protocol) ? url : '#'; } catch { return '#'; }
+    }
 
     async function loadData() {
       try {
@@ -509,12 +518,12 @@
       for (const p of c.stopPorts) {
         const isSea = (p.port || '').toLowerCase().includes('at sea');
         if (isSea) {
-          rows += `<li><span class="sea-day">🌊 ${p.date || ''} — 해상 항해</span></li>`;
+          rows += `<li><span class="sea-day">🌊 ${esc(p.date)} — 해상 항해</span></li>`;
         } else {
           const timeStr = [p.arrive ? '도착 ' + p.arrive : '', p.depart ? '출발 ' + p.depart : ''].filter(Boolean).join(' / ');
           rows += `<li>
-            <span><span class="port-name">📍 ${p.port}</span></span>
-            <span><span class="port-date">${p.date || ''}</span> <span class="port-time">${timeStr}</span></span>
+            <span><span class="port-name">📍 ${esc(p.port)}</span></span>
+            <span><span class="port-date">${esc(p.date)}</span> <span class="port-time">${esc(timeStr)}</span></span>
           </li>`;
         }
       }
@@ -522,7 +531,7 @@
         <h4>🚢 전체 일정 (${c.nights}박${c.days}일)</h4>
         <ul class="port-list">${rows}</ul>
         <div style="margin-top:8px;text-align:center;">
-          <a href="${c.bookingUrl}" target="_blank" style="font-size:0.85em;" onclick="event.stopPropagation()">상세 페이지에서 지도 보기 →</a>
+          <a href="${safeUrl(c.bookingUrl)}" target="_blank" style="font-size:0.85em;" onclick="event.stopPropagation()">상세 페이지에서 지도 보기 →</a>
         </div>
       </div>`;
     }
@@ -544,19 +553,22 @@
         const pn = c.perNight && c.perNight.inside ? c.perNight.inside : (c.nights > 0 && lowest < Infinity ? Math.round(lowest / c.nights) : null);
         const bestDeal = getBestScore(c.dealScores);
         const bestValue = getBestScore(c.valueScores);
-        const stopCount = c.stopPorts ? c.stopPorts.filter(p => !(p.port || '').toLowerCase().includes('at sea')).length : 0;
+        const stopCount = c.stopPorts ? c.stopPorts.filter(p => {
+          const port = (p.port || '').toLowerCase();
+          return !port.includes('at sea') && port !== (c.departurePort || '').toLowerCase() && port !== (c.arrivalPort || '').toLowerCase();
+        }).length : 0;
 
         return `<tr onclick="showDetail(${c.num})">
           <td>${c.num || ''}</td>
-          <td>${truncate(c.cruiseLine, 15)}</td>
-          <td>${truncate(c.shipName, 18)}</td>
+          <td>${esc(truncate(c.cruiseLine, 15))}</td>
+          <td>${esc(truncate(c.shipName, 18))}</td>
           <td>${c.shipRating ? c.shipRating + '⭐' : '-'}</td>
-          <td>${c.departureDate || '-'}</td>
+          <td>${esc(c.departureDate) || '-'}</td>
           <td>${c.nights || '-'}</td>
-          <td>${truncate(c.departurePort, 20)} ${c.isBusanRelated ? '<span class="busan-tag">부산</span>' : ''}</td>
-          <td>${truncate(c.arrivalPort, 20)}</td>
+          <td>${esc(truncate(c.departurePort, 20))} ${c.isBusanRelated ? '<span class="busan-tag">부산</span>' : ''}</td>
+          <td>${esc(truncate(c.arrivalPort, 20))}</td>
           <td class="itin-cell">
-            <div class="itin-text">${stopCount > 0 ? stopCount + '곳 경유' : truncate(c.itinerary, 15)}</div>
+            <div class="itin-text">${stopCount > 0 ? stopCount + '곳 경유' : esc(truncate(c.itinerary, 15))}</div>
             ${buildItinTooltip(c)}
           </td>
           <td class="price">${formatPrice(c.cabinPrices && c.cabinPrices.inside ? c.cabinPrices.inside : (lowest < Infinity ? lowest : null))}</td>
@@ -564,7 +576,7 @@
           <td>${c.discountPct ? '<span class="discount">' + c.discountPct + '%</span>' : '-'}</td>
           <td>${scoreHtml(bestDeal || null)}</td>
           <td>${scoreHtml(bestValue || null)}</td>
-          <td><a href="${c.bookingUrl}" target="_blank" onclick="event.stopPropagation()">예약</a></td>
+          <td><a href="${safeUrl(c.bookingUrl)}" target="_blank" onclick="event.stopPropagation()">예약</a></td>
         </tr>`;
       }).join('');
     }
@@ -597,8 +609,8 @@
         for (const p of c.stopPorts) {
           const isSea = (p.port || '').toLowerCase().includes('at sea');
           itinHtml += `<tr${isSea ? ' style="color:var(--muted);font-style:italic"' : ''}>
-            <td>${p.date || ''}</td><td>${p.port || ''}</td>
-            <td>${p.arrive || '-'}</td><td>${p.depart || '-'}</td>
+            <td>${esc(p.date)}</td><td>${esc(p.port)}</td>
+            <td>${esc(p.arrive) || '-'}</td><td>${esc(p.depart) || '-'}</td>
           </tr>`;
         }
         itinHtml += '</tbody></table></div>';
@@ -622,19 +634,19 @@
       }
 
       document.getElementById('modalContent').innerHTML = `
-        <h2>#${c.num} ${c.cruiseLine} — ${c.shipName} ${c.shipRating ? c.shipRating + '⭐' : ''}</h2>
-        <div class="row"><span class="label">출발지</span><span>${c.departurePort || '-'}</span></div>
-        <div class="row"><span class="label">도착지</span><span>${c.arrivalPort || '-'}</span></div>
-        <div class="row"><span class="label">출발일</span><span>${c.departureDate} | ${c.nights}박${c.days}일</span></div>
+        <h2>#${c.num} ${esc(c.cruiseLine)} — ${esc(c.shipName)} ${c.shipRating ? c.shipRating + '⭐' : ''}</h2>
+        <div class="row"><span class="label">출발지</span><span>${esc(c.departurePort) || '-'}</span></div>
+        <div class="row"><span class="label">도착지</span><span>${esc(c.arrivalPort) || '-'}</span></div>
+        <div class="row"><span class="label">출발일</span><span>${esc(c.departureDate)} | ${c.nights}박${c.days}일</span></div>
         ${c.discountPct ? `<div class="row"><span class="label">할인</span><span class="discount">${c.discountPct}% (원가 $${(c.origPrice||0).toLocaleString()})</span></div>` : ''}
-        <div class="row"><span class="label">출처</span><span>${c.source || '-'}</span></div>
-        ${c.itineraryImageUrl ? `<div style="text-align:center;margin:12px 0;"><img src="${c.itineraryImageUrl}" alt="일정 지도" style="max-width:100%;border-radius:8px;border:1px solid var(--border);"></div>` : ''}
+        <div class="row"><span class="label">출처</span><span>${esc(c.source) || '-'}</span></div>
+        ${c.itineraryImageUrl ? `<div style="text-align:center;margin:12px 0;"><img src="${safeUrl(c.itineraryImageUrl)}" alt="일정 지도" style="max-width:100%;border-radius:8px;border:1px solid var(--border);"></div>` : ''}
         <h3>💰 객실별 가격</h3>
         ${priceRows || '<div class="row"><span>가격 정보 없음</span></div>'}
         ${itinHtml}
         ${historyHtml}
         <div style="text-align:center;">
-          <a class="btn-book" href="${c.bookingUrl}" target="_blank">예약 페이지 →</a>
+          <a class="btn-book" href="${safeUrl(c.bookingUrl)}" target="_blank">예약 페이지 →</a>
         </div>
       `;
       document.getElementById('modal').classList.add('show');

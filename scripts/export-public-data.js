@@ -25,7 +25,7 @@ function run() {
   for (const [id, c] of Object.entries(cruises)) {
     // expired cruises skip
     if (c.departureDate) {
-      const dep = new Date(c.departureDate + 'T00:00:00+09:00');
+      const dep = new Date(c.departureDate + 'T23:59:59+09:00');
       if (dep < new Date()) continue;
     }
 
