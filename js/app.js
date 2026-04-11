@@ -1115,11 +1115,12 @@
         var rows = root.document.querySelectorAll('[data-group="' + groupId + '"]');
         var cards = root.document.querySelectorAll('[data-group-card="' + groupId + '"]');
         var isHidden = rows.length > 0 && rows[0].classList.contains('hidden');
+        var count = rows.length;
         Array.prototype.slice.call(rows).forEach(function (r) { r.classList.toggle('hidden'); });
         Array.prototype.slice.call(cards).forEach(function (c) { c.classList.toggle('hidden'); });
         btn.textContent = isHidden
-          ? btn.textContent.replace('▼', '▲')
-          : btn.textContent.replace('▲', '▼');
+          ? '같은 일정 ' + count + '개 접기 ▲'
+          : '같은 일정 ' + count + '개 더보기 ▼';
       });
     });
   }
