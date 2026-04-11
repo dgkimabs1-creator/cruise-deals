@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-04-11T05:08:24.324Z",
+  "exportedAt": "2026-04-11T05:13:14.649Z",
   "count": 764,
   "cruises": [
     {
@@ -290,8 +290,8 @@
       "salePrice": 4939,
       "discountPct": 81,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=20798",
-      "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/20798_241224093205717.jpg",
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 26,
@@ -439,7 +439,7 @@
       "discountPct": 87,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=16601",
       "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 0,
@@ -586,8 +586,8 @@
       "salePrice": 4619,
       "discountPct": 81,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=20922",
-      "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/20922_241224094158987.jpg",
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 36,
@@ -735,7 +735,7 @@
       "discountPct": 87,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=43226",
       "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 25,
@@ -883,7 +883,7 @@
       "discountPct": 87,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=58308",
       "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 20,
@@ -1077,6 +1077,16 @@
             "suite": 4499,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 2499,
+            "oceanview": 2999,
+            "balcony": 4399,
+            "suite": 4499,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -1206,7 +1216,7 @@
       "salePrice": 5149,
       "discountPct": 81,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=20388",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/20388_241224092848080.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -1384,7 +1394,7 @@
       "discountPct": 0,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=14692",
       "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 82
@@ -1430,6 +1440,13 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 1452,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 1452,
             "currency": "USD"
@@ -1487,7 +1504,7 @@
       "salePrice": 899,
       "discountPct": 13,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=38646",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/38646_260304081639243.jpg",
       "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -1670,6 +1687,13 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 1888,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 1888,
             "currency": "USD"
@@ -1935,7 +1959,7 @@
       "salePrice": 1763,
       "discountPct": 0,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=35300",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/35300_260304082432443.jpg",
       "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -2077,6 +2101,13 @@
             "inside": 913,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 913,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -2130,7 +2161,7 @@
       "salePrice": 909,
       "discountPct": 0,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=37034",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/37034_260304083041857.jpg",
       "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -2204,7 +2235,7 @@
       "salePrice": 300,
       "discountPct": 0,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=47770",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/47770_260129102740653.jpg",
       "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -2349,8 +2380,8 @@
       "salePrice": 3319,
       "discountPct": 85,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=14528",
-      "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/14528_240415112932450.jpg",
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 94
@@ -2494,8 +2525,8 @@
       "salePrice": 4499,
       "discountPct": 83,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=14523",
-      "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/14523_241224073927347.jpg",
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 40,
@@ -2622,8 +2653,8 @@
       "salePrice": 9864,
       "discountPct": 81,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=15114",
-      "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/15114_24122311561100116.jpg",
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "suite": 0
@@ -2915,7 +2946,7 @@
       "salePrice": 1399,
       "discountPct": 88,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=11726",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/11726_251219075328597.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -3045,7 +3076,7 @@
       "salePrice": 2789,
       "discountPct": 87,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=12897",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/12897_260304114809220.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -3303,7 +3334,7 @@
       "salePrice": 2499,
       "discountPct": 80,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=16726",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/16726_251219081736683.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -3421,7 +3452,7 @@
       "salePrice": 2199,
       "discountPct": 81,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=18868",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/18868_251219083130220.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -3539,7 +3570,7 @@
       "salePrice": 2049,
       "discountPct": 81,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=19025",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/19025_241107083347013.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -3687,7 +3718,7 @@
       "salePrice": 3269,
       "discountPct": 80,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=19424",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/19424_241224081640977.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -3910,6 +3941,16 @@
             "suite": 3999,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 2549,
+            "oceanview": 2709,
+            "balcony": 3699,
+            "suite": 3999,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -4118,35 +4159,35 @@
       "days": 10,
       "cabinPrices": {
         "inside": 2468,
-        "oceanview": 3080,
-        "balcony": 3629,
-        "suite": 5114,
+        "oceanview": 1176,
+        "balcony": 1650,
+        "suite": 2614,
         "currency": "USD"
       },
       "perNight": {
         "inside": 274,
-        "oceanview": 342,
-        "balcony": 403,
-        "suite": 568
+        "oceanview": 131,
+        "balcony": 183,
+        "suite": 290
       },
       "origPrice": 5208,
       "salePrice": 2468,
       "discountPct": 53,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=22707",
       "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 59,
-        "oceanview": 42,
-        "balcony": 55,
-        "suite": 49
+        "oceanview": 86,
+        "balcony": 86,
+        "suite": 81
       },
       "valueScores": {
         "inside": 83,
-        "oceanview": 45,
-        "balcony": 51,
-        "suite": 71
+        "oceanview": 85,
+        "balcony": 83,
+        "suite": 89
       },
       "priceHistory": [
         {
@@ -4206,6 +4247,16 @@
             "oceanview": 3080,
             "balcony": 3629,
             "suite": 5114,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 2468,
+            "oceanview": 1176,
+            "balcony": 1650,
+            "suite": 2614,
             "currency": "USD"
           }
         }
@@ -4271,7 +4322,7 @@
       "salePrice": 274,
       "discountPct": 63,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=32327",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/32327_250508155006400.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -4374,16 +4425,16 @@
       "days": 10,
       "cabinPrices": {
         "inside": 1219,
-        "oceanview": 2750,
-        "balcony": 3364,
-        "suite": 4642,
+        "oceanview": 1234,
+        "balcony": 1829,
+        "suite": 2254,
         "currency": "USD"
       },
       "perNight": {
         "inside": 135,
-        "oceanview": 306,
-        "balcony": 374,
-        "suite": 516
+        "oceanview": 137,
+        "balcony": 203,
+        "suite": 250
       },
       "origPrice": 2439,
       "salePrice": 1219,
@@ -4394,15 +4445,15 @@
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 85,
-        "oceanview": 49,
-        "balcony": 59,
-        "suite": 55
+        "oceanview": 84,
+        "balcony": 83,
+        "suite": 86
       },
       "valueScores": {
         "inside": 94,
-        "oceanview": 52,
-        "balcony": 55,
-        "suite": 74
+        "oceanview": 84,
+        "balcony": 80,
+        "suite": 91
       },
       "priceHistory": [
         {
@@ -4464,6 +4515,16 @@
             "suite": 4642,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 1219,
+            "oceanview": 1234,
+            "balcony": 1829,
+            "suite": 2254,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -4521,7 +4582,7 @@
       "salePrice": 227,
       "discountPct": 50,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=18769",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/18769_251217080807917.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -4603,7 +4664,7 @@
       "salePrice": 631,
       "discountPct": 55,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=30948",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/46802_250905120825293.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -4808,6 +4869,16 @@
             "suite": 647,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 277,
+            "oceanview": 319,
+            "balcony": 378,
+            "suite": 647,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -4877,7 +4948,7 @@
       "salePrice": 561,
       "discountPct": 59,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=47616",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/47616_250905121308017.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -4971,7 +5042,7 @@
       "salePrice": 684,
       "discountPct": 54,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=47621",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/47621_250905122510620.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -5065,7 +5136,7 @@
       "salePrice": 617,
       "discountPct": 56,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=44711",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/44711_250905123045077.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -5153,7 +5224,7 @@
       "salePrice": 575,
       "discountPct": 52,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=44709",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/44709_25090514122439694.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -5241,7 +5312,7 @@
       "salePrice": 510,
       "discountPct": 56,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=42177",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/42177_250905142409340.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -5329,7 +5400,7 @@
       "salePrice": 515,
       "discountPct": 52,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=49025",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/49025_250905141224A334E.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -5417,7 +5488,7 @@
       "salePrice": 508,
       "discountPct": 54,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=44533",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/44533_25090514263925C70.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -5505,7 +5576,7 @@
       "salePrice": 545,
       "discountPct": 52,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=44842",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/44842_250905141224B8AE6.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -5593,7 +5664,7 @@
       "salePrice": 510,
       "discountPct": 56,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=46176",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/46176_250905142639F941C.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -5681,7 +5752,7 @@
       "salePrice": 515,
       "discountPct": 52,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=46145",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/46145_2509051412245A69A.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -5769,7 +5840,7 @@
       "salePrice": 508,
       "discountPct": 54,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=45427",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/45427_25090514263954F60.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -5857,7 +5928,7 @@
       "salePrice": 545,
       "discountPct": 52,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=45156",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/45156_2509051412241F21F.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -5945,7 +6016,7 @@
       "salePrice": 535,
       "discountPct": 56,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=49787",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/49787_250905142639836A1.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -6033,7 +6104,7 @@
       "salePrice": 515,
       "discountPct": 52,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=43431",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/43431_250905123302263.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -6121,7 +6192,7 @@
       "salePrice": 578,
       "discountPct": 52,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=49022",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/49022_250905142640BB1CA.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -6209,7 +6280,7 @@
       "salePrice": 641,
       "discountPct": 52,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=46199",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/46199_2509051426403D639.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -6295,7 +6366,7 @@
       "salePrice": 888,
       "discountPct": 50,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=43833",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/43833_2509051417024B5DF.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -7174,7 +7245,7 @@
       "salePrice": 2199,
       "discountPct": 86,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=18059",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/18059_241107075041E6BA0.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -7446,7 +7517,7 @@
       "salePrice": 3979,
       "discountPct": 80,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=34901",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/34901_250513120954020.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -7586,7 +7657,7 @@
       "salePrice": 5200,
       "discountPct": 91,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=44356",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/44356_250423155437840.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {},
@@ -8737,7 +8808,7 @@
       "salePrice": 2009,
       "discountPct": 87,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=19627",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/19627_241107083917673C0.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -8795,6 +8866,16 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 2399,
+            "oceanview": 2899,
+            "balcony": 4299,
+            "suite": 4599,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 2399,
             "oceanview": 2899,
@@ -9043,7 +9124,7 @@
       "salePrice": 2109,
       "discountPct": 87,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=20305",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/20305_2411070840443611A.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -9101,6 +9182,16 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 2699,
+            "oceanview": 2899,
+            "balcony": 5149,
+            "suite": 5149,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 2699,
             "oceanview": 2899,
@@ -9225,7 +9316,7 @@
       "salePrice": 2359,
       "discountPct": 87,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=21400",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/21400_2411070852433BA92.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -9283,6 +9374,16 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 3399,
+            "oceanview": 2699,
+            "balcony": 5399,
+            "suite": 5639,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 3399,
             "oceanview": 2699,
@@ -9443,7 +9544,7 @@
       "salePrice": 5179,
       "discountPct": 81,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=10084",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/10084_250619094554157.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -9839,8 +9940,8 @@
       "salePrice": 3800,
       "discountPct": 3,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=32303",
-      "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/32303_251128140812247.jpg",
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 0,
@@ -9891,6 +9992,15 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 974,
+            "oceanview": 1536,
+            "balcony": 1906,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 974,
             "oceanview": 1536,
@@ -9975,35 +10085,35 @@
       "days": 10,
       "cabinPrices": {
         "inside": 2177,
-        "oceanview": 2682,
-        "balcony": 3347,
-        "suite": 5309,
+        "oceanview": 1423,
+        "balcony": 1723,
+        "suite": 3199,
         "currency": "USD"
       },
       "perNight": {
         "inside": 242,
-        "oceanview": 298,
-        "balcony": 372,
-        "suite": 590
+        "oceanview": 158,
+        "balcony": 191,
+        "suite": 355
       },
       "origPrice": 4948,
       "salePrice": 2177,
       "discountPct": 56,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=32243",
-      "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/32243_260216073126347.jpg",
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 65,
-        "oceanview": 51,
-        "balcony": 59,
-        "suite": 46
+        "oceanview": 80,
+        "balcony": 85,
+        "suite": 74
       },
       "valueScores": {
         "inside": 85,
-        "oceanview": 54,
-        "balcony": 56,
-        "suite": 70
+        "oceanview": 80,
+        "balcony": 82,
+        "suite": 85
       },
       "priceHistory": [
         {
@@ -10053,6 +10163,16 @@
             "oceanview": 2682,
             "balcony": 3347,
             "suite": 5309,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 2177,
+            "oceanview": 1423,
+            "balcony": 1723,
+            "suite": 3199,
             "currency": "USD"
           }
         }
@@ -10210,7 +10330,7 @@
       "salePrice": 702,
       "discountPct": 56,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=45103",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/45103_2509051426401B0BD.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -10298,7 +10418,7 @@
       "salePrice": 515,
       "discountPct": 52,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=42424",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/42424_250905141702660AA.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -10392,7 +10512,7 @@
       "salePrice": 829,
       "discountPct": 70,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=35205",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/35205_260120103504193.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -10492,7 +10612,7 @@
       "salePrice": 1023,
       "discountPct": 37,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=13194",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/13194_260120070436830.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -10550,6 +10670,16 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 869,
+            "oceanview": 939,
+            "balcony": 1339,
+            "suite": 2429,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 869,
             "oceanview": 939,
@@ -10623,35 +10753,35 @@
       "days": 8,
       "cabinPrices": {
         "inside": 2238,
-        "oceanview": 2533,
-        "balcony": 3480,
-        "suite": 4308,
+        "oceanview": 981,
+        "balcony": 1340,
+        "suite": 2131,
         "currency": "USD"
       },
       "perNight": {
         "inside": 320,
-        "oceanview": 362,
-        "balcony": 497,
-        "suite": 615
+        "oceanview": 140,
+        "balcony": 191,
+        "suite": 304
       },
       "origPrice": 4783,
       "salePrice": 2238,
       "discountPct": 53,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=18008",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/18008_260311110022733.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 51,
-        "oceanview": 37,
-        "balcony": 42,
-        "suite": 43
+        "oceanview": 84,
+        "balcony": 85,
+        "suite": 80
       },
       "valueScores": {
         "inside": 79,
-        "oceanview": 42,
-        "balcony": 37,
-        "suite": 68
+        "oceanview": 84,
+        "balcony": 82,
+        "suite": 88
       },
       "priceHistory": [
         {
@@ -10701,6 +10831,16 @@
             "oceanview": 2533,
             "balcony": 3480,
             "suite": 4308,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 2238,
+            "oceanview": 981,
+            "balcony": 1340,
+            "suite": 2131,
             "currency": "USD"
           }
         }
@@ -10768,17 +10908,17 @@
       "nights": 7,
       "days": 8,
       "cabinPrices": {
-        "inside": 2686,
-        "oceanview": 2665,
-        "balcony": 4081,
-        "suite": 4972,
+        "inside": 2665,
+        "oceanview": 928,
+        "balcony": 1115,
+        "suite": 1736,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 384,
-        "oceanview": 381,
-        "balcony": 583,
-        "suite": 710
+        "inside": 381,
+        "oceanview": 133,
+        "balcony": 159,
+        "suite": 248
       },
       "origPrice": 4677,
       "salePrice": 2665,
@@ -10789,15 +10929,15 @@
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 39,
-        "oceanview": 34,
-        "balcony": 29,
-        "suite": 32
+        "oceanview": 85,
+        "balcony": 89,
+        "suite": 86
       },
       "valueScores": {
         "inside": 74,
-        "oceanview": 38,
-        "balcony": 24,
-        "suite": 62
+        "oceanview": 85,
+        "balcony": 87,
+        "suite": 91
       },
       "priceHistory": [
         {
@@ -10847,6 +10987,16 @@
             "oceanview": 2665,
             "balcony": 4081,
             "suite": 4972,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 2665,
+            "oceanview": 928,
+            "balcony": 1115,
+            "suite": 1736,
             "currency": "USD"
           }
         }
@@ -10924,7 +11074,7 @@
       "salePrice": 829,
       "discountPct": 50,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=33624",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/33624_260120104251060.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -11018,7 +11168,7 @@
       "salePrice": 829,
       "discountPct": 70,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=31965",
-      "itineraryImageUrl": null,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/31965_260120104530530.jpg",
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
@@ -11166,8 +11316,8 @@
       "salePrice": 5444,
       "discountPct": 25,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=35634",
-      "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/35634_251015121515503.jpg",
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 15,
@@ -11224,6 +11374,16 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 2789,
+            "oceanview": 2800,
+            "balcony": 3789,
+            "suite": 4819,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 2789,
             "oceanview": 2800,
@@ -11435,7 +11595,7 @@
       "discountPct": 8,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=29780",
       "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 48,
@@ -11518,8 +11678,8 @@
       "salePrice": 743,
       "discountPct": 1,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=19247",
-      "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/19247_251204072318050.jpg",
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 81,
@@ -11600,8 +11760,8 @@
       "salePrice": 429,
       "discountPct": 39,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=29957",
-      "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/29957_250312070651623.jpg",
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 84,
@@ -11695,7 +11855,7 @@
       "discountPct": 34,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=30286",
       "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 82,
@@ -11832,8 +11992,8 @@
       "salePrice": 957,
       "discountPct": 0,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=13827",
-      "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/13827_251204070249913.jpg",
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 86,
@@ -11962,8 +12122,8 @@
       "salePrice": 1232,
       "discountPct": 6,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=11760",
-      "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/42328_251203085045740.jpg",
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 72,
@@ -12018,6 +12178,16 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 764,
+            "oceanview": 834,
+            "balcony": 3385,
+            "suite": 4524,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 764,
             "oceanview": 834,
@@ -12089,7 +12259,7 @@
       "discountPct": 34,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=31146",
       "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 75,
@@ -12239,34 +12409,34 @@
       "days": 18,
       "cabinPrices": {
         "inside": 2077,
-        "oceanview": 2821,
-        "balcony": 3562,
+        "oceanview": 2138,
+        "balcony": 3328,
         "suite": 5569,
         "currency": "USD"
       },
       "perNight": {
         "inside": 122,
-        "oceanview": 166,
-        "balcony": 210,
+        "oceanview": 126,
+        "balcony": 196,
         "suite": 328
       },
       "origPrice": 4503,
       "salePrice": 2077,
       "discountPct": 54,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=21062",
-      "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/21062_250613130729690.jpg",
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 88,
-        "oceanview": 78,
-        "balcony": 82,
+        "oceanview": 87,
+        "balcony": 84,
         "suite": 77
       },
       "valueScores": {
         "inside": 95,
-        "oceanview": 79,
-        "balcony": 80,
+        "oceanview": 86,
+        "balcony": 82,
         "suite": 86
       },
       "priceHistory": [
@@ -12316,6 +12486,16 @@
             "inside": 2077,
             "oceanview": 2821,
             "balcony": 3562,
+            "suite": 5569,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 2077,
+            "oceanview": 2138,
+            "balcony": 3328,
             "suite": 5569,
             "currency": "USD"
           }
@@ -12389,7 +12569,7 @@
       "discountPct": 31,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=31202",
       "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 79,
@@ -12522,8 +12702,8 @@
       "salePrice": 1891,
       "discountPct": 64,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=37841",
-      "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/37841_241002075209507.jpg",
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 79,
@@ -12623,7 +12803,7 @@
       "discountPct": 25,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=31375",
       "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 65,
@@ -12758,8 +12938,8 @@
       "salePrice": 1845,
       "discountPct": 61,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=38044",
-      "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/38044_241002075459060.jpg",
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 81,
@@ -12856,7 +13036,7 @@
       "discountPct": 30,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=31726",
       "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 72,
@@ -12950,7 +13130,7 @@
       "discountPct": 24,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=31786",
       "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 56,
@@ -13083,8 +13263,8 @@
       "salePrice": 1578,
       "discountPct": 66,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=38114",
-      "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/38114_241002075605330.jpg",
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 92,
@@ -13187,7 +13367,7 @@
       "discountPct": 25,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=31862",
       "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 45,
@@ -13310,8 +13490,8 @@
       "salePrice": 2377,
       "discountPct": 47,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=17080",
-      "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/17080_250613132250227.jpg",
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 66,
@@ -13370,6 +13550,16 @@
           "date": "2026-04-11T03:55:06.707Z",
           "prices": {
             "inside": 2377,
+            "oceanview": 2655,
+            "balcony": 3223,
+            "suite": 4447,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 1358,
             "oceanview": 2655,
             "balcony": 3223,
             "suite": 4447,
@@ -13488,7 +13678,7 @@
       "discountPct": 26,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=25519",
       "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 45,
@@ -13577,8 +13767,8 @@
       "salePrice": 937,
       "discountPct": 0,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=44872",
-      "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/44872_260129132059093.jpg",
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 81,
@@ -13790,6 +13980,16 @@
             "suite": 3768,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 1996,
+            "oceanview": 2185,
+            "balcony": 2787,
+            "suite": 3768,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -13853,8 +14053,8 @@
       "salePrice": 664,
       "discountPct": 28,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=46165",
-      "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/46165_260129132651390.jpg",
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 90
@@ -13980,8 +14180,8 @@
       "salePrice": 1951,
       "discountPct": 59,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=38229",
-      "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/38229_250224075454807.jpg",
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 76,
@@ -14079,7 +14279,7 @@
       "discountPct": 26,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=32493",
       "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 45,
@@ -14255,6 +14455,16 @@
             "suite": 4915,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 1066,
+            "oceanview": 2757,
+            "balcony": 3736,
+            "suite": 4915,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -14325,7 +14535,7 @@
       "discountPct": 23,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=32394",
       "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 48,
@@ -14499,35 +14709,35 @@
       "days": 12,
       "cabinPrices": {
         "inside": 2978,
-        "oceanview": 3214,
-        "balcony": 5156,
-        "suite": 6326,
+        "oceanview": 3963,
+        "balcony": 5199,
+        "suite": 9226,
         "currency": "USD"
       },
       "perNight": {
         "inside": 271,
-        "oceanview": 292,
-        "balcony": 469,
-        "suite": 575
+        "oceanview": 360,
+        "balcony": 473,
+        "suite": 839
       },
       "origPrice": 5203,
       "salePrice": 2978,
       "discountPct": 43,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=23520",
-      "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/23537_250613093223860.jpg",
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 60,
-        "oceanview": 52,
-        "balcony": 46,
-        "suite": 48
+        "oceanview": 38,
+        "balcony": 45,
+        "suite": 17
       },
       "valueScores": {
         "inside": 83,
-        "oceanview": 55,
+        "oceanview": 42,
         "balcony": 41,
-        "suite": 71
+        "suite": 54
       },
       "priceHistory": [
         {
@@ -14577,6 +14787,16 @@
             "oceanview": 3214,
             "balcony": 5156,
             "suite": 6326,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 2978,
+            "oceanview": 3963,
+            "balcony": 5199,
+            "suite": 9226,
             "currency": "USD"
           }
         }
@@ -14688,8 +14908,8 @@
       "salePrice": 1641,
       "discountPct": 59,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=38241",
-      "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/38241_241002075728480.jpg",
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 89,
@@ -14845,35 +15065,35 @@
       "days": 11,
       "cabinPrices": {
         "inside": 2819,
-        "oceanview": 3040,
-        "balcony": 4880,
-        "suite": 5933,
+        "oceanview": 1526,
+        "balcony": 2048,
+        "suite": 3060,
         "currency": "USD"
       },
       "perNight": {
         "inside": 282,
-        "oceanview": 304,
-        "balcony": 488,
-        "suite": 593
+        "oceanview": 153,
+        "balcony": 205,
+        "suite": 306
       },
       "origPrice": 4933,
       "salePrice": 2819,
       "discountPct": 43,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=23654",
-      "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/23654_250613085859623.jpg",
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 58,
-        "oceanview": 50,
-        "balcony": 43,
-        "suite": 46
+        "oceanview": 81,
+        "balcony": 83,
+        "suite": 80
       },
       "valueScores": {
         "inside": 82,
-        "oceanview": 53,
-        "balcony": 38,
-        "suite": 69
+        "oceanview": 81,
+        "balcony": 80,
+        "suite": 88
       },
       "priceHistory": [
         {
@@ -14923,6 +15143,16 @@
             "oceanview": 3040,
             "balcony": 4880,
             "suite": 5933,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 2819,
+            "oceanview": 1526,
+            "balcony": 2048,
+            "suite": 3060,
             "currency": "USD"
           }
         }
@@ -15031,7 +15261,7 @@
       "discountPct": 28,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=32957",
       "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 62,
@@ -15139,35 +15369,35 @@
       "days": 11,
       "cabinPrices": {
         "inside": 2767,
-        "oceanview": 3366,
-        "balcony": 4720,
-        "suite": 5395,
+        "oceanview": 3911,
+        "balcony": 6106,
+        "suite": 6790,
         "currency": "USD"
       },
       "perNight": {
         "inside": 277,
-        "oceanview": 337,
-        "balcony": 472,
-        "suite": 540
+        "oceanview": 391,
+        "balcony": 611,
+        "suite": 679
       },
       "origPrice": 5013,
       "salePrice": 2767,
       "discountPct": 45,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=17532",
-      "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/23686_250613093825233.jpg",
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 59,
-        "oceanview": 43,
-        "balcony": 45,
-        "suite": 52
+        "oceanview": 31,
+        "balcony": 26,
+        "suite": 36
       },
       "valueScores": {
         "inside": 83,
-        "oceanview": 46,
-        "balcony": 41,
-        "suite": 73
+        "oceanview": 36,
+        "balcony": 20,
+        "suite": 64
       },
       "priceHistory": [
         {
@@ -15217,6 +15447,16 @@
             "oceanview": 3366,
             "balcony": 4720,
             "suite": 5395,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 2767,
+            "oceanview": 3911,
+            "balcony": 6106,
+            "suite": 6790,
             "currency": "USD"
           }
         }
@@ -15338,7 +15578,7 @@
       "discountPct": 28,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=34707",
       "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 76,
@@ -15461,8 +15701,8 @@
       "salePrice": 2673,
       "discountPct": 47,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=18262",
-      "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/18262_250613095807710.jpg",
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 61,
@@ -15521,6 +15761,16 @@
           "date": "2026-04-11T03:55:06.707Z",
           "prices": {
             "inside": 2673,
+            "oceanview": 2051,
+            "balcony": 3739,
+            "suite": 4217,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 1482,
             "oceanview": 2051,
             "balcony": 3739,
             "suite": 4217,
@@ -15769,8 +16019,8 @@
       "salePrice": 1151,
       "discountPct": 46,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=23584",
-      "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/23584_251126090828150.jpg",
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 100,
@@ -15827,6 +16077,16 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 4019,
+            "oceanview": 4159,
+            "balcony": 5449,
+            "suite": 13679,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 4019,
             "oceanview": 4159,
@@ -15992,6 +16252,16 @@
             "suite": 2629,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 5053,
+            "oceanview": 1403,
+            "balcony": 2109,
+            "suite": 2629,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -16150,6 +16420,16 @@
             "suite": 4824,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 3917,
+            "oceanview": 1646,
+            "balcony": 2499,
+            "suite": 4824,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -16214,7 +16494,7 @@
       "discountPct": 30,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=35643",
       "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 72,
@@ -16392,6 +16672,13 @@
             "inside": 2221,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 2221,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -16497,8 +16784,8 @@
       "salePrice": 456,
       "discountPct": 36,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=36242",
-      "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/36242_250312074450440.jpg",
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 81,
@@ -16625,8 +16912,8 @@
       "salePrice": 2053,
       "discountPct": 0,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=43893",
-      "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/43893_250620100704403.jpg",
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 81,
@@ -16811,6 +17098,16 @@
             "suite": 7148,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 1159,
+            "oceanview": 4267,
+            "balcony": 5628,
+            "suite": 7148,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -16881,7 +17178,7 @@
       "discountPct": 29,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=36706",
       "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 81,
@@ -17014,8 +17311,8 @@
       "salePrice": 2382,
       "discountPct": 15,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=38761",
-      "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/38761_241002081424877.jpg",
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 58,
@@ -17102,6 +17399,13 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 3314,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 3314,
             "currency": "USD"
@@ -17233,8 +17537,8 @@
       "salePrice": 2804,
       "discountPct": 39,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=24229",
-      "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/24229_250103133055197.jpg",
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "oceanview": 65,
@@ -17379,7 +17683,7 @@
       "discountPct": 40,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=24405",
       "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 48,
@@ -17441,6 +17745,16 @@
             "oceanview": 5756,
             "balcony": 8273,
             "suite": 8816,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 2525,
+            "oceanview": 2826,
+            "balcony": 4777,
+            "suite": 5321,
             "currency": "USD"
           }
         }
@@ -17513,7 +17827,7 @@
       "discountPct": 24,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=37036",
       "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 79,
@@ -17660,8 +17974,8 @@
       "salePrice": 4568,
       "discountPct": 39,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=24572",
-      "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/13422_250331161321543.jpg",
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 50,
@@ -17723,6 +18037,16 @@
             "oceanview": 5463,
             "balcony": 8436,
             "suite": 9660,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 2724,
+            "oceanview": 2878,
+            "balcony": 4446,
+            "suite": 4446,
             "currency": "USD"
           }
         }
@@ -17819,7 +18143,7 @@
       "discountPct": 26,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=38100",
       "itineraryImageUrl": null,
-      "isBusanRelated": false,
+      "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 63,
@@ -18215,6 +18539,16 @@
             "suite": 10191,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 4788,
+            "oceanview": 4902,
+            "balcony": 6768,
+            "suite": 10191,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -18364,14 +18698,14 @@
       "nights": 14,
       "days": 15,
       "cabinPrices": {
-        "inside": 1799,
+        "inside": 1689,
         "oceanview": 1949,
         "balcony": 2599,
         "suite": 3099,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 129,
+        "inside": 121,
         "oceanview": 139,
         "balcony": 186,
         "suite": 221
@@ -18384,13 +18718,13 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 79,
+        "inside": 81,
         "oceanview": 79,
         "balcony": 78,
         "suite": 83
       },
       "valueScores": {
-        "inside": 95,
+        "inside": 96,
         "oceanview": 84,
         "balcony": 83,
         "suite": 93
@@ -18400,6 +18734,16 @@
           "date": "2026-04-10T10:51:35.647Z",
           "prices": {
             "inside": 1799,
+            "oceanview": 1949,
+            "balcony": 2599,
+            "suite": 3099,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 1689,
             "oceanview": 1949,
             "balcony": 2599,
             "suite": 3099,
@@ -18660,6 +19004,16 @@
           "date": "2026-04-11T03:55:06.707Z",
           "prices": {
             "inside": 2691,
+            "oceanview": 5758,
+            "balcony": 9962,
+            "suite": 10232,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 4976,
             "oceanview": 5758,
             "balcony": 9962,
             "suite": 10232,
@@ -18965,6 +19319,16 @@
             "suite": 7893,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 1958,
+            "oceanview": 4416,
+            "balcony": 6525,
+            "suite": 7893,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -19211,6 +19575,13 @@
             "inside": 2275,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 2275,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -19382,6 +19753,16 @@
           "date": "2026-04-11T03:55:06.707Z",
           "prices": {
             "inside": 4198,
+            "oceanview": 5004,
+            "balcony": 7663,
+            "suite": 9427,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 2113,
             "oceanview": 5004,
             "balcony": 7663,
             "suite": 9427,
@@ -19761,6 +20142,16 @@
             "suite": 9990,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 2446,
+            "oceanview": 5890,
+            "balcony": 8154,
+            "suite": 9990,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -19868,13 +20259,13 @@
       "nights": 14,
       "days": 15,
       "cabinPrices": {
-        "inside": 4779,
+        "inside": 4481,
         "oceanview": 5159,
         "balcony": 8529,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 341,
+        "inside": 320,
         "oceanview": 369,
         "balcony": 609
       },
@@ -19886,12 +20277,12 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 27,
+        "inside": 32,
         "oceanview": 26,
         "balcony": 6
       },
       "valueScores": {
-        "inside": 77,
+        "inside": 79,
         "oceanview": 40,
         "balcony": 21
       },
@@ -19935,6 +20326,15 @@
           "prices": {
             "inside": 2499,
             "oceanview": 2699,
+            "balcony": 8529,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 4481,
+            "oceanview": 5159,
             "balcony": 8529,
             "currency": "USD"
           }
@@ -20175,6 +20575,16 @@
           "date": "2026-04-11T03:55:06.707Z",
           "prices": {
             "inside": 4182,
+            "oceanview": 5035,
+            "balcony": 7476,
+            "suite": 9303,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 2095,
             "oceanview": 5035,
             "balcony": 7476,
             "suite": 9303,
@@ -20540,6 +20950,16 @@
             "suite": 7671,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 2007,
+            "oceanview": 4725,
+            "balcony": 6456,
+            "suite": 7671,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -20716,6 +21136,16 @@
             "suite": 7268,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 2305,
+            "oceanview": 4496,
+            "balcony": 5837,
+            "suite": 7268,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -20837,6 +21267,16 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 563,
+            "oceanview": 647,
+            "balcony": 699,
+            "suite": 996,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 563,
             "oceanview": 647,
@@ -21654,6 +22094,16 @@
             "suite": 6563,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 2909,
+            "oceanview": 3346,
+            "balcony": 4790,
+            "suite": 6563,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -21807,6 +22257,16 @@
           "date": "2026-04-11T03:55:06.707Z",
           "prices": {
             "inside": 2834,
+            "oceanview": 3325,
+            "balcony": 4679,
+            "suite": 5480,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 1146,
             "oceanview": 3325,
             "balcony": 4679,
             "suite": 5480,
@@ -22123,6 +22583,16 @@
           "date": "2026-04-11T03:55:06.707Z",
           "prices": {
             "inside": 2713,
+            "oceanview": 3186,
+            "balcony": 4576,
+            "suite": 5503,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 1698,
             "oceanview": 3186,
             "balcony": 4576,
             "suite": 5503,
@@ -22516,6 +22986,16 @@
             "suite": 4350,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 2334,
+            "oceanview": 2518,
+            "balcony": 3486,
+            "suite": 4350,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -22681,6 +23161,16 @@
           "date": "2026-04-11T03:55:06.707Z",
           "prices": {
             "inside": 2628,
+            "oceanview": 3029,
+            "balcony": 4367,
+            "suite": 5096,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 1189,
             "oceanview": 3029,
             "balcony": 4367,
             "suite": 5096,
@@ -22992,6 +23482,16 @@
             "suite": 5032,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 1121,
+            "oceanview": 2846,
+            "balcony": 4024,
+            "suite": 5032,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -23287,6 +23787,16 @@
           "date": "2026-04-11T03:55:06.707Z",
           "prices": {
             "inside": 2232,
+            "oceanview": 2639,
+            "balcony": 3978,
+            "suite": 5148,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 1093,
             "oceanview": 2639,
             "balcony": 3978,
             "suite": 5148,
@@ -23641,6 +24151,16 @@
             "suite": 4694,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 1149,
+            "oceanview": 2258,
+            "balcony": 3434,
+            "suite": 4694,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -23942,6 +24462,16 @@
           "date": "2026-04-11T03:55:06.707Z",
           "prices": {
             "inside": 2620,
+            "oceanview": 3117,
+            "balcony": 4141,
+            "suite": 5428,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 1153,
             "oceanview": 3117,
             "balcony": 4141,
             "suite": 5428,
@@ -24295,6 +24825,16 @@
             "suite": 6771,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 1219,
+            "oceanview": 3584,
+            "balcony": 5169,
+            "suite": 6771,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -24574,14 +25114,14 @@
       "nights": 13,
       "days": 14,
       "cabinPrices": {
-        "inside": 3095,
+        "inside": 2947,
         "oceanview": 2947,
         "balcony": 4283,
         "suite": 5588,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 238,
+        "inside": 227,
         "oceanview": 227,
         "balcony": 329,
         "suite": 430
@@ -24594,13 +25134,13 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 66,
+        "inside": 68,
         "oceanview": 66,
         "balcony": 65,
         "suite": 65
       },
       "valueScores": {
-        "inside": 86,
+        "inside": 87,
         "oceanview": 67,
         "balcony": 62,
         "suite": 80
@@ -24650,6 +25190,16 @@
           "date": "2026-04-11T03:55:06.707Z",
           "prices": {
             "inside": 3095,
+            "oceanview": 2947,
+            "balcony": 4283,
+            "suite": 5588,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 2947,
             "oceanview": 2947,
             "balcony": 4283,
             "suite": 5588,
@@ -25175,6 +25725,16 @@
             "suite": 3246,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 1716,
+            "oceanview": 1746,
+            "balcony": 2976,
+            "suite": 3246,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -25434,6 +25994,16 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 3519,
+            "oceanview": 1303,
+            "balcony": 1726,
+            "suite": 2754,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 3519,
             "oceanview": 1303,
@@ -25849,6 +26419,16 @@
             "suite": 8759,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 2404,
+            "oceanview": 4959,
+            "balcony": 6759,
+            "suite": 8759,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -26139,6 +26719,16 @@
             "suite": 2255,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 2277,
+            "oceanview": 1078,
+            "balcony": 1404,
+            "suite": 2255,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -26404,6 +26994,16 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 4639,
+            "oceanview": 2495,
+            "balcony": 3534,
+            "suite": 4584,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 4639,
             "oceanview": 2495,
@@ -26773,6 +27373,16 @@
             "suite": 3429,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 1799,
+            "oceanview": 2079,
+            "balcony": 2669,
+            "suite": 3429,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -26954,6 +27564,16 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 2334,
+            "oceanview": 4599,
+            "balcony": 6279,
+            "suite": 7719,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 2334,
             "oceanview": 4599,
@@ -27184,6 +27804,16 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 3043,
+            "oceanview": 3109,
+            "balcony": 3909,
+            "suite": 5539,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 3043,
             "oceanview": 3109,
@@ -27505,6 +28135,16 @@
             "suite": 3889,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 4304,
+            "oceanview": 2230,
+            "balcony": 2887,
+            "suite": 3889,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -27571,6 +28211,13 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 5849,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 5849,
             "currency": "USD"
@@ -27789,6 +28436,13 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 1819,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 1819,
             "currency": "USD"
@@ -28116,6 +28770,16 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 2453,
+            "oceanview": 5499,
+            "balcony": 7019,
+            "suite": 8939,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 2453,
             "oceanview": 5499,
@@ -29545,6 +30209,15 @@
             "balcony": 1223,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 303,
+            "oceanview": 713,
+            "balcony": 1223,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -30230,6 +30903,16 @@
             "suite": 1294,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 1928,
+            "oceanview": 815,
+            "balcony": 888,
+            "suite": 1294,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -30838,6 +31521,13 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 2639,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 2639,
             "currency": "USD"
@@ -31555,6 +32245,16 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 3786,
+            "oceanview": 2889,
+            "balcony": 3541,
+            "suite": 9273,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 3786,
             "oceanview": 2889,
@@ -35276,6 +35976,16 @@
             "suite": 7908,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 1941,
+            "oceanview": 4738,
+            "balcony": 6498,
+            "suite": 7908,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -35645,6 +36355,16 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 4343,
+            "oceanview": 7086,
+            "balcony": 5018,
+            "suite": 7888,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 4343,
             "oceanview": 7086,
@@ -36059,6 +36779,16 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 4853,
+            "oceanview": 2626,
+            "balcony": 2939,
+            "suite": 4189,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 4853,
             "oceanview": 2626,
@@ -36523,6 +37253,16 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 1939,
+            "oceanview": 5738,
+            "balcony": 6644,
+            "suite": 8664,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 1939,
             "oceanview": 5738,
@@ -37024,6 +37764,16 @@
             "suite": 3849,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 1840,
+            "oceanview": 4927,
+            "balcony": 6188,
+            "suite": 3849,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -37178,6 +37928,13 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 5611,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 5611,
             "currency": "USD"
@@ -37601,6 +38358,16 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 5270,
+            "oceanview": 2892,
+            "balcony": 4291,
+            "suite": 12582,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 5270,
             "oceanview": 2892,
@@ -38503,6 +39270,13 @@
             "inside": 5798,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 5798,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -39371,6 +40145,13 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 2789,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 2789,
             "currency": "USD"
@@ -40703,6 +41484,13 @@
             "inside": 3749,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 3749,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -41217,6 +42005,16 @@
             "suite": 3819,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 3879,
+            "oceanview": 2100,
+            "balcony": 2757,
+            "suite": 3819,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -41440,6 +42238,16 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 1848,
+            "oceanview": 2469,
+            "balcony": 2820,
+            "suite": 5175,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 1848,
             "oceanview": 2469,
@@ -42279,6 +43087,16 @@
             "suite": 5291,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 2238,
+            "oceanview": 2531,
+            "balcony": 3388,
+            "suite": 5291,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -42954,6 +43772,16 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 2899,
+            "oceanview": 4899,
+            "balcony": 6389,
+            "suite": 8159,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 2899,
             "oceanview": 4899,
@@ -44266,6 +45094,16 @@
             "suite": 11989,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 2060,
+            "oceanview": 6769,
+            "balcony": 9049,
+            "suite": 11989,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -44477,6 +45315,16 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 2263,
+            "oceanview": 2322,
+            "balcony": 2593,
+            "suite": 5513,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 2263,
             "oceanview": 2322,
@@ -44840,6 +45688,16 @@
             "suite": 8999,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 6643,
+            "oceanview": 4699,
+            "balcony": 6599,
+            "suite": 8999,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -45146,6 +46004,16 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 2393,
+            "oceanview": 2265,
+            "balcony": 2534,
+            "suite": 5471,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 2393,
             "oceanview": 2265,
@@ -45480,6 +46348,16 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 2531,
+            "oceanview": 2377,
+            "balcony": 2651,
+            "suite": 5238,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 2531,
             "oceanview": 2377,
@@ -45999,6 +46877,16 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 3599,
+            "oceanview": 3999,
+            "balcony": 4989,
+            "suite": 13729,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 3599,
             "oceanview": 3999,
@@ -47163,6 +48051,16 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 2624,
+            "oceanview": 1159,
+            "balcony": 1559,
+            "suite": 2459,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 2624,
             "oceanview": 1159,
@@ -48368,6 +49266,16 @@
             "suite": 7559,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 1873,
+            "oceanview": 4099,
+            "balcony": 5489,
+            "suite": 7559,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -49229,6 +50137,16 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 2769,
+            "oceanview": 6984,
+            "balcony": 8620,
+            "suite": 16695,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 2769,
             "oceanview": 6984,
@@ -53551,6 +54469,15 @@
             "suite": 5509,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
+          "prices": {
+            "inside": 3375,
+            "balcony": 5469,
+            "suite": 5509,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -53982,6 +54909,15 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 1781,
+            "balcony": 2369,
+            "suite": 4949,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 1781,
             "balcony": 2369,
@@ -55867,6 +56803,16 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 1523,
+            "oceanview": 4068,
+            "balcony": 4598,
+            "suite": 6668,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 1523,
             "oceanview": 4068,
@@ -64555,6 +65501,16 @@
         },
         {
           "date": "2026-04-11T03:55:06.707Z",
+          "prices": {
+            "inside": 4063,
+            "oceanview": 4889,
+            "balcony": 8894,
+            "suite": 2989,
+            "currency": "USD"
+          }
+        },
+        {
+          "date": "2026-04-11T05:12:44.002Z",
           "prices": {
             "inside": 4063,
             "oceanview": 4889,
