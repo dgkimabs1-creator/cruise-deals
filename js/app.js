@@ -95,6 +95,8 @@
     currencyMode: 'USD',
     theme: 'dark',
     compareSelection: [],
+    page: 1,
+    pageSize: 50,
     filtersCollapsed: false,
     filters: cloneFilters(DEFAULT_FILTERS),
     initialized: false,
@@ -253,6 +255,7 @@
 
     element.addEventListener(eventName, function (event) {
       state.filters[key] = normalizeFilterValue(event.target.value);
+      state.page = 1;
       applyStateAndRender();
     });
   }
@@ -998,11 +1001,48 @@
     if (!cruises.length) {
       renderEmptyTable(state.loadError ? '데이터를 불러오지 못했습니다.' : '조건에 맞는 크루즈가 없습니다.');
       renderCardEmptyState(state.loadError ? '데이터를 불러오지 못했습니다.' : '조건에 맞는 크루즈가 없습니다.');
+      renderPagination(0);
       return;
     }
 
-    dom.cruiseTable.innerHTML = cruises.map(renderTableRow).join('');
-    dom.cruiseCards.innerHTML = cruises.map(renderCruiseCard).join('');
+    var totalPages = Math.ceil(cruises.length / state.pageSize);
+    if (state.page > totalPages) state.page = totalPages;
+    if (state.page < 1) state.page = 1;
+    var start = (state.page - 1) * state.pageSize;
+    var pageCruises = cruises.slice(start, start + state.pageSize);
+
+    dom.cruiseTable.innerHTML = pageCruises.map(renderTableRow).join('');
+    dom.cruiseCards.innerHTML = pageCruises.map(renderCruiseCard).join('');
+    renderPagination(cruises.length);
+  }
+
+  function renderPagination(total) {
+    var existing = root.document.getElementById('paginationBar');
+    if (existing) existing.remove();
+    if (total <= state.pageSize) return;
+
+    var totalPages = Math.ceil(total / state.pageSize);
+    var html = '<div id="paginationBar" class="pagination-bar">';
+    html += '<button type="button" class="page-btn" data-page="prev"' + (state.page <= 1 ? ' disabled' : '') + '>◀ 이전</button>';
+    html += '<span class="page-info">' + state.page + ' / ' + totalPages + ' (' + total + '개)</span>';
+    html += '<button type="button" class="page-btn" data-page="next"' + (state.page >= totalPages ? ' disabled' : '') + '>다음 ▶</button>';
+    html += '</div>';
+
+    var listPanel = root.document.getElementById('listPanel');
+    if (listPanel) listPanel.insertAdjacentHTML('beforeend', html);
+
+    var bar = root.document.getElementById('paginationBar');
+    if (bar) {
+      bar.addEventListener('click', function (e) {
+        var btn = e.target.closest('.page-btn');
+        if (!btn || btn.disabled) return;
+        var action = btn.getAttribute('data-page');
+        if (action === 'prev' && state.page > 1) state.page--;
+        else if (action === 'next' && state.page < totalPages) state.page++;
+        applyStateAndRender();
+        root.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
   }
 
   function getCabinFilteredPrice(cruise) {
