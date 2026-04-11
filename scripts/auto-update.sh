@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 # 크루즈 데이터 자동 갱신 + GitHub push
 # zmfnwm 크론 후에 실행
 

@@ -320,6 +320,7 @@
     let currentFilter = 'all';
     let currentSort = 'price-asc';
     let sortDirection = {}; // track toggle per column
+    let currentChart = null;
 
     function esc(str) {
       if (!str) return '';
@@ -531,7 +532,11 @@
 
     function buildItinTooltip(c) {
       if (!c.stopPorts || c.stopPorts.length === 0) {
-        return `<div class="itin-tooltip"><h4>🚢 ${c.itinerary || '일정 없음'}</h4></div>`;
+        return `<div class="itin-tooltip"><h4>🚢 ${esc(c.itinerary) || '일정 없음'}</h4></div>`;
+      }
+      const hasDateInfo = c.stopPorts.some(p => p.date);
+      if (!hasDateInfo) {
+        return `<div class="itin-tooltip"><h4>🚢 ${esc(c.itinerary) || '일정 없음'}</h4></div>`;
       }
       let rows = '';
       for (const p of c.stopPorts) {
@@ -678,6 +683,7 @@
       document.getElementById('modal').classList.add('show');
 
       // Draw price chart
+      if (currentChart) { currentChart.destroy(); currentChart = null; }
       if (c.priceHistory && c.priceHistory.length > 1) {
         const ctx = document.getElementById('priceChart');
         if (ctx && typeof Chart !== 'undefined') {
@@ -699,7 +705,7 @@
               });
             }
           }
-          new Chart(ctx, {
+          currentChart = new Chart(ctx, {
             type: 'line',
             data: { labels, datasets },
             options: {
