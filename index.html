@@ -358,9 +358,36 @@
       return vals.length > 0 ? Math.max(...vals) : 0;
     }
 
+    const PORT_ALIASES = {
+      'busan': ['busan', '부산', 'pus', 'pusan'],
+      '부산': ['busan', '부산', 'pus', 'pusan'],
+      'tokyo': ['tokyo', '도쿄', '東京', 'koto city'],
+      '도쿄': ['tokyo', '도쿄', '東京', 'koto city'],
+      'osaka': ['osaka', '오사카', '大阪'],
+      '오사카': ['osaka', '오사카', '大阪'],
+      'jeju': ['jeju', '제주', 'gangjeong'],
+      '제주': ['jeju', '제주', 'gangjeong'],
+      'shanghai': ['shanghai', '상하이', '上海'],
+      '상하이': ['shanghai', '상하이', '上海'],
+      'fukuoka': ['fukuoka', '후쿠오카'],
+      '후쿠오카': ['fukuoka', '후쿠오카'],
+      'incheon': ['incheon', '인천'],
+      '인천': ['incheon', '인천'],
+      'seoul': ['seoul', '서울', 'incheon', '인천'],
+      'sasebo': ['sasebo', '사세보'],
+      '사세보': ['sasebo', '사세보'],
+    };
+
     function matchText(text, query) {
       if (!query) return true;
-      return (text || '').toLowerCase().includes(query.toLowerCase());
+      const lower = (text || '').toLowerCase();
+      const q = query.toLowerCase().trim();
+      // 직접 매칭
+      if (lower.includes(q)) return true;
+      // 별칭 매칭
+      const aliases = PORT_ALIASES[q];
+      if (aliases) return aliases.some(a => lower.includes(a));
+      return false;
     }
 
     function filterCruises(list) {
