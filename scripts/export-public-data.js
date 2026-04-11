@@ -10,6 +10,7 @@ const path = require('path');
 
 const SOURCE = path.resolve(__dirname, '../../zmfnwm/src/storage/data/cruises.json');
 const LINE_PRICES = path.resolve(__dirname, '../../zmfnwm/src/storage/data/lineprices.json');
+const SHIP_PHOTOS = path.resolve(__dirname, '../../zmfnwm/cruise_ship_photos.json');
 const DEST = path.resolve(__dirname, '../data/cruises-public.json');
 
 function run() {
@@ -19,6 +20,14 @@ function run() {
   // lineprices for deal scores
   let linePrices = {};
   try { linePrices = JSON.parse(fs.readFileSync(LINE_PRICES, 'utf8')); } catch (e) {}
+
+  // ship photos
+  let shipPhotos = [];
+  try { shipPhotos = JSON.parse(fs.readFileSync(SHIP_PHOTOS, 'utf8')); } catch (e) {}
+  const shipPhotoMap = {};
+  for (const sp of shipPhotos) {
+    shipPhotoMap[sp.shipName.toLowerCase()] = sp;
+  }
 
   const publicList = [];
 
@@ -76,6 +85,10 @@ function run() {
       discountPct: c.discountPct || 0,
       bookingUrl: c.bookingUrl || '',
       itineraryImageUrl: c.itineraryImageUrl || null,
+      shipPhotos: shipPhotoMap[(c.shipName || '').toLowerCase()] ? {
+        exterior: shipPhotoMap[(c.shipName || '').toLowerCase()].exteriorImage || null,
+        cabins: shipPhotoMap[(c.shipName || '').toLowerCase()].cabinImages || {},
+      } : null,
       isBusanRelated: !!c.isBusanRelated,
       source: c.source || '',
       dealScores,

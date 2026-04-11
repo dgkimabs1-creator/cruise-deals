@@ -505,6 +505,24 @@
       return '$' + val.toLocaleString();
     }
 
+    function buildCabinPhotos(c) {
+      if (!c.shipPhotos || !c.shipPhotos.cabins) return '';
+      const cabins = c.shipPhotos.cabins;
+      const labels = { inside: '내측', oceanview: '바다전망', balcony: '발코니', suite: '스위트' };
+      let html = '<h3>🛏 객실 사진</h3><div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;">';
+      for (const [type, label] of Object.entries(labels)) {
+        const imgs = cabins[type];
+        if (!imgs || imgs.length === 0) continue;
+        html += `<div style="flex:1;min-width:140px;"><div style="font-size:0.8em;color:var(--muted);margin-bottom:4px;">${label}</div>`;
+        for (const url of imgs) {
+          html += `<img src="${safeUrl(url)}" alt="${label}" style="width:100%;border-radius:6px;margin-bottom:4px;border:1px solid var(--border);cursor:pointer;" onclick="event.stopPropagation();window.open('${safeUrl(url)}','_blank')">`;
+        }
+        html += '</div>';
+      }
+      html += '</div>';
+      return html;
+    }
+
     function truncate(str, len) {
       if (!str) return '';
       return str.length > len ? str.substring(0, len) + '...' : str;
@@ -640,9 +658,11 @@
         <div class="row"><span class="label">출발일</span><span>${esc(c.departureDate)} | ${c.nights}박${c.days}일</span></div>
         ${c.discountPct ? `<div class="row"><span class="label">할인</span><span class="discount">${c.discountPct}% (원가 $${(c.origPrice||0).toLocaleString()})</span></div>` : ''}
         <div class="row"><span class="label">출처</span><span>${esc(c.source) || '-'}</span></div>
+        ${c.shipPhotos && c.shipPhotos.exterior ? `<div style="text-align:center;margin:12px 0;"><img src="${safeUrl(c.shipPhotos.exterior)}" alt="${esc(c.shipName)}" style="max-width:100%;border-radius:8px;border:1px solid var(--border);"></div>` : ''}
         ${c.itineraryImageUrl ? `<div style="text-align:center;margin:12px 0;"><img src="${safeUrl(c.itineraryImageUrl)}" alt="일정 지도" style="max-width:100%;border-radius:8px;border:1px solid var(--border);"></div>` : ''}
         <h3>💰 객실별 가격</h3>
         ${priceRows || '<div class="row"><span>가격 정보 없음</span></div>'}
+        ${buildCabinPhotos(c)}
         ${itinHtml}
         ${historyHtml}
         <div style="text-align:center;">
