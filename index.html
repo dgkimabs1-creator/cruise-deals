@@ -23,80 +23,124 @@
       color: var(--text);
       line-height: 1.5;
     }
-    .container { max-width: 1200px; margin: 0 auto; padding: 16px; }
+    .container { max-width: 1400px; margin: 0 auto; padding: 16px; }
 
     /* Header */
     header {
       text-align: center;
-      padding: 32px 16px;
+      padding: 24px 16px;
       border-bottom: 1px solid var(--border);
-      margin-bottom: 24px;
+      margin-bottom: 16px;
     }
-    header h1 { font-size: 1.8em; margin-bottom: 8px; }
+    header h1 { font-size: 1.8em; margin-bottom: 6px; }
     header h1 span { color: var(--accent); }
-    header p { color: var(--muted); font-size: 0.95em; }
+    header p { color: var(--muted); font-size: 0.9em; }
     .stats {
-      display: flex; gap: 24px; justify-content: center;
-      margin-top: 16px; flex-wrap: wrap;
+      display: flex; gap: 16px; justify-content: center;
+      margin-top: 12px; flex-wrap: wrap;
     }
     .stat-box {
       background: var(--card); border: 1px solid var(--border);
-      border-radius: 8px; padding: 12px 20px; text-align: center;
+      border-radius: 8px; padding: 10px 16px; text-align: center;
     }
-    .stat-box .num { font-size: 1.5em; font-weight: bold; color: var(--accent); }
-    .stat-box .label { font-size: 0.8em; color: var(--muted); }
+    .stat-box .num { font-size: 1.4em; font-weight: bold; color: var(--accent); }
+    .stat-box .label { font-size: 0.75em; color: var(--muted); }
 
     /* Tabs */
-    .tabs {
-      display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap;
-    }
+    .tabs { display: flex; gap: 6px; margin-bottom: 12px; flex-wrap: wrap; }
     .tab {
-      padding: 8px 16px; border-radius: 6px; cursor: pointer;
+      padding: 6px 14px; border-radius: 6px; cursor: pointer;
       background: var(--card); border: 1px solid var(--border);
-      color: var(--muted); font-size: 0.9em; transition: all 0.2s;
+      color: var(--muted); font-size: 0.85em; transition: all 0.2s;
     }
     .tab.active, .tab:hover {
       background: var(--accent); color: var(--bg); border-color: var(--accent);
     }
 
-    /* Controls */
-    .controls {
-      display: flex; gap: 12px; margin-bottom: 16px; flex-wrap: wrap;
-      align-items: center;
-    }
-    .controls input, .controls select {
+    /* Filter Panel */
+    .filter-panel {
       background: var(--card); border: 1px solid var(--border);
-      color: var(--text); padding: 8px 12px; border-radius: 6px;
-      font-size: 0.9em;
+      border-radius: 8px; padding: 12px 16px; margin-bottom: 12px;
+      display: flex; gap: 12px; flex-wrap: wrap; align-items: flex-end;
     }
-    .controls input { flex: 1; min-width: 200px; }
-    .controls select { min-width: 120px; }
+    .filter-group { display: flex; flex-direction: column; gap: 4px; }
+    .filter-group label { font-size: 0.75em; color: var(--muted); text-transform: uppercase; }
+    .filter-group input, .filter-group select {
+      background: var(--bg); border: 1px solid var(--border);
+      color: var(--text); padding: 6px 10px; border-radius: 5px;
+      font-size: 0.85em;
+    }
+    .filter-group input { width: 140px; }
+    .filter-group .range-inputs { display: flex; gap: 4px; align-items: center; }
+    .filter-group .range-inputs input { width: 60px; }
+    .filter-group .range-inputs span { color: var(--muted); font-size: 0.8em; }
+    .filter-reset {
+      padding: 6px 12px; border-radius: 5px; cursor: pointer;
+      background: transparent; border: 1px solid var(--border);
+      color: var(--muted); font-size: 0.85em; align-self: flex-end;
+    }
+    .filter-reset:hover { border-color: var(--hot); color: var(--hot); }
+
+    /* Sort */
+    .sort-row {
+      display: flex; gap: 12px; margin-bottom: 10px; align-items: center; flex-wrap: wrap;
+    }
+    .sort-row select {
+      background: var(--card); border: 1px solid var(--border);
+      color: var(--text); padding: 6px 10px; border-radius: 5px; font-size: 0.85em;
+    }
+    .sort-row .result-count { color: var(--muted); font-size: 0.85em; margin-left: auto; }
 
     /* Table */
     .table-wrap { overflow-x: auto; }
-    table { width: 100%; border-collapse: collapse; font-size: 0.85em; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.82em; }
     th {
-      background: var(--card); color: var(--accent); padding: 10px 8px;
+      background: var(--card); color: var(--accent); padding: 8px 6px;
       text-align: left; cursor: pointer; white-space: nowrap;
       border-bottom: 2px solid var(--border); user-select: none;
-      position: sticky; top: 0; z-index: 1;
+      position: sticky; top: 0; z-index: 2;
     }
     th:hover { color: var(--gold); }
+    th.sorted-asc::after { content: ' ▲'; font-size: 0.7em; }
+    th.sorted-desc::after { content: ' ▼'; font-size: 0.7em; }
     td {
-      padding: 8px; border-bottom: 1px solid var(--border);
+      padding: 7px 6px; border-bottom: 1px solid var(--border);
       white-space: nowrap;
     }
     tr:hover td { background: rgba(79, 195, 247, 0.05); }
+    tr { cursor: pointer; }
+
+    /* Itinerary hover tooltip */
+    .itin-cell { position: relative; }
+    .itin-cell .itin-text { max-width: 200px; overflow: hidden; text-overflow: ellipsis; }
+    .itin-tooltip {
+      display: none; position: absolute; left: 0; top: 100%;
+      background: var(--card); border: 1px solid var(--accent);
+      border-radius: 8px; padding: 12px 16px; z-index: 50;
+      min-width: 320px; max-width: 450px; white-space: normal;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+    }
+    .itin-cell:hover .itin-tooltip { display: block; }
+    .itin-tooltip h4 { color: var(--accent); margin-bottom: 8px; font-size: 0.95em; }
+    .itin-tooltip .port-list { list-style: none; }
+    .itin-tooltip .port-list li {
+      padding: 3px 0; border-bottom: 1px solid var(--border);
+      display: flex; justify-content: space-between; font-size: 0.9em;
+    }
+    .itin-tooltip .port-list li:last-child { border-bottom: none; }
+    .itin-tooltip .port-name { color: var(--text); }
+    .itin-tooltip .port-date { color: var(--muted); font-size: 0.85em; }
+    .itin-tooltip .port-time { color: var(--gold); font-size: 0.8em; }
+    .itin-tooltip .sea-day { color: var(--muted); font-style: italic; }
 
     /* Scores */
-    .score { display: inline-block; padding: 2px 6px; border-radius: 4px; font-weight: bold; font-size: 0.85em; }
+    .score { display: inline-block; padding: 1px 5px; border-radius: 3px; font-weight: bold; font-size: 0.85em; }
     .score.hot3 { background: #c62828; color: #fff; }
     .score.hot2 { background: #e65100; color: #fff; }
     .score.hot1 { background: #1565c0; color: #fff; }
     .score.normal { color: var(--muted); }
 
-    .star { color: var(--gold); }
-    .busan-tag { background: var(--green); color: #000; padding: 1px 6px; border-radius: 3px; font-size: 0.8em; font-weight: bold; }
+    .busan-tag { background: var(--green); color: #000; padding: 1px 5px; border-radius: 3px; font-size: 0.75em; font-weight: bold; }
     .discount { color: var(--hot); font-weight: bold; }
     .price { color: var(--green); font-weight: bold; }
     .per-night { color: var(--muted); font-size: 0.85em; }
@@ -112,27 +156,35 @@
     .modal-overlay.show { display: flex; }
     .modal {
       background: var(--card); border: 1px solid var(--border);
-      border-radius: 12px; padding: 24px; max-width: 600px; width: 90%;
-      max-height: 80vh; overflow-y: auto;
+      border-radius: 12px; padding: 24px; max-width: 700px; width: 95%;
+      max-height: 85vh; overflow-y: auto;
     }
-    .modal h2 { margin-bottom: 12px; color: var(--accent); }
+    .modal h2 { margin-bottom: 12px; color: var(--accent); font-size: 1.1em; }
+    .modal h3 { margin-top: 16px; margin-bottom: 8px; color: var(--accent); font-size: 0.95em; }
     .modal .close { float: right; cursor: pointer; font-size: 1.5em; color: var(--muted); }
     .modal .close:hover { color: var(--text); }
-    .modal .row { display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid var(--border); }
-    .modal .row .label { color: var(--muted); }
-
-    /* Price history chart */
-    .chart-container { margin-top: 16px; }
+    .modal .row { display: flex; justify-content: space-between; padding: 5px 0; border-bottom: 1px solid var(--border); font-size: 0.9em; }
+    .modal .row .label { color: var(--muted); min-width: 80px; }
+    .modal .itinerary-detail { margin-top: 8px; }
+    .modal .itinerary-detail table { width: 100%; font-size: 0.85em; }
+    .modal .itinerary-detail th { background: var(--bg); padding: 4px 6px; font-size: 0.8em; position: static; }
+    .modal .itinerary-detail td { padding: 4px 6px; }
+    .modal .btn-book {
+      display: inline-block; padding: 10px 24px; background: var(--accent);
+      color: var(--bg); border-radius: 8px; font-weight: bold;
+      text-decoration: none; margin-top: 16px;
+    }
 
     .footer {
-      text-align: center; padding: 24px; color: var(--muted);
-      font-size: 0.8em; border-top: 1px solid var(--border); margin-top: 32px;
+      text-align: center; padding: 20px; color: var(--muted);
+      font-size: 0.75em; border-top: 1px solid var(--border); margin-top: 24px;
     }
 
     @media (max-width: 768px) {
-      .controls { flex-direction: column; }
-      .controls input { min-width: 100%; }
+      .filter-panel { flex-direction: column; }
+      .filter-group input { width: 100%; }
       header h1 { font-size: 1.3em; }
+      .itin-tooltip { min-width: 250px; left: -50px; }
     }
   </style>
 </head>
@@ -141,25 +193,67 @@
     <h1>🚢 크루즈 <span>특가</span></h1>
     <p>부산 출발 크루즈 + 아시아 특가 딜 한눈에 비교</p>
     <div class="stats">
-      <div class="stat-box"><div class="num" id="totalCount">-</div><div class="label">전체 크루즈</div></div>
+      <div class="stat-box"><div class="num" id="totalCount">-</div><div class="label">전체</div></div>
       <div class="stat-box"><div class="num" id="busanCount">-</div><div class="label">부산 출발</div></div>
       <div class="stat-box"><div class="num" id="dealCount">-</div><div class="label">50%+ 특가</div></div>
-      <div class="stat-box"><div class="num" id="updateTime">-</div><div class="label">마지막 업데이트</div></div>
+      <div class="stat-box"><div class="num" id="updateTime">-</div><div class="label">업데이트</div></div>
     </div>
   </header>
 
   <div class="container">
+    <!-- Tabs -->
     <div class="tabs">
       <div class="tab active" data-filter="all">전체</div>
       <div class="tab" data-filter="busan">부산 출발</div>
       <div class="tab" data-filter="deal80">80%+ 초특가</div>
       <div class="tab" data-filter="deal50">50%+ 특가</div>
       <div class="tab" data-filter="cheap">$100/박 이하</div>
-      <div class="tab" data-filter="luxury">럭셔리 (5⭐+)</div>
+      <div class="tab" data-filter="luxury">럭셔리 5⭐+</div>
     </div>
 
-    <div class="controls">
-      <input type="text" id="searchInput" placeholder="검색 (선사, 배, 일정, 항구...)">
+    <!-- Filter Panel -->
+    <div class="filter-panel">
+      <div class="filter-group">
+        <label>출발지</label>
+        <input type="text" id="filterDeparture" placeholder="예: Busan, Tokyo">
+      </div>
+      <div class="filter-group">
+        <label>도착지</label>
+        <input type="text" id="filterArrival" placeholder="예: Busan, Osaka">
+      </div>
+      <div class="filter-group">
+        <label>경유지</label>
+        <input type="text" id="filterStopover" placeholder="예: Jeju, Kagoshima">
+      </div>
+      <div class="filter-group">
+        <label>검색</label>
+        <input type="text" id="searchInput" placeholder="선사, 배, 일정..." style="width:160px">
+      </div>
+      <div class="filter-group">
+        <label>별점</label>
+        <div class="range-inputs">
+          <select id="filterStarMin">
+            <option value="">전체</option>
+            <option value="4.5">4.5+</option>
+            <option value="5">5+</option>
+            <option value="5.5">5.5+</option>
+            <option value="6">6</option>
+          </select>
+        </div>
+      </div>
+      <div class="filter-group">
+        <label>박수</label>
+        <div class="range-inputs">
+          <input type="number" id="filterNightsMin" placeholder="최소" min="1">
+          <span>~</span>
+          <input type="number" id="filterNightsMax" placeholder="최대" min="1">
+        </div>
+      </div>
+      <button class="filter-reset" onclick="resetFilters()">초기화</button>
+    </div>
+
+    <!-- Sort -->
+    <div class="sort-row">
       <select id="sortSelect">
         <option value="price-asc">가격 낮은순</option>
         <option value="price-desc">가격 높은순</option>
@@ -169,9 +263,14 @@
         <option value="deal-desc">딜스코어 높은순</option>
         <option value="value-desc">가성비 높은순</option>
         <option value="pernight-asc">박당가격 낮은순</option>
+        <option value="nights-asc">박수 짧은순</option>
+        <option value="nights-desc">박수 긴순</option>
+        <option value="rating-desc">별점 높은순</option>
       </select>
+      <span class="result-count" id="resultCount"></span>
     </div>
 
+    <!-- Table -->
     <div class="table-wrap">
       <table>
         <thead>
@@ -182,7 +281,9 @@
             <th data-sort="rating">⭐</th>
             <th data-sort="date">출발일</th>
             <th data-sort="nights">박</th>
-            <th data-sort="itinerary">일정</th>
+            <th data-sort="departure">출발지</th>
+            <th data-sort="arrival">도착지</th>
+            <th>일정</th>
             <th data-sort="inside">내측</th>
             <th data-sort="pernight">박당</th>
             <th data-sort="discount">할인</th>
@@ -194,7 +295,6 @@
         <tbody id="cruiseTable"></tbody>
       </table>
     </div>
-    <p style="text-align:center;margin-top:12px;color:var(--muted);font-size:0.85em;" id="resultCount"></p>
   </div>
 
   <!-- Detail Modal -->
@@ -214,6 +314,7 @@
     let allCruises = [];
     let currentFilter = 'all';
     let currentSort = 'price-asc';
+    let sortDirection = {}; // track toggle per column
 
     async function loadData() {
       try {
@@ -231,7 +332,7 @@
 
         render();
       } catch (e) {
-        document.getElementById('cruiseTable').innerHTML = '<tr><td colspan="13" style="text-align:center;padding:40px;">데이터 로딩 실패</td></tr>';
+        document.getElementById('cruiseTable').innerHTML = '<tr><td colspan="15" style="text-align:center;padding:40px;">데이터 로딩 실패</td></tr>';
       }
     }
 
@@ -244,37 +345,66 @@
     function getInsidePerNight(c) {
       if (!c.nights || c.nights <= 0) return Infinity;
       const price = (c.cabinPrices && c.cabinPrices.inside) || getLowestPrice(c);
-      return price / c.nights;
+      return price === Infinity ? Infinity : price / c.nights;
     }
 
-    function getBestDealScore(c) {
-      const s = c.dealScores || {};
-      const vals = Object.values(s);
+    function getBestScore(scores) {
+      if (!scores) return 0;
+      const vals = Object.values(scores);
       return vals.length > 0 ? Math.max(...vals) : 0;
     }
 
-    function getBestValueScore(c) {
-      const s = c.valueScores || {};
-      const vals = Object.values(s);
-      return vals.length > 0 ? Math.max(...vals) : 0;
+    function matchText(text, query) {
+      if (!query) return true;
+      return (text || '').toLowerCase().includes(query.toLowerCase());
     }
 
     function filterCruises(list) {
       const search = document.getElementById('searchInput').value.toLowerCase();
+      const depFilter = document.getElementById('filterDeparture').value;
+      const arrFilter = document.getElementById('filterArrival').value;
+      const stopFilter = document.getElementById('filterStopover').value;
+      const starMin = parseFloat(document.getElementById('filterStarMin').value) || 0;
+      const nightsMin = parseInt(document.getElementById('filterNightsMin').value) || 0;
+      const nightsMax = parseInt(document.getElementById('filterNightsMax').value) || Infinity;
+
       let filtered = list;
 
+      // Tab filter
       if (currentFilter === 'busan') filtered = filtered.filter(c => c.isBusanRelated);
       else if (currentFilter === 'deal80') filtered = filtered.filter(c => c.discountPct >= 80);
       else if (currentFilter === 'deal50') filtered = filtered.filter(c => c.discountPct >= 50);
       else if (currentFilter === 'cheap') filtered = filtered.filter(c => getInsidePerNight(c) < 100);
       else if (currentFilter === 'luxury') filtered = filtered.filter(c => c.shipRating && c.shipRating >= 5);
 
+      // Port filters
+      if (depFilter) filtered = filtered.filter(c => matchText(c.departurePort, depFilter));
+      if (arrFilter) filtered = filtered.filter(c => matchText(c.arrivalPort, arrFilter));
+      if (stopFilter) {
+        const q = stopFilter.toLowerCase();
+        filtered = filtered.filter(c => {
+          if (!c.stopPorts || c.stopPorts.length === 0) {
+            return (c.itinerary || '').toLowerCase().includes(q);
+          }
+          return c.stopPorts.some(p => (p.port || '').toLowerCase().includes(q));
+        });
+      }
+
+      // Star filter
+      if (starMin > 0) filtered = filtered.filter(c => c.shipRating && c.shipRating >= starMin);
+
+      // Nights filter
+      if (nightsMin > 0) filtered = filtered.filter(c => c.nights >= nightsMin);
+      if (nightsMax < Infinity) filtered = filtered.filter(c => c.nights <= nightsMax);
+
+      // Text search
       if (search) {
         filtered = filtered.filter(c =>
           (c.cruiseLine || '').toLowerCase().includes(search) ||
           (c.shipName || '').toLowerCase().includes(search) ||
           (c.itinerary || '').toLowerCase().includes(search) ||
           (c.departurePort || '').toLowerCase().includes(search) ||
+          (c.arrivalPort || '').toLowerCase().includes(search) ||
           (c.departureDate || '').includes(search) ||
           String(c.num).includes(search)
         );
@@ -290,9 +420,29 @@
         if (s === 'date-asc') return (a.departureDate || '').localeCompare(b.departureDate || '');
         if (s === 'date-desc') return (b.departureDate || '').localeCompare(a.departureDate || '');
         if (s === 'discount-desc') return (b.discountPct || 0) - (a.discountPct || 0);
-        if (s === 'deal-desc') return getBestDealScore(b) - getBestDealScore(a);
-        if (s === 'value-desc') return getBestValueScore(b) - getBestValueScore(a);
+        if (s === 'deal-desc') return getBestScore(b.dealScores) - getBestScore(a.dealScores);
+        if (s === 'value-desc') return getBestScore(b.valueScores) - getBestScore(a.valueScores);
         if (s === 'pernight-asc') return getInsidePerNight(a) - getInsidePerNight(b);
+        if (s === 'pernight-desc') return getInsidePerNight(b) - getInsidePerNight(a);
+        if (s === 'nights-asc') return (a.nights || 0) - (b.nights || 0);
+        if (s === 'nights-desc') return (b.nights || 0) - (a.nights || 0);
+        if (s === 'rating-desc') return (b.shipRating || 0) - (a.shipRating || 0);
+        if (s === 'rating-asc') return (a.shipRating || 0) - (b.shipRating || 0);
+        if (s === 'num-asc') return (a.num || 0) - (b.num || 0);
+        if (s === 'num-desc') return (b.num || 0) - (a.num || 0);
+        if (s === 'line-asc') return (a.cruiseLine || '').localeCompare(b.cruiseLine || '');
+        if (s === 'line-desc') return (b.cruiseLine || '').localeCompare(a.cruiseLine || '');
+        if (s === 'ship-asc') return (a.shipName || '').localeCompare(b.shipName || '');
+        if (s === 'ship-desc') return (b.shipName || '').localeCompare(a.shipName || '');
+        if (s === 'departure-asc') return (a.departurePort || '').localeCompare(b.departurePort || '');
+        if (s === 'departure-desc') return (b.departurePort || '').localeCompare(a.departurePort || '');
+        if (s === 'arrival-asc') return (a.arrivalPort || '').localeCompare(b.arrivalPort || '');
+        if (s === 'arrival-desc') return (b.arrivalPort || '').localeCompare(a.arrivalPort || '');
+        if (s === 'inside-asc') return getLowestPrice(a) - getLowestPrice(b);
+        if (s === 'inside-desc') return getLowestPrice(b) - getLowestPrice(a);
+        if (s === 'discount-asc') return (a.discountPct || 0) - (b.discountPct || 0);
+        if (s === 'deal-asc') return getBestScore(a.dealScores) - getBestScore(b.dealScores);
+        if (s === 'value-asc') return getBestScore(a.valueScores) - getBestScore(b.valueScores);
         return 0;
       });
     }
@@ -311,14 +461,35 @@
       return '$' + val.toLocaleString();
     }
 
-    function ratingStars(r) {
-      if (!r) return '-';
-      return '<span class="star">' + '⭐'.repeat(Math.min(Math.floor(r), 6)) + (r % 1 ? '½' : '') + '</span>';
-    }
-
     function truncate(str, len) {
       if (!str) return '';
       return str.length > len ? str.substring(0, len) + '...' : str;
+    }
+
+    function buildItinTooltip(c) {
+      if (!c.stopPorts || c.stopPorts.length === 0) {
+        return `<div class="itin-tooltip"><h4>🚢 ${c.itinerary || '일정 없음'}</h4></div>`;
+      }
+      let rows = '';
+      for (const p of c.stopPorts) {
+        const isSea = (p.port || '').toLowerCase().includes('at sea');
+        if (isSea) {
+          rows += `<li><span class="sea-day">🌊 ${p.date || ''} — 해상 항해</span></li>`;
+        } else {
+          const timeStr = [p.arrive ? '도착 ' + p.arrive : '', p.depart ? '출발 ' + p.depart : ''].filter(Boolean).join(' / ');
+          rows += `<li>
+            <span><span class="port-name">📍 ${p.port}</span></span>
+            <span><span class="port-date">${p.date || ''}</span> <span class="port-time">${timeStr}</span></span>
+          </li>`;
+        }
+      }
+      return `<div class="itin-tooltip">
+        <h4>🚢 전체 일정 (${c.nights}박${c.days}일)</h4>
+        <ul class="port-list">${rows}</ul>
+        <div style="margin-top:8px;text-align:center;">
+          <a href="${c.bookingUrl}" target="_blank" style="font-size:0.85em;" onclick="event.stopPropagation()">상세 페이지에서 지도 보기 →</a>
+        </div>
+      </div>`;
     }
 
     function render() {
@@ -329,25 +500,31 @@
       document.getElementById('resultCount').textContent = `${sorted.length}개 크루즈`;
 
       if (sorted.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="13" style="text-align:center;padding:40px;color:var(--muted);">결과 없음</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="15" style="text-align:center;padding:40px;color:var(--muted);">결과 없음</td></tr>';
         return;
       }
 
       tbody.innerHTML = sorted.map(c => {
         const lowest = getLowestPrice(c);
         const pn = c.perNight && c.perNight.inside ? c.perNight.inside : (c.nights > 0 && lowest < Infinity ? Math.round(lowest / c.nights) : null);
-        const bestDeal = getBestDealScore(c);
-        const bestValue = getBestValueScore(c);
+        const bestDeal = getBestScore(c.dealScores);
+        const bestValue = getBestScore(c.valueScores);
+        const stopCount = c.stopPorts ? c.stopPorts.filter(p => !(p.port || '').toLowerCase().includes('at sea')).length : 0;
 
-        return `<tr onclick="showDetail(${c.num})" style="cursor:pointer">
+        return `<tr onclick="showDetail(${c.num})">
           <td>${c.num || ''}</td>
-          <td>${c.cruiseLine || ''}</td>
-          <td>${truncate(c.shipName, 20)}</td>
+          <td>${truncate(c.cruiseLine, 15)}</td>
+          <td>${truncate(c.shipName, 18)}</td>
           <td>${c.shipRating ? c.shipRating + '⭐' : '-'}</td>
           <td>${c.departureDate || '-'}</td>
           <td>${c.nights || '-'}</td>
-          <td title="${c.itinerary || ''}">${truncate(c.itinerary, 30)} ${c.isBusanRelated ? '<span class="busan-tag">부산</span>' : ''}</td>
-          <td class="price">${formatPrice(c.cabinPrices && c.cabinPrices.inside ? c.cabinPrices.inside : lowest)}</td>
+          <td>${truncate(c.departurePort, 20)} ${c.isBusanRelated ? '<span class="busan-tag">부산</span>' : ''}</td>
+          <td>${truncate(c.arrivalPort, 20)}</td>
+          <td class="itin-cell">
+            <div class="itin-text">${stopCount > 0 ? stopCount + '곳 경유' : truncate(c.itinerary, 15)}</div>
+            ${buildItinTooltip(c)}
+          </td>
+          <td class="price">${formatPrice(c.cabinPrices && c.cabinPrices.inside ? c.cabinPrices.inside : (lowest < Infinity ? lowest : null))}</td>
           <td class="per-night">${pn ? '$' + pn + '/박' : '-'}</td>
           <td>${c.discountPct ? '<span class="discount">' + c.discountPct + '%</span>' : '-'}</td>
           <td>${scoreHtml(bestDeal || null)}</td>
@@ -371,33 +548,57 @@
         if (prices[type]) {
           priceRows += `<div class="row">
             <span class="label">${label}</span>
-            <span>$${prices[type].toLocaleString()} ${pn[type] ? '($' + pn[type] + '/박)' : ''} ${ds[type] ? '딜' + ds[type] : ''} ${vs[type] ? '가성비' + vs[type] : ''}</span>
+            <span class="price">$${prices[type].toLocaleString()}</span>
+            <span class="per-night">${pn[type] ? '$' + pn[type] + '/박' : ''}</span>
+            <span>${ds[type] ? scoreHtml(ds[type]) : ''} ${vs[type] ? scoreHtml(vs[type]) : ''}</span>
           </div>`;
         }
       }
 
+      // Itinerary table
+      let itinHtml = '';
+      if (c.stopPorts && c.stopPorts.length > 0) {
+        itinHtml = '<h3>🗺 전체 일정</h3><div class="itinerary-detail"><table><thead><tr><th>날짜</th><th>항구</th><th>도착</th><th>출발</th></tr></thead><tbody>';
+        for (const p of c.stopPorts) {
+          const isSea = (p.port || '').toLowerCase().includes('at sea');
+          itinHtml += `<tr${isSea ? ' style="color:var(--muted);font-style:italic"' : ''}>
+            <td>${p.date || ''}</td><td>${p.port || ''}</td>
+            <td>${p.arrive || '-'}</td><td>${p.depart || '-'}</td>
+          </tr>`;
+        }
+        itinHtml += '</tbody></table></div>';
+      }
+
+      // Price history
       let historyHtml = '';
       if (c.priceHistory && c.priceHistory.length > 1) {
-        historyHtml = '<h3 style="margin-top:16px;color:var(--accent);">가격 변동</h3>';
+        historyHtml = '<h3>📈 가격 변동</h3>';
         for (const h of c.priceHistory.slice(-10)) {
           const d = new Date(h.date).toLocaleString('ko-KR', { timeZone: 'Asia/Seoul', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
           const p = h.prices || {};
-          const vals = [p.inside, p.oceanview, p.balcony, p.suite].filter(v => v > 0).map(v => '$' + v.toLocaleString());
+          const vals = [
+            p.inside ? '내측 $' + p.inside.toLocaleString() : '',
+            p.oceanview ? '바다 $' + p.oceanview.toLocaleString() : '',
+            p.balcony ? '발코니 $' + p.balcony.toLocaleString() : '',
+            p.suite ? '스위트 $' + p.suite.toLocaleString() : '',
+          ].filter(Boolean);
           historyHtml += `<div class="row"><span class="label">${d}</span><span>${vals.join(' / ') || '-'}</span></div>`;
         }
       }
 
       document.getElementById('modalContent').innerHTML = `
-        <h2>#${c.num} ${c.cruiseLine} ${c.shipName} ${c.shipRating ? c.shipRating + '⭐' : ''}</h2>
-        <div class="row"><span class="label">일정</span><span>${c.itinerary || '-'}</span></div>
-        <div class="row"><span class="label">출발</span><span>${c.departureDate} | ${c.nights}박${c.days}일</span></div>
-        <div class="row"><span class="label">출발항</span><span>${c.departurePort || '-'}</span></div>
+        <h2>#${c.num} ${c.cruiseLine} — ${c.shipName} ${c.shipRating ? c.shipRating + '⭐' : ''}</h2>
+        <div class="row"><span class="label">출발지</span><span>${c.departurePort || '-'}</span></div>
+        <div class="row"><span class="label">도착지</span><span>${c.arrivalPort || '-'}</span></div>
+        <div class="row"><span class="label">출발일</span><span>${c.departureDate} | ${c.nights}박${c.days}일</span></div>
         ${c.discountPct ? `<div class="row"><span class="label">할인</span><span class="discount">${c.discountPct}% (원가 $${(c.origPrice||0).toLocaleString()})</span></div>` : ''}
-        <h3 style="margin-top:16px;color:var(--accent);">객실별 가격</h3>
+        <div class="row"><span class="label">출처</span><span>${c.source || '-'}</span></div>
+        <h3>💰 객실별 가격</h3>
         ${priceRows || '<div class="row"><span>가격 정보 없음</span></div>'}
+        ${itinHtml}
         ${historyHtml}
-        <div style="margin-top:16px;text-align:center;">
-          <a href="${c.bookingUrl}" target="_blank" style="display:inline-block;padding:10px 24px;background:var(--accent);color:var(--bg);border-radius:8px;font-weight:bold;text-decoration:none;">예약 페이지 →</a>
+        <div style="text-align:center;">
+          <a class="btn-book" href="${c.bookingUrl}" target="_blank">예약 페이지 →</a>
         </div>
       `;
       document.getElementById('modal').classList.add('show');
@@ -407,7 +608,21 @@
       document.getElementById('modal').classList.remove('show');
     }
 
-    // Event listeners
+    function resetFilters() {
+      document.getElementById('filterDeparture').value = '';
+      document.getElementById('filterArrival').value = '';
+      document.getElementById('filterStopover').value = '';
+      document.getElementById('searchInput').value = '';
+      document.getElementById('filterStarMin').value = '';
+      document.getElementById('filterNightsMin').value = '';
+      document.getElementById('filterNightsMax').value = '';
+      currentFilter = 'all';
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      document.querySelector('.tab[data-filter="all"]').classList.add('active');
+      render();
+    }
+
+    // Tab clicks
     document.querySelectorAll('.tab').forEach(tab => {
       tab.addEventListener('click', () => {
         document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
@@ -417,34 +632,42 @@
       });
     });
 
-    document.getElementById('searchInput').addEventListener('input', render);
+    // Filter inputs
+    ['searchInput', 'filterDeparture', 'filterArrival', 'filterStopover', 'filterStarMin', 'filterNightsMin', 'filterNightsMax'].forEach(id => {
+      document.getElementById(id).addEventListener('input', render);
+      document.getElementById(id).addEventListener('change', render);
+    });
+
+    // Sort select
     document.getElementById('sortSelect').addEventListener('change', (e) => {
       currentSort = e.target.value;
       render();
     });
 
+    // Header column sort (toggle asc/desc)
+    document.querySelectorAll('th[data-sort]').forEach(th => {
+      th.addEventListener('click', () => {
+        const col = th.dataset.sort;
+        // Toggle direction
+        const prev = sortDirection[col] || 'asc';
+        const next = prev === 'asc' ? 'desc' : 'asc';
+        sortDirection[col] = next;
+        currentSort = `${col}-${next}`;
+
+        // Update visual
+        document.querySelectorAll('th').forEach(h => h.classList.remove('sorted-asc', 'sorted-desc'));
+        th.classList.add(`sorted-${next}`);
+
+        render();
+      });
+    });
+
+    // Modal close
     document.getElementById('modal').addEventListener('click', (e) => {
       if (e.target === document.getElementById('modal')) closeModal();
     });
-
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') closeModal();
-    });
-
-    // Header sort
-    document.querySelectorAll('th[data-sort]').forEach(th => {
-      th.addEventListener('click', () => {
-        const map = {
-          num: 'price-asc', line: 'price-asc', ship: 'price-asc',
-          rating: 'price-asc', date: 'date-asc', nights: 'price-asc',
-          itinerary: 'price-asc', inside: 'price-asc', pernight: 'pernight-asc',
-          discount: 'discount-desc', deal: 'deal-desc', value: 'value-desc',
-        };
-        const sortKey = map[th.dataset.sort] || 'price-asc';
-        document.getElementById('sortSelect').value = sortKey;
-        currentSort = sortKey;
-        render();
-      });
     });
 
     loadData();

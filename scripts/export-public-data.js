@@ -42,14 +42,31 @@ function run() {
     const dealScores = calcDealScores(c, linePrices);
     const valueScores = calcValueScores(c, linePrices);
 
+    // 출발지/도착지 분리
+    const ports = (c.itinerary || '').split('→').map(s => s.trim());
+    const departurePort = ports[0] || c.departurePort || '';
+    const arrivalPort = ports.length > 1 ? ports[ports.length - 1] : departurePort;
+
+    // 경유지 (detailedItinerary에서 추출, 출발/도착 제외)
+    let stopPorts = [];
+    if (c.detailedItinerary && c.detailedItinerary.length > 0) {
+      stopPorts = c.detailedItinerary
+        .map(p => ({ port: p.port, date: p.date, arrive: p.arrive || '', depart: p.depart || '' }))
+        .filter(p => p.port && p.port !== 'At Sea');
+    } else if (ports.length > 2) {
+      stopPorts = ports.slice(1, -1).map(p => ({ port: p, date: '', arrive: '', depart: '' }));
+    }
+
     publicList.push({
       num: c.num,
       cruiseLine: c.cruiseLine || '',
       shipName: c.shipName || '',
       shipRating: c.shipRating || null,
       itinerary: c.itinerary || '',
+      departurePort,
+      arrivalPort,
+      stopPorts,
       departureDate: c.departureDate || '',
-      departurePort: c.departurePort || '',
       nights: c.nights || 0,
       days: c.days || 0,
       cabinPrices: sanitizePrices(c.cabinPrices),
