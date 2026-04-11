@@ -1300,7 +1300,8 @@ a:hover {
 
 .group-child-row {
   background: rgba(79, 195, 247, 0.08);
-  border-left: 3px solid var(--accent);
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
 }
 
 .pagination-bar {
