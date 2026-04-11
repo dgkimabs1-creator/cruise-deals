@@ -1,794 +1,281 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>크루즈 특가 — 부산 출발 크루즈 비교</title>
-  <style>
-    :root {
-      --bg: #0f1923;
-      --card: #1a2736;
-      --border: #2a3a4a;
-      --text: #e0e6ed;
-      --muted: #8899aa;
-      --accent: #4fc3f7;
-      --hot: #ff6b6b;
-      --gold: #ffd54f;
-      --green: #66bb6a;
-    }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.5;
-    }
-    .container { max-width: 1400px; margin: 0 auto; padding: 16px; }
-
-    /* Header */
-    header {
-      text-align: center;
-      padding: 24px 16px;
-      border-bottom: 1px solid var(--border);
-      margin-bottom: 16px;
-    }
-    header h1 { font-size: 1.8em; margin-bottom: 6px; }
-    header h1 span { color: var(--accent); }
-    header p { color: var(--muted); font-size: 0.9em; }
-    .stats {
-      display: flex; gap: 16px; justify-content: center;
-      margin-top: 12px; flex-wrap: wrap;
-    }
-    .stat-box {
-      background: var(--card); border: 1px solid var(--border);
-      border-radius: 8px; padding: 10px 16px; text-align: center;
-    }
-    .stat-box .num { font-size: 1.4em; font-weight: bold; color: var(--accent); }
-    .stat-box .label { font-size: 0.75em; color: var(--muted); }
-
-    /* Tabs */
-    .tabs { display: flex; gap: 6px; margin-bottom: 12px; flex-wrap: wrap; }
-    .tab {
-      padding: 6px 14px; border-radius: 6px; cursor: pointer;
-      background: var(--card); border: 1px solid var(--border);
-      color: var(--muted); font-size: 0.85em; transition: all 0.2s;
-    }
-    .tab.active, .tab:hover {
-      background: var(--accent); color: var(--bg); border-color: var(--accent);
-    }
-
-    /* Filter Panel */
-    .filter-panel {
-      background: var(--card); border: 1px solid var(--border);
-      border-radius: 8px; padding: 12px 16px; margin-bottom: 12px;
-      display: flex; gap: 12px; flex-wrap: wrap; align-items: flex-end;
-    }
-    .filter-group { display: flex; flex-direction: column; gap: 4px; }
-    .filter-group label { font-size: 0.75em; color: var(--muted); text-transform: uppercase; }
-    .filter-group input, .filter-group select {
-      background: var(--bg); border: 1px solid var(--border);
-      color: var(--text); padding: 6px 10px; border-radius: 5px;
-      font-size: 0.85em;
-    }
-    .filter-group input { width: 140px; }
-    .filter-group .range-inputs { display: flex; gap: 4px; align-items: center; }
-    .filter-group .range-inputs input { width: 60px; }
-    .filter-group .range-inputs span { color: var(--muted); font-size: 0.8em; }
-    .filter-reset {
-      padding: 6px 12px; border-radius: 5px; cursor: pointer;
-      background: transparent; border: 1px solid var(--border);
-      color: var(--muted); font-size: 0.85em; align-self: flex-end;
-    }
-    .filter-reset:hover { border-color: var(--hot); color: var(--hot); }
-
-    /* Sort */
-    .sort-row {
-      display: flex; gap: 12px; margin-bottom: 10px; align-items: center; flex-wrap: wrap;
-    }
-    .sort-row select {
-      background: var(--card); border: 1px solid var(--border);
-      color: var(--text); padding: 6px 10px; border-radius: 5px; font-size: 0.85em;
-    }
-    .sort-row .result-count { color: var(--muted); font-size: 0.85em; margin-left: auto; }
-
-    /* Table */
-    .table-wrap { overflow-x: auto; }
-    table { width: 100%; border-collapse: collapse; font-size: 0.82em; }
-    th {
-      background: var(--card); color: var(--accent); padding: 8px 6px;
-      text-align: left; cursor: pointer; white-space: nowrap;
-      border-bottom: 2px solid var(--border); user-select: none;
-      position: sticky; top: 0; z-index: 2;
-    }
-    th:hover { color: var(--gold); }
-    th.sorted-asc::after { content: ' ▲'; font-size: 0.7em; }
-    th.sorted-desc::after { content: ' ▼'; font-size: 0.7em; }
-    td {
-      padding: 7px 6px; border-bottom: 1px solid var(--border);
-      white-space: nowrap;
-    }
-    tr:hover td { background: rgba(79, 195, 247, 0.05); }
-    tr { cursor: pointer; }
-
-    /* Itinerary hover tooltip */
-    .itin-cell { position: relative; }
-    .itin-cell .itin-text { max-width: 200px; overflow: hidden; text-overflow: ellipsis; }
-    .itin-tooltip {
-      display: none; position: absolute; left: 0; top: 100%;
-      background: var(--card); border: 1px solid var(--accent);
-      border-radius: 8px; padding: 12px 16px; z-index: 50;
-      min-width: 320px; max-width: 450px; white-space: normal;
-      box-shadow: 0 8px 32px rgba(0,0,0,0.5);
-    }
-    .itin-cell:hover .itin-tooltip { display: block; }
-    .itin-tooltip h4 { color: var(--accent); margin-bottom: 8px; font-size: 0.95em; }
-    .itin-tooltip .port-list { list-style: none; }
-    .itin-tooltip .port-list li {
-      padding: 3px 0; border-bottom: 1px solid var(--border);
-      display: flex; justify-content: space-between; font-size: 0.9em;
-    }
-    .itin-tooltip .port-list li:last-child { border-bottom: none; }
-    .itin-tooltip .port-name { color: var(--text); }
-    .itin-tooltip .port-date { color: var(--muted); font-size: 0.85em; }
-    .itin-tooltip .port-time { color: var(--gold); font-size: 0.8em; }
-    .itin-tooltip .sea-day { color: var(--muted); font-style: italic; }
-
-    /* Scores */
-    .score { display: inline-block; padding: 1px 5px; border-radius: 3px; font-weight: bold; font-size: 0.85em; }
-    .score.hot3 { background: #c62828; color: #fff; }
-    .score.hot2 { background: #e65100; color: #fff; }
-    .score.hot1 { background: #1565c0; color: #fff; }
-    .score.normal { color: var(--muted); }
-
-    .busan-tag { background: var(--green); color: #000; padding: 1px 5px; border-radius: 3px; font-size: 0.75em; font-weight: bold; }
-    .discount { color: var(--hot); font-weight: bold; }
-    .price { color: var(--green); font-weight: bold; }
-    .per-night { color: var(--muted); font-size: 0.85em; }
-
-    a { color: var(--accent); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-
-    /* Detail modal */
-    .modal-overlay {
-      display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.7);
-      z-index: 100; justify-content: center; align-items: center;
-    }
-    .modal-overlay.show { display: flex; }
-    .modal {
-      background: var(--card); border: 1px solid var(--border);
-      border-radius: 12px; padding: 24px; max-width: 700px; width: 95%;
-      max-height: 85vh; overflow-y: auto;
-    }
-    .modal h2 { margin-bottom: 12px; color: var(--accent); font-size: 1.1em; }
-    .modal h3 { margin-top: 16px; margin-bottom: 8px; color: var(--accent); font-size: 0.95em; }
-    .modal .close { float: right; cursor: pointer; font-size: 1.5em; color: var(--muted); }
-    .modal .close:hover { color: var(--text); }
-    .modal .row { display: flex; justify-content: space-between; padding: 5px 0; border-bottom: 1px solid var(--border); font-size: 0.9em; }
-    .modal .row .label { color: var(--muted); min-width: 80px; }
-    .modal .itinerary-detail { margin-top: 8px; }
-    .modal .itinerary-detail table { width: 100%; font-size: 0.85em; }
-    .modal .itinerary-detail th { background: var(--bg); padding: 4px 6px; font-size: 0.8em; position: static; }
-    .modal .itinerary-detail td { padding: 4px 6px; }
-    .modal .btn-book {
-      display: inline-block; padding: 10px 24px; background: var(--accent);
-      color: var(--bg); border-radius: 8px; font-weight: bold;
-      text-decoration: none; margin-top: 16px;
-    }
-
-    .footer {
-      text-align: center; padding: 20px; color: var(--muted);
-      font-size: 0.75em; border-top: 1px solid var(--border); margin-top: 24px;
-    }
-
-    @media (max-width: 768px) {
-      .filter-panel { flex-direction: column; }
-      .filter-group input { width: 100%; }
-      header h1 { font-size: 1.3em; }
-      .itin-tooltip { min-width: 250px; left: -50px; }
-    }
-  </style>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+  <script defer src="js/utils.js"></script>
+  <script defer src="js/favorites.js"></script>
+  <script defer src="js/modal.js"></script>
+  <script defer src="js/calendar.js"></script>
+  <script defer src="js/app.js"></script>
 </head>
 <body>
-  <header>
-    <h1>🚢 크루즈 <span>특가</span></h1>
-    <p>부산 출발 크루즈 + 아시아 특가 딜 한눈에 비교</p>
-    <div class="stats">
-      <div class="stat-box"><div class="num" id="totalCount">-</div><div class="label">전체</div></div>
-      <div class="stat-box"><div class="num" id="busanCount">-</div><div class="label">부산 관련</div></div>
-      <div class="stat-box"><div class="num" id="dealCount">-</div><div class="label">50%+ 특가</div></div>
-      <div class="stat-box"><div class="num" id="updateTime">-</div><div class="label">업데이트</div></div>
-    </div>
-  </header>
-
-  <div class="container">
-    <!-- Tabs -->
-    <div class="tabs">
-      <div class="tab active" data-filter="all">전체</div>
-      <div class="tab" data-filter="busan">부산 관련</div>
-      <div class="tab" data-filter="deal80">80%+ 초특가</div>
-      <div class="tab" data-filter="deal50">50%+ 특가</div>
-      <div class="tab" data-filter="cheap">$100/박 이하</div>
-      <div class="tab" data-filter="luxury">럭셔리 5⭐+</div>
-    </div>
-
-    <!-- Filter Panel -->
-    <div class="filter-panel">
-      <div class="filter-group">
-        <label>크루즈 #</label>
-        <input type="number" id="filterNum" placeholder="번호" style="width:70px">
-      </div>
-      <div class="filter-group">
-        <label>출발지</label>
-        <input type="text" id="filterDeparture" placeholder="예: Busan, Tokyo">
-      </div>
-      <div class="filter-group">
-        <label>도착지</label>
-        <input type="text" id="filterArrival" placeholder="예: Busan, Osaka">
-      </div>
-      <div class="filter-group">
-        <label>경유지</label>
-        <input type="text" id="filterStopover" placeholder="예: Jeju, Kagoshima">
-      </div>
-      <div class="filter-group">
-        <label>검색</label>
-        <input type="text" id="searchInput" placeholder="선사, 배, 일정..." style="width:160px">
-      </div>
-      <div class="filter-group">
-        <label>별점</label>
-        <div class="range-inputs">
-          <select id="filterStarMin">
-            <option value="">전체</option>
-            <option value="4.5">4.5+</option>
-            <option value="5">5+</option>
-            <option value="5.5">5.5+</option>
-            <option value="6">6</option>
-          </select>
+  <div class="site-shell">
+    <header class="hero">
+      <div class="hero-top">
+        <div class="hero-copy">
+          <p class="eyebrow">부산 출발 + 아시아 특가 딜 큐레이션</p>
+          <h1>크루즈 <span>특가 비교</span></h1>
+          <p class="hero-subtitle">필터, 비교, 캘린더, 선사 분석까지 한 화면에서 보는 정적 크루즈 대시보드</p>
+        </div>
+        <div class="hero-actions">
+          <button type="button" class="top-button" id="currencyToggle">원화 보기</button>
+          <button type="button" class="top-button" id="themeToggle">라이트 모드</button>
         </div>
       </div>
-      <div class="filter-group">
-        <label>박수</label>
-        <div class="range-inputs">
-          <input type="number" id="filterNightsMin" placeholder="최소" min="1">
-          <span>~</span>
-          <input type="number" id="filterNightsMax" placeholder="최대" min="1">
+
+      <div class="stats-grid">
+        <div class="stat-box">
+          <div class="num" id="totalCount">-</div>
+          <div class="label">전체 크루즈</div>
+        </div>
+        <div class="stat-box">
+          <div class="num" id="busanCount">-</div>
+          <div class="label">부산 관련</div>
+        </div>
+        <div class="stat-box">
+          <div class="num" id="dealCount">-</div>
+          <div class="label">50%+ 특가</div>
+        </div>
+        <div class="stat-box">
+          <div class="num" id="favoriteCount">-</div>
+          <div class="label">즐겨찾기</div>
+        </div>
+        <div class="stat-box">
+          <div class="num" id="updateTime">-</div>
+          <div class="label">업데이트</div>
         </div>
       </div>
-      <button class="filter-reset" onclick="resetFilters()">초기화</button>
-    </div>
+    </header>
 
-    <!-- Sort -->
-    <div class="sort-row">
-      <select id="sortSelect">
-        <option value="price-asc">가격 낮은순</option>
-        <option value="price-desc">가격 높은순</option>
-        <option value="date-asc">출발일 빠른순</option>
-        <option value="date-desc">출발일 늦은순</option>
-        <option value="discount-desc">할인율 높은순</option>
-        <option value="deal-desc">딜스코어 높은순</option>
-        <option value="value-desc">가성비 높은순</option>
-        <option value="pernight-asc">박당가격 낮은순</option>
-        <option value="nights-asc">박수 짧은순</option>
-        <option value="nights-desc">박수 긴순</option>
-        <option value="rating-desc">별점 높은순</option>
-      </select>
-      <span class="result-count" id="resultCount"></span>
-    </div>
+    <main class="page">
+      <section class="panel top-panels">
+        <div class="panel-block">
+          <div class="panel-label">보기</div>
+          <div class="tab-row" id="viewTabs">
+            <button type="button" class="tab active" data-view="list">전체 목록</button>
+            <button type="button" class="tab" data-view="favorites">즐겨찾기</button>
+            <button type="button" class="tab" data-view="calendar">캘린더</button>
+            <button type="button" class="tab" data-view="lines">선사 분석</button>
+          </div>
+        </div>
+        <div class="panel-block">
+          <div class="panel-label">빠른 필터</div>
+          <div class="tab-row" id="quickTabs">
+            <button type="button" class="tab active" data-filter="all">전체</button>
+            <button type="button" class="tab" data-filter="busan">부산 관련</button>
+            <button type="button" class="tab" data-filter="deal80">80%+ 초특가</button>
+            <button type="button" class="tab" data-filter="deal50">50%+ 특가</button>
+            <button type="button" class="tab" data-filter="cheap">$100/박 이하</button>
+            <button type="button" class="tab" data-filter="luxury">럭셔리 5⭐+</button>
+          </div>
+        </div>
+      </section>
 
-    <!-- Table -->
-    <div class="table-wrap">
-      <table>
-        <thead>
-          <tr>
-            <th data-sort="num">#</th>
-            <th data-sort="line">선사</th>
-            <th data-sort="ship">배</th>
-            <th data-sort="rating">⭐</th>
-            <th data-sort="date">출발일</th>
-            <th data-sort="nights">박</th>
-            <th data-sort="departure">출발지</th>
-            <th data-sort="arrival">도착지</th>
-            <th>일정</th>
-            <th data-sort="inside">내측</th>
-            <th data-sort="pernight">박당</th>
-            <th data-sort="discount">할인</th>
-            <th data-sort="deal">딜</th>
-            <th data-sort="value">가성비</th>
-            <th>링크</th>
-          </tr>
-        </thead>
-        <tbody id="cruiseTable"></tbody>
-      </table>
-    </div>
+      <section class="panel filter-shell">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">조건 탐색</p>
+            <h2>세부 필터</h2>
+          </div>
+          <button type="button" class="filter-toggle" id="filterToggle" aria-expanded="true">필터 접기</button>
+        </div>
+
+        <div class="filter-panel" id="filterPanel">
+          <label class="filter-group">
+            <span>크루즈 #</span>
+            <input type="number" id="filterNum" placeholder="번호">
+          </label>
+          <label class="filter-group">
+            <span>검색</span>
+            <input type="text" id="searchInput" placeholder="선사, 선박, 일정">
+          </label>
+          <label class="filter-group">
+            <span>선사</span>
+            <select id="filterLine">
+              <option value="">전체 선사</option>
+            </select>
+          </label>
+          <label class="filter-group">
+            <span>출발 월</span>
+            <select id="filterMonth">
+              <option value="">전체 월</option>
+            </select>
+          </label>
+          <label class="filter-group">
+            <span>출발지</span>
+            <input type="text" id="filterDeparture" placeholder="예: 부산, 도쿄">
+          </label>
+          <label class="filter-group">
+            <span>도착지</span>
+            <input type="text" id="filterArrival" placeholder="예: 오사카, 상하이">
+          </label>
+          <label class="filter-group">
+            <span>목적지/경유지</span>
+            <input type="text" id="filterDestination" placeholder="예: 제주, 후쿠오카">
+          </label>
+          <label class="filter-group">
+            <span>박수 최소</span>
+            <input type="number" id="filterNightsMin" placeholder="최소">
+          </label>
+          <label class="filter-group">
+            <span>박수 최대</span>
+            <input type="number" id="filterNightsMax" placeholder="최대">
+          </label>
+          <label class="filter-group">
+            <span>가격 최소</span>
+            <input type="number" id="filterPriceMin" placeholder="USD 기준">
+          </label>
+          <label class="filter-group">
+            <span>가격 최대</span>
+            <input type="number" id="filterPriceMax" placeholder="USD 기준">
+          </label>
+          <label class="filter-group">
+            <span>별점</span>
+            <select id="filterStarMin">
+              <option value="">전체 별점</option>
+              <option value="4.5">4.5+</option>
+              <option value="5">5+</option>
+              <option value="5.5">5.5+</option>
+              <option value="6">6⭐</option>
+            </select>
+          </label>
+          <div class="filter-actions">
+            <button type="button" class="ghost-button" id="resetFiltersButton">필터 초기화</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel result-toolbar">
+        <div class="toolbar-main">
+          <label class="sort-group">
+            <span class="panel-label">정렬</span>
+            <select id="sortSelect">
+              <option value="price-asc">가격 낮은순</option>
+              <option value="price-desc">가격 높은순</option>
+              <option value="date-asc">출발일 빠른순</option>
+              <option value="date-desc">출발일 늦은순</option>
+              <option value="discount-desc">할인율 높은순</option>
+              <option value="deal-desc">딜스코어 높은순</option>
+              <option value="value-desc">가성비 높은순</option>
+              <option value="pernight-asc">박당가격 낮은순</option>
+              <option value="nights-asc">박수 짧은순</option>
+              <option value="nights-desc">박수 긴순</option>
+              <option value="rating-desc">별점 높은순</option>
+            </select>
+          </label>
+          <button type="button" class="action-button" id="compareButton" disabled>비교하기</button>
+        </div>
+        <div class="toolbar-meta">
+          <span id="resultCount">0개 크루즈</span>
+          <span id="selectedCount">비교 선택 0개</span>
+          <span id="currencyLabel">현재 통화: USD</span>
+        </div>
+      </section>
+
+      <section class="panel chart-panel" id="distributionPanel">
+        <div class="section-head compact">
+          <div>
+            <p class="section-kicker">Chart.js</p>
+            <h2>가격 분포</h2>
+          </div>
+        </div>
+        <canvas id="distributionChart" aria-label="가격 분포 차트"></canvas>
+      </section>
+
+      <section class="view-panel active" id="listPanel">
+        <div class="table-wrap">
+          <table class="cruise-table">
+            <thead>
+              <tr>
+                <th>비교</th>
+                <th>즐겨찾기</th>
+                <th data-sort="num">#</th>
+                <th data-sort="line">선사</th>
+                <th data-sort="ship">선박</th>
+                <th data-sort="rating">⭐</th>
+                <th data-sort="date">출발일</th>
+                <th data-sort="nights">박</th>
+                <th data-sort="departure">출발지</th>
+                <th data-sort="arrival">도착지</th>
+                <th>일정</th>
+                <th data-sort="inside">최저가</th>
+                <th data-sort="pernight">박당</th>
+                <th data-sort="discount">할인</th>
+                <th data-sort="deal">딜</th>
+                <th data-sort="value">가성비</th>
+                <th>링크</th>
+              </tr>
+            </thead>
+            <tbody id="cruiseTable"></tbody>
+          </table>
+        </div>
+        <div class="cruise-card-grid" id="cruiseCards"></div>
+      </section>
+
+      <section class="view-panel" id="calendarPanel">
+        <div id="calendarRoot"></div>
+      </section>
+
+      <section class="view-panel" id="lineAnalysisPanel">
+        <div class="analysis-hero">
+          <p class="section-kicker">인사이트</p>
+          <h2>선사 분석</h2>
+          <p>평균 박당가, 등록 수, 최저가를 기준으로 선사를 비교하고, 카드를 누르면 메인 목록으로 바로 필터링합니다.</p>
+        </div>
+        <div class="analysis-grid" id="lineAnalysisGrid"></div>
+      </section>
+    </main>
+
+    <section class="panel tips-shell">
+      <div class="section-head">
+        <div>
+          <p class="section-kicker">여행 준비</p>
+          <h2>크루즈 팁과 FAQ</h2>
+        </div>
+      </div>
+      <div class="tips-accordion" id="tipsAccordion">
+        <article class="tips-item">
+          <button type="button" class="tips-trigger" aria-expanded="false">승선 전 꼭 확인할 준비물</button>
+          <div class="tips-content">
+            <p>여권 만료일, 해외 결제 가능한 카드, 멀티 어댑터, 얇은 겉옷, 멀미약, eSIM 또는 로밍 설정을 출발 전날 다시 점검하세요.</p>
+          </div>
+        </article>
+        <article class="tips-item">
+          <button type="button" class="tips-trigger" aria-expanded="false">가성비 좋은 객실 고르는 법</button>
+          <div class="tips-content">
+            <p>박당가와 총액을 같이 보세요. 짧은 일정은 발코니 업그레이드 효율이 높고, 긴 일정은 내측 객실과 공용 라운지 조합이 전체 예산을 안정적으로 잡아줍니다.</p>
+          </div>
+        </article>
+        <article class="tips-item">
+          <button type="button" class="tips-trigger" aria-expanded="false">부산 출발 크루즈에서 자주 묻는 질문</button>
+          <div class="tips-content">
+            <p>부산 관련 태그가 붙은 일정은 실제 부산 출발, 부산 기항, 부산 인접 출발지를 포함합니다. 항만 이동 시간과 체크인 마감 시간을 함께 확인하세요.</p>
+          </div>
+        </article>
+        <article class="tips-item">
+          <button type="button" class="tips-trigger" aria-expanded="false">할인율이 높은데도 확인해야 할 것</button>
+          <div class="tips-content">
+            <p>할인율만 보지 말고 선실 등급, 세금 포함 여부, 취소 조건, 기항 횟수, 출발일까지 남은 기간을 같이 보세요. 초특가 일정은 객실 재고가 빠르게 바뀝니다.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>데이터 출처: cruisetmk.kr, cruisebooking.co.kr, vacationstogo.com</p>
+      <p>정적 사이트 | Chart.js 사용 | 가격은 세금 포함</p>
+    </footer>
   </div>
 
-  <!-- Detail Modal -->
-  <div class="modal-overlay" id="modal">
-    <div class="modal">
-      <span class="close" onclick="closeModal()">&times;</span>
+  <div class="modal-overlay" id="modalOverlay" aria-hidden="true">
+    <div class="modal-frame" role="dialog" aria-modal="true" aria-label="크루즈 상세 정보">
+      <button type="button" class="modal-close" id="modalClose" aria-label="닫기">×</button>
       <div id="modalContent"></div>
     </div>
   </div>
-
-  <div class="footer">
-    데이터 출처: cruisetmk.kr, cruisebooking.co.kr, vacationstogo.com<br>
-    매시 자동 업데이트 | 가격은 세금 포함
-  </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
-  <script>
-    let allCruises = [];
-    let currentFilter = 'all';
-    let currentSort = 'price-asc';
-    let sortDirection = {}; // track toggle per column
-    let currentChart = null;
-
-    function esc(str) {
-      if (!str) return '';
-      return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-    }
-    function safeUrl(url) {
-      if (!url) return '#';
-      try { const u = new URL(url); return ['http:','https:'].includes(u.protocol) ? url : '#'; } catch { return '#'; }
-    }
-
-    async function loadData() {
-      try {
-        const res = await fetch('data/cruises-public.json');
-        const data = await res.json();
-        allCruises = data.cruises;
-
-        document.getElementById('totalCount').textContent = data.count;
-        document.getElementById('busanCount').textContent = allCruises.filter(c => c.isBusanRelated).length;
-        document.getElementById('dealCount').textContent = allCruises.filter(c => c.discountPct >= 50).length;
-
-        const updated = new Date(data.exportedAt);
-        const kst = updated.toLocaleString('ko-KR', { timeZone: 'Asia/Seoul', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
-        document.getElementById('updateTime').textContent = kst;
-
-        render();
-      } catch (e) {
-        document.getElementById('cruiseTable').innerHTML = '<tr><td colspan="15" style="text-align:center;padding:40px;">데이터 로딩 실패</td></tr>';
-      }
-    }
-
-    function getLowestPrice(c) {
-      const p = c.cabinPrices || {};
-      const prices = [p.inside, p.oceanview, p.balcony, p.suite].filter(v => v > 0);
-      return prices.length > 0 ? Math.min(...prices) : Infinity;
-    }
-
-    function getInsidePerNight(c) {
-      if (!c.nights || c.nights <= 0) return Infinity;
-      const price = (c.cabinPrices && c.cabinPrices.inside) || getLowestPrice(c);
-      return price === Infinity ? Infinity : price / c.nights;
-    }
-
-    function getBestScore(scores) {
-      if (!scores) return 0;
-      const vals = Object.values(scores);
-      return vals.length > 0 ? Math.max(...vals) : 0;
-    }
-
-    const PORT_ALIASES = {
-      'busan': ['busan', '부산', 'pus', 'pusan'],
-      '부산': ['busan', '부산', 'pus', 'pusan'],
-      'tokyo': ['tokyo', '도쿄', '東京', 'koto city'],
-      '도쿄': ['tokyo', '도쿄', '東京', 'koto city'],
-      'osaka': ['osaka', '오사카', '大阪'],
-      '오사카': ['osaka', '오사카', '大阪'],
-      'jeju': ['jeju', '제주', 'gangjeong'],
-      '제주': ['jeju', '제주', 'gangjeong'],
-      'shanghai': ['shanghai', '상하이', '上海'],
-      '상하이': ['shanghai', '상하이', '上海'],
-      'fukuoka': ['fukuoka', '후쿠오카'],
-      '후쿠오카': ['fukuoka', '후쿠오카'],
-      'incheon': ['incheon', '인천'],
-      '인천': ['incheon', '인천'],
-      'seoul': ['seoul', '서울', 'incheon', '인천'],
-      'sasebo': ['sasebo', '사세보'],
-      '사세보': ['sasebo', '사세보'],
-    };
-
-    function matchText(text, query) {
-      if (!query) return true;
-      const lower = (text || '').toLowerCase();
-      const q = query.toLowerCase().trim();
-      // 직접 매칭
-      if (lower.includes(q)) return true;
-      // 별칭 매칭
-      const aliases = PORT_ALIASES[q];
-      if (aliases) return aliases.some(a => lower.includes(a));
-      return false;
-    }
-
-    function filterCruises(list) {
-      const search = document.getElementById('searchInput').value.toLowerCase();
-      const numFilter = parseInt(document.getElementById('filterNum').value) || 0;
-      const depFilter = document.getElementById('filterDeparture').value;
-      const arrFilter = document.getElementById('filterArrival').value;
-      const stopFilter = document.getElementById('filterStopover').value;
-      const starMin = parseFloat(document.getElementById('filterStarMin').value) || 0;
-      const nightsMin = parseInt(document.getElementById('filterNightsMin').value) || 0;
-      const nightsMax = parseInt(document.getElementById('filterNightsMax').value) || Infinity;
-
-      let filtered = list;
-
-      // Num filter
-      if (numFilter > 0) filtered = filtered.filter(c => c.num === numFilter);
-
-      // Tab filter
-      if (currentFilter === 'busan') filtered = filtered.filter(c => c.isBusanRelated);
-      else if (currentFilter === 'deal80') filtered = filtered.filter(c => c.discountPct >= 80);
-      else if (currentFilter === 'deal50') filtered = filtered.filter(c => c.discountPct >= 50);
-      else if (currentFilter === 'cheap') filtered = filtered.filter(c => getInsidePerNight(c) < 100);
-      else if (currentFilter === 'luxury') filtered = filtered.filter(c => c.shipRating && c.shipRating >= 5);
-
-      // Port filters
-      if (depFilter) filtered = filtered.filter(c => matchText(c.departurePort, depFilter));
-      if (arrFilter) filtered = filtered.filter(c => matchText(c.arrivalPort, arrFilter));
-      if (stopFilter) {
-        const q = stopFilter.toLowerCase();
-        filtered = filtered.filter(c => {
-          if (!c.stopPorts || c.stopPorts.length === 0) {
-            return (c.itinerary || '').toLowerCase().includes(q);
-          }
-          return c.stopPorts.some(p => (p.port || '').toLowerCase().includes(q));
-        });
-      }
-
-      // Star filter
-      if (starMin > 0) filtered = filtered.filter(c => c.shipRating && c.shipRating >= starMin);
-
-      // Nights filter
-      if (nightsMin > 0) filtered = filtered.filter(c => c.nights >= nightsMin);
-      if (nightsMax < Infinity) filtered = filtered.filter(c => c.nights <= nightsMax);
-
-      // Text search
-      if (search) {
-        filtered = filtered.filter(c =>
-          (c.cruiseLine || '').toLowerCase().includes(search) ||
-          (c.shipName || '').toLowerCase().includes(search) ||
-          (c.itinerary || '').toLowerCase().includes(search) ||
-          (c.departurePort || '').toLowerCase().includes(search) ||
-          (c.arrivalPort || '').toLowerCase().includes(search) ||
-          (c.departureDate || '').includes(search) ||
-          String(c.num).includes(search)
-        );
-      }
-      return filtered;
-    }
-
-    function sortCruises(list) {
-      const s = currentSort;
-      return [...list].sort((a, b) => {
-        if (s === 'price-asc') return getLowestPrice(a) - getLowestPrice(b);
-        if (s === 'price-desc') return getLowestPrice(b) - getLowestPrice(a);
-        if (s === 'date-asc') return (a.departureDate || '').localeCompare(b.departureDate || '');
-        if (s === 'date-desc') return (b.departureDate || '').localeCompare(a.departureDate || '');
-        if (s === 'discount-desc') return (b.discountPct || 0) - (a.discountPct || 0);
-        if (s === 'deal-desc') return getBestScore(b.dealScores) - getBestScore(a.dealScores);
-        if (s === 'value-desc') return getBestScore(b.valueScores) - getBestScore(a.valueScores);
-        if (s === 'pernight-asc') return getInsidePerNight(a) - getInsidePerNight(b);
-        if (s === 'pernight-desc') return getInsidePerNight(b) - getInsidePerNight(a);
-        if (s === 'nights-asc') return (a.nights || 0) - (b.nights || 0);
-        if (s === 'nights-desc') return (b.nights || 0) - (a.nights || 0);
-        if (s === 'rating-desc') return (b.shipRating || 0) - (a.shipRating || 0);
-        if (s === 'rating-asc') return (a.shipRating || 0) - (b.shipRating || 0);
-        if (s === 'num-asc') return (a.num || 0) - (b.num || 0);
-        if (s === 'num-desc') return (b.num || 0) - (a.num || 0);
-        if (s === 'line-asc') return (a.cruiseLine || '').localeCompare(b.cruiseLine || '');
-        if (s === 'line-desc') return (b.cruiseLine || '').localeCompare(a.cruiseLine || '');
-        if (s === 'ship-asc') return (a.shipName || '').localeCompare(b.shipName || '');
-        if (s === 'ship-desc') return (b.shipName || '').localeCompare(a.shipName || '');
-        if (s === 'departure-asc') return (a.departurePort || '').localeCompare(b.departurePort || '');
-        if (s === 'departure-desc') return (b.departurePort || '').localeCompare(a.departurePort || '');
-        if (s === 'arrival-asc') return (a.arrivalPort || '').localeCompare(b.arrivalPort || '');
-        if (s === 'arrival-desc') return (b.arrivalPort || '').localeCompare(a.arrivalPort || '');
-        if (s === 'inside-asc') return getLowestPrice(a) - getLowestPrice(b);
-        if (s === 'inside-desc') return getLowestPrice(b) - getLowestPrice(a);
-        if (s === 'discount-asc') return (a.discountPct || 0) - (b.discountPct || 0);
-        if (s === 'deal-asc') return getBestScore(a.dealScores) - getBestScore(b.dealScores);
-        if (s === 'value-asc') return getBestScore(a.valueScores) - getBestScore(b.valueScores);
-        return 0;
-      });
-    }
-
-    function scoreHtml(val) {
-      if (!val && val !== 0) return '<span class="score normal">-</span>';
-      let cls = 'normal';
-      if (val >= 80) cls = 'hot3';
-      else if (val >= 60) cls = 'hot2';
-      else if (val >= 40) cls = 'hot1';
-      return `<span class="score ${cls}">${val}</span>`;
-    }
-
-    function formatPrice(val) {
-      if (!val || val === Infinity) return '-';
-      return '$' + val.toLocaleString();
-    }
-
-    function buildCabinPhotos(c) {
-      if (!c.shipPhotos || !c.shipPhotos.cabins) return '';
-      const cabins = c.shipPhotos.cabins;
-      const labels = { inside: '내측', oceanview: '바다전망', balcony: '발코니', suite: '스위트' };
-      let html = '<h3>🛏 객실 사진</h3><div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;">';
-      for (const [type, label] of Object.entries(labels)) {
-        const imgs = cabins[type];
-        if (!imgs || imgs.length === 0) continue;
-        html += `<div style="flex:1;min-width:140px;"><div style="font-size:0.8em;color:var(--muted);margin-bottom:4px;">${label}</div>`;
-        for (const url of imgs) {
-          html += `<img src="${safeUrl(url)}" alt="${label}" style="width:100%;border-radius:6px;margin-bottom:4px;border:1px solid var(--border);cursor:pointer;" onclick="event.stopPropagation();window.open('${safeUrl(url)}','_blank')">`;
-        }
-        html += '</div>';
-      }
-      html += '</div>';
-      return html;
-    }
-
-    function truncate(str, len) {
-      if (!str) return '';
-      return str.length > len ? str.substring(0, len) + '...' : str;
-    }
-
-    function buildItinTooltip(c) {
-      if (!c.stopPorts || c.stopPorts.length === 0) {
-        return `<div class="itin-tooltip"><h4>🚢 ${esc(c.itinerary) || '일정 없음'}</h4></div>`;
-      }
-      const hasDateInfo = c.stopPorts.some(p => p.date);
-      if (!hasDateInfo) {
-        return `<div class="itin-tooltip"><h4>🚢 ${esc(c.itinerary) || '일정 없음'}</h4></div>`;
-      }
-      let rows = '';
-      for (const p of c.stopPorts) {
-        const isSea = (p.port || '').toLowerCase().includes('at sea');
-        if (isSea) {
-          rows += `<li><span class="sea-day">🌊 ${esc(p.date)} — 해상 항해</span></li>`;
-        } else {
-          const timeStr = [p.arrive ? '도착 ' + p.arrive : '', p.depart ? '출발 ' + p.depart : ''].filter(Boolean).join(' / ');
-          rows += `<li>
-            <span><span class="port-name">📍 ${esc(p.port)}</span></span>
-            <span><span class="port-date">${esc(p.date)}</span> <span class="port-time">${esc(timeStr)}</span></span>
-          </li>`;
-        }
-      }
-      return `<div class="itin-tooltip">
-        <h4>🚢 전체 일정 (${c.nights}박${c.days}일)</h4>
-        <ul class="port-list">${rows}</ul>
-        <div style="margin-top:8px;text-align:center;">
-          <a href="${safeUrl(c.bookingUrl)}" target="_blank" style="font-size:0.85em;" onclick="event.stopPropagation()">상세 페이지에서 지도 보기 →</a>
-        </div>
-      </div>`;
-    }
-
-    function render() {
-      const filtered = filterCruises(allCruises);
-      const sorted = sortCruises(filtered);
-      const tbody = document.getElementById('cruiseTable');
-
-      document.getElementById('resultCount').textContent = `${sorted.length}개 크루즈`;
-
-      if (sorted.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="15" style="text-align:center;padding:40px;color:var(--muted);">결과 없음</td></tr>';
-        return;
-      }
-
-      tbody.innerHTML = sorted.map(c => {
-        const lowest = getLowestPrice(c);
-        const pn = c.perNight && c.perNight.inside ? c.perNight.inside : (c.nights > 0 && lowest < Infinity ? Math.round(lowest / c.nights) : null);
-        const bestDeal = getBestScore(c.dealScores);
-        const bestValue = getBestScore(c.valueScores);
-        const stopCount = c.stopPorts ? c.stopPorts.filter(p => {
-          const port = (p.port || '').toLowerCase();
-          return !port.includes('at sea') && port !== (c.departurePort || '').toLowerCase() && port !== (c.arrivalPort || '').toLowerCase();
-        }).length : 0;
-
-        return `<tr onclick="showDetail(${c.num})">
-          <td>${c.num || ''}</td>
-          <td>${esc(truncate(c.cruiseLine, 15))}</td>
-          <td>${esc(truncate(c.shipName, 18))}</td>
-          <td>${c.shipRating ? c.shipRating + '⭐' : '-'}</td>
-          <td>${esc(c.departureDate) || '-'}</td>
-          <td>${c.nights || '-'}</td>
-          <td>${esc(truncate(c.departurePort, 20))} ${c.isBusanRelated ? '<span class="busan-tag">부산</span>' : ''}</td>
-          <td>${esc(truncate(c.arrivalPort, 20))}</td>
-          <td class="itin-cell">
-            <div class="itin-text">${stopCount > 0 ? stopCount + '곳 경유' : esc(truncate(c.itinerary, 15))}</div>
-            ${buildItinTooltip(c)}
-          </td>
-          <td class="price">${formatPrice(c.cabinPrices && c.cabinPrices.inside ? c.cabinPrices.inside : (lowest < Infinity ? lowest : null))}</td>
-          <td class="per-night">${pn ? '$' + pn + '/박' : '-'}</td>
-          <td>${c.discountPct ? '<span class="discount">' + c.discountPct + '%</span>' : '-'}</td>
-          <td>${scoreHtml(bestDeal || null)}</td>
-          <td>${scoreHtml(bestValue || null)}</td>
-          <td><a href="${safeUrl(c.bookingUrl)}" target="_blank" onclick="event.stopPropagation()">예약</a></td>
-        </tr>`;
-      }).join('');
-    }
-
-    function showDetail(num) {
-      const c = allCruises.find(x => x.num === num);
-      if (!c) return;
-
-      const prices = c.cabinPrices || {};
-      const pn = c.perNight || {};
-      const ds = c.dealScores || {};
-      const vs = c.valueScores || {};
-
-      let priceRows = '';
-      for (const [type, label] of [['inside','내측'], ['oceanview','바다전망'], ['balcony','발코니'], ['suite','스위트']]) {
-        if (prices[type]) {
-          priceRows += `<div class="row">
-            <span class="label">${label}</span>
-            <span class="price">$${prices[type].toLocaleString()}</span>
-            <span class="per-night">${pn[type] ? '$' + pn[type] + '/박' : ''}</span>
-            <span>${ds[type] ? scoreHtml(ds[type]) : ''} ${vs[type] ? scoreHtml(vs[type]) : ''}</span>
-          </div>`;
-        }
-      }
-
-      // Itinerary table or text
-      let itinHtml = '';
-      if (c.stopPorts && c.stopPorts.length > 0) {
-        const hasDateInfo = c.stopPorts.some(p => p.date);
-        if (hasDateInfo) {
-          itinHtml = '<h3>🗺 전체 일정</h3><div class="itinerary-detail"><table><thead><tr><th>날짜</th><th>항구</th><th>도착</th><th>출발</th></tr></thead><tbody>';
-          for (const p of c.stopPorts) {
-            const isSea = (p.port || '').toLowerCase().includes('at sea');
-            itinHtml += `<tr${isSea ? ' style="color:var(--muted);font-style:italic"' : ''}>
-              <td>${esc(p.date)}</td><td>${esc(p.port)}</td>
-              <td>${esc(p.arrive) || '-'}</td><td>${esc(p.depart) || '-'}</td>
-            </tr>`;
-          }
-          itinHtml += '</tbody></table></div>';
-        } else {
-          itinHtml = `<h3>🗺 경유지</h3><div style="color:var(--text);font-size:0.9em;padding:4px 0;">${esc(c.itinerary)}</div>`;
-        }
-      }
-
-      // Price history chart + text
-      let historyHtml = '';
-      if (c.priceHistory && c.priceHistory.length > 1) {
-        historyHtml = '<h3>📈 가격 변동</h3><canvas id="priceChart" style="max-height:200px;margin-bottom:12px;"></canvas>';
-        for (const h of c.priceHistory.slice(-15)) {
-          const d = new Date(h.date).toLocaleString('ko-KR', { timeZone: 'Asia/Seoul', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
-          const p = h.prices || {};
-          const vals = [
-            p.inside ? '내측 $' + p.inside.toLocaleString() : '',
-            p.oceanview ? '바다 $' + p.oceanview.toLocaleString() : '',
-            p.balcony ? '발코니 $' + p.balcony.toLocaleString() : '',
-            p.suite ? '스위트 $' + p.suite.toLocaleString() : '',
-          ].filter(Boolean);
-          historyHtml += `<div class="row"><span class="label">${d}</span><span>${vals.join(' / ') || '-'}</span></div>`;
-        }
-      }
-
-      document.getElementById('modalContent').innerHTML = `
-        <h2>#${c.num} ${esc(c.cruiseLine)} — ${esc(c.shipName)} ${c.shipRating ? c.shipRating + '⭐' : ''}</h2>
-        <div class="row"><span class="label">출발지</span><span>${esc(c.departurePort) || '-'}</span></div>
-        <div class="row"><span class="label">도착지</span><span>${esc(c.arrivalPort) || '-'}</span></div>
-        <div class="row"><span class="label">출발일</span><span>${esc(c.departureDate)} | ${c.nights}박${c.days}일</span></div>
-        ${c.discountPct ? `<div class="row"><span class="label">할인</span><span class="discount">${c.discountPct}% (원가 $${(c.origPrice||0).toLocaleString()})</span></div>` : ''}
-        <div class="row"><span class="label">출처</span><span>${esc(c.source) || '-'}</span></div>
-        ${c.shipPhotos && c.shipPhotos.exterior ? `<div style="text-align:center;margin:12px 0;"><img src="${safeUrl(c.shipPhotos.exterior)}" alt="${esc(c.shipName)}" style="max-width:100%;border-radius:8px;border:1px solid var(--border);"></div>` : ''}
-        ${c.itineraryImageUrl ? `<div style="text-align:center;margin:12px 0;"><img src="${safeUrl(c.itineraryImageUrl)}" alt="일정 지도" style="max-width:100%;border-radius:8px;border:1px solid var(--border);"></div>` : ''}
-        <h3>💰 객실별 가격</h3>
-        ${priceRows || '<div class="row"><span>가격 정보 없음</span></div>'}
-        ${buildCabinPhotos(c)}
-        ${itinHtml}
-        ${historyHtml}
-        <div style="text-align:center;">
-          <a class="btn-book" href="${safeUrl(c.bookingUrl)}" target="_blank">예약 페이지 →</a>
-        </div>
-      `;
-      document.getElementById('modal').classList.add('show');
-
-      // Draw price chart
-      if (currentChart) { currentChart.destroy(); currentChart = null; }
-      if (c.priceHistory && c.priceHistory.length > 1) {
-        const ctx = document.getElementById('priceChart');
-        if (ctx && typeof Chart !== 'undefined') {
-          const history = c.priceHistory.slice(-30);
-          const labels = history.map(h => {
-            const d = new Date(h.date);
-            return d.toLocaleString('ko-KR', { timeZone: 'Asia/Seoul', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });
-          });
-          const datasets = [];
-          const colors = { inside: '#4fc3f7', oceanview: '#66bb6a', balcony: '#ffd54f', suite: '#ff6b6b' };
-          const names = { inside: '내측', oceanview: '바다전망', balcony: '발코니', suite: '스위트' };
-          for (const type of ['inside', 'oceanview', 'balcony', 'suite']) {
-            const data = history.map(h => (h.prices && h.prices[type]) || null);
-            if (data.some(v => v !== null)) {
-              datasets.push({
-                label: names[type], data, borderColor: colors[type],
-                backgroundColor: colors[type] + '20', tension: 0.3,
-                pointRadius: 2, borderWidth: 2, spanGaps: true,
-              });
-            }
-          }
-          currentChart = new Chart(ctx, {
-            type: 'line',
-            data: { labels, datasets },
-            options: {
-              responsive: true, maintainAspectRatio: false,
-              plugins: { legend: { labels: { color: '#8899aa', font: { size: 11 } } } },
-              scales: {
-                x: { ticks: { color: '#8899aa', font: { size: 9 }, maxRotation: 45 }, grid: { color: '#2a3a4a' } },
-                y: { ticks: { color: '#8899aa', callback: v => '$' + v.toLocaleString() }, grid: { color: '#2a3a4a' } },
-              },
-            },
-          });
-        }
-      }
-    }
-
-    function closeModal() {
-      document.getElementById('modal').classList.remove('show');
-    }
-
-    function resetFilters() {
-      document.getElementById('filterNum').value = '';
-      document.getElementById('filterDeparture').value = '';
-      document.getElementById('filterArrival').value = '';
-      document.getElementById('filterStopover').value = '';
-      document.getElementById('searchInput').value = '';
-      document.getElementById('filterStarMin').value = '';
-      document.getElementById('filterNightsMin').value = '';
-      document.getElementById('filterNightsMax').value = '';
-      currentFilter = 'all';
-      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-      document.querySelector('.tab[data-filter="all"]').classList.add('active');
-      render();
-    }
-
-    // Tab clicks
-    document.querySelectorAll('.tab').forEach(tab => {
-      tab.addEventListener('click', () => {
-        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-        tab.classList.add('active');
-        currentFilter = tab.dataset.filter;
-        render();
-      });
-    });
-
-    // Filter inputs
-    ['filterNum', 'searchInput', 'filterDeparture', 'filterArrival', 'filterStopover', 'filterStarMin', 'filterNightsMin', 'filterNightsMax'].forEach(id => {
-      document.getElementById(id).addEventListener('input', render);
-      document.getElementById(id).addEventListener('change', render);
-    });
-
-    // Sort select
-    document.getElementById('sortSelect').addEventListener('change', (e) => {
-      currentSort = e.target.value;
-      render();
-    });
-
-    // Header column sort (toggle asc/desc)
-    document.querySelectorAll('th[data-sort]').forEach(th => {
-      th.addEventListener('click', () => {
-        const col = th.dataset.sort;
-        // Toggle direction
-        const prev = sortDirection[col] || 'asc';
-        const next = prev === 'asc' ? 'desc' : 'asc';
-        sortDirection[col] = next;
-        currentSort = `${col}-${next}`;
-
-        // Update visual
-        document.querySelectorAll('th').forEach(h => h.classList.remove('sorted-asc', 'sorted-desc'));
-        th.classList.add(`sorted-${next}`);
-
-        render();
-      });
-    });
-
-    // Modal close
-    document.getElementById('modal').addEventListener('click', (e) => {
-      if (e.target === document.getElementById('modal')) closeModal();
-    });
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape') closeModal();
-    });
-
-    loadData();
-  </script>
 </body>
 </html>
