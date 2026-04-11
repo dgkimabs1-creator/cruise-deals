@@ -76,7 +76,8 @@
     priceMin: '',
     priceMax: '',
     starMin: '',
-    cabinType: ''
+    cabinType: '',
+    perNightMax: ''
   };
   var EMPTY_TABLE_COLSPAN = 17;
 
@@ -143,6 +144,7 @@
     dom.filterPriceMax = root.document.getElementById('filterPriceMax');
     dom.filterStarMin = root.document.getElementById('filterStarMin');
     dom.filterCabinType = root.document.getElementById('filterCabinType');
+    dom.filterPerNightMax = root.document.getElementById('filterPerNightMax');
     dom.resetFiltersButton = root.document.getElementById('resetFiltersButton');
     dom.sortSelect = root.document.getElementById('sortSelect');
     dom.compareButton = root.document.getElementById('compareButton');
@@ -209,6 +211,7 @@
     bindFilterInput(dom.filterPriceMax, 'priceMax', 'input');
     bindFilterInput(dom.filterStarMin, 'starMin', 'change');
     bindFilterInput(dom.filterCabinType, 'cabinType', 'change');
+    bindFilterInput(dom.filterPerNightMax, 'perNightMax', 'input');
 
     if (dom.resetFiltersButton) {
       dom.resetFiltersButton.addEventListener('click', resetFilters);
@@ -803,6 +806,9 @@
     if (dom.filterCabinType) {
       dom.filterCabinType.value = state.filters.cabinType;
     }
+    if (dom.filterPerNightMax) {
+      dom.filterPerNightMax.value = state.filters.perNightMax;
+    }
   }
 
   function syncSortSelect() {
@@ -959,6 +965,14 @@
     if (filters.cabinType && cruise && cruise.cabinPrices) {
       var cabinPrice = cruise.cabinPrices[filters.cabinType];
       if (!cabinPrice || cabinPrice <= 0) {
+        return false;
+      }
+    }
+
+    var perNightMax = toNumber(filters.perNightMax);
+    if (perNightMax !== null) {
+      var pn = getCabinFilteredPerNight(cruise);
+      if (!Number.isFinite(pn) || pn > perNightMax) {
         return false;
       }
     }
