@@ -1040,7 +1040,8 @@
 
   function getRouteKey(cruise) {
     if (!cruise) return '';
-    return (cruise.shipName || '') + '|' + (cruise.nights || 0) + '|' + (cruise.itinerary || '').substring(0, 80);
+    var ports = (cruise.stopPorts || []).map(function (p) { return p.port || ''; }).join(',');
+    return (cruise.shipName || '') + '|' + (cruise.nights || 0) + '|' + (cruise.departurePort || '') + '|' + (cruise.arrivalPort || '') + '|' + ports;
   }
 
   function groupCruises(cruises) {
@@ -1049,13 +1050,22 @@
     for (var i = 0; i < cruises.length; i++) {
       var key = getRouteKey(cruises[i]);
       if (seen[key] !== undefined) {
-        groups[seen[key]].children.push(cruises[i]);
+        groups[seen[key]].all.push(cruises[i]);
       } else {
         seen[key] = groups.length;
-        groups.push({ lead: cruises[i], children: [] });
+        groups.push({ all: [cruises[i]] });
       }
     }
-    return groups;
+    // lead = 첫 번째 (정렬 유지), children = 나머지 날짜순
+    return groups.map(function (g) {
+      var sorted = g.all.slice();
+      return {
+        lead: sorted[0],
+        children: sorted.slice(1).sort(function (a, b) {
+          return (a.departureDate || '').localeCompare(b.departureDate || '');
+        })
+      };
+    });
   }
 
   function renderCruiseList(cruises) {
