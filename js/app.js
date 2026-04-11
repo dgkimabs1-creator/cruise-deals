@@ -1038,6 +1038,26 @@
     return left > right ? 1 : -1;
   }
 
+  function getRouteKey(cruise) {
+    if (!cruise) return '';
+    return (cruise.shipName || '') + '|' + (cruise.nights || 0) + '|' + (cruise.itinerary || '').substring(0, 80);
+  }
+
+  function groupCruises(cruises) {
+    var groups = [];
+    var seen = {};
+    for (var i = 0; i < cruises.length; i++) {
+      var key = getRouteKey(cruises[i]);
+      if (seen[key] !== undefined) {
+        groups[seen[key]].children.push(cruises[i]);
+      } else {
+        seen[key] = groups.length;
+        groups.push({ lead: cruises[i], children: [] });
+      }
+    }
+    return groups;
+  }
+
   function renderCruiseList(cruises) {
     if (!cruises.length) {
       renderEmptyTable(state.loadError ? '데이터를 불러오지 못했습니다.' : '조건에 맞는 크루즈가 없습니다.');
@@ -1046,15 +1066,52 @@
       return;
     }
 
-    var totalPages = Math.ceil(cruises.length / state.pageSize);
+    var groups = groupCruises(cruises);
+    var totalPages = Math.ceil(groups.length / state.pageSize);
     if (state.page > totalPages) state.page = totalPages;
     if (state.page < 1) state.page = 1;
     var start = (state.page - 1) * state.pageSize;
-    var pageCruises = cruises.slice(start, start + state.pageSize);
+    var pageGroups = groups.slice(start, start + state.pageSize);
 
-    dom.cruiseTable.innerHTML = pageCruises.map(renderTableRow).join('');
-    dom.cruiseCards.innerHTML = pageCruises.map(renderCruiseCard).join('');
-    renderPagination(cruises.length);
+    var tableHtml = '';
+    var cardHtml = '';
+    for (var i = 0; i < pageGroups.length; i++) {
+      var g = pageGroups[i];
+      tableHtml += renderTableRow(g.lead);
+      cardHtml += renderCruiseCard(g.lead);
+      if (g.children.length > 0) {
+        var groupId = 'group-' + (g.lead.num || i);
+        tableHtml += '<tr class="group-toggle-row"><td colspan="' + EMPTY_TABLE_COLSPAN + '">' +
+          '<button type="button" class="group-toggle-btn" data-group="' + groupId + '">같은 일정 ' + g.children.length + '개 더보기 ▼</button></td></tr>';
+        tableHtml += '<tbody class="group-body hidden" id="' + groupId + '">';
+        for (var j = 0; j < g.children.length; j++) {
+          tableHtml += renderTableRow(g.children[j]);
+          cardHtml += '<div class="group-child hidden" data-group-card="' + groupId + '">' + renderCruiseCard(g.children[j]) + '</div>';
+        }
+        tableHtml += '</tbody>';
+      }
+    }
+
+    dom.cruiseTable.innerHTML = tableHtml;
+    dom.cruiseCards.innerHTML = cardHtml;
+    renderPagination(groups.length);
+    bindGroupToggles();
+  }
+
+  function bindGroupToggles() {
+    var buttons = root.document.querySelectorAll('.group-toggle-btn');
+    Array.prototype.slice.call(buttons).forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var groupId = btn.getAttribute('data-group');
+        var body = root.document.getElementById(groupId);
+        var cards = root.document.querySelectorAll('[data-group-card="' + groupId + '"]');
+        if (body) body.classList.toggle('hidden');
+        Array.prototype.slice.call(cards).forEach(function (c) { c.classList.toggle('hidden'); });
+        btn.textContent = body && body.classList.contains('hidden')
+          ? btn.textContent.replace('▲', '▼')
+          : btn.textContent.replace('▼', '▲');
+      });
+    });
   }
 
   function renderPagination(total) {
