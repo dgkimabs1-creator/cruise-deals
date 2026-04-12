@@ -30,7 +30,11 @@
       <div class="stats-grid">
         <div class="stat-box">
           <div class="num" id="totalCount">-</div>
-          <div class="label">전체 크루즈</div>
+          <div class="label">활성 크루즈</div>
+        </div>
+        <div class="stat-box">
+          <div class="num" id="expiredCount">-</div>
+          <div class="label">만료 일정</div>
         </div>
         <div class="stat-box">
           <div class="num" id="busanCount">-</div>
@@ -43,6 +47,10 @@
         <div class="stat-box">
           <div class="num" id="favoriteCount">-</div>
           <div class="label">즐겨찾기</div>
+        </div>
+        <div class="stat-box">
+          <div class="num" id="exchangeRate">-</div>
+          <div class="label">USD 환율</div>
         </div>
         <div class="stat-box">
           <div class="num" id="updateTime">-</div>
@@ -212,6 +220,17 @@
           <span id="selectedCount">비교 선택 0개</span>
           <span id="currencyLabel">현재 통화: USD</span>
         </div>
+      </section>
+
+      <section class="panel recent-panel hidden" id="recentViewsPanel">
+        <div class="section-head compact">
+          <div>
+            <p class="section-kicker">Quick Access</p>
+            <h2>최근 본 크루즈</h2>
+          </div>
+          <span class="toolbar-meta-item" id="recentViewsMeta">최근 0개</span>
+        </div>
+        <div class="recent-views-list" id="recentViewsList"></div>
       </section>
 
       <section class="panel chart-panel" id="distributionPanel">

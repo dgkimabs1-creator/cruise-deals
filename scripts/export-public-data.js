@@ -14,6 +14,7 @@ const LINE_PRICES = path.resolve(__dirname, '../../zmfnwm/src/storage/data/linep
 const SHIP_DB = path.resolve(__dirname, '../../zmfnwm/src/storage/data/shipdb.json');
 const SHIP_PHOTOS = path.resolve(__dirname, '../../zmfnwm/cruise_ship_photos.json');
 const DEST = path.resolve(__dirname, '../data/cruises-public.json');
+const CABIN_IMAGES_DIR = path.resolve(__dirname, '../images/cabins');
 const CABIN_TYPES = ['inside', 'oceanview', 'balcony', 'suite'];
 
 async function run() {
@@ -31,12 +32,13 @@ async function run() {
   // ship photos — 로컬 이미지 매핑 우선
   let localPhotoMap = {};
   try { localPhotoMap = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../images/photo-mapping.json'), 'utf8')); } catch (e) {}
+  localPhotoMap = buildLocalPhotoIndex(localPhotoMap);
 
   let shipPhotos = [];
   try { shipPhotos = JSON.parse(fs.readFileSync(SHIP_PHOTOS, 'utf8')); } catch (e) {}
   const shipPhotoMap = {};
   for (const sp of shipPhotos) {
-    shipPhotoMap[sp.shipName.toLowerCase()] = sp;
+    shipPhotoMap[normalizeShipName(sp.shipName)] = sp;
   }
 
   const publicList = [];
@@ -191,25 +193,74 @@ function getShipInfoForCruise(cruise, shipInfoIndex) {
   return normalizedName && shipInfoIndex && shipInfoIndex[normalizedName] ? shipInfoIndex[normalizedName] : null;
 }
 
-function getShipPhotos(shipName, localMap, remoteMap) {
-  const local = localMap[shipName];
-  const remote = remoteMap[(shipName || '').toLowerCase()];
-  if (!local && !remote) return null;
+function buildLocalPhotoIndex(photoMap) {
+  const index = Object.create(null);
 
-  const result = { exterior: null, cabins: {} };
+  for (const [shipName, photos] of Object.entries(photoMap || {})) {
+    const normalized = normalizeShipName(shipName);
+    if (normalized) {
+      index[normalized] = photos;
+    }
+  }
+
+  return index;
+}
+
+function buildShipAssetStem(shipName) {
+  return normalizeShipName(shipName).replace(/\s+/g, '_');
+}
+
+function getLocalCabinAssetPath(fileName) {
+  if (!fileName) {
+    return null;
+  }
+
+  return fs.existsSync(path.resolve(CABIN_IMAGES_DIR, fileName))
+    ? `images/cabins/${fileName}`
+    : null;
+}
+
+function getShipPhotos(shipName, localMap, remoteMap) {
+  const normalizedName = normalizeShipName(shipName);
+  const local = localMap
+    ? (normalizedName ? localMap[normalizedName] : null) || localMap[shipName] || null
+    : null;
+  const remote = remoteMap
+    ? (normalizedName ? remoteMap[normalizedName] : null) || remoteMap[(shipName || '').toLowerCase()] || null
+    : null;
+
+  const assetStem = buildShipAssetStem(shipName);
+  const result = { exterior: null, cabins: {}, floorPlans: {} };
   if (local) {
     result.exterior = local.exterior || null;
-    for (const type of ['inside', 'oceanview', 'balcony', 'suite']) {
+    for (const type of CABIN_TYPES) {
       if (local[type] && local[type].length > 0) result.cabins[type] = local[type];
     }
   }
+
+  if (!result.exterior) {
+    result.exterior = getLocalCabinAssetPath(`${assetStem}_exterior.jpg`);
+  }
+
+  for (const type of CABIN_TYPES) {
+    const floorPlanPath = getLocalCabinAssetPath(`${assetStem}_${type}_floor.webp`);
+    if (floorPlanPath) {
+      result.floorPlans[type] = floorPlanPath;
+    }
+  }
+
   // 로컬 없으면 원격 URL 폴백
   if (!result.exterior && remote) result.exterior = remote.exteriorImage || null;
   if (remote && remote.cabinImages) {
-    for (const type of ['inside', 'oceanview', 'balcony', 'suite']) {
+    for (const type of CABIN_TYPES) {
       if (!result.cabins[type] && remote.cabinImages[type]) result.cabins[type] = remote.cabinImages[type];
     }
   }
+
+  if (!result.exterior && Object.keys(result.cabins).length === 0 && Object.keys(result.floorPlans).length === 0) {
+    return null;
+  }
+
   return result;
 }
 
@@ -393,6 +444,7 @@ if (require.main === module) {
 module.exports = {
   buildShipInfoIndex,
   getShipInfoForCruise,
+  getShipPhotos,
   normalizeShipName,
   run,
 };

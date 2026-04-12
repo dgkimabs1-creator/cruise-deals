@@ -14,7 +14,8 @@
   var CruiseUtils = root.CruiseUtils || {};
   var STORAGE_KEYS = {
     currency: 'cruise-currency-mode',
-    theme: 'cruise-theme-mode'
+    theme: 'cruise-theme-mode',
+    recentViews: 'cruise_recent_views'
   };
   var CRUISE_LINE_BADGES = {
     'royal caribbean': '👑',
@@ -47,6 +48,8 @@
     calendar: 'calendarPanel',
     lines: 'lineAnalysisPanel'
   };
+  var VALID_VIEWS = Object.keys(VIEW_PANEL_MAP);
+  var VALID_QUICK_FILTERS = ['all', 'busan', 'deal80', 'deal50', 'cheap', 'luxury', 'new3d', 'drop1d', 'drop3d', 'drop7d'];
   var SORT_OPTION_MAP = {
     'price-asc': { key: 'price', dir: 'asc' },
     'price-desc': { key: 'price', dir: 'desc' },
@@ -171,9 +174,11 @@
 
   function cacheDom() {
     dom.totalCount = root.document.getElementById('totalCount');
+    dom.expiredCount = root.document.getElementById('expiredCount');
     dom.busanCount = root.document.getElementById('busanCount');
     dom.dealCount = root.document.getElementById('dealCount');
     dom.favoriteCount = root.document.getElementById('favoriteCount');
+    dom.exchangeRate = root.document.getElementById('exchangeRate');
     dom.updateTime = root.document.getElementById('updateTime');
     dom.viewTabs = root.document.getElementById('viewTabs');
     dom.quickTabs = root.document.getElementById('quickTabs');
@@ -202,6 +207,9 @@
     dom.resultCount = root.document.getElementById('resultCount');
     dom.selectedCount = root.document.getElementById('selectedCount');
     dom.currencyLabel = root.document.getElementById('currencyLabel');
+    dom.recentViewsPanel = root.document.getElementById('recentViewsPanel');
+    dom.recentViewsList = root.document.getElementById('recentViewsList');
+    dom.recentViewsMeta = root.document.getElementById('recentViewsMeta');
     dom.currencyToggle = root.document.getElementById('currencyToggle');
     dom.themeToggle = root.document.getElementById('themeToggle');
     dom.distributionPanel = root.document.getElementById('distributionPanel');
@@ -302,6 +310,10 @@
       dom.cruiseCards.addEventListener('change', handleCompareCheckboxChange);
     }
 
+    if (dom.recentViewsList) {
+      dom.recentViewsList.addEventListener('click', handleListActionClick);
+    }
+
     if (dom.lineAnalysisGrid) {
       dom.lineAnalysisGrid.addEventListener('click', handleLineCardClick);
     }
@@ -368,15 +380,18 @@
         return response.json();
       })
       .then(function (payload) {
+        var hashState;
+
         state.loadError = false;
         state.cruises = Array.isArray(payload.cruises) ? payload.cruises.slice() : [];
         state.exportedAt = payload.exportedAt || '';
         installExchangeRate(payload.exchangeRate);
+        hashState = applyHashState(root.location && root.location.hash ? root.location.hash : '');
         populateFilterOptions();
         syncFilterInputs();
         syncExternalModules();
         applyStateAndRender();
-        checkHashNavigation();
+        checkHashNavigation(hashState && hashState.cruiseId);
       })
       .catch(function () {
         state.loadError = true;
@@ -464,13 +479,14 @@
   }
 
   function populateFilterOptions() {
-    var lines = Array.from(new Set(state.cruises.map(function (cruise) {
+    var activeCruises = getActiveCruises(state.cruises);
+    var lines = Array.from(new Set(activeCruises.map(function (cruise) {
       return cruise && cruise.cruiseLine ? String(cruise.cruiseLine) : '';
     }).filter(Boolean))).sort(function (left, right) {
       return left.localeCompare(right, 'ko');
     });
 
-    var months = Array.from(new Set(state.cruises.map(function (cruise) {
+    var months = Array.from(new Set(activeCruises.map(function (cruise) {
       return cruise && cruise.departureDate ? String(cruise.departureDate).slice(0, 7) : '';
     }).filter(Boolean))).sort();
 
@@ -712,24 +728,30 @@
     renderDistributionChart(state.filteredCruises);
     renderLineAnalysis(state.filteredCruises);
     renderCalendar(state.filteredCruises);
+    renderRecentViews();
     updateCompareUi();
     syncCompareCheckboxes();
+    syncHashFromState();
     syncExternalModules();
   }
 
   function updateStats() {
-    var busanCount = state.cruises.filter(function (cruise) {
+    var activity = summarizeCruiseActivity(state.cruises);
+    var activeCruises = getActiveCruises(state.cruises);
+    var busanCount = activeCruises.filter(function (cruise) {
       return !!(cruise && cruise.isBusanRelated);
     }).length;
-    var dealCount = state.cruises.filter(function (cruise) {
+    var dealCount = activeCruises.filter(function (cruise) {
       return Number(cruise && cruise.discountPct) >= 50;
     }).length;
     var favoriteCount = favoritesApi && typeof favoritesApi.getAll === 'function' ? favoritesApi.getAll().length : 0;
 
-    setText(dom.totalCount, state.cruises.length ? state.cruises.length.toLocaleString('ko-KR') : (state.loadError ? '0' : '-'));
+    setText(dom.totalCount, state.cruises.length ? activity.activeCount.toLocaleString('ko-KR') : (state.loadError ? '0' : '-'));
+    setText(dom.expiredCount, state.cruises.length ? activity.expiredCount.toLocaleString('ko-KR') : (state.loadError ? '0' : '-'));
     setText(dom.busanCount, state.cruises.length ? busanCount.toLocaleString('ko-KR') : (state.loadError ? '0' : '-'));
     setText(dom.dealCount, state.cruises.length ? dealCount.toLocaleString('ko-KR') : (state.loadError ? '0' : '-'));
     setText(dom.favoriteCount, favoriteCount.toLocaleString('ko-KR'));
+    setText(dom.exchangeRate, state.exchangeRate ? '₩' + Math.round(state.exchangeRate).toLocaleString('ko-KR') : '-');
     setText(dom.updateTime, state.exportedAt ? formatUpdatedAt(state.exportedAt) : '-');
   }
 
@@ -770,7 +792,7 @@
       return;
     }
 
-    var cruises = state.cruises;
+    var cruises = getActiveCruises(state.cruises);
     Array.prototype.slice.call(dom.quickTabs.querySelectorAll('[data-filter]')).forEach(function (button) {
       var filter = button.getAttribute('data-filter');
       button.classList.toggle('active', filter === state.quickFilter);
@@ -894,7 +916,7 @@
   }
 
   function buildFilteredCruises() {
-    var cruises = state.cruises.slice();
+    var cruises = getActiveCruises(state.cruises);
 
     cruises = cruises.filter(function (cruise) {
       return matchesViewFilter(cruise) && matchesQuickFilter(cruise) && matchesManualFilters(cruise);
@@ -2059,27 +2081,31 @@
       return;
     }
 
-    root.CruiseModal.showDetail(num);
-    trackRecentView(num);
+    if (root.CruiseModal.showDetail(num)) {
+      trackRecentView(num);
+      renderRecentViews();
+    }
   }
 
-  function checkHashNavigation() {
-    var hash = location.hash || '';
-    var match = hash.match(/cruise=(\d+)/);
-    if (match) {
-      var num = parseInt(match[1]);
-      if (num > 0) openCruiseDetail(num);
+  function checkHashNavigation(cruiseId) {
+    var parsedCruiseId = toNumber(cruiseId);
+
+    if (parsedCruiseId === null && root.location) {
+      parsedCruiseId = parseHashState(root.location.hash || '').cruiseId;
+    }
+
+    if (parsedCruiseId !== null && parsedCruiseId > 0) {
+      openCruiseDetail(parsedCruiseId);
     }
   }
 
   function trackRecentView(num) {
     try {
-      var key = 'cruise_recent_views';
-      var recent = JSON.parse(localStorage.getItem(key) || '[]');
+      var recent = readRecentViewIds(20);
       recent = recent.filter(function (n) { return n !== num; });
       recent.unshift(num);
       if (recent.length > 20) recent = recent.slice(0, 20);
-      localStorage.setItem(key, JSON.stringify(recent));
+      root.localStorage.setItem(STORAGE_KEYS.recentViews, JSON.stringify(recent));
     } catch (e) {}
   }
 
@@ -2105,6 +2131,10 @@
       exportedAt: state.exportedAt,
       exchangeRate: state.exchangeRate,
       activeView: state.activeView,
+      quickFilter: state.quickFilter,
+      sortKey: state.sortKey,
+      sortDir: state.sortDir,
+      filters: cloneFilters(state.filters),
       currencyMode: state.currencyMode,
       compareSelection: state.compareSelection.slice()
     };
@@ -2150,6 +2180,224 @@
       perNightMax: filters.perNightMax,
       recommendMin: filters.recommendMin
     };
+  }
+
+  function sanitizeView(value) {
+    return VALID_VIEWS.indexOf(String(value || '')) !== -1 ? String(value) : 'list';
+  }
+
+  function sanitizeQuickFilter(value) {
+    return VALID_QUICK_FILTERS.indexOf(String(value || '')) !== -1 ? String(value) : 'all';
+  }
+
+  function getLocalDateKey(referenceDate) {
+    var date = referenceDate instanceof Date ? referenceDate : createDate(referenceDate);
+
+    if (!date) {
+      date = new Date();
+    }
+
+    return [
+      String(date.getFullYear()),
+      String(date.getMonth() + 1).padStart(2, '0'),
+      String(date.getDate()).padStart(2, '0')
+    ].join('-');
+  }
+
+  function isCruiseActive(cruise, referenceDate) {
+    var departureDate = String(cruise && cruise.departureDate || '');
+
+    if (!departureDate) {
+      return true;
+    }
+
+    return departureDate >= getLocalDateKey(referenceDate);
+  }
+
+  function summarizeCruiseActivity(cruises, referenceDate) {
+    return (cruises || []).reduce(function (summary, cruise) {
+      if (isCruiseActive(cruise, referenceDate)) {
+        summary.activeCount += 1;
+      } else {
+        summary.expiredCount += 1;
+      }
+      return summary;
+    }, {
+      activeCount: 0,
+      expiredCount: 0
+    });
+  }
+
+  function getActiveCruises(cruises, referenceDate) {
+    return (cruises || []).filter(function (cruise) {
+      return isCruiseActive(cruise, referenceDate);
+    });
+  }
+
+  function serializeHashState(stateSnapshot) {
+    var params = new URLSearchParams();
+    var filters = stateSnapshot && stateSnapshot.filters ? stateSnapshot.filters : {};
+    var sortOption = SORT_OPTION_REVERSE_MAP[(stateSnapshot && stateSnapshot.sortKey || 'price') + ':' + (stateSnapshot && stateSnapshot.sortDir || 'asc')];
+    var cruiseId = toNumber(stateSnapshot && stateSnapshot.cruiseId);
+
+    if (sanitizeView(stateSnapshot && stateSnapshot.activeView) !== 'list') {
+      params.set('view', sanitizeView(stateSnapshot && stateSnapshot.activeView));
+    }
+
+    if (sanitizeQuickFilter(stateSnapshot && stateSnapshot.quickFilter) !== 'all') {
+      params.set('quick', sanitizeQuickFilter(stateSnapshot && stateSnapshot.quickFilter));
+    }
+
+    if (sortOption && sortOption !== 'price-asc') {
+      params.set('sort', sortOption);
+    }
+
+    if (cruiseId !== null) {
+      params.set('cruise', String(cruiseId));
+    }
+
+    Object.keys(DEFAULT_FILTERS).forEach(function (key) {
+      var value = normalizeFilterValue(filters[key]);
+      if (value) {
+        params.set(key, value);
+      }
+    });
+
+    return params.toString();
+  }
+
+  function parseHashState(hashValue) {
+    var params = new URLSearchParams(String(hashValue || '').replace(/^#/, ''));
+    var sortOption = SORT_OPTION_MAP[params.get('sort')] || SORT_OPTION_MAP['price-asc'];
+    var filters = cloneFilters(DEFAULT_FILTERS);
+
+    Object.keys(DEFAULT_FILTERS).forEach(function (key) {
+      filters[key] = normalizeFilterValue(params.get(key));
+    });
+
+    return {
+      activeView: sanitizeView(params.get('view')),
+      quickFilter: sanitizeQuickFilter(params.get('quick')),
+      sortKey: sortOption.key,
+      sortDir: sortOption.dir,
+      cruiseId: toNumber(params.get('cruise')),
+      filters: filters
+    };
+  }
+
+  function applyHashState(hashValue) {
+    var parsed = parseHashState(hashValue);
+
+    state.activeView = parsed.activeView;
+    state.quickFilter = parsed.quickFilter;
+    state.sortKey = parsed.sortKey;
+    state.sortDir = parsed.sortDir;
+    state.filters = cloneFilters(parsed.filters);
+
+    return parsed;
+  }
+
+  function syncHashFromState() {
+    var currentHashState;
+    var nextHash;
+    var nextUrl;
+
+    if (!root.location) {
+      return;
+    }
+
+    currentHashState = parseHashState(root.location.hash || '');
+    nextHash = serializeHashState({
+      activeView: state.activeView,
+      quickFilter: state.quickFilter,
+      sortKey: state.sortKey,
+      sortDir: state.sortDir,
+      cruiseId: currentHashState.cruiseId,
+      filters: state.filters
+    });
+    nextUrl = (root.location.pathname || '') + (root.location.search || '') + (nextHash ? '#' + nextHash : '');
+
+    if (root.history && typeof root.history.replaceState === 'function') {
+      root.history.replaceState(null, '', nextUrl);
+      return;
+    }
+
+    if ((root.location.hash || '') !== (nextHash ? '#' + nextHash : '')) {
+      root.location.hash = nextHash;
+    }
+  }
+
+  function readRecentViewIds(limit) {
+    var parsed;
+
+    try {
+      parsed = JSON.parse(root.localStorage.getItem(STORAGE_KEYS.recentViews) || '[]');
+    } catch (error) {
+      parsed = [];
+    }
+
+    return (Array.isArray(parsed) ? parsed : [])
+      .map(function (value) {
+        return toNumber(value);
+      })
+      .filter(function (value, index, list) {
+        return value !== null && list.indexOf(value) === index;
+      })
+      .slice(0, limit || 20);
+  }
+
+  function getRecentViewCruises(cruises, recentIds, limit) {
+    var lookup = Object.create(null);
+
+    (cruises || []).forEach(function (cruise) {
+      var num = toNumber(cruise && cruise.num);
+      if (num !== null) {
+        lookup[num] = cruise;
+      }
+    });
+
+    return (recentIds || [])
+      .map(function (id) {
+        return lookup[id] || null;
+      })
+      .filter(Boolean)
+      .slice(0, limit || 10);
+  }
+
+  function renderRecentViews() {
+    var recentCruises;
+
+    if (!dom.recentViewsPanel || !dom.recentViewsList) {
+      return;
+    }
+
+    recentCruises = getRecentViewCruises(state.cruises, readRecentViewIds(10), 10);
+
+    if (!recentCruises.length) {
+      dom.recentViewsPanel.classList.add('hidden');
+      dom.recentViewsList.innerHTML = '';
+      if (dom.recentViewsMeta) {
+        dom.recentViewsMeta.textContent = '최근 0개';
+      }
+      return;
+    }
+
+    dom.recentViewsPanel.classList.remove('hidden');
+    dom.recentViewsList.innerHTML = recentCruises.map(function (cruise) {
+      var num = Number(cruise && cruise.num) || 0;
+      var lowestPrice = getLowestPrice(cruise);
+
+      return [
+        '<button type="button" class="recent-view-button" data-action="detail" data-num="', escapeHtml(num), '">',
+        '<span class="recent-view-title">', escapeHtml(cruise && cruise.shipName || '-'), '</span>',
+        '<span class="recent-view-meta">#', escapeHtml(num), ' · ', escapeHtml(formatPrice(lowestPrice)), '</span>',
+        '</button>'
+      ].join('');
+    }).join('');
+
+    if (dom.recentViewsMeta) {
+      dom.recentViewsMeta.textContent = '최근 ' + recentCruises.length + '개';
+    }
   }
 
   function normalizeFilterValue(value) {
@@ -2368,6 +2616,11 @@
     refresh: refresh,
     getCruiseLineBadge: getCruiseLineBadge,
     getPriceChangeSummary: getPriceChangeSummary,
-    matchesDepartureDateRange: matchesDepartureDateRange
+    matchesDepartureDateRange: matchesDepartureDateRange,
+    isCruiseActive: isCruiseActive,
+    summarizeCruiseActivity: summarizeCruiseActivity,
+    serializeHashState: serializeHashState,
+    parseHashState: parseHashState,
+    getRecentViewCruises: getRecentViewCruises
   };
 });

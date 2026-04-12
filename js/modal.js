@@ -649,6 +649,7 @@
           { label: '부산 연관', value: formatBoolean(!!cruise.isBusanRelated) },
           { label: '키즈', value: cruise.shipInfo && cruise.shipInfo.kidsFriendly ? '👶 ' + (cruise.shipInfo.kidsNotes || '가능') : '🚫 성인 전용' }
         ]) +
+        buildKidsPricingNoteMarkup(cruise) +
       '</section>'
     );
   }
@@ -707,6 +708,28 @@
     return [];
   }
 
+  function buildKidsPricingNote(cruise) {
+    return cruise && cruise.shipInfo && cruise.shipInfo.kidsFriendly
+      ? '💰 2세 미만 무료 가능 (선사별 상이)'
+      : '';
+  }
+
+  function buildKidsPricingNoteMarkup(cruise) {
+    var note = buildKidsPricingNote(cruise);
+    return note ? '<p class="modal-inline-note">' + escapeHtml(note) + '</p>' : '';
+  }
+
+  function getCabinMedia(cruise, type) {
+    var shipPhotos = cruise && cruise.shipPhotos ? cruise.shipPhotos : {};
+    var cabins = shipPhotos && shipPhotos.cabins ? shipPhotos.cabins : {};
+    var floorPlans = shipPhotos && shipPhotos.floorPlans ? shipPhotos.floorPlans : {};
+
+    return {
+      photos: normalizePhotoList(cabins[type]),
+      floorPlan: normalizePhotoList(floorPlans[type])[0] || ''
+    };
+  }
+
   function buildCarousel(id, title, photos, altPrefix) {
     var disabled = photos.length <= 1;
     var slides = photos
@@ -744,24 +767,36 @@
   }
 
   function buildCabinPhotosCard(cruise) {
-    var cabins = cruise && cruise.shipPhotos && cruise.shipPhotos.cabins ? cruise.shipPhotos.cabins : {};
     var cabinCards = getCabinTypes()
       .map(function (type) {
-        var photos = normalizePhotoList(cabins[type]);
+        var media = getCabinMedia(cruise, type);
+        var floorPlanMarkup = media.floorPlan
+          ? (
+            '<div class="cabin-floorplan">' +
+              '<div class="modal-row-label">📐 도면</div>' +
+              '<img class="cabin-floorplan-image" src="' + escapeHtml(media.floorPlan) + '"' +
+                ' alt="' + escapeHtml((cruise.shipName || '크루즈') + ' ' + formatCabinLabel(type) + ' 객실 도면') + '"' +
+                ' loading="lazy">' +
+            '</div>'
+          )
+          : '';
 
-        if (!photos.length) {
+        if (!media.photos.length && !media.floorPlan) {
           return '';
         }
 
         return (
           '<article class="compare-card">' +
             '<h3>' + escapeHtml(formatCabinLabel(type)) + '</h3>' +
-            buildCarousel(
-              'detail-' + escapePlainText(cruise.num) + '-' + type,
-              formatCabinLabel(type),
-              photos,
-              (cruise.shipName || '크루즈') + ' ' + formatCabinLabel(type) + ' 객실 사진'
-            ) +
+            (media.photos.length
+              ? buildCarousel(
+                'detail-' + escapePlainText(cruise.num) + '-' + type,
+                formatCabinLabel(type),
+                media.photos,
+                (cruise.shipName || '크루즈') + ' ' + formatCabinLabel(type) + ' 객실 사진'
+              )
+              : '<p class="modal-row-label">사진 없음</p>') +
+            floorPlanMarkup +
           '</article>'
         );
       })
@@ -1482,7 +1517,9 @@
     showDetail: showDetail,
     showCompare: showCompare,
     closeModal: closeModal,
-    getOfficialWebsiteUrl: getOfficialWebsiteUrl
+    getOfficialWebsiteUrl: getOfficialWebsiteUrl,
+    buildKidsPricingNote: buildKidsPricingNote,
+    getCabinMedia: getCabinMedia
   };
 
   bootstrap();
