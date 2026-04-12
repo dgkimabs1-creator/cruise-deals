@@ -98,6 +98,7 @@ async function run() {
         cabins: shipPhotoMap[(c.shipName || '').toLowerCase()].cabinImages || {},
       } : null,
       itineraryUncertain: !c.detailedItinerary && (c.itinerary || '').split('→').length <= 2 && (c.nights || 0) > 1,
+      listPriceOnly: !!c._listPriceOnly,
       isBusanRelated: !!c.isBusanRelated,
       source: c.source || '',
       dealScores,
@@ -205,7 +206,7 @@ function calcRecommendScores(cruises) {
     };
     c.recommendScore = null;
 
-    if (!c.shipInfo || !c.perNight || !c.nights || c.nights <= 0) continue;
+    if (!c.shipInfo || !c.perNight || !c.nights || c.nights <= 0 || c.listPriceOnly) continue;
 
     const ratio = c.shipInfo.ratio;
     if (!ratio || ratio <= 0) continue;

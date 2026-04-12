@@ -127,7 +127,7 @@
     perNightMax: '',
     recommendMin: ''
   };
-  var EMPTY_TABLE_COLSPAN = 20;
+  var EMPTY_TABLE_COLSPAN = 22;
 
   var dom = {};
   var distributionChart = null;
