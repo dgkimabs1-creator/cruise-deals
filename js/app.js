@@ -214,7 +214,7 @@
     dom.calendarRoot = root.document.getElementById('calendarRoot');
     dom.lineAnalysisGrid = root.document.getElementById('lineAnalysisGrid');
     dom.tipsAccordion = root.document.getElementById('tipsAccordion');
-    dom.sortHeaders = Array.prototype.slice.call(root.document.querySelectorAll('.cruise-table th[data-sort]'));
+    dom.sortHeaders = Array.prototype.slice.call(root.document.querySelectorAll('.cruise-table th[data-sort], .cruise-table .th-btn[data-sort]'));
   }
 
   function initializeStoredPreferences() {
@@ -1130,6 +1130,14 @@
         return getCabinPrice(cruise, 'balcony');
       case 'suite':
         return getCabinPrice(cruise, 'suite');
+      case 'inside-rec':
+        return cruise && cruise.recommendScores ? Number(cruise.recommendScores.inside) || 0 : 0;
+      case 'oceanview-rec':
+        return cruise && cruise.recommendScores ? Number(cruise.recommendScores.oceanview) || 0 : 0;
+      case 'balcony-rec':
+        return cruise && cruise.recommendScores ? Number(cruise.recommendScores.balcony) || 0 : 0;
+      case 'suite-rec':
+        return cruise && cruise.recommendScores ? Number(cruise.recommendScores.suite) || 0 : 0;
       case 'recommend':
         return getBestRecommendScore(cruise);
       case 'pernight':

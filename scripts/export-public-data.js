@@ -158,10 +158,15 @@ function buildShipInfoIndex(shipDb) {
       continue;
     }
 
+    const yearBuilt = toNumber(ship && ship.yearBuilt);
+    const lastRefurbished = toNumber(ship && ship.lastRefurbished);
     const shipInfo = {
       passengers,
       crew,
       ratio: Math.round((passengers / crew) * 10) / 10,
+      yearBuilt: yearBuilt || null,
+      lastRefurbished: lastRefurbished || null,
+      refurbishmentCost: (ship && ship.refurbishmentCost) || null,
     };
     const aliases = [ship && ship.name, key && key.replace(/_/g, ' ')];
 
