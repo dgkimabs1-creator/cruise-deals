@@ -1253,6 +1253,10 @@
     if (dropPct > 0) {
       badges += ' <span class="badge badge-drop">▼' + dropPct + '%</span>';
     }
+    // 일정 불확실
+    if (cruise.itineraryUncertain) {
+      badges += ' <span class="badge badge-warn" title="일정이 불확실합니다. 예약 페이지에서 확인하세요.">⚠️일정확인</span>';
+    }
     return badges;
   }
 

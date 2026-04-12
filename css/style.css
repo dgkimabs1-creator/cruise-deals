@@ -1273,6 +1273,12 @@ a:hover {
   color: #fff;
 }
 
+.badge-warn {
+  background: #f9a825;
+  color: #000;
+  cursor: help;
+}
+
 .group-toggle-row td {
   padding: 4px 10px !important;
   text-align: center;

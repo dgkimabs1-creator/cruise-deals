@@ -89,6 +89,7 @@ async function run() {
         exterior: shipPhotoMap[(c.shipName || '').toLowerCase()].exteriorImage || null,
         cabins: shipPhotoMap[(c.shipName || '').toLowerCase()].cabinImages || {},
       } : null,
+      itineraryUncertain: !c.detailedItinerary && (c.itinerary || '').split('→').length <= 2 && (c.nights || 0) > 1,
       isBusanRelated: !!c.isBusanRelated,
       source: c.source || '',
       dealScores,
