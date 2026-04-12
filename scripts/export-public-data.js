@@ -127,7 +127,9 @@ async function run() {
 
 function toNumber(value) {
   if (value === null || value === undefined || value === '') return null;
-  const amount = Number(value);
+  const cleaned = String(value).replace(/,/g, '').trim();
+  if (!cleaned) return null;
+  const amount = Number(cleaned);
   return Number.isFinite(amount) ? amount : null;
 }
 

@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-04-12T09:13:34.689Z",
+  "exportedAt": "2026-04-12T09:29:11.217Z",
   "exchangeRate": 1482.511805,
   "count": 773,
   "cruises": [
@@ -646,7 +646,7 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 24,
+        "inside": 16,
         "oceanview": 18,
         "balcony": 47,
         "suite": 30
@@ -675,7 +675,11 @@
       "cruiseLine": "Norwegian",
       "shipName": "Norwegian Jade",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2352,
+        "crew": 1037,
+        "ratio": 2.3
+      },
       "itinerary": "Tokyo (Yokohama), Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -992,7 +996,7 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 33,
+        "inside": 26,
         "oceanview": 26,
         "balcony": 49,
         "suite": 28
@@ -1021,7 +1025,11 @@
       "cruiseLine": "Norwegian",
       "shipName": "Norwegian Jade",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2352,
+        "crew": 1037,
+        "ratio": 2.3
+      },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -1192,7 +1200,11 @@
       "cruiseLine": "Norwegian",
       "shipName": "Norwegian Jade",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2352,
+        "crew": 1037,
+        "ratio": 2.3
+      },
       "itinerary": "Tokyo (Yokohama), Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -1363,7 +1375,11 @@
       "cruiseLine": "Norwegian",
       "shipName": "Norwegian Jade",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2352,
+        "crew": 1037,
+        "ratio": 2.3
+      },
       "itinerary": "Hong Kong → Kao-hsiung, Taiwan → Taipei (Keelung), Taiwan → Ishigaki Island, Japan → At Sea → Nagasaki, Japan → Kagoshima, Japan → Hiroshima, Japan → Kochi, Japan → Kobe, Japan → Shimizu, Japan → Tokyo (Koto City), Japan",
       "departurePort": "Hong Kong",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -1848,7 +1864,7 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 35,
+        "inside": 28,
         "oceanview": 26,
         "balcony": 50,
         "suite": 44
@@ -2167,7 +2183,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Busan, South Korea → Sokcho-si, South Korea",
       "departurePort": "Busan, South Korea",
       "arrivalPort": "Sokcho-si, South Korea",
@@ -2275,7 +2295,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Sokcho-si, South Korea → At Sea → Otaru, Japan → Hakodate, Japan → At Sea → Busan, South Korea",
       "departurePort": "Sokcho-si, South Korea",
       "arrivalPort": "Busan, South Korea",
@@ -2518,7 +2542,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Otaru, Japan → Busan, South Korea",
       "departurePort": "Otaru, Japan",
       "arrivalPort": "Busan, South Korea",
@@ -2613,7 +2641,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Busan, South Korea → Busan, South Korea",
       "departurePort": "Busan, South Korea",
       "arrivalPort": "Busan, South Korea",
@@ -3089,7 +3121,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Busan, South Korea → Busan, South Korea",
       "departurePort": "Busan, South Korea",
       "arrivalPort": "Busan, South Korea",
@@ -3208,7 +3244,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Busan, South Korea → Incheon, South Korea",
       "departurePort": "Busan, South Korea",
       "arrivalPort": "Incheon, South Korea",
@@ -3322,7 +3362,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Incheon, South Korea → Busan, South Korea",
       "departurePort": "Incheon, South Korea",
       "arrivalPort": "Busan, South Korea",
@@ -3448,7 +3492,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Okinawa (Naha), Japan → Busan, South Korea",
       "departurePort": "Okinawa (Naha), Japan",
       "arrivalPort": "Busan, South Korea",
@@ -3550,7 +3598,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Busan, South Korea → At Sea → Hakodate, Japan → Otaru, Japan",
       "departurePort": "Busan, South Korea",
       "arrivalPort": "Otaru, Japan",
@@ -3871,7 +3923,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Otaru, Japan → Busan, South Korea",
       "departurePort": "Otaru, Japan",
       "arrivalPort": "Busan, South Korea",
@@ -3966,7 +4022,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Busan, South Korea → Kao-hsiung, Taiwan",
       "departurePort": "Busan, South Korea",
       "arrivalPort": "Kao-hsiung, Taiwan",
@@ -4212,7 +4272,7 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 86
+        "inside": 84
       },
       "valueScores": {
         "inside": 89
@@ -4384,7 +4444,7 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 36,
+        "inside": 29,
         "oceanview": 44,
         "balcony": 55,
         "suite": 35
@@ -4561,7 +4621,11 @@
       "cruiseLine": "Norwegian",
       "shipName": "Norwegian Jade",
       "shipRating": null,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2352,
+        "crew": 1037,
+        "ratio": 2.3
+      },
       "itinerary": "Tokyo (Koto City), Japan → Sendai, Japan → Hakodate, Japan → Aomori, Japan → Akita, Japan → Sakata, Japan → Kanazawa, Japan → Busan, South Korea → Sasebo, Japan → Scenic Cruising Kanmon Strait (Cruising Only) → Hiroshima, Japan → Kochi, Japan → Osaka, Japan → Nagoya, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -4738,7 +4802,11 @@
       "cruiseLine": "Norwegian",
       "shipName": "Norwegian Jade",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2352,
+        "crew": 1037,
+        "ratio": 2.3
+      },
       "itinerary": "Vancouver, BC, Canada → Tokyo (Yokohama), Japan",
       "departurePort": "Vancouver, BC, Canada",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -4909,7 +4977,11 @@
       "cruiseLine": "Norwegian",
       "shipName": "Norwegian Jade",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2352,
+        "crew": 1037,
+        "ratio": 2.3
+      },
       "itinerary": "Tokyo (Yokohama), Japan → Incheon, South Korea",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Incheon, South Korea",
@@ -5072,7 +5144,11 @@
       "cruiseLine": "Norwegian",
       "shipName": "Norwegian Jade",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2352,
+        "crew": 1037,
+        "ratio": 2.3
+      },
       "itinerary": "Incheon, South Korea → Tokyo (Koto City), Japan",
       "departurePort": "Incheon, South Korea",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -5225,7 +5301,11 @@
       "cruiseLine": "Norwegian",
       "shipName": "Norwegian Jade",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2352,
+        "crew": 1037,
+        "ratio": 2.3
+      },
       "itinerary": "Tokyo (Yokohama), Japan → Incheon, South Korea",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Incheon, South Korea",
@@ -5366,7 +5446,11 @@
       "cruiseLine": "Norwegian",
       "shipName": "Norwegian Jade",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2352,
+        "crew": 1037,
+        "ratio": 2.3
+      },
       "itinerary": "Incheon, South Korea → Tokyo (Yokohama), Japan",
       "departurePort": "Incheon, South Korea",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -5507,7 +5591,11 @@
       "cruiseLine": "Norwegian",
       "shipName": "Norwegian Jade",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2352,
+        "crew": 1037,
+        "ratio": 2.3
+      },
       "itinerary": "Tokyo (Yokohama), Japan → Hong Kong",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Hong Kong",
@@ -5794,7 +5882,7 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 64,
+        "inside": 60,
         "oceanview": 56,
         "balcony": 59,
         "suite": 47
@@ -5823,7 +5911,11 @@
       "cruiseLine": "Norwegian",
       "shipName": "Norwegian Jade",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2352,
+        "crew": 1037,
+        "ratio": 2.3
+      },
       "itinerary": "Hong Kong → At Sea → Coron, Philippines → Boracay, Philippines → Puerto Princesa, Palawan, Philippines → At Sea → Muara (Bandar Seri Begawan), Brunei → At Sea → Ho Chi Minh City (Phu My), Vietnam → At Sea → Laem Chabang, Thailand → Laem Chabang, Thailand → Ko Samui, Thailand → At Sea → Singapore",
       "departurePort": "Hong Kong",
       "arrivalPort": "Singapore",
@@ -6184,7 +6276,11 @@
       "cruiseLine": "Norwegian",
       "shipName": "Norwegian Jade",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2352,
+        "crew": 1037,
+        "ratio": 2.3
+      },
       "itinerary": "Singapore → Hong Kong",
       "departurePort": "Singapore",
       "arrivalPort": "Hong Kong",
@@ -6337,7 +6433,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → Nagasaki, Japan → Busan, South Korea → Sakaiminato, Japan → Tsuruga, Japan → Toyama, Japan → Akita, Japan → At Sea → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -6678,7 +6778,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Tokyo (Koto City), Japan → Taipei (Keelung), Taiwan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Taipei (Keelung), Taiwan",
@@ -6789,7 +6893,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → At Sea → Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan → Ishigaki Island, Japan → Okinawa (Naha), Japan → At Sea → At Sea → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -7130,7 +7238,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Shanghai, China → Tokyo (Koto City), Japan",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -7235,7 +7347,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Tokyo (Koto City), Japan → At Sea → At Sea → Taipei (Keelung), Taiwan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Taipei (Keelung), Taiwan",
@@ -7660,7 +7776,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
       "arrivalPort": "Taipei (Keelung), Taiwan",
@@ -7777,7 +7897,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
       "arrivalPort": "Okinawa (Naha), Japan",
@@ -7894,7 +8018,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
       "arrivalPort": "Taipei (Keelung), Taiwan",
@@ -8011,7 +8139,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
       "arrivalPort": "Okinawa (Naha), Japan",
@@ -8122,7 +8254,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
       "arrivalPort": "Taipei (Keelung), Taiwan",
@@ -8233,7 +8369,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
       "arrivalPort": "Okinawa (Naha), Japan",
@@ -8344,7 +8484,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
       "arrivalPort": "Taipei (Keelung), Taiwan",
@@ -8455,7 +8599,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
       "arrivalPort": "Okinawa (Naha), Japan",
@@ -8566,7 +8714,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
       "arrivalPort": "Taipei (Keelung), Taiwan",
@@ -8677,7 +8829,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
       "arrivalPort": "Okinawa (Naha), Japan",
@@ -8788,7 +8944,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
       "arrivalPort": "Taipei (Keelung), Taiwan",
@@ -8899,7 +9059,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
       "arrivalPort": "Okinawa (Naha), Japan",
@@ -9010,7 +9174,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
       "arrivalPort": "Taipei (Keelung), Taiwan",
@@ -9121,7 +9289,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
       "arrivalPort": "Okinawa (Naha), Japan",
@@ -9232,7 +9404,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
       "arrivalPort": "Taipei (Keelung), Taiwan",
@@ -9343,7 +9519,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
       "arrivalPort": "Taipei (Keelung), Taiwan",
@@ -9454,7 +9634,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
       "arrivalPort": "Okinawa (Naha), Japan",
@@ -9560,7 +9744,11 @@
       "cruiseLine": "MSC크루즈",
       "shipName": "MSC Bellissima",
       "shipRating": null,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "부산→상하이→제주→부산",
       "departurePort": "부산",
       "arrivalPort": "부산",
@@ -9691,7 +9879,11 @@
       "cruiseLine": "MSC크루즈",
       "shipName": "MSC Bellissima",
       "shipRating": null,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "부산→상하이→제주→부산",
       "departurePort": "부산",
       "arrivalPort": "부산",
@@ -9802,7 +9994,11 @@
       "cruiseLine": "MSC크루즈",
       "shipName": "MSC Bellissima",
       "shipRating": null,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "부산→상하이→제주→부산",
       "departurePort": "부산",
       "arrivalPort": "부산",
@@ -9913,7 +10109,11 @@
       "cruiseLine": "MSC크루즈",
       "shipName": "MSC Bellissima",
       "shipRating": null,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "부산→상하이→제주→부산",
       "departurePort": "부산",
       "arrivalPort": "부산",
@@ -10019,7 +10219,11 @@
       "cruiseLine": "MSC크루즈",
       "shipName": "MSC Bellissima",
       "shipRating": null,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "부산→상하이→제주→부산",
       "departurePort": "부산",
       "arrivalPort": "부산",
@@ -10139,7 +10343,11 @@
       "cruiseLine": "MSC크루즈",
       "shipName": "MSC Bellissima",
       "shipRating": null,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "부산→상하이→제주→부산",
       "departurePort": "부산",
       "arrivalPort": "부산",
@@ -10260,7 +10468,11 @@
       "cruiseLine": "MSC크루즈",
       "shipName": "MSC Bellissima",
       "shipRating": null,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "부산→상하이→제주→부산",
       "departurePort": "부산",
       "arrivalPort": "부산",
@@ -10371,7 +10583,11 @@
       "cruiseLine": "MSC크루즈",
       "shipName": "MSC Bellissima",
       "shipRating": null,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "부산→상하이→제주→사세보→부산",
       "departurePort": "부산",
       "arrivalPort": "부산",
@@ -10508,7 +10724,11 @@
       "cruiseLine": "MSC크루즈",
       "shipName": "MSC Bellissima",
       "shipRating": null,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "부산→상하이→후쿠오카→부산",
       "departurePort": "부산",
       "arrivalPort": "부산",
@@ -10610,7 +10830,11 @@
       "cruiseLine": "MSC크루즈",
       "shipName": "MSC Bellissima",
       "shipRating": null,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "부산→상하이→부산",
       "departurePort": "부산",
       "arrivalPort": "부산",
@@ -10718,7 +10942,11 @@
       "cruiseLine": "MSC크루즈",
       "shipName": "MSC Bellissima",
       "shipRating": null,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "부산→후쿠오카→상하이→제주→부산",
       "departurePort": "부산",
       "arrivalPort": "부산",
@@ -10809,7 +11037,11 @@
       "cruiseLine": "Norwegian",
       "shipName": "Norwegian Jade",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2352,
+        "crew": 1037,
+        "ratio": 2.3
+      },
       "itinerary": "Tokyo (Koto City), Japan → Incheon, South Korea",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Incheon, South Korea",
@@ -10950,7 +11182,11 @@
       "cruiseLine": "Norwegian",
       "shipName": "Norwegian Jade",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2352,
+        "crew": 1037,
+        "ratio": 2.3
+      },
       "itinerary": "Incheon, South Korea → Tokyo (Yokohama), Japan",
       "departurePort": "Incheon, South Korea",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -11239,7 +11475,7 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 50,
+        "inside": 45,
         "oceanview": 37,
         "balcony": 46,
         "suite": 45
@@ -11424,7 +11660,11 @@
       "cruiseLine": "Norwegian",
       "shipName": "Norwegian Jade",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2352,
+        "crew": 1037,
+        "ratio": 2.3
+      },
       "itinerary": "Tokyo (Yokohama), Japan → Incheon, South Korea",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Incheon, South Korea",
@@ -11587,7 +11827,11 @@
       "cruiseLine": "Norwegian",
       "shipName": "Norwegian Jade",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2352,
+        "crew": 1037,
+        "ratio": 2.3
+      },
       "itinerary": "Incheon, South Korea → Tokyo (Koto City), Japan",
       "departurePort": "Incheon, South Korea",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -11740,7 +11984,11 @@
       "cruiseLine": "Norwegian",
       "shipName": "Norwegian Jade",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2352,
+        "crew": 1037,
+        "ratio": 2.3
+      },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -11893,7 +12141,11 @@
       "cruiseLine": "Norwegian",
       "shipName": "Norwegian Jade",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2352,
+        "crew": 1037,
+        "ratio": 2.3
+      },
       "itinerary": "Tokyo (Koto City), Japan → Hong Kong",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Hong Kong",
@@ -12044,7 +12296,11 @@
       "cruiseLine": "Norwegian",
       "shipName": "Norwegian Jade",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2352,
+        "crew": 1037,
+        "ratio": 2.3
+      },
       "itinerary": "Tokyo (Koto City), Japan → Incheon, South Korea",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Incheon, South Korea",
@@ -12195,7 +12451,11 @@
       "cruiseLine": "Norwegian",
       "shipName": "Norwegian Jade",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2352,
+        "crew": 1037,
+        "ratio": 2.3
+      },
       "itinerary": "Incheon, South Korea → Tokyo (Yokohama), Japan",
       "departurePort": "Incheon, South Korea",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -12336,7 +12596,11 @@
       "cruiseLine": "Norwegian",
       "shipName": "Norwegian Jade",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2352,
+        "crew": 1037,
+        "ratio": 2.3
+      },
       "itinerary": "Tokyo (Yokohama), Japan → Incheon, South Korea",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Incheon, South Korea",
@@ -12477,7 +12741,11 @@
       "cruiseLine": "Norwegian",
       "shipName": "Norwegian Jade",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2352,
+        "crew": 1037,
+        "ratio": 2.3
+      },
       "itinerary": "Incheon, South Korea → Tokyo (Yokohama), Japan",
       "departurePort": "Incheon, South Korea",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -12618,7 +12886,11 @@
       "cruiseLine": "Norwegian",
       "shipName": "Norwegian Jade",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2352,
+        "crew": 1037,
+        "ratio": 2.3
+      },
       "itinerary": "Hong Kong → At Sea → Coron, Philippines → Boracay, Philippines → Puerto Princesa, Palawan, Philippines → Kota Kinabalu, Malaysia → Muara (Bandar Seri Begawan), Brunei → At Sea → Ho Chi Minh City (Phu My), Vietnam → At Sea → Laem Chabang, Thailand → Laem Chabang, Thailand → Ko Samui, Thailand → At Sea → Singapore",
       "departurePort": "Hong Kong",
       "arrivalPort": "Singapore",
@@ -12969,7 +13241,11 @@
       "cruiseLine": "Norwegian",
       "shipName": "Norwegian Jade",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2352,
+        "crew": 1037,
+        "ratio": 2.3
+      },
       "itinerary": "Singapore → Hong Kong",
       "departurePort": "Singapore",
       "arrivalPort": "Hong Kong",
@@ -13122,7 +13398,11 @@
       "cruiseLine": "Norwegian",
       "shipName": "Norwegian Jade",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2352,
+        "crew": 1037,
+        "ratio": 2.3
+      },
       "itinerary": "Hong Kong → At Sea → Coron, Philippines → Puerto Princesa, Palawan, Philippines → Kota Kinabalu, Malaysia → Muara (Bandar Seri Begawan), Brunei → At Sea → Ho Chi Minh City (Phu My), Vietnam → At Sea → Laem Chabang, Thailand → Ko Samui, Thailand → At Sea → Singapore",
       "departurePort": "Hong Kong",
       "arrivalPort": "Singapore",
@@ -13461,7 +13741,11 @@
       "cruiseLine": "Norwegian",
       "shipName": "Norwegian Jade",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2352,
+        "crew": 1037,
+        "ratio": 2.3
+      },
       "itinerary": "Singapore → At Sea → Ko Samui, Thailand → Laem Chabang, Thailand → At Sea → Ho Chi Minh City (Phu My), Vietnam → At Sea → Muara (Bandar Seri Begawan), Brunei → Kota Kinabalu, Malaysia → Puerto Princesa, Palawan, Philippines → Coron, Philippines → At Sea → Hong Kong → Hong Kong",
       "departurePort": "Singapore",
       "arrivalPort": "Hong Kong",
@@ -13978,7 +14262,7 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 54,
+        "inside": 49,
         "oceanview": 48,
         "balcony": 67,
         "suite": 62
@@ -14007,7 +14291,11 @@
       "cruiseLine": "Norwegian",
       "shipName": "Norwegian Jade",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2352,
+        "crew": 1037,
+        "ratio": 2.3
+      },
       "itinerary": "Singapore → Hong Kong",
       "departurePort": "Singapore",
       "arrivalPort": "Hong Kong",
@@ -14176,7 +14464,11 @@
       "cruiseLine": "Norwegian",
       "shipName": "Norwegian Jade",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2352,
+        "crew": 1037,
+        "ratio": 2.3
+      },
       "itinerary": "Singapore → Hong Kong",
       "departurePort": "Singapore",
       "arrivalPort": "Hong Kong",
@@ -14345,7 +14637,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Tokyo (Koto City), Japan → Kobe, Japan → Kobe, Japan → At Sea → Busan, South Korea → Kagoshima, Japan → At Sea → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -14403,13 +14699,13 @@
       "nights": 7,
       "days": 8,
       "cabinPrices": {
-        "inside": 1356,
+        "inside": 964,
         "oceanview": 1144,
         "balcony": 1514,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 194,
+        "inside": 138,
         "oceanview": 163,
         "balcony": 216
       },
@@ -14443,12 +14739,12 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 18,
+        "inside": 55,
         "oceanview": 80,
         "balcony": 71
       },
       "valueScores": {
-        "inside": 92,
+        "inside": 96,
         "oceanview": 92,
         "balcony": 91
       },
@@ -14623,6 +14919,15 @@
             "balcony": 1514,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-12T09:25:31.789Z",
+          "prices": {
+            "inside": 964,
+            "oceanview": 1144,
+            "balcony": 1514,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -14631,7 +14936,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Tokyo (Yokohama), Japan → Toba, Japan → Osaka, Japan → At Sea → Nagasaki, Japan → Busan, South Korea → At Sea → Kochi, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -14962,7 +15271,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Tokyo (Koto City), Japan → At Sea → Gangjeong, South Korea → Yatsushiro, Japan → Kagoshima, Japan → At Sea → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -15014,17 +15327,17 @@
       "nights": 6,
       "days": 7,
       "cabinPrices": {
-        "inside": 1202,
+        "inside": 866,
         "oceanview": 2957,
         "balcony": 1360,
-        "suite": 3486,
+        "suite": 3150,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 200,
+        "inside": 144,
         "oceanview": 493,
         "balcony": 227,
-        "suite": 581
+        "suite": 525
       },
       "origPrice": 3010,
       "salePrice": 1202,
@@ -15056,16 +15369,16 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 14,
+        "inside": 51,
         "oceanview": 0,
         "balcony": 68,
-        "suite": 0
+        "suite": 15
       },
       "valueScores": {
-        "inside": 91,
+        "inside": 96,
         "oceanview": 40,
         "balcony": 89,
-        "suite": 80
+        "suite": 82
       },
       "priceHistory": [
         {
@@ -15161,6 +15474,16 @@
             "suite": 3486,
             "currency": "USD"
           }
+        },
+        {
+          "date": "2026-04-12T09:25:31.789Z",
+          "prices": {
+            "inside": 866,
+            "oceanview": 2957,
+            "balcony": 1360,
+            "suite": 3150,
+            "currency": "USD"
+          }
         }
       ]
     },
@@ -15169,7 +15492,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
       "arrivalPort": "Taipei (Keelung), Taiwan",
@@ -15280,7 +15607,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
       "arrivalPort": "Okinawa (Naha), Japan",
@@ -15391,7 +15722,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -15508,7 +15843,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Tokyo (Koto City), Japan → At Sea → Gangjeong, South Korea → Sasebo, Japan → Kagoshima, Japan → At Sea → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -16449,7 +16788,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Shanghai, China → Tokyo (Koto City), Japan",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -16572,7 +16915,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -16831,10 +17178,10 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 70,
+        "inside": 32,
         "oceanview": 49,
         "balcony": 79,
-        "suite": 61
+        "suite": 60
       },
       "valueScores": {
         "inside": 91,
@@ -17040,7 +17387,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Tokyo (Yokohama), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -17206,7 +17557,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -17323,7 +17678,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Kanazawa, Japan → Kanazawa, Japan",
       "departurePort": "Kanazawa, Japan",
       "arrivalPort": "Kanazawa, Japan",
@@ -17437,7 +17796,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -17548,7 +17911,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -17675,7 +18042,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Hakodate, Japan → Sasebo, Japan",
       "departurePort": "Hakodate, Japan",
       "arrivalPort": "Sasebo, Japan",
@@ -17795,7 +18166,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
       "arrivalPort": "Taipei (Keelung), Taiwan",
@@ -17908,7 +18283,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Tokyo (Yokohama), Japan → Toba, Japan → Kochi, Japan → Miyazaki (Aburatsu), Japan → Nagasaki, Japan → Busan, South Korea → At Sea → Osaka, Japan → At Sea → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -18056,7 +18435,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Incheon, South Korea → At Sea → Busan, South Korea → Sasebo, Japan → Yatsushiro, Japan → Kagoshima, Japan",
       "departurePort": "Incheon, South Korea",
       "arrivalPort": "Kagoshima, Japan",
@@ -18351,7 +18734,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -18462,7 +18849,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → Nagasaki, Japan → Busan, South Korea → Sakaiminato, Japan → At Sea → Aomori, Japan → At Sea → Tokyo (Yokohama), Japan → At Sea → Nagasaki, Japan → Busan, South Korea → At Sea → Hiroshima, Japan → Kochi, Japan → Kobe, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -18841,7 +19232,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -18958,7 +19353,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -19130,7 +19529,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -19247,7 +19650,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -19425,7 +19832,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -19536,7 +19947,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -19653,7 +20068,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -19825,7 +20244,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -19936,7 +20359,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Tokyo (Yokohama), Japan → Toba, Japan → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → At Sea → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -20273,7 +20700,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -20441,7 +20872,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -20552,7 +20987,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
       "arrivalPort": "Taipei (Keelung), Taiwan",
@@ -20659,7 +21098,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Tokyo (Yokohama), Japan → Toba, Japan → Kochi, Japan → At Sea → Seogwipo City, South Korea → Kagoshima, Japan → At Sea → Tokyo (Yokohama), Japan → At Sea → Nagasaki, Japan → Busan, South Korea → At Sea → Aomori, Japan → Hakodate, Japan → At Sea → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -21026,7 +21469,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Fukuoka, Japan → Okinawa (Naha), Japan",
       "departurePort": "Fukuoka, Japan",
       "arrivalPort": "Okinawa (Naha), Japan",
@@ -21128,7 +21575,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -21307,7 +21758,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -21418,7 +21873,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → Nagasaki, Japan → Busan, South Korea → At Sea → Aomori, Japan → Hakodate, Japan → At Sea → Tokyo (Yokohama), Japan → At Sea → Aomori, Japan → At Sea → Sakaiminato, Japan → Busan, South Korea → At Sea → Kochi, Japan → Tokushima, Japan → Osaka, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -21809,7 +22268,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -21926,7 +22389,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → Aomori, Japan → At Sea → Sakaiminato, Japan → Busan, South Korea → At Sea → Kochi, Japan → Tokushima, Japan → Osaka, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -22269,7 +22736,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -22441,7 +22912,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -22565,7 +23040,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Tokyo (Yokohama), Japan → Kumano, Japan → Wakayama (Shimotsu), Japan → Kochi, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → At Sea → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -22902,7 +23381,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -22967,7 +23450,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -23078,7 +23565,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Tokyo (Yokohama), Japan → Toba, Japan → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → At Sea → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -23415,7 +23906,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -23578,7 +24073,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -23695,7 +24194,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → Hakodate, Japan → Niigata, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → Kochi, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -24032,7 +24535,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -24193,7 +24700,11 @@
       "cruiseLine": "Holland America",
       "shipName": "Westerdam",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 1964,
+        "crew": 812,
+        "ratio": 2.4
+      },
       "itinerary": "Vancouver, BC, Canada → Inside Passage, AK (Cruising) → Ketchikan, AK → At Sea → At Sea → At Sea → At Sea → Crossing International Dateline (Cruising) → At Sea → At Sea → Kushiro, Japan → Aomori, Japan → At Sea → Tokyo (Koto City), Japan → At Sea → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Sakaiminato, Japan → Tsuruga, Japan → Toyama, Japan → Sakata, Japan → Aomori, Japan → Hakodate, Japan → At Sea → Tokyo (Koto City), Japan",
       "departurePort": "Vancouver, BC, Canada",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -24413,10 +24924,10 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 67,
+        "inside": 24,
         "oceanview": 35,
         "balcony": 80,
-        "suite": 30
+        "suite": 11
       },
       "valueScores": {
         "inside": 90,
@@ -24622,7 +25133,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → Nagasaki, Japan → Busan, South Korea → At Sea → Kochi, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -24931,7 +25446,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → At Sea → Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan → Ishigaki Island, Japan → Okinawa (Naha), Japan → At Sea → At Sea → Tokyo (Yokohama), Japan → Toba, Japan → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → At Sea → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -25306,7 +25825,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -25417,7 +25940,11 @@
       "cruiseLine": "Holland America",
       "shipName": "Westerdam",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 1964,
+        "crew": 812,
+        "ratio": 2.4
+      },
       "itinerary": "Tokyo (Koto City), Japan → At Sea → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Sakaiminato, Japan → Tsuruga, Japan → Toyama, Japan → Sakata, Japan → Aomori, Japan → Hakodate, Japan → At Sea → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -25559,10 +26086,10 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 68,
+        "inside": 26,
         "oceanview": 38,
         "balcony": 73,
-        "suite": 41
+        "suite": 28
       },
       "valueScores": {
         "inside": 91,
@@ -25595,7 +26122,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -25725,7 +26256,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Tokyo (Yokohama), Japan → Toba, Japan → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → At Sea → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -26148,7 +26683,7 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 26,
+        "inside": 18,
         "oceanview": 19,
         "balcony": 47,
         "suite": 58
@@ -26184,7 +26719,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -26295,7 +26834,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Tokyo (Yokohama), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -26443,7 +26986,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → Akita, Japan → Toyama, Japan → Tsuruga, Japan → Sakaiminato, Japan → Busan, South Korea → Nagasaki, Japan → At Sea → Tokyo (Yokohama), Japan → At Sea → Nagasaki, Japan → Busan, South Korea → At Sea → Hiroshima, Japan → Miyazaki (Aburatsu), Japan → Tokushima, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -26828,7 +27375,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -26945,7 +27496,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Tokyo (Yokohama), Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -27099,7 +27654,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → Nagasaki, Japan → Busan, South Korea → At Sea → Hiroshima, Japan → Miyazaki (Aburatsu), Japan → Tokushima, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -27375,7 +27934,11 @@
       "cruiseLine": "Holland America",
       "shipName": "Westerdam",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 1964,
+        "crew": 812,
+        "ratio": 2.4
+      },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -27523,7 +28086,7 @@
       "dealScores": {
         "oceanview": 49,
         "balcony": 83,
-        "suite": 64
+        "suite": 66
       },
       "valueScores": {
         "oceanview": 86,
@@ -27547,7 +28110,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → Hakodate, Japan → Aomori, Japan → Akita, Japan → Niigata, Japan → Kanazawa, Japan → Sakaiminato, Japan → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → Miyazaki (Aburatsu), Japan → At Sea → Omaezaki, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -27908,7 +28475,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Hong Kong",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Hong Kong",
@@ -28025,7 +28596,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → Aomori, Japan → Sakata, Japan → Kanazawa, Japan → Sakaiminato, Japan → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → Beppu, Japan → Kochi, Japan → Osaka, Japan → At Sea → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -28386,7 +28961,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Hong Kong → Hong Kong",
       "departurePort": "Hong Kong",
       "arrivalPort": "Hong Kong",
@@ -28527,7 +29106,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Hong Kong → Tokyo (Yokohama), Japan",
       "departurePort": "Hong Kong",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -29273,7 +29856,11 @@
       "cruiseLine": "Holland America",
       "shipName": "Westerdam",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 1964,
+        "crew": 812,
+        "ratio": 2.4
+      },
       "itinerary": "Tokyo (Koto City), Japan → Shimizu, Japan → Osaka, Japan → Osaka, Japan → At Sea → Kagoshima, Japan → Nagasaki, Japan → Busan, South Korea → Yeosu, South Korea → Fukuoka, Japan → At Sea → Hiroshima, Japan → Kochi, Japan → At Sea → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -29415,10 +30002,10 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 96,
+        "inside": 92,
         "oceanview": 95,
         "balcony": 98,
-        "suite": 84
+        "suite": 98
       },
       "valueScores": {
         "inside": 97,
@@ -29464,7 +30051,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Singapore → At Sea → Ho Chi Minh City (Phu My), Vietnam → At Sea → Da Nang, Vietnam → At Sea → Hong Kong → At Sea → Taipei (Keelung), Taiwan → Ishigaki Island, Japan → Okinawa (Naha), Japan → At Sea → Kochi, Japan → Kobe, Japan → At Sea → Tokyo (Yokohama), Japan → At Sea → Beppu, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Miyazaki (Aburatsu), Japan → Kochi, Japan → Kobe, Japan → At Sea → Tokyo (Yokohama), Japan",
       "departurePort": "Singapore",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -29897,7 +30488,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Tokyo (Yokohama), Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -30058,7 +30653,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -30673,7 +31272,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Tokyo (Yokohama), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -30830,7 +31433,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → Beppu, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Miyazaki (Aburatsu), Japan → Kochi, Japan → Kobe, Japan → At Sea → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -31747,7 +32354,7 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 10,
+        "inside": 0,
         "oceanview": 1,
         "balcony": 32,
         "suite": 29
@@ -31783,7 +32390,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -31927,7 +32538,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → Yatsushiro, Japan → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → Beppu, Japan → Matsuyama, Japan → Kochi, Japan → Osaka, Japan → Tokushima, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -32276,7 +32891,11 @@
       "cruiseLine": "Holland America",
       "shipName": "Westerdam",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 1964,
+        "crew": 812,
+        "ratio": 2.4
+      },
       "itinerary": "Tokyo (Koto City), Japan → At Sea → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Sakaiminato, Japan → Tsuruga, Japan → Toyama, Japan → Sakata, Japan → Aomori, Japan → Hakodate, Japan → At Sea → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -32416,7 +33035,7 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 78,
+        "inside": 50,
         "oceanview": 54,
         "balcony": 0
       },
@@ -33077,7 +33696,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -33591,7 +34214,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Tokyo (Yokohama), Japan → Toba, Japan → At Sea → Nagasaki, Japan → Busan, South Korea → Sakaiminato, Japan → Maizuru, Japan → Toyama, Japan → Sakata, Japan → Hakodate, Japan → Miyako, Japan → Hitachinaka, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -33940,7 +34567,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -34513,7 +35144,7 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 28,
+        "inside": 20,
         "oceanview": 21,
         "balcony": 39,
         "suite": 43
@@ -34549,7 +35180,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -34724,7 +35359,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Tokyo (Yokohama), Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -35055,7 +35694,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -35360,7 +36003,7 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 33,
+        "inside": 25,
         "oceanview": 26,
         "balcony": 49,
         "suite": 53
@@ -35396,7 +36039,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Tokyo (Yokohama), Japan → Toba, Japan → Kobe, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Seogwipo City, South Korea → Nagasaki, Japan → At Sea → Omaezaki, Japan → Tokyo (Yokohama), Japan → At Sea → Hakodate, Japan → Niigata, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → Kochi, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -36124,7 +36771,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Tokyo (Koto City), Japan → Incheon, South Korea",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Incheon, South Korea",
@@ -36636,7 +37287,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Tokyo (Yokohama), Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -37701,7 +38356,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -38203,7 +38862,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -38699,7 +39362,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -39350,7 +40017,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -39852,7 +40523,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -40502,7 +41177,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -41164,7 +41843,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -41617,7 +42300,7 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 27,
+        "inside": 18,
         "oceanview": 16,
         "balcony": 31,
         "suite": 44
@@ -41653,7 +42336,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Tokyo (Koto City), Japan → Incheon, South Korea",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Incheon, South Korea",
@@ -42369,10 +43056,10 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 96,
+        "inside": 90,
         "oceanview": 94,
         "balcony": 97,
-        "suite": 76
+        "suite": 85
       },
       "valueScores": {
         "inside": 97,
@@ -42866,7 +43553,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -43167,10 +43858,10 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 80,
+        "inside": 55,
         "oceanview": 59,
         "balcony": 82,
-        "suite": 64
+        "suite": 65
       },
       "valueScores": {
         "inside": 94,
@@ -43682,7 +44373,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → Nagasaki, Japan → Seogwipo City, South Korea → At Sea → Kobe, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan → At Sea → Hakodate, Japan → Niigata, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → Kochi, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -44287,10 +44982,10 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 83,
+        "inside": 60,
         "oceanview": 66,
         "balcony": 86,
-        "suite": 69
+        "suite": 73
       },
       "valueScores": {
         "inside": 94,
@@ -44980,7 +45675,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Tokyo (Yokohama), Japan → Toba, Japan → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → At Sea → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -45449,10 +46148,10 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 82,
+        "inside": 60,
         "oceanview": 71,
         "balcony": 85,
-        "suite": 69
+        "suite": 74
       },
       "valueScores": {
         "inside": 94,
@@ -45818,7 +46517,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Tokyo (Yokohama), Japan → Hitachinaka, Japan → At Sea → Hakodate, Japan → Akita, Japan → Niigata, Japan → Kanazawa, Japan → Sakaiminato, Japan → Busan, South Korea → Nagasaki, Japan → Miyazaki (Aburatsu), Japan → Kochi, Japan → At Sea → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -46540,10 +47243,10 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 87,
+        "inside": 71,
         "oceanview": 73,
         "balcony": 90,
-        "suite": 72
+        "suite": 79
       },
       "valueScores": {
         "inside": 95,
@@ -47191,10 +47894,10 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 83,
+        "inside": 60,
         "oceanview": 63,
         "balcony": 88,
-        "suite": 66
+        "suite": 69
       },
       "valueScores": {
         "inside": 94,
@@ -47488,7 +48191,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Tokyo (Yokohama), Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -47795,10 +48502,10 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 79,
+        "inside": 52,
         "oceanview": 56,
         "balcony": 86,
-        "suite": 64
+        "suite": 66
       },
       "valueScores": {
         "inside": 93,
@@ -48426,7 +49133,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Tokyo (Yokohama), Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -49058,7 +49769,7 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 31,
+        "inside": 24,
         "oceanview": 21,
         "balcony": 35,
         "suite": 47
@@ -49882,7 +50593,7 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 32,
+        "inside": 24,
         "oceanview": 21,
         "balcony": 35,
         "suite": 47
@@ -50667,7 +51378,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Kyoto, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Kyoto, Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -50847,7 +51562,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Kyoto, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Kyoto, Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -51031,7 +51750,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Kyoto, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Kyoto, Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -51209,7 +51932,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Kyoto, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Kyoto, Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -51400,7 +52127,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Kyoto, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Kyoto, Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -51590,7 +52321,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Kyoto, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Kyoto, Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -51769,7 +52504,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Tour begins in Kyoto, Japan → Kyoto, Japan → Kyoto, Japan / Nara, Japan / Tokyo, Japan → Tokyo (Yokohama), Japan → Tokyo (Yokohama), Japan → Tokyo (Yokohama), Japan → Cruise begins in Tokyo (Yokohama), Japan → At Sea → Akita, Japan → Toyama, Japan → Tsuruga, Japan → Sakaiminato, Japan → Busan, South Korea → Nagasaki, Japan → At Sea → Tokyo (Yokohama), Japan",
       "departurePort": "Tour begins in Kyoto, Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -51963,7 +52702,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Kyoto, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Kyoto, Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -52147,7 +52890,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
       "arrivalPort": "Okinawa (Naha), Japan",
@@ -52391,7 +53138,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
       "arrivalPort": "Taipei (Keelung), Taiwan",
@@ -52681,10 +53432,10 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 81,
+        "inside": 57,
         "oceanview": 51,
         "balcony": 45,
-        "suite": 48
+        "suite": 39
       },
       "valueScores": {
         "inside": 94,
@@ -52750,7 +53501,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Sasebo, Japan → Okinawa (Naha), Japan",
       "departurePort": "Sasebo, Japan",
       "arrivalPort": "Okinawa (Naha), Japan",
@@ -53218,7 +53973,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Jeju Island, South Korea → At Sea → Maizuru, Japan → Niigata, Japan → Hakodate, Japan → At Sea → At Sea → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -53533,7 +54292,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
       "arrivalPort": "Taipei (Keelung), Taiwan",
@@ -53633,7 +54396,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
       "arrivalPort": "Okinawa (Naha), Japan",
@@ -53739,7 +54506,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → Nagasaki, Japan → Seogwipo City, South Korea → At Sea → At Sea → Hakodate, Japan → Muroran, Japan → Aomori, Japan → At Sea → Tokyo (Yokohama), Japan → At Sea → At Sea → Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan → Ishigaki Island, Japan → Okinawa (Naha), Japan → At Sea → At Sea → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -53920,7 +54691,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
       "arrivalPort": "Taipei (Keelung), Taiwan",
@@ -54020,7 +54795,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
       "arrivalPort": "Taipei (Keelung), Taiwan",
@@ -54125,7 +54904,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -54258,7 +55041,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Taipei (Keelung), Taiwan → Kanazawa, Japan",
       "departurePort": "Taipei (Keelung), Taiwan",
       "arrivalPort": "Kanazawa, Japan",
@@ -54548,8 +55335,12 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
-      "itinerary": "Tokyo (Koto City), Japan → At Sea → Gangjeong, South Korea → Kagoshima, Japan → At Sea → Tokyo (Koto City), Japan",
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
+      "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
       "stopPorts": [
@@ -54606,9 +55397,9 @@
         "balcony": 294,
         "suite": 528
       },
-      "origPrice": 7433,
-      "salePrice": 2639,
-      "discountPct": 64,
+      "origPrice": 2048,
+      "salePrice": 1019,
+      "discountPct": 50,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=32209",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/32209_250508152531547.jpg",
       "shipPhotos": {
@@ -54796,7 +55587,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Tokyo (Yokohama), Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -55111,7 +55906,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Kanazawa, Japan → Kanazawa, Japan",
       "departurePort": "Kanazawa, Japan",
       "arrivalPort": "Kanazawa, Japan",
@@ -55633,7 +56432,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -55971,7 +56774,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Seoul, South Korea → At Sea → Jeju Island, South Korea → Nagasaki, Japan → Kagoshima, Japan → Hiroshima, Japan → At Sea → Kyoto, Japan → Kyoto, Japan → At Sea → Shimizu, Japan → Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Seoul, South Korea",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -56310,7 +57117,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Kagoshima, Japan → Incheon, South Korea",
       "departurePort": "Kagoshima, Japan",
       "arrivalPort": "Incheon, South Korea",
@@ -56433,7 +57244,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Nagasaki, Japan → Incheon, South Korea",
       "departurePort": "Nagasaki, Japan",
       "arrivalPort": "Incheon, South Korea",
@@ -56535,7 +57350,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Kao-hsiung, Taiwan → Kao-hsiung, Taiwan",
       "departurePort": "Kao-hsiung, Taiwan",
       "arrivalPort": "Kao-hsiung, Taiwan",
@@ -56641,7 +57460,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
       "arrivalPort": "Okinawa (Naha), Japan",
@@ -56737,7 +57560,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Kao-hsiung, Taiwan → Kao-hsiung, Taiwan",
       "departurePort": "Kao-hsiung, Taiwan",
       "arrivalPort": "Kao-hsiung, Taiwan",
@@ -56843,7 +57670,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
       "arrivalPort": "Okinawa (Naha), Japan",
@@ -56945,7 +57776,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
       "arrivalPort": "Taipei (Keelung), Taiwan",
@@ -57046,7 +57881,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
       "arrivalPort": "Okinawa (Naha), Japan",
@@ -57136,7 +57975,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
       "arrivalPort": "Taipei (Keelung), Taiwan",
@@ -57226,7 +58069,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
       "arrivalPort": "Okinawa (Naha), Japan",
@@ -57322,7 +58169,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
       "arrivalPort": "Taipei (Keelung), Taiwan",
@@ -57412,7 +58263,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Okinawa (Naha), Japan → Fukuoka, Japan",
       "departurePort": "Okinawa (Naha), Japan",
       "arrivalPort": "Fukuoka, Japan",
@@ -57502,7 +58357,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
       "arrivalPort": "Taipei (Keelung), Taiwan",
@@ -57597,7 +58456,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
       "arrivalPort": "Okinawa (Naha), Japan",
@@ -57687,7 +58550,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
       "arrivalPort": "Taipei (Keelung), Taiwan",
@@ -57788,7 +58655,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
       "arrivalPort": "Okinawa (Naha), Japan",
@@ -57884,7 +58755,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
       "arrivalPort": "Taipei (Keelung), Taiwan",
@@ -57979,7 +58854,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -58097,7 +58976,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
       "arrivalPort": "Okinawa (Naha), Japan",
@@ -58193,7 +59076,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -58341,7 +59228,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
       "arrivalPort": "Taipei (Keelung), Taiwan",
@@ -58431,7 +59322,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Okinawa (Naha), Japan → Sasebo, Japan",
       "departurePort": "Okinawa (Naha), Japan",
       "arrivalPort": "Sasebo, Japan",
@@ -58531,7 +59426,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Sasebo, Japan → Okinawa (Naha), Japan",
       "departurePort": "Sasebo, Japan",
       "arrivalPort": "Okinawa (Naha), Japan",
@@ -58627,7 +59526,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
       "arrivalPort": "Taipei (Keelung), Taiwan",
@@ -58722,7 +59625,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
       "arrivalPort": "Okinawa (Naha), Japan",
@@ -58818,7 +59725,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
       "arrivalPort": "Taipei (Keelung), Taiwan",
@@ -58919,7 +59830,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
       "arrivalPort": "Okinawa (Naha), Japan",
@@ -59009,7 +59924,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
       "arrivalPort": "Taipei (Keelung), Taiwan",
@@ -59275,7 +60194,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -60028,7 +60951,11 @@
       "cruiseLine": "Holland America",
       "shipName": "Westerdam",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 1964,
+        "crew": 812,
+        "ratio": 2.4
+      },
       "itinerary": "Tokyo (Koto City), Japan → Omaezaki, Japan → Kobe, Japan → Kochi, Japan → At Sea → Fukuoka, Japan → Sokcho-si, South Korea → At Sea → Kanazawa, Japan → Sakata, Japan → Hakodate, Japan → Miyako, Japan → At Sea → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -60164,10 +61091,10 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 76,
+        "inside": 44,
         "oceanview": 49,
         "balcony": 67,
-        "suite": 45
+        "suite": 35
       },
       "valueScores": {
         "inside": 92,
@@ -60395,7 +61322,7 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 60,
+        "inside": 55,
         "oceanview": 43,
         "balcony": 69,
         "suite": 67
@@ -60586,7 +61513,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -60697,7 +61628,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -60832,7 +61767,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Tokyo (Yokohama), Japan → Hong Kong",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Hong Kong",
@@ -61016,7 +61955,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Hong Kong → Hong Kong",
       "departurePort": "Hong Kong",
       "arrivalPort": "Hong Kong",
@@ -61133,7 +62076,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Hong Kong → Hong Kong",
       "departurePort": "Hong Kong",
       "arrivalPort": "Hong Kong",
@@ -61544,7 +62491,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → Kagoshima, Japan → Nagasaki, Japan → At Sea → Ishigaki Island, Japan → Taipei (Keelung), Taiwan → At Sea → Hong Kong → At Sea → Da Nang, Vietnam → At Sea → Ho Chi Minh City (Phu My), Vietnam → At Sea → Singapore",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Singapore",
@@ -61905,7 +62856,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Hong Kong → Hong Kong",
       "departurePort": "Hong Kong",
       "arrivalPort": "Hong Kong",
@@ -62032,7 +62987,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Hong Kong → Hong Kong",
       "departurePort": "Hong Kong",
       "arrivalPort": "Hong Kong",
@@ -62510,7 +63469,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Hong Kong → Hong Kong",
       "departurePort": "Hong Kong",
       "arrivalPort": "Hong Kong",
@@ -62637,7 +63600,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Hong Kong → Hong Kong",
       "departurePort": "Hong Kong",
       "arrivalPort": "Hong Kong",
@@ -63233,7 +64200,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Hong Kong → Hong Kong",
       "departurePort": "Hong Kong",
       "arrivalPort": "Hong Kong",
@@ -63350,7 +64321,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
       "arrivalPort": "Taipei (Keelung), Taiwan",
@@ -63461,7 +64436,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
       "arrivalPort": "Okinawa (Naha), Japan",
@@ -63939,7 +64918,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Okinawa (Naha), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Okinawa (Naha), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -64062,7 +65045,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Tokyo (Yokohama), Japan → Hong Kong",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Hong Kong",
@@ -64207,7 +65194,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Hong Kong → Hong Kong",
       "departurePort": "Hong Kong",
       "arrivalPort": "Hong Kong",
@@ -64685,7 +65676,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Hong Kong → Shanghai, China",
       "departurePort": "Hong Kong",
       "arrivalPort": "Shanghai, China",
@@ -65345,7 +66340,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Singapore → Kuala Lumpur (Port Kelang), Malaysia → Langkawi, Malaysia → Penang, Malaysia → Phuket, Thailand → At Sea → At Sea → At Sea → Nha Trang, Vietnam → At Sea → Cai Lan, Vietnam → Cai Lan, Vietnam → Da Nang, Vietnam → At Sea → Ho Chi Minh City (Phu My), Vietnam → At Sea → Singapore → At Sea → Ho Chi Minh City (Phu My), Vietnam → At Sea → Da Nang, Vietnam → At Sea → Hong Kong → At Sea → Taipei (Keelung), Taiwan → Ishigaki Island, Japan → Okinawa (Naha), Japan → At Sea → Kochi, Japan → Kobe, Japan → At Sea → Tokyo (Yokohama), Japan",
       "departurePort": "Singapore",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -65956,7 +66955,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Singapore → Tokyo (Yokohama), Japan",
       "departurePort": "Singapore",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -66130,7 +67133,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -66609,7 +67616,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -66720,7 +67731,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Shanghai, China → Tokyo (Koto City), Japan",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -66831,7 +67846,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -67102,7 +68121,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -67713,7 +68736,7 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 13,
+        "inside": 3,
         "oceanview": 4,
         "balcony": 35,
         "suite": 31
@@ -67749,7 +68772,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -68222,7 +69249,11 @@
       "cruiseLine": "Holland America",
       "shipName": "Westerdam",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 1964,
+        "crew": 812,
+        "ratio": 2.4
+      },
       "itinerary": "Tokyo (Koto City), Japan → Omaezaki, Japan → Osaka, Japan → Kochi, Japan → At Sea → Fukuoka, Japan → Sokcho-si, South Korea → At Sea → Kanazawa, Japan → Sakata, Japan → Aomori, Japan → Otaru, Japan → Hakodate, Japan → At Sea → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -68364,10 +69395,10 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 78,
+        "inside": 50,
         "oceanview": 54,
         "balcony": 68,
-        "suite": 24
+        "suite": 0
       },
       "valueScores": {
         "inside": 93,
@@ -68920,7 +69951,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -70871,7 +71906,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Incheon, South Korea → Tokyo (Koto City), Japan",
       "departurePort": "Incheon, South Korea",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -71620,7 +72659,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Tokyo (Koto City), Japan → Singapore",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Singapore",
@@ -72413,7 +73456,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Tokyo (Yokohama), Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -73129,10 +74176,10 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 93,
+        "inside": 83,
         "oceanview": 85,
         "balcony": 94,
-        "suite": 74
+        "suite": 81
       },
       "valueScores": {
         "inside": 96,
@@ -74219,7 +75266,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Singapore → Tokyo (Yokohama), Japan",
       "departurePort": "Singapore",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -75652,7 +76703,7 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 67,
+        "inside": 64,
         "oceanview": 54,
         "balcony": 62,
         "suite": 67
@@ -75853,7 +76904,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Tokyo (Yokohama), Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
       "arrivalPort": "Tokyo (Yokohama), Japan",
@@ -76160,10 +77215,10 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 67,
+        "inside": 25,
         "oceanview": 40,
         "balcony": 77,
-        "suite": 58
+        "suite": 57
       },
       "valueScores": {
         "inside": 90,
@@ -77690,7 +78745,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Hong Kong → Singapore",
       "departurePort": "Hong Kong",
       "arrivalPort": "Singapore",
@@ -77861,7 +78920,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Hong Kong → Hong Kong",
       "departurePort": "Hong Kong",
       "arrivalPort": "Hong Kong",
@@ -77972,7 +79035,11 @@
       "cruiseLine": "Holland America",
       "shipName": "Westerdam",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 1964,
+        "crew": 812,
+        "ratio": 2.4
+      },
       "itinerary": "Singapore → Hong Kong",
       "departurePort": "Singapore",
       "arrivalPort": "Hong Kong",
@@ -78114,10 +79181,10 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 87,
+        "inside": 71,
         "oceanview": 76,
         "balcony": 95,
-        "suite": 79
+        "suite": 89
       },
       "valueScores": {
         "inside": 95,
@@ -78514,7 +79581,11 @@
       "cruiseLine": "Holland America",
       "shipName": "Westerdam",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 1964,
+        "crew": 812,
+        "ratio": 2.4
+      },
       "itinerary": "Hong Kong → At Sea → Halong Bay, Vietnam → At Sea → Da Nang, Vietnam → At Sea → Nha Trang, Vietnam → Ho Chi Minh City (Phu My), Vietnam → At Sea → Sihanoukville, Cambodia → Laem Chabang, Thailand → Laem Chabang, Thailand → Ko Samui, Thailand → At Sea → Singapore",
       "departurePort": "Hong Kong",
       "arrivalPort": "Singapore",
@@ -78656,10 +79727,10 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 86,
+        "inside": 68,
         "oceanview": 70,
         "balcony": 93,
-        "suite": 77
+        "suite": 87
       },
       "valueScores": {
         "inside": 95,
@@ -79377,7 +80448,11 @@
       "cruiseLine": "Holland America",
       "shipName": "Westerdam",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 1964,
+        "crew": 812,
+        "ratio": 2.4
+      },
       "itinerary": "Singapore → At Sea → At Sea → Puerto Princesa, Palawan, Philippines → At Sea → Bitung, Indonesia → At Sea → At Sea → Jayapura, Papua Province, Indonesia → At Sea → Rabaul, Papua New Guinea → Kiriwina, Papua New Guinea → At Sea → Townsville, Australia → Cairns, Australia → Cairns, Australia → At Sea → At Sea → At Sea → Darwin, Australia → At Sea → At Sea → Komodo, Indonesia → Benoa, Bali, Indonesia → Benoa, Bali, Indonesia → At Sea → Krakatoa Volcano, Indonesia (Cruising) → At Sea → Singapore → At Sea → Ko Samui, Thailand → Pattaya, Thailand → Pattaya, Thailand → Sihanoukville, Cambodia → At Sea → Ho Chi Minh City (Phu My), Vietnam → Nha Trang, Vietnam → At Sea → Da Nang, Vietnam → At Sea → Halong Bay, Vietnam → At Sea → Hong Kong",
       "departurePort": "Singapore",
       "arrivalPort": "Hong Kong",
@@ -79687,10 +80762,10 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 84,
+        "inside": 64,
         "oceanview": 68,
         "balcony": 86,
-        "suite": 85
+        "suite": 100
       },
       "valueScores": {
         "inside": 94,
@@ -80395,7 +81470,11 @@
       "cruiseLine": "Holland America",
       "shipName": "Westerdam",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 1964,
+        "crew": 812,
+        "ratio": 2.4
+      },
       "itinerary": "Singapore → At Sea → Ko Samui, Thailand → Pattaya, Thailand → Pattaya, Thailand → Sihanoukville, Cambodia → At Sea → Ho Chi Minh City (Phu My), Vietnam → Nha Trang, Vietnam → At Sea → Da Nang, Vietnam → At Sea → Halong Bay, Vietnam → At Sea → Hong Kong",
       "departurePort": "Singapore",
       "arrivalPort": "Hong Kong",
@@ -80537,10 +81616,10 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 72,
+        "inside": 37,
         "oceanview": 37,
         "balcony": 76,
-        "suite": 54
+        "suite": 50
       },
       "valueScores": {
         "inside": 92,
@@ -83607,7 +84686,7 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 46,
+        "inside": 40,
         "oceanview": 35,
         "balcony": 46,
         "suite": 54
@@ -83783,7 +84862,7 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 48,
+        "inside": 42,
         "oceanview": 35,
         "balcony": 48,
         "suite": 56
@@ -84291,10 +85370,10 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 95,
+        "inside": 87,
         "oceanview": 88,
         "balcony": 94,
-        "suite": 76
+        "suite": 84
       },
       "valueScores": {
         "inside": 97,
@@ -84814,7 +85893,7 @@
         "inside": 100,
         "oceanview": 100,
         "balcony": 100,
-        "suite": 79
+        "suite": 89
       },
       "valueScores": {
         "inside": 98,
@@ -85311,7 +86390,7 @@
         "inside": 100,
         "oceanview": 98,
         "balcony": 100,
-        "suite": 81
+        "suite": 93
       },
       "valueScores": {
         "inside": 98,
@@ -85951,10 +87030,10 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 90,
+        "inside": 76,
         "oceanview": 79,
         "balcony": 93,
-        "suite": 69
+        "suite": 73
       },
       "valueScores": {
         "inside": 96,
@@ -86466,10 +87545,10 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 90,
+        "inside": 77,
         "oceanview": 80,
         "balcony": 90,
-        "suite": 71
+        "suite": 78
       },
       "valueScores": {
         "inside": 96,
@@ -87092,10 +88171,10 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 95,
+        "inside": 87,
         "oceanview": 88,
         "balcony": 97,
-        "suite": 76
+        "suite": 84
       },
       "valueScores": {
         "inside": 97,
@@ -88674,7 +89753,7 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 43,
+        "inside": 37,
         "oceanview": 40,
         "balcony": 57,
         "suite": 57
@@ -88853,7 +89932,7 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 47,
+        "inside": 42,
         "oceanview": 42,
         "balcony": 59,
         "suite": 58
@@ -89061,7 +90140,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Incheon, South Korea → Taipei (Keelung), Taiwan",
       "departurePort": "Incheon, South Korea",
       "arrivalPort": "Taipei (Keelung), Taiwan",
@@ -90139,7 +91222,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -90244,7 +91331,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -90741,7 +91832,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -91128,7 +92223,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Shanghai, China → Incheon, South Korea",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Incheon, South Korea",
@@ -91324,7 +92423,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -91429,7 +92532,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -91925,7 +93032,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -92229,7 +93340,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -92630,7 +93745,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -93023,7 +94142,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -93411,7 +94534,11 @@
       "cruiseLine": "Costa",
       "shipName": "Costa Serena",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 3780,
+        "crew": 1100,
+        "ratio": 3.4
+      },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
       "arrivalPort": "Taipei (Keelung), Taiwan",
@@ -93802,7 +94929,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -94093,7 +95224,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -94783,7 +95918,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -95087,7 +96226,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -99608,7 +100751,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Singapore → Benoa, Bali, Indonesia",
       "departurePort": "Singapore",
       "arrivalPort": "Benoa, Bali, Indonesia",
@@ -100578,7 +101725,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Benoa, Bali, Indonesia → Singapore",
       "departurePort": "Benoa, Bali, Indonesia",
       "arrivalPort": "Singapore",
@@ -100737,7 +101888,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Singapore → At Sea → Ho Chi Minh City (Phu My), Vietnam → Nha Trang, Vietnam → At Sea → Cai Lan, Vietnam → Cai Lan, Vietnam → Da Nang, Vietnam → At Sea → At Sea → Singapore",
       "departurePort": "Singapore",
       "arrivalPort": "Singapore",
@@ -102209,7 +103364,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Singapore → At Sea → Phuket, Thailand → Langkawi, Malaysia → Penang, Malaysia → Kuala Lumpur (Port Kelang), Malaysia → At Sea → At Sea → Nha Trang, Vietnam → Ho Chi Minh City (Phu My), Vietnam → At Sea → Laem Chabang, Thailand → At Sea → At Sea → Singapore",
       "departurePort": "Singapore",
       "arrivalPort": "Singapore",
@@ -102671,7 +103830,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Singapore → Benoa, Bali, Indonesia",
       "departurePort": "Singapore",
       "arrivalPort": "Benoa, Bali, Indonesia",
@@ -103357,7 +104520,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Benoa, Bali, Indonesia → Singapore",
       "departurePort": "Benoa, Bali, Indonesia",
       "arrivalPort": "Singapore",
@@ -103657,7 +104824,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Singapore → Singapore",
       "departurePort": "Singapore",
       "arrivalPort": "Singapore",
@@ -104576,7 +105747,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Singapore → Benoa, Bali, Indonesia",
       "departurePort": "Singapore",
       "arrivalPort": "Benoa, Bali, Indonesia",
@@ -104831,7 +106006,11 @@
       "cruiseLine": "Princess",
       "shipName": "Diamond Princess",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2706,
+        "crew": 1100,
+        "ratio": 2.5
+      },
       "itinerary": "Singapore → Kuala Lumpur (Port Kelang), Malaysia → Langkawi, Malaysia → Penang, Malaysia → Phuket, Thailand → At Sea → At Sea → At Sea → Ko Samui, Thailand → Laem Chabang, Thailand → At Sea → At Sea → Singapore",
       "departurePort": "Singapore",
       "arrivalPort": "Singapore",
@@ -105686,7 +106865,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Benoa, Bali, Indonesia → Singapore",
       "departurePort": "Benoa, Bali, Indonesia",
       "arrivalPort": "Singapore",
@@ -106714,7 +107897,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Singapore → Singapore",
       "departurePort": "Singapore",
       "arrivalPort": "Singapore",
@@ -107525,7 +108712,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -107973,7 +109164,7 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 56,
+        "inside": 0,
         "oceanview": 0
       },
       "valueScores": {
@@ -109302,7 +110493,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -110850,7 +112045,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -116224,7 +117423,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Singapore → Singapore",
       "departurePort": "Singapore",
       "arrivalPort": "Singapore",
@@ -116743,7 +117946,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Singapore → Benoa, Bali, Indonesia",
       "departurePort": "Singapore",
       "arrivalPort": "Benoa, Bali, Indonesia",
@@ -117479,7 +118686,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Benoa, Bali, Indonesia → Singapore",
       "departurePort": "Benoa, Bali, Indonesia",
       "arrivalPort": "Singapore",
@@ -118373,7 +119584,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Singapore → Benoa, Bali, Indonesia",
       "departurePort": "Singapore",
       "arrivalPort": "Benoa, Bali, Indonesia",
@@ -119115,7 +120330,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Benoa, Bali, Indonesia → Singapore",
       "departurePort": "Benoa, Bali, Indonesia",
       "arrivalPort": "Singapore",
@@ -120045,7 +121264,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Singapore → Benoa, Bali, Indonesia",
       "departurePort": "Singapore",
       "arrivalPort": "Benoa, Bali, Indonesia",
@@ -120717,7 +121940,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Benoa, Bali, Indonesia → Singapore",
       "departurePort": "Benoa, Bali, Indonesia",
       "arrivalPort": "Singapore",
@@ -121681,7 +122908,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Singapore → Benoa, Bali, Indonesia",
       "departurePort": "Singapore",
       "arrivalPort": "Benoa, Bali, Indonesia",
@@ -122581,7 +123812,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Benoa, Bali, Indonesia → Singapore",
       "departurePort": "Benoa, Bali, Indonesia",
       "arrivalPort": "Singapore",
@@ -124224,7 +125459,11 @@
       "cruiseLine": "Celebrity",
       "shipName": "Celebrity Millennium",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 2218,
+        "crew": 1024,
+        "ratio": 2.2
+      },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Tokyo (Koto City), Japan",
@@ -124385,7 +125624,11 @@
       "cruiseLine": "Royal Caribbean",
       "shipName": "Spectrum of the Seas",
       "shipRating": 5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5622,
+        "crew": 1551,
+        "ratio": 3.6
+      },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
       "arrivalPort": "Shanghai, China",
@@ -124503,7 +125746,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Tokyo (Koto City), Japan → Shanghai, China",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Shanghai, China",
@@ -124608,7 +125855,11 @@
       "cruiseLine": "MSC",
       "shipName": "MSC Bellissima",
       "shipRating": 4.5,
-      "shipInfo": null,
+      "shipInfo": {
+        "passengers": 5655,
+        "crew": 1595,
+        "ratio": 3.5
+      },
       "itinerary": "Tokyo (Koto City), Japan → Incheon, South Korea",
       "departurePort": "Tokyo (Koto City), Japan",
       "arrivalPort": "Incheon, South Korea",
@@ -124660,9 +125911,9 @@
         "balcony": 126,
         "suite": 231
       },
-      "origPrice": 315,
+      "origPrice": 624,
       "salePrice": 315,
-      "discountPct": 0,
+      "discountPct": 50,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=30088",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/30088_260409143505123.jpg",
       "shipPhotos": {
