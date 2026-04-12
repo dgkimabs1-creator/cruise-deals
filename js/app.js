@@ -1485,7 +1485,13 @@
       return '';
     }
 
-    return '정원 ' + Math.round(passengers).toLocaleString('ko-KR') + '명' + (ratio === null ? '' : ' (1:' + ratio.toFixed(1) + ')');
+    var parts = [Math.round(passengers).toLocaleString('ko-KR') + '명'];
+    if (ratio !== null) parts.push('1:' + ratio.toFixed(1));
+    var yearBuilt = shipInfo && shipInfo.yearBuilt;
+    var lastRefurb = shipInfo && shipInfo.lastRefurbished;
+    if (lastRefurb) parts.push('리뉴얼' + lastRefurb);
+    else if (yearBuilt) parts.push('건조' + yearBuilt);
+    return parts.join(' · ');
   }
 
   function getHistoricalSnapshotPrice(entry, cabinType) {
