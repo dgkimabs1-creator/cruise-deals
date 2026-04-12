@@ -6,10 +6,12 @@
  */
 
 const fs = require('fs');
+const https = require('https');
 const path = require('path');
 
 const SOURCE = path.resolve(__dirname, '../../zmfnwm/src/storage/data/cruises.json');
 const LINE_PRICES = path.resolve(__dirname, '../../zmfnwm/src/storage/data/lineprices.json');
+const SHIP_DB = path.resolve(__dirname, '../../zmfnwm/src/storage/data/shipdb.json');
 const SHIP_PHOTOS = path.resolve(__dirname, '../../zmfnwm/cruise_ship_photos.json');
 const DEST = path.resolve(__dirname, '../data/cruises-public.json');
 
@@ -20,6 +22,10 @@ async function run() {
   // lineprices for deal scores
   let linePrices = {};
   try { linePrices = JSON.parse(fs.readFileSync(LINE_PRICES, 'utf8')); } catch (e) {}
+
+  let shipDb = {};
+  try { shipDb = JSON.parse(fs.readFileSync(SHIP_DB, 'utf8')); } catch (e) {}
+  const shipInfoIndex = buildShipInfoIndex(shipDb);
 
   // ship photos
   let shipPhotos = [];
@@ -71,6 +77,7 @@ async function run() {
       cruiseLine: c.cruiseLine || '',
       shipName: c.shipName || '',
       shipRating: c.shipRating || null,
+      shipInfo: getShipInfoForCruise(c, shipInfoIndex),
       itinerary: c.itinerary || '',
       departurePort,
       arrivalPort,
@@ -105,11 +112,7 @@ async function run() {
   publicList.sort((a, b) => (a.num || 9999) - (b.num || 9999));
 
   // 환율
-  let exchangeRate = 1480;
-  try {
-    const { getUsdToKrw } = require(path.resolve(__dirname, '../../zmfnwm/src/utils/exchange'));
-    exchangeRate = await getUsdToKrw();
-  } catch (e) {}
+  const exchangeRate = await getExchangeRate(readExistingExchangeRate());
 
   const output = {
     exportedAt: new Date().toISOString(),
@@ -120,6 +123,55 @@ async function run() {
 
   fs.writeFileSync(DEST, JSON.stringify(output, null, 2), 'utf8');
   console.log(`Exported ${publicList.length} cruises → ${DEST}`);
+}
+
+function toNumber(value) {
+  if (value === null || value === undefined || value === '') return null;
+  const amount = Number(value);
+  return Number.isFinite(amount) ? amount : null;
+}
+
+function normalizeShipName(value) {
+  return String(value || '')
+    .toLowerCase()
+    .replace(/&/g, ' and ')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim()
+    .replace(/\s+/g, ' ');
+}
+
+function buildShipInfoIndex(shipDb) {
+  const index = Object.create(null);
+
+  for (const [key, ship] of Object.entries(shipDb || {})) {
+    const passengers = toNumber(ship && ship.passengerCapacity);
+    const crew = toNumber(ship && ship.crewSize);
+
+    if (passengers === null || crew === null || crew <= 0) {
+      continue;
+    }
+
+    const shipInfo = {
+      passengers,
+      crew,
+      ratio: Math.round((passengers / crew) * 10) / 10,
+    };
+    const aliases = [ship && ship.name, key && key.replace(/_/g, ' ')];
+
+    for (const alias of aliases) {
+      const normalized = normalizeShipName(alias);
+      if (normalized) {
+        index[normalized] = shipInfo;
+      }
+    }
+  }
+
+  return index;
+}
+
+function getShipInfoForCruise(cruise, shipInfoIndex) {
+  const normalizedName = normalizeShipName(cruise && cruise.shipName);
+  return normalizedName && shipInfoIndex && shipInfoIndex[normalizedName] ? shipInfoIndex[normalizedName] : null;
 }
 
 function sanitizePrices(prices) {
@@ -176,4 +228,63 @@ function calcValueScores(cruise, linePrices) {
   return scores;
 }
 
-run();
+function readExistingExchangeRate() {
+  try {
+    const existing = JSON.parse(fs.readFileSync(DEST, 'utf8'));
+    const rate = toNumber(existing && existing.exchangeRate);
+    return rate !== null && rate > 0 ? rate : 1480;
+  } catch (error) {
+    return 1480;
+  }
+}
+
+function getExchangeRate(fallbackRate) {
+  return fetchUsdToKrwRate().catch(() => {
+    return fallbackRate && fallbackRate > 0 ? fallbackRate : 1480;
+  });
+}
+
+function fetchUsdToKrwRate() {
+  return new Promise((resolve, reject) => {
+    const request = https.get('https://open.er-api.com/v6/latest/USD', { timeout: 3000 }, (response) => {
+      let body = '';
+
+      response.on('data', (chunk) => {
+        body += chunk;
+      });
+
+      response.on('end', () => {
+        try {
+          const parsed = JSON.parse(body);
+          const rate = toNumber(parsed && parsed.rates ? parsed.rates.KRW : null);
+          if (rate !== null && rate > 0) {
+            resolve(rate);
+            return;
+          }
+          reject(new Error('KRW rate not found'));
+        } catch (error) {
+          reject(error);
+        }
+      });
+    });
+
+    request.on('error', reject);
+    request.on('timeout', () => {
+      request.destroy(new Error('exchange rate request timed out'));
+    });
+  });
+}
+
+if (require.main === module) {
+  run().catch((error) => {
+    console.error(error);
+    process.exitCode = 1;
+  });
+}
+
+module.exports = {
+  buildShipInfoIndex,
+  getShipInfoForCruise,
+  normalizeShipName,
+  run,
+};

@@ -24,6 +24,31 @@
     balcony: '#f59e0b',
     suite: '#ef4444'
   };
+  var OFFICIAL_WEBSITE_URLS = {
+    'royal caribbean': 'https://www.royalcaribbean.com',
+    disney: 'https://disneycruise.disney.go.com',
+    msc: 'https://www.msccruises.com',
+    'msc크루즈': 'https://www.msccruises.com',
+    princess: 'https://www.princess.com',
+    costa: 'https://www.costacruises.com',
+    celebrity: 'https://www.celebritycruises.com',
+    norwegian: 'https://www.ncl.com',
+    'holland america': 'https://www.hollandamerica.com',
+    carnival: 'https://www.carnival.com',
+    viking: 'https://www.vikingcruises.com',
+    oceania: 'https://www.oceaniacruises.com',
+    silversea: 'https://www.silversea.com',
+    seabourn: 'https://www.seabourn.com',
+    ponant: 'https://www.ponant.com',
+    windstar: 'https://www.windstarcruises.com',
+    azamara: 'https://www.azamara.com',
+    cunard: 'https://www.cunard.com',
+    regent: 'https://www.rssc.com',
+    crystal: 'https://www.crystalcruises.com',
+    explora: 'https://www.explorajourneys.com',
+    'explora journeys': 'https://www.explorajourneys.com',
+    'p&o': 'https://www.pocruises.com'
+  };
   var internalState = {
     cruises: [],
     filteredCruises: [],
@@ -111,6 +136,10 @@
 
   function normalizeCurrencyMode(value) {
     return String(value || '').toUpperCase() === 'KRW' ? 'KRW' : 'USD';
+  }
+
+  function normalizeCruiseLineKey(value) {
+    return String(value || '').toLowerCase().trim().replace(/\s+/g, ' ');
   }
 
   function normalizeCruiseId(value) {
@@ -342,6 +371,21 @@
     return amount === null ? '-' : amount.toFixed(1) + '★';
   }
 
+  function formatShipInfoSummary(shipInfo) {
+    var passengers = toNumber(shipInfo && shipInfo.passengers);
+    var ratio = toNumber(shipInfo && shipInfo.ratio);
+
+    if (passengers === null) {
+      return '';
+    }
+
+    return '정원 ' + Math.round(passengers).toLocaleString('ko-KR') + '명' + (ratio === null ? '' : ' (1:' + ratio.toFixed(1) + ')');
+  }
+
+  function getOfficialWebsiteUrl(cruiseLine) {
+    return OFFICIAL_WEBSITE_URLS[normalizeCruiseLineKey(cruiseLine)] || '';
+  }
+
   function formatBoolean(value) {
     return value ? '예' : '아니오';
   }
@@ -531,6 +575,7 @@
       else if (cruise.bookingUrl.indexOf('cruisebooking') !== -1) bookingSite = '🔗 크루즈부킹에서 예약';
     }
     actions.push(buildActionLink(cruise.bookingUrl, bookingSite, true));
+    actions.push(buildActionLink(getOfficialWebsiteUrl(cruise.cruiseLine), '🌐 공식 사이트', false));
     actions.push(buildActionLink('https://www.cruisecompete.com/', '💡 CruiseCompete 견적 비교', true));
     actions.push('<button type="button" class="modal-chip" data-modal-action="copy-link" data-num="' + escapeHtml(cruise.num) + '">🔗 링크 복사</button>');
 
@@ -833,11 +878,16 @@
   }
 
   function buildDetailHtml(cruise, state) {
+    var shipMeta = [formatStarRating(cruise.shipRating), formatShipInfoSummary(cruise.shipInfo)]
+      .filter(Boolean)
+      .join(' · ');
+
     return (
       '<div class="modal-header">' +
         '<div>' +
           '<p class="modal-subtitle">#' + escapeHtml(cruise.num) + ' · ' + escapeHtml(cruise.cruiseLine || '-') + '</p>' +
           '<h2 class="modal-title">' + escapeHtml(cruise.shipName || '크루즈 상세') + '</h2>' +
+          (shipMeta ? '<p class="modal-subtitle">' + escapeHtml(shipMeta) + '</p>' : '') +
           '<p class="modal-subtitle">' +
             escapeHtml((cruise.departurePort || '-') + ' → ' + (cruise.arrivalPort || '-')) +
             ' · ' + escapeHtml(formatDate(cruise.departureDate)) +
@@ -1418,7 +1468,8 @@
     configure: configure,
     showDetail: showDetail,
     showCompare: showCompare,
-    closeModal: closeModal
+    closeModal: closeModal,
+    getOfficialWebsiteUrl: getOfficialWebsiteUrl
   };
 
   bootstrap();

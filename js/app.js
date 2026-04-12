@@ -16,6 +16,31 @@
     currency: 'cruise-currency-mode',
     theme: 'cruise-theme-mode'
   };
+  var CRUISE_LINE_BADGES = {
+    'royal caribbean': '👑',
+    disney: '🏰',
+    msc: '⚓',
+    'msc크루즈': '⚓',
+    princess: '👸',
+    costa: '🌊',
+    celebrity: '⭐',
+    norwegian: '🚢',
+    'holland america': '🌷',
+    carnival: '🎪',
+    viking: '⚔️',
+    oceania: '🌍',
+    silversea: '🥈',
+    seabourn: '💎',
+    ponant: '🇫🇷',
+    windstar: '🌬️',
+    azamara: '🔵',
+    cunard: '🎩',
+    regent: '👑',
+    crystal: '💠',
+    explora: '🧭',
+    'explora journeys': '🧭',
+    'p&o': '🇬🇧'
+  };
   var VIEW_PANEL_MAP = {
     list: 'listPanel',
     favorites: 'listPanel',
@@ -68,6 +93,8 @@
     search: '',
     line: '',
     month: '',
+    departureStart: '',
+    departureEnd: '',
     departure: '',
     arrival: '',
     destination: '',
@@ -135,6 +162,8 @@
     dom.searchInput = root.document.getElementById('searchInput');
     dom.filterLine = root.document.getElementById('filterLine');
     dom.filterMonth = root.document.getElementById('filterMonth');
+    dom.filterDepartureStart = root.document.getElementById('filterDepartureStart');
+    dom.filterDepartureEnd = root.document.getElementById('filterDepartureEnd');
     dom.filterDeparture = root.document.getElementById('filterDeparture');
     dom.filterArrival = root.document.getElementById('filterArrival');
     dom.filterDestination = root.document.getElementById('filterDestination');
@@ -202,6 +231,8 @@
     bindFilterInput(dom.searchInput, 'search', 'input');
     bindFilterInput(dom.filterLine, 'line', 'change');
     bindFilterInput(dom.filterMonth, 'month', 'change');
+    bindFilterInput(dom.filterDepartureStart, 'departureStart', 'change');
+    bindFilterInput(dom.filterDepartureEnd, 'departureEnd', 'change');
     bindFilterInput(dom.filterDeparture, 'departure', 'input');
     bindFilterInput(dom.filterArrival, 'arrival', 'input');
     bindFilterInput(dom.filterDestination, 'destination', 'input');
@@ -779,6 +810,12 @@
     if (dom.filterMonth) {
       dom.filterMonth.value = state.filters.month;
     }
+    if (dom.filterDepartureStart) {
+      dom.filterDepartureStart.value = state.filters.departureStart;
+    }
+    if (dom.filterDepartureEnd) {
+      dom.filterDepartureEnd.value = state.filters.departureEnd;
+    }
     if (dom.filterDeparture) {
       dom.filterDeparture.value = state.filters.departure;
     }
@@ -903,6 +940,30 @@
     return false;
   }
 
+  function matchesDepartureDateRange(cruise, filters) {
+    var departureDate = String(cruise && cruise.departureDate || '');
+    var departureStart = String(filters && filters.departureStart || '');
+    var departureEnd = String(filters && filters.departureEnd || '');
+
+    if (!departureStart && !departureEnd) {
+      return true;
+    }
+
+    if (!departureDate) {
+      return false;
+    }
+
+    if (departureStart && departureDate < departureStart) {
+      return false;
+    }
+
+    if (departureEnd && departureDate > departureEnd) {
+      return false;
+    }
+
+    return true;
+  }
+
   function matchesManualFilters(cruise) {
     var filters = state.filters;
     var filterNum = toNumber(filters.num);
@@ -935,6 +996,10 @@
     }
 
     if (filters.month && String(cruise && cruise.departureDate || '').slice(0, 7) !== filters.month) {
+      return false;
+    }
+
+    if (!matchesDepartureDateRange(cruise, filters)) {
       return false;
     }
 
@@ -1205,6 +1270,30 @@
     return getLowestPrice(cruise);
   }
 
+  var CABIN_LABELS = { inside: '내', oceanview: '바', balcony: '발', suite: '스' };
+
+  function getCabinLabel(cruise) {
+    var cabinType = state.filters.cabinType;
+    if (cabinType) return CABIN_LABELS[cabinType] || '';
+    if (!cruise || !cruise.cabinPrices) return '';
+    var lowest = Infinity, label = '';
+    for (var type in CABIN_LABELS) {
+      var p = cruise.cabinPrices[type];
+      if (p > 0 && p < lowest) { lowest = p; label = CABIN_LABELS[type]; }
+    }
+    return label;
+  }
+
+  function getBestScoreWithLabel(scores) {
+    if (!scores || typeof scores !== 'object') return { score: 0, label: '' };
+    var best = 0, label = '';
+    for (var type in CABIN_LABELS) {
+      var s = Number(scores[type]);
+      if (s > best) { best = s; label = CABIN_LABELS[type]; }
+    }
+    return { score: best, label: label };
+  }
+
   function getCabinFilteredPerNight(cruise) {
     var cabinType = state.filters.cabinType;
     if (cabinType && cruise && cruise.cabinPrices && cruise.cabinPrices[cabinType] > 0 && cruise.nights > 0) {
@@ -1260,6 +1349,89 @@
     return badges;
   }
 
+  function normalizeCruiseLineKey(value) {
+    return String(value || '').toLowerCase().trim().replace(/\s+/g, ' ');
+  }
+
+  function getCruiseLineBadge(cruiseLine) {
+    return CRUISE_LINE_BADGES[normalizeCruiseLineKey(cruiseLine)] || '';
+  }
+
+  function formatCruiseLineDisplay(cruiseLine) {
+    var lineName = String(cruiseLine || '');
+    var badge = getCruiseLineBadge(lineName);
+    return badge ? badge + ' ' + lineName : lineName;
+  }
+
+  function formatShipInfoSummary(shipInfo) {
+    var passengers = toNumber(shipInfo && shipInfo.passengers);
+    var ratio = toNumber(shipInfo && shipInfo.ratio);
+
+    if (passengers === null) {
+      return '';
+    }
+
+    return '정원 ' + Math.round(passengers).toLocaleString('ko-KR') + '명' + (ratio === null ? '' : ' (1:' + ratio.toFixed(1) + ')');
+  }
+
+  function getHistoricalSnapshotPrice(entry, cabinType) {
+    var prices = entry && entry.prices ? entry.prices : {};
+
+    if (cabinType) {
+      var preferred = toNumber(prices[cabinType]);
+      return preferred !== null && preferred > 0 ? preferred : null;
+    }
+
+    return Object.keys(prices).reduce(function (lowest, key) {
+      var amount = toNumber(prices[key]);
+      if (amount === null || amount <= 0) {
+        return lowest;
+      }
+      return lowest === null || amount < lowest ? amount : lowest;
+    }, null);
+  }
+
+  function getPriceChangeSummary(cruise, cabinType) {
+    var history = Array.isArray(cruise && cruise.priceHistory) ? cruise.priceHistory : [];
+    var latestEntry;
+    var previousEntry;
+    var latestPrice;
+    var previousPrice;
+
+    if (history.length < 2) {
+      return null;
+    }
+
+    latestEntry = history[history.length - 1];
+    previousEntry = history[history.length - 2];
+    latestPrice = getHistoricalSnapshotPrice(latestEntry, cabinType);
+    previousPrice = getHistoricalSnapshotPrice(previousEntry, cabinType);
+
+    if (latestPrice === null || previousPrice === null || latestPrice === previousPrice) {
+      return null;
+    }
+
+    return {
+      direction: latestPrice > previousPrice ? 'up' : 'down',
+      amount: Math.abs(latestPrice - previousPrice),
+      latest: latestPrice,
+      previous: previousPrice
+    };
+  }
+
+  function renderPriceChangeMarkup(summary) {
+    if (!summary) {
+      return '';
+    }
+
+    return [
+      '<span class="price-change price-change-', escapeHtml(summary.direction), '">',
+      escapeHtml(summary.direction === 'up' ? '↑ ' : '↓ '),
+      escapeHtml(formatPrice(summary.amount)),
+      '</span>'
+    ].join('');
+  }
+
   function renderTableRow(cruise) {
     var num = Number(cruise && cruise.num) || 0;
     var isFavorite = favoritesApi && favoritesApi.isFavorite && favoritesApi.isFavorite(num);
@@ -1270,25 +1442,33 @@
     var valueScore = getBestScore(cruise && cruise.valueScores);
     var itineraryMarkup = renderItineraryMarkup(cruise);
     var badges = getCruiseBadges(cruise);
+    var shipInfoSummary = formatShipInfoSummary(cruise && cruise.shipInfo);
+    var lineDisplay = formatCruiseLineDisplay(cruise && cruise.cruiseLine || '-');
+    var priceChangeSummary = getPriceChangeSummary(cruise, state.filters.cabinType);
 
     return [
       '<tr class="cruise-row">',
       '<td><input type="checkbox" class="compare-checkbox" data-num="', escapeHtml(num), '"', isCompared ? ' checked' : '', ' aria-label="비교 선택"></td>',
       '<td><button type="button" class="favorite-btn', isFavorite ? ' is-active' : '', '" data-action="favorite" data-num="', escapeHtml(num), '" aria-pressed="', isFavorite ? 'true' : 'false', '" aria-label="즐겨찾기 토글">', isFavorite ? '★' : '☆', '</button></td>',
       '<td><a href="#" class="row-link" data-action="detail" data-num="', escapeHtml(num), '">#', escapeHtml(num), '</a>', badges, '</td>',
-      '<td>', escapeHtml(cruise && cruise.cruiseLine || '-'), '</td>',
-      '<td><a href="#" class="row-link" data-action="detail" data-num="', escapeHtml(num), '">', escapeHtml(cruise && cruise.shipName || '-'), '</a></td>',
+      '<td>', escapeHtml(lineDisplay), '</td>',
+      '<td><div class="cell-primary"><a href="#" class="row-link" data-action="detail" data-num="', escapeHtml(num), '">', escapeHtml(cruise && cruise.shipName || '-'), '</a></div>',
+      shipInfoSummary ? '<div class="cell-meta">' + escapeHtml(shipInfoSummary) + '</div>' : '',
+      '</td>',
       '<td>', escapeHtml(formatStar(cruise && cruise.shipRating)), '</td>',
       '<td>', escapeHtml(formatDepartureDate(cruise && cruise.departureDate)), '</td>',
       '<td>', escapeHtml(formatNights(cruise && cruise.nights)), '</td>',
       '<td>', escapeHtml(cruise && cruise.departurePort || '-'), '</td>',
       '<td>', escapeHtml(cruise && cruise.arrivalPort || '-'), '</td>',
       itineraryMarkup,
-      '<td><span class="price-text">', escapeHtml(formatPrice(lowestPrice)), '</span></td>',
+      '<td><span class="price-text">', escapeHtml(formatPrice(lowestPrice)), '</span>',
+      '<span class="cell-meta"> ', escapeHtml(getCabinLabel(cruise)), '</span>',
+      renderPriceChangeMarkup(priceChangeSummary),
+      '</td>',
       '<td><span class="per-night-text">', escapeHtml(formatPerNight(perNight)), '</span></td>',
       '<td>', renderDiscountMarkup(Number(cruise && cruise.discountPct) || 0), '</td>',
-      '<td>', renderScoreBadge(dealScore), '</td>',
-      '<td>', renderScoreBadge(valueScore), '</td>',
+      '<td>', renderScoreBadgeWithLabel(cruise && cruise.dealScores), '</td>',
+      '<td>', renderScoreBadgeWithLabel(cruise && cruise.valueScores), '</td>',
       '<td><a href="', escapeHtml(safeUrl(cruise && cruise.bookingUrl)), '" target="_blank" rel="noopener noreferrer">예약</a></td>',
       '</tr>'
     ].join('');
@@ -1306,12 +1486,13 @@
     var busanTag = cruise && cruise.isBusanRelated ? '<span class="busan-tag">부산 관련</span>' : '';
     var scoreRow = [busanTag, renderScoreBadge(dealScore), renderScoreBadge(valueScore)].filter(Boolean).join('');
     var stopCountText = Array.isArray(cruise && cruise.stopPorts) && cruise.stopPorts.length ? cruise.stopPorts.length + '개 기항 정보' : '세부 기항 정보 없음';
+    var lineDisplay = formatCruiseLineDisplay(cruise && cruise.cruiseLine || '-');
 
     return [
       '<article class="cruise-card">',
       '<div class="card-head">',
       '<div>',
-      '<div class="card-subtitle">#', escapeHtml(num), getCruiseBadges(cruise), ' · ', escapeHtml(cruise && cruise.cruiseLine || '-'), '</div>',
+      '<div class="card-subtitle">#', escapeHtml(num), getCruiseBadges(cruise), ' · ', escapeHtml(lineDisplay), '</div>',
       '<h3 class="card-title"><a href="#" class="row-link" data-action="detail" data-num="', escapeHtml(num), '">', escapeHtml(cruise && cruise.shipName || '-'), '</a></h3>',
       '<div class="card-subtitle">', escapeHtml(formatDepartureDate(cruise && cruise.departureDate)), ' · ', escapeHtml(formatNights(cruise && cruise.nights)), ' · ', escapeHtml(formatStar(cruise && cruise.shipRating)), '</div>',
       '</div>',
@@ -1472,6 +1653,18 @@
     }
 
     return '<span class="score ' + scoreClass + '">' + escapeHtml(numericScore ? numericScore + '점' : '0점') + '</span>';
+  }
+
+  function renderScoreBadgeWithLabel(scores) {
+    var result = getBestScoreWithLabel(scores);
+    var numericScore = result.score;
+    var label = result.label;
+    var scoreClass = 'normal';
+    if (numericScore >= 80) scoreClass = 'hot3';
+    else if (numericScore >= 50) scoreClass = 'hot2';
+    else if (numericScore >= 20) scoreClass = 'hot1';
+    var text = label ? label + numericScore : (numericScore || '0');
+    return '<span class="score ' + scoreClass + '">' + escapeHtml(text) + '</span>';
   }
 
   function renderDistributionChart(cruises) {
@@ -1992,6 +2185,9 @@
   return {
     init: init,
     getState: getState,
-    refresh: refresh
+    refresh: refresh,
+    getCruiseLineBadge: getCruiseLineBadge,
+    getPriceChangeSummary: getPriceChangeSummary,
+    matchesDepartureDateRange: matchesDepartureDateRange
   };
 });
