@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-04-12T10:50:21.676Z",
+  "exportedAt": "2026-04-12T10:56:50.847Z",
   "exchangeRate": 1482.511805,
   "count": 774,
   "cruises": [
@@ -106,11 +106,11 @@
       "nights": 12,
       "days": 13,
       "cabinPrices": {
-        "inside": 15150,
+        "oceanview": 15150,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 1263
+        "oceanview": 1263
       },
       "origPrice": null,
       "salePrice": 15150,
@@ -137,11 +137,9 @@
       "itineraryUncertain": false,
       "isBusanRelated": true,
       "source": "vacationstogo.com",
-      "dealScores": {
-        "inside": 2
-      },
+      "dealScores": {},
       "valueScores": {
-        "inside": 0
+        "oceanview": 0
       },
       "priceHistory": [
         {
@@ -153,12 +151,12 @@
         }
       ],
       "recommendScores": {
-        "inside": 14,
-        "oceanview": null,
+        "inside": null,
+        "oceanview": 15,
         "balcony": null,
         "suite": null
       },
-      "recommendScore": 14
+      "recommendScore": 15
     },
     {
       "num": 2,
@@ -239,11 +237,11 @@
       "nights": 8,
       "days": 9,
       "cabinPrices": {
-        "inside": 9670,
+        "oceanview": 9670,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 1209
+        "oceanview": 1209
       },
       "origPrice": null,
       "salePrice": 9670,
@@ -270,11 +268,9 @@
       "itineraryUncertain": false,
       "isBusanRelated": true,
       "source": "vacationstogo.com",
-      "dealScores": {
-        "inside": 8
-      },
+      "dealScores": {},
       "valueScores": {
-        "inside": 5
+        "oceanview": 0
       },
       "priceHistory": [
         {
@@ -286,8 +282,8 @@
         }
       ],
       "recommendScores": {
-        "inside": 13,
-        "oceanview": null,
+        "inside": null,
+        "oceanview": 13,
         "balcony": null,
         "suite": null
       },
@@ -372,11 +368,11 @@
       "nights": 8,
       "days": 9,
       "cabinPrices": {
-        "inside": 10280,
+        "oceanview": 10280,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 1285
+        "oceanview": 1285
       },
       "origPrice": null,
       "salePrice": 10280,
@@ -403,11 +399,9 @@
       "itineraryUncertain": false,
       "isBusanRelated": true,
       "source": "vacationstogo.com",
-      "dealScores": {
-        "inside": 0
-      },
+      "dealScores": {},
       "valueScores": {
-        "inside": 0
+        "oceanview": 0
       },
       "priceHistory": [
         {
@@ -419,8 +413,8 @@
         }
       ],
       "recommendScores": {
-        "inside": 14,
-        "oceanview": null,
+        "inside": null,
+        "oceanview": 14,
         "balcony": null,
         "suite": null
       },
@@ -469,11 +463,11 @@
       "nights": 3,
       "days": 4,
       "cabinPrices": {
-        "inside": 1070,
+        "oceanview": 1070,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 357
+        "oceanview": 357
       },
       "origPrice": null,
       "salePrice": 1070,
@@ -500,11 +494,9 @@
       "itineraryUncertain": false,
       "isBusanRelated": true,
       "source": "vacationstogo.com",
-      "dealScores": {
-        "inside": 100
-      },
+      "dealScores": {},
       "valueScores": {
-        "inside": 78
+        "oceanview": 61
       },
       "priceHistory": [
         {
@@ -2215,11 +2207,11 @@
       "nights": 12,
       "days": 13,
       "cabinPrices": {
-        "inside": 14130,
+        "oceanview": 14130,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 1178
+        "oceanview": 1178
       },
       "origPrice": null,
       "salePrice": 14130,
@@ -2246,11 +2238,9 @@
       "itineraryUncertain": false,
       "isBusanRelated": true,
       "source": "vacationstogo.com",
-      "dealScores": {
-        "inside": 12
-      },
+      "dealScores": {},
       "valueScores": {
-        "inside": 7
+        "oceanview": 0
       },
       "priceHistory": [
         {
@@ -2262,12 +2252,12 @@
         }
       ],
       "recommendScores": {
-        "inside": 15,
-        "oceanview": null,
+        "inside": null,
+        "oceanview": 16,
         "balcony": null,
         "suite": null
       },
-      "recommendScore": 15
+      "recommendScore": 16
     },
     {
       "num": 14,
@@ -3188,11 +3178,11 @@
       "nights": 12,
       "days": 13,
       "cabinPrices": {
-        "inside": 14130,
+        "oceanview": 14130,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 1178
+        "oceanview": 1178
       },
       "origPrice": null,
       "salePrice": 14130,
@@ -3219,11 +3209,9 @@
       "itineraryUncertain": false,
       "isBusanRelated": true,
       "source": "vacationstogo.com",
-      "dealScores": {
-        "inside": 12
-      },
+      "dealScores": {},
       "valueScores": {
-        "inside": 7
+        "oceanview": 0
       },
       "priceHistory": [
         {
@@ -3235,12 +3223,12 @@
         }
       ],
       "recommendScores": {
-        "inside": 15,
-        "oceanview": null,
+        "inside": null,
+        "oceanview": 16,
         "balcony": null,
         "suite": null
       },
-      "recommendScore": 15
+      "recommendScore": 16
     },
     {
       "num": 19,
@@ -10251,7 +10239,7 @@
       "source": "cruisetmk.kr",
       "dealScores": {
         "inside": 45,
-        "oceanview": 26,
+        "oceanview": 40,
         "balcony": 87,
         "suite": 4
       },
@@ -10515,7 +10503,7 @@
       "source": "cruisetmk.kr",
       "dealScores": {
         "inside": 14,
-        "oceanview": 13,
+        "oceanview": 19,
         "balcony": 81,
         "suite": 0
       },
@@ -10634,7 +10622,7 @@
       "isBusanRelated": true,
       "source": "cruisetmk.kr",
       "dealScores": {
-        "oceanview": 26,
+        "oceanview": 40,
         "balcony": 87,
         "suite": 4
       },
@@ -10885,7 +10873,7 @@
       "source": "cruisetmk.kr",
       "dealScores": {
         "inside": 92,
-        "oceanview": 68,
+        "oceanview": 100,
         "balcony": 95,
         "suite": 11
       },
@@ -11017,7 +11005,7 @@
       "source": "cruisetmk.kr",
       "dealScores": {
         "inside": 14,
-        "oceanview": 13,
+        "oceanview": 19,
         "balcony": 81,
         "suite": 0
       },
@@ -11145,7 +11133,7 @@
       "source": "cruisetmk.kr",
       "dealScores": {
         "inside": 70,
-        "oceanview": 68,
+        "oceanview": 100,
         "balcony": 96,
         "suite": 10
       },
@@ -50832,11 +50820,11 @@
       "nights": 8,
       "days": 9,
       "cabinPrices": {
-        "inside": 7140,
+        "suite": 7140,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 893
+        "suite": 893
       },
       "origPrice": null,
       "salePrice": 7140,
@@ -50860,10 +50848,10 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 0
+        "suite": 0
       },
       "valueScores": {
-        "inside": 32
+        "suite": 64
       },
       "priceHistory": [
         {
@@ -50875,12 +50863,12 @@
         }
       ],
       "recommendScores": {
-        "inside": 25,
+        "inside": null,
         "oceanview": null,
         "balcony": null,
-        "suite": null
+        "suite": 35
       },
-      "recommendScore": 25
+      "recommendScore": 35
     },
     {
       "num": 245,
@@ -56796,11 +56784,11 @@
       "nights": 10,
       "days": 11,
       "cabinPrices": {
-        "inside": 5917,
+        "balcony": 5917,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 592
+        "balcony": 592
       },
       "origPrice": 6395,
       "salePrice": 5917,
@@ -56832,10 +56820,10 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 0
+        "balcony": 8
       },
       "valueScores": {
-        "inside": 58
+        "balcony": 49
       },
       "priceHistory": [
         {
@@ -56854,12 +56842,12 @@
         }
       ],
       "recommendScores": {
-        "inside": 18,
+        "inside": null,
         "oceanview": null,
-        "balcony": null,
+        "balcony": 24,
         "suite": null
       },
-      "recommendScore": 18
+      "recommendScore": 24
     },
     {
       "num": 278,
@@ -58086,11 +58074,11 @@
       "nights": 15,
       "days": 16,
       "cabinPrices": {
-        "inside": 3650,
+        "suite": 3650,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 243
+        "suite": 243
       },
       "origPrice": null,
       "salePrice": 3650,
@@ -58114,10 +58102,10 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 100
+        "suite": 100
       },
       "valueScores": {
-        "inside": 87
+        "suite": 96
       },
       "priceHistory": [
         {
@@ -58129,12 +58117,12 @@
         }
       ],
       "recommendScores": {
-        "inside": 55,
+        "inside": null,
         "oceanview": null,
         "balcony": null,
-        "suite": null
+        "suite": 74
       },
-      "recommendScore": 55
+      "recommendScore": 74
     },
     {
       "num": 286,
@@ -59001,11 +58989,11 @@
       "nights": 22,
       "days": 23,
       "cabinPrices": {
-        "inside": 7299,
+        "balcony": 7299,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 332
+        "balcony": 332
       },
       "origPrice": null,
       "salePrice": 7299,
@@ -59029,10 +59017,10 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 90
+        "balcony": 90
       },
       "valueScores": {
-        "inside": 80
+        "balcony": 78
       },
       "priceHistory": [
         {
@@ -59044,12 +59032,12 @@
         }
       ],
       "recommendScores": {
-        "inside": 29,
+        "inside": null,
         "oceanview": null,
-        "balcony": null,
+        "balcony": 41,
         "suite": null
       },
-      "recommendScore": 29
+      "recommendScore": 41
     },
     {
       "num": 291,
@@ -70262,11 +70250,11 @@
       "nights": 5,
       "days": 6,
       "cabinPrices": {
-        "inside": 2090,
+        "balcony": 2090,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 418
+        "balcony": 418
       },
       "origPrice": null,
       "salePrice": 2090,
@@ -70293,11 +70281,9 @@
       "itineraryUncertain": false,
       "isBusanRelated": false,
       "source": "vacationstogo.com",
-      "dealScores": {
-        "inside": 93
-      },
+      "dealScores": {},
       "valueScores": {
-        "inside": 72
+        "balcony": 68
       },
       "priceHistory": [
         {
@@ -70371,11 +70357,11 @@
       "nights": 5,
       "days": 6,
       "cabinPrices": {
-        "inside": 1800,
+        "oceanview": 1800,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 360
+        "oceanview": 360
       },
       "origPrice": null,
       "salePrice": 1800,
@@ -70402,11 +70388,9 @@
       "itineraryUncertain": false,
       "isBusanRelated": false,
       "source": "vacationstogo.com",
-      "dealScores": {
-        "inside": 100
-      },
+      "dealScores": {},
       "valueScores": {
-        "inside": 77
+        "oceanview": 61
       },
       "priceHistory": [
         {
@@ -81714,11 +81698,11 @@
       "nights": 14,
       "days": 15,
       "cabinPrices": {
-        "inside": 5999,
+        "balcony": 5999,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 429
+        "balcony": 429
       },
       "origPrice": null,
       "salePrice": 5999,
@@ -81742,10 +81726,10 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 59
+        "balcony": 60
       },
       "valueScores": {
-        "inside": 72
+        "balcony": 67
       },
       "priceHistory": [
         {
@@ -81757,12 +81741,12 @@
         }
       ],
       "recommendScores": {
-        "inside": 23,
+        "inside": null,
         "oceanview": null,
-        "balcony": null,
+        "balcony": 32,
         "suite": null
       },
-      "recommendScore": 23
+      "recommendScore": 32
     },
     {
       "num": 415,
@@ -94700,11 +94684,11 @@
       "nights": 3,
       "days": 4,
       "cabinPrices": {
-        "inside": 930,
+        "balcony": 930,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 310
+        "balcony": 310
       },
       "origPrice": null,
       "salePrice": 2683,
@@ -94735,11 +94719,9 @@
       "itineraryUncertain": false,
       "isBusanRelated": false,
       "source": "vacationstogo.com",
-      "dealScores": {
-        "inside": 82
-      },
+      "dealScores": {},
       "valueScores": {
-        "inside": 82
+        "balcony": 80
       },
       "priceHistory": [
         {
@@ -94908,11 +94890,11 @@
       "nights": 3,
       "days": 4,
       "cabinPrices": {
-        "inside": 2891,
+        "balcony": 2891,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 964
+        "balcony": 964
       },
       "origPrice": null,
       "salePrice": 2891,
@@ -94943,11 +94925,9 @@
       "itineraryUncertain": false,
       "isBusanRelated": false,
       "source": "vacationstogo.com",
-      "dealScores": {
-        "inside": 0
-      },
+      "dealScores": {},
       "valueScores": {
-        "inside": 26
+        "balcony": 7
       },
       "priceHistory": [
         {
@@ -95015,11 +94995,11 @@
       "nights": 4,
       "days": 5,
       "cabinPrices": {
-        "inside": 1024,
+        "balcony": 1024,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 256
+        "balcony": 256
       },
       "origPrice": null,
       "salePrice": 1024,
@@ -95050,11 +95030,9 @@
       "itineraryUncertain": false,
       "isBusanRelated": false,
       "source": "vacationstogo.com",
-      "dealScores": {
-        "inside": 89
-      },
+      "dealScores": {},
       "valueScores": {
-        "inside": 86
+        "balcony": 86
       },
       "priceHistory": [
         {
@@ -95130,11 +95108,11 @@
       "nights": 3,
       "days": 4,
       "cabinPrices": {
-        "inside": 1270,
+        "balcony": 1270,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 423
+        "balcony": 423
       },
       "origPrice": null,
       "salePrice": 1461,
@@ -95165,11 +95143,9 @@
       "itineraryUncertain": false,
       "isBusanRelated": false,
       "source": "vacationstogo.com",
-      "dealScores": {
-        "inside": 68
-      },
+      "dealScores": {},
       "valueScores": {
-        "inside": 72
+        "balcony": 67
       },
       "priceHistory": [
         {
@@ -95576,11 +95552,11 @@
       "nights": 3,
       "days": 4,
       "cabinPrices": {
-        "inside": 1190,
+        "balcony": 1190,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 397
+        "balcony": 397
       },
       "origPrice": null,
       "salePrice": 1190,
@@ -95611,11 +95587,9 @@
       "itineraryUncertain": false,
       "isBusanRelated": false,
       "source": "vacationstogo.com",
-      "dealScores": {
-        "inside": 71
-      },
+      "dealScores": {},
       "valueScores": {
-        "inside": 74
+        "balcony": 70
       },
       "priceHistory": [
         {
@@ -95798,11 +95772,11 @@
       "nights": 3,
       "days": 4,
       "cabinPrices": {
-        "inside": 1079,
+        "balcony": 1079,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 360
+        "balcony": 360
       },
       "origPrice": null,
       "salePrice": 1270,
@@ -95833,11 +95807,9 @@
       "itineraryUncertain": false,
       "isBusanRelated": false,
       "source": "vacationstogo.com",
-      "dealScores": {
-        "inside": 76
-      },
+      "dealScores": {},
       "valueScores": {
-        "inside": 77
+        "balcony": 75
       },
       "priceHistory": [
         {
@@ -96128,11 +96100,11 @@
       "nights": 3,
       "days": 4,
       "cabinPrices": {
-        "inside": 1161,
+        "balcony": 1161,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 387
+        "balcony": 387
       },
       "origPrice": null,
       "salePrice": 1161,
@@ -96163,11 +96135,9 @@
       "itineraryUncertain": false,
       "isBusanRelated": false,
       "source": "vacationstogo.com",
-      "dealScores": {
-        "inside": 72
-      },
+      "dealScores": {},
       "valueScores": {
-        "inside": 75
+        "balcony": 72
       },
       "priceHistory": [
         {
@@ -96336,11 +96306,11 @@
       "nights": 3,
       "days": 4,
       "cabinPrices": {
-        "inside": 1042,
+        "balcony": 1042,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 347
+        "balcony": 347
       },
       "origPrice": null,
       "salePrice": 1042,
@@ -96371,11 +96341,9 @@
       "itineraryUncertain": false,
       "isBusanRelated": false,
       "source": "vacationstogo.com",
-      "dealScores": {
-        "inside": 77
-      },
+      "dealScores": {},
       "valueScores": {
-        "inside": 78
+        "balcony": 76
       },
       "priceHistory": [
         {
@@ -97000,11 +96968,11 @@
       "nights": 3,
       "days": 4,
       "cabinPrices": {
-        "inside": 1349,
+        "balcony": 1349,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 450
+        "balcony": 450
       },
       "origPrice": null,
       "salePrice": 1250,
@@ -97035,11 +97003,9 @@
       "itineraryUncertain": false,
       "isBusanRelated": false,
       "source": "vacationstogo.com",
-      "dealScores": {
-        "inside": 65
-      },
+      "dealScores": {},
       "valueScores": {
-        "inside": 70
+        "balcony": 65
       },
       "priceHistory": [
         {
@@ -100621,11 +100587,11 @@
       "nights": 3,
       "days": 4,
       "cabinPrices": {
-        "inside": 893,
+        "balcony": 893,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 298
+        "balcony": 298
       },
       "origPrice": null,
       "salePrice": 893,
@@ -100656,11 +100622,9 @@
       "itineraryUncertain": false,
       "isBusanRelated": false,
       "source": "vacationstogo.com",
-      "dealScores": {
-        "inside": 84
-      },
+      "dealScores": {},
       "valueScores": {
-        "inside": 83
+        "balcony": 81
       },
       "priceHistory": [
         {
@@ -116782,7 +116746,7 @@
         "crew": 465,
         "ratio": 2
       },
-      "itinerary": "Benoa, Bali, Indonesia → Benoa, Bali, Indonesia → Surabaya, Indonesia → Semarang, Indonesia → At Sea → Singapore → Singapore → Kuala Lumpur (Port Kelang), Malaysia → Strait of Malacca (Cruising) → At Sea → Ko Samui, Thailand → Laem Chabang, Thailand → Laem Chabang, Thailand",
+      "itinerary": "Benoa, Bali, Indonesia → Laem Chabang, Thailand",
       "departurePort": "Benoa, Bali, Indonesia",
       "arrivalPort": "Laem Chabang, Thailand",
       "stopPorts": [
@@ -118318,11 +118282,11 @@
       "nights": 3,
       "days": 4,
       "cabinPrices": {
-        "inside": 1260,
+        "balcony": 1260,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 420
+        "balcony": 420
       },
       "origPrice": null,
       "salePrice": 1260,
@@ -118349,11 +118313,9 @@
       "itineraryUncertain": false,
       "isBusanRelated": false,
       "source": "vacationstogo.com",
-      "dealScores": {
-        "inside": 93
-      },
+      "dealScores": {},
       "valueScores": {
-        "inside": 72
+        "balcony": 68
       },
       "priceHistory": [
         {
@@ -125028,11 +124990,11 @@
       "nights": 7,
       "days": 8,
       "cabinPrices": {
-        "inside": 6125,
+        "suite": 6125,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 875
+        "suite": 875
       },
       "origPrice": null,
       "salePrice": 6125,
@@ -125056,10 +125018,10 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 8
+        "suite": 0
       },
       "valueScores": {
-        "inside": 33
+        "suite": 65
       },
       "priceHistory": [
         {
@@ -125071,12 +125033,12 @@
         }
       ],
       "recommendScores": {
-        "inside": 30,
+        "inside": null,
         "oceanview": null,
         "balcony": null,
-        "suite": null
+        "suite": 41
       },
-      "recommendScore": 30
+      "recommendScore": 41
     },
     {
       "num": 717,
@@ -126793,11 +126755,11 @@
       "nights": 7,
       "days": 8,
       "cabinPrices": {
-        "inside": 5590,
+        "suite": 5590,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 799
+        "suite": 799
       },
       "origPrice": null,
       "salePrice": 5590,
@@ -126821,10 +126783,10 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 42
+        "suite": 24
       },
       "valueScores": {
-        "inside": 40
+        "suite": 69
       },
       "priceHistory": [
         {
@@ -126836,12 +126798,12 @@
         }
       ],
       "recommendScores": {
-        "inside": 26,
+        "inside": null,
         "oceanview": null,
         "balcony": null,
-        "suite": null
+        "suite": 36
       },
-      "recommendScore": 26
+      "recommendScore": 36
     },
     {
       "num": 730,
@@ -133050,11 +133012,11 @@
       "nights": 3,
       "days": 4,
       "cabinPrices": {
-        "inside": 1218,
+        "balcony": 1218,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 406
+        "balcony": 406
       },
       "origPrice": null,
       "salePrice": 1272,
@@ -133085,11 +133047,9 @@
       "itineraryUncertain": false,
       "isBusanRelated": false,
       "source": "vacationstogo.com",
-      "dealScores": {
-        "inside": 70
-      },
+      "dealScores": {},
       "valueScores": {
-        "inside": 73
+        "balcony": 69
       },
       "priceHistory": [
         {
