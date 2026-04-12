@@ -1487,7 +1487,7 @@
 
     var parts = [];
     var tonnage = shipInfo && shipInfo.tonnage;
-    if (tonnage) parts.push(Math.round(tonnage / 1000) + '만톤');
+    if (tonnage) parts.push(Math.round(tonnage / 10000) + '만GT');
     parts.push(Math.round(passengers).toLocaleString('ko-KR') + '명');
     if (ratio !== null) parts.push('1:' + ratio.toFixed(1));
     var yearBuilt = shipInfo && shipInfo.yearBuilt;
