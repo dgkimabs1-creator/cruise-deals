@@ -14,6 +14,7 @@ const LINE_PRICES = path.resolve(__dirname, '../../zmfnwm/src/storage/data/linep
 const SHIP_DB = path.resolve(__dirname, '../../zmfnwm/src/storage/data/shipdb.json');
 const SHIP_PHOTOS = path.resolve(__dirname, '../../zmfnwm/cruise_ship_photos.json');
 const DEST = path.resolve(__dirname, '../data/cruises-public.json');
+const CABIN_TYPES = ['inside', 'oceanview', 'balcony', 'suite'];
 
 async function run() {
   const raw = JSON.parse(fs.readFileSync(SOURCE, 'utf8'));
@@ -46,7 +47,7 @@ async function run() {
 
     const perNight = {};
     if (c.cabinPrices && c.nights > 0) {
-      for (const type of ['inside', 'oceanview', 'balcony', 'suite']) {
+      for (const type of CABIN_TYPES) {
         if (c.cabinPrices[type] > 0) {
           perNight[type] = Math.round(c.cabinPrices[type] / c.nights);
         }
@@ -107,6 +108,9 @@ async function run() {
       })),
     });
   }
+
+  // 추천 점수 계산
+  calcRecommendScores(publicList);
 
   // sort by num
   publicList.sort((a, b) => (a.num || 9999) - (b.num || 9999));
@@ -179,11 +183,80 @@ function getShipInfoForCruise(cruise, shipInfoIndex) {
 function sanitizePrices(prices) {
   if (!prices) return {};
   const result = {};
-  for (const type of ['inside', 'oceanview', 'balcony', 'suite']) {
+  for (const type of CABIN_TYPES) {
     if (prices[type] > 0) result[type] = prices[type];
   }
   result.currency = prices.currency || 'USD';
   return result;
+}
+
+function calcRecommendScores(cruises) {
+  const rawScoresByCabin = Object.create(null);
+  for (const type of CABIN_TYPES) {
+    rawScoresByCabin[type] = [];
+  }
+
+  for (const c of cruises) {
+    c.recommendScores = {
+      inside: null,
+      oceanview: null,
+      balcony: null,
+      suite: null,
+    };
+    c.recommendScore = null;
+
+    if (!c.shipInfo || !c.perNight || !c.nights || c.nights <= 0) continue;
+
+    const ratio = c.shipInfo.ratio;
+    if (!ratio || ratio <= 0) continue;
+
+    const stopCount = (c.stopPorts || []).filter(p =>
+      p.port && !p.port.toLowerCase().includes('at sea')
+      && p.port !== c.departurePort && p.port !== c.arrivalPort
+    ).length;
+    if (stopCount === 0) continue;
+
+    const density = stopCount / c.nights;
+    c._rawRecommendScores = {};
+
+    for (const type of CABIN_TYPES) {
+      const perNight = c.perNight[type];
+      if (!perNight || perNight <= 0) continue;
+
+      const rawScore = density / (ratio * ratio * perNight);
+      c._rawRecommendScores[type] = rawScore;
+      rawScoresByCabin[type].push(rawScore);
+    }
+  }
+
+  for (const type of CABIN_TYPES) {
+    const rawScores = rawScoresByCabin[type];
+    if (rawScores.length === 0) continue;
+
+    const maxS = Math.max(...rawScores);
+    const minS = Math.min(...rawScores);
+    const range = maxS - minS || 1;
+
+    for (const c of cruises) {
+      const rawScore = c._rawRecommendScores && c._rawRecommendScores[type];
+      if (rawScore == null) continue;
+
+      c.recommendScores[type] = Math.round(((rawScore - minS) / range) * 100);
+    }
+  }
+
+  for (const c of cruises) {
+    let bestScore = null;
+
+    for (const type of CABIN_TYPES) {
+      const score = c.recommendScores[type];
+      if (score == null) continue;
+      bestScore = bestScore === null ? score : Math.max(bestScore, score);
+    }
+
+    c.recommendScore = bestScore;
+    delete c._rawRecommendScores;
+  }
 }
 
 function calcDealScores(cruise, linePrices) {
@@ -192,7 +265,7 @@ function calcDealScores(cruise, linePrices) {
   const line = cruise.cruiseLine;
   if (!line) return scores;
 
-  for (const type of ['inside', 'oceanview', 'balcony', 'suite']) {
+  for (const type of CABIN_TYPES) {
     const price = cruise.cabinPrices && cruise.cabinPrices[type];
     if (!price || price <= 0) continue;
     const perNight = price / cruise.nights;
@@ -213,7 +286,7 @@ function calcValueScores(cruise, linePrices) {
   const scores = {};
   if (!cruise.nights || cruise.nights <= 0) return scores;
 
-  for (const type of ['inside', 'oceanview', 'balcony', 'suite']) {
+  for (const type of CABIN_TYPES) {
     const price = cruise.cabinPrices && cruise.cabinPrices[type];
     if (!price || price <= 0) continue;
     const perNight = price / cruise.nights;

@@ -48,8 +48,16 @@
     lines: 'lineAnalysisPanel'
   };
   var SORT_OPTION_MAP = {
-    'price-asc': { key: 'inside', dir: 'asc' },
-    'price-desc': { key: 'inside', dir: 'desc' },
+    'price-asc': { key: 'price', dir: 'asc' },
+    'price-desc': { key: 'price', dir: 'desc' },
+    'inside-asc': { key: 'inside', dir: 'asc' },
+    'inside-desc': { key: 'inside', dir: 'desc' },
+    'oceanview-asc': { key: 'oceanview', dir: 'asc' },
+    'oceanview-desc': { key: 'oceanview', dir: 'desc' },
+    'balcony-asc': { key: 'balcony', dir: 'asc' },
+    'balcony-desc': { key: 'balcony', dir: 'desc' },
+    'suite-asc': { key: 'suite', dir: 'asc' },
+    'suite-desc': { key: 'suite', dir: 'desc' },
     'date-asc': { key: 'date', dir: 'asc' },
     'date-desc': { key: 'date', dir: 'desc' },
     'discount-desc': { key: 'discount', dir: 'desc' },
@@ -61,8 +69,16 @@
     'rating-desc': { key: 'rating', dir: 'desc' }
   };
   var SORT_OPTION_REVERSE_MAP = {
-    'inside:asc': 'price-asc',
-    'inside:desc': 'price-desc',
+    'price:asc': 'price-asc',
+    'price:desc': 'price-desc',
+    'inside:asc': 'inside-asc',
+    'inside:desc': 'inside-desc',
+    'oceanview:asc': 'oceanview-asc',
+    'oceanview:desc': 'oceanview-desc',
+    'balcony:asc': 'balcony-asc',
+    'balcony:desc': 'balcony-desc',
+    'suite:asc': 'suite-asc',
+    'suite:desc': 'suite-desc',
     'date:asc': 'date-asc',
     'date:desc': 'date-desc',
     'discount:desc': 'discount-desc',
@@ -78,11 +94,15 @@
     line: 'asc',
     ship: 'asc',
     rating: 'desc',
+    recommend: 'desc',
     date: 'asc',
     nights: 'asc',
     departure: 'asc',
     arrival: 'asc',
     inside: 'asc',
+    oceanview: 'asc',
+    balcony: 'asc',
+    suite: 'asc',
     pernight: 'asc',
     discount: 'desc',
     deal: 'desc',
@@ -104,9 +124,10 @@
     priceMax: '',
     starMin: '',
     cabinType: '',
-    perNightMax: ''
+    perNightMax: '',
+    recommendMin: ''
   };
-  var EMPTY_TABLE_COLSPAN = 17;
+  var EMPTY_TABLE_COLSPAN = 20;
 
   var dom = {};
   var distributionChart = null;
@@ -118,7 +139,7 @@
     exchangeRate: Number(CruiseUtils.EXCHANGE_RATE) || 1480,
     activeView: 'list',
     quickFilter: 'all',
-    sortKey: 'inside',
+    sortKey: 'price',
     sortDir: 'asc',
     currencyMode: 'USD',
     theme: 'dark',
@@ -174,6 +195,7 @@
     dom.filterStarMin = root.document.getElementById('filterStarMin');
     dom.filterCabinType = root.document.getElementById('filterCabinType');
     dom.filterPerNightMax = root.document.getElementById('filterPerNightMax');
+    dom.filterRecommendMin = root.document.getElementById('filterRecommendMin');
     dom.resetFiltersButton = root.document.getElementById('resetFiltersButton');
     dom.sortSelect = root.document.getElementById('sortSelect');
     dom.compareButton = root.document.getElementById('compareButton');
@@ -243,6 +265,7 @@
     bindFilterInput(dom.filterStarMin, 'starMin', 'change');
     bindFilterInput(dom.filterCabinType, 'cabinType', 'change');
     bindFilterInput(dom.filterPerNightMax, 'perNightMax', 'input');
+    bindFilterInput(dom.filterRecommendMin, 'recommendMin', 'input');
 
     if (dom.resetFiltersButton) {
       dom.resetFiltersButton.addEventListener('click', resetFilters);
@@ -846,6 +869,9 @@
     if (dom.filterPerNightMax) {
       dom.filterPerNightMax.value = state.filters.perNightMax;
     }
+    if (dom.filterRecommendMin) {
+      dom.filterRecommendMin.value = state.filters.recommendMin;
+    }
   }
 
   function syncSortSelect() {
@@ -888,7 +914,7 @@
 
   function matchesQuickFilter(cruise) {
     var discountPct = Number(cruise && cruise.discountPct) || 0;
-    var perNight = getPerNight(cruise);
+    var perNight = getCabinFilteredPerNight(cruise);
     var rating = toNumber(cruise && cruise.shipRating) || 0;
 
     switch (state.quickFilter) {
@@ -926,16 +952,17 @@
     var now = Date.now();
     var cutoff = now - (days * 24 * 60 * 60 * 1000);
     var history = cruise.priceHistory;
+    var cabinType = state.filters.cabinType || '';
     var latest = history[history.length - 1];
-    var latestPrice = latest && latest.prices ? (latest.prices.inside || latest.prices.oceanview || latest.prices.balcony || latest.prices.suite || 0) : 0;
-    if (latestPrice <= 0) return false;
+    var latestPrice = getHistoricalSnapshotPrice(latest, cabinType);
+    if (latestPrice === null || latestPrice <= 0) return false;
 
     for (var i = history.length - 2; i >= 0; i--) {
       var entry = history[i];
       var entryTime = new Date(entry.date).getTime();
       if (entryTime < cutoff) break;
-      var entryPrice = entry.prices ? (entry.prices.inside || entry.prices.oceanview || entry.prices.balcony || entry.prices.suite || 0) : 0;
-      if (entryPrice > latestPrice) return true;
+      var entryPrice = getHistoricalSnapshotPrice(entry, cabinType);
+      if (entryPrice !== null && entryPrice > latestPrice) return true;
     }
     return false;
   }
@@ -972,7 +999,7 @@
     var priceMin = toNumber(filters.priceMin);
     var priceMax = toNumber(filters.priceMax);
     var starMin = toNumber(filters.starMin);
-    var lowestPrice = getLowestPrice(cruise);
+    var filteredPrice = getCabinFilteredPrice(cruise);
     var destinationText = buildDestinationText(cruise);
     var searchableText = [
       cruise && cruise.cruiseLine,
@@ -1023,11 +1050,11 @@
       return false;
     }
 
-    if (priceMin !== null && (!Number.isFinite(lowestPrice) || lowestPrice < priceMin)) {
+    if (priceMin !== null && (!Number.isFinite(filteredPrice) || filteredPrice < priceMin)) {
       return false;
     }
 
-    if (priceMax !== null && (!Number.isFinite(lowestPrice) || lowestPrice > priceMax)) {
+    if (priceMax !== null && (!Number.isFinite(filteredPrice) || filteredPrice > priceMax)) {
       return false;
     }
 
@@ -1046,6 +1073,14 @@
     if (perNightMax !== null) {
       var pn = getCabinFilteredPerNight(cruise);
       if (!Number.isFinite(pn) || pn > perNightMax) {
+        return false;
+      }
+    }
+
+    var recommendMin = toNumber(filters.recommendMin);
+    if (recommendMin !== null) {
+      var recScore = Number(cruise && cruise.recommendScore) || 0;
+      if (recScore < recommendMin) {
         return false;
       }
     }
@@ -1069,6 +1104,8 @@
 
   function getSortValue(cruise, key) {
     switch (key) {
+      case 'price':
+        return getCabinFilteredPrice(cruise);
       case 'num':
         return Number(cruise && cruise.num);
       case 'line':
@@ -1086,7 +1123,15 @@
       case 'arrival':
         return String(cruise && cruise.arrivalPort || '');
       case 'inside':
-        return getCabinFilteredPrice(cruise);
+        return getCabinPrice(cruise, 'inside');
+      case 'oceanview':
+        return getCabinPrice(cruise, 'oceanview');
+      case 'balcony':
+        return getCabinPrice(cruise, 'balcony');
+      case 'suite':
+        return getCabinPrice(cruise, 'suite');
+      case 'recommend':
+        return getBestRecommendScore(cruise);
       case 'pernight':
         return getCabinFilteredPerNight(cruise);
       case 'discount':
@@ -1262,26 +1307,85 @@
     }
   }
 
+  var CABIN_TYPES = ['inside', 'oceanview', 'balcony', 'suite'];
+  var CABIN_LABELS = { inside: '내', oceanview: '바', balcony: '발', suite: '스' };
+
+  function getCabinPrice(cruise, cabinType) {
+    var price = toNumber(cruise && cruise.cabinPrices ? cruise.cabinPrices[cabinType] : null);
+    return price !== null && price > 0 ? price : null;
+  }
+
+  function getCabinPerNight(cruise, cabinType) {
+    var storedPerNight = toNumber(cruise && cruise.perNight ? cruise.perNight[cabinType] : null);
+    var price = getCabinPrice(cruise, cabinType);
+    var nights = toNumber(cruise && cruise.nights);
+
+    if (storedPerNight !== null && storedPerNight > 0) {
+      return storedPerNight;
+    }
+
+    return price !== null && nights !== null && nights > 0 ? price / nights : null;
+  }
+
   function getCabinFilteredPrice(cruise) {
     var cabinType = state.filters.cabinType;
-    if (cabinType && cruise && cruise.cabinPrices && cruise.cabinPrices[cabinType] > 0) {
-      return cruise.cabinPrices[cabinType];
+    if (cabinType) {
+      return getCabinPrice(cruise, cabinType) === null ? Infinity : getCabinPrice(cruise, cabinType);
     }
     return getLowestPrice(cruise);
   }
-
-  var CABIN_LABELS = { inside: '내', oceanview: '바', balcony: '발', suite: '스' };
 
   function getCabinLabel(cruise) {
     var cabinType = state.filters.cabinType;
     if (cabinType) return CABIN_LABELS[cabinType] || '';
     if (!cruise || !cruise.cabinPrices) return '';
-    var lowest = Infinity, label = '';
-    for (var type in CABIN_LABELS) {
+    var lowest = Infinity;
+    var label = '';
+    for (var i = 0; i < CABIN_TYPES.length; i++) {
+      var type = CABIN_TYPES[i];
       var p = cruise.cabinPrices[type];
       if (p > 0 && p < lowest) { lowest = p; label = CABIN_LABELS[type]; }
     }
     return label;
+  }
+
+  function getRecommendScoreForCabin(cruise, cabinType) {
+    return toNumber(cruise && cruise.recommendScores ? cruise.recommendScores[cabinType] : null);
+  }
+
+  function getBestRecommendScoreWithLabel(cruise) {
+    var bestScore = null;
+    var label = '';
+
+    for (var i = 0; i < CABIN_TYPES.length; i++) {
+      var cabinType = CABIN_TYPES[i];
+      var score = getRecommendScoreForCabin(cruise, cabinType);
+      if (score === null) {
+        continue;
+      }
+      if (bestScore === null || score > bestScore) {
+        bestScore = score;
+        label = CABIN_LABELS[cabinType] || '';
+      }
+    }
+
+    if (bestScore !== null) {
+      return {
+        score: Math.round(bestScore),
+        label: label
+      };
+    }
+
+    bestScore = toNumber(cruise && cruise.recommendScore);
+    return {
+      score: bestScore === null ? null : Math.round(bestScore),
+      label: bestScore === null ? '' : getCabinLabel(cruise)
+    };
+  }
+
+  function getBestRecommendScore(cruise) {
+    var result = getBestRecommendScoreWithLabel(cruise);
+    return result.score;
   }
 
   function getBestScoreWithLabel(scores) {
@@ -1296,8 +1400,9 @@
 
   function getCabinFilteredPerNight(cruise) {
     var cabinType = state.filters.cabinType;
-    if (cabinType && cruise && cruise.cabinPrices && cruise.cabinPrices[cabinType] > 0 && cruise.nights > 0) {
-      return cruise.cabinPrices[cabinType] / cruise.nights;
+    if (cabinType) {
+      var perNight = getCabinPerNight(cruise, cabinType);
+      return perNight === null ? Infinity : perNight;
     }
     return getPerNight(cruise);
   }
@@ -1307,14 +1412,15 @@
     var now = Date.now();
     var cutoff = now - (days * 24 * 60 * 60 * 1000);
     var history = cruise.priceHistory;
+    var cabinType = state.filters.cabinType || '';
     var latest = history[history.length - 1];
-    var latestPrice = latest && latest.prices ? (latest.prices.inside || latest.prices.oceanview || latest.prices.balcony || latest.prices.suite || 0) : 0;
-    if (latestPrice <= 0) return 0;
+    var latestPrice = getHistoricalSnapshotPrice(latest, cabinType);
+    if (latestPrice === null || latestPrice <= 0) return 0;
     var maxPrice = 0;
     for (var i = history.length - 2; i >= 0; i--) {
       var entry = history[i];
       if (new Date(entry.date).getTime() < cutoff) break;
-      var p = entry.prices ? (entry.prices.inside || entry.prices.oceanview || entry.prices.balcony || entry.prices.suite || 0) : 0;
+      var p = getHistoricalSnapshotPrice(entry, cabinType) || 0;
       if (p > maxPrice) maxPrice = p;
     }
     if (maxPrice <= latestPrice) return 0;
@@ -1432,19 +1538,65 @@
     ].join('');
   }
 
+  function renderCompactScoreBadge(label, score) {
+    var numericScore = toNumber(score);
+    var text = label || '';
+
+    if (numericScore === null) {
+      return '<span class="score normal">' + escapeHtml(text ? text + '-' : '-') + '</span>';
+    }
+
+    return '<span class="score ' + getScoreClass(numericScore) + '">' + escapeHtml(text + Math.round(numericScore)) + '</span>';
+  }
+
+  function renderCabinRecommendBadge(cabinType, cruise) {
+    return renderCompactScoreBadge(CABIN_LABELS[cabinType] || '', getRecommendScoreForCabin(cruise, cabinType));
+  }
+
+  function renderBestRecommendBadge(cruise) {
+    var result = getBestRecommendScoreWithLabel(cruise);
+    return renderCompactScoreBadge(result.label, result.score);
+  }
+
+  function renderCabinPriceCell(cruise, cabinType) {
+    var price = getCabinPrice(cruise, cabinType);
+    var priceChangeSummary = getPriceChangeSummary(cruise, cabinType);
+    var priceClass = price === null ? 'muted-text' : 'price-text';
+
+    return [
+      '<td><div>',
+      '<span class="', escapeHtml(priceClass), '">', escapeHtml(formatPrice(price)), '</span>',
+      renderPriceChangeMarkup(priceChangeSummary),
+      '</div>',
+      '<div class="cell-meta">', renderCabinRecommendBadge(cabinType, cruise), '</div>',
+      '</td>'
+    ].join('');
+  }
+
+  function renderCardCabinPriceSummary(cruise) {
+    return [
+      '<div class="card-meta">',
+      CABIN_TYPES.map(function (cabinType) {
+        var score = getRecommendScoreForCabin(cruise, cabinType);
+        var text = (CABIN_LABELS[cabinType] || '') + ' ' + formatPrice(getCabinPrice(cruise, cabinType));
+        if (score !== null) {
+          text += ' · ' + Math.round(score);
+        }
+        return '<span class="price-pill">' + escapeHtml(text) + '</span>';
+      }).join(''),
+      '</div>'
+    ].join('');
+  }
+
   function renderTableRow(cruise) {
     var num = Number(cruise && cruise.num) || 0;
     var isFavorite = favoritesApi && favoritesApi.isFavorite && favoritesApi.isFavorite(num);
     var isCompared = state.compareSelection.indexOf(num) !== -1;
-    var lowestPrice = getCabinFilteredPrice(cruise);
     var perNight = getCabinFilteredPerNight(cruise);
-    var dealScore = getBestScore(cruise && cruise.dealScores);
-    var valueScore = getBestScore(cruise && cruise.valueScores);
     var itineraryMarkup = renderItineraryMarkup(cruise);
     var badges = getCruiseBadges(cruise);
     var shipInfoSummary = formatShipInfoSummary(cruise && cruise.shipInfo);
     var lineDisplay = formatCruiseLineDisplay(cruise && cruise.cruiseLine || '-');
-    var priceChangeSummary = getPriceChangeSummary(cruise, state.filters.cabinType);
 
     return [
       '<tr class="cruise-row">',
@@ -1456,17 +1608,18 @@
       shipInfoSummary ? '<div class="cell-meta">' + escapeHtml(shipInfoSummary) + '</div>' : '',
       '</td>',
       '<td>', escapeHtml(formatStar(cruise && cruise.shipRating)),
-      cruise && cruise.shipInfo ? '<div class="cell-meta">' + escapeHtml(cruise.shipInfo.passengers + '명') + '</div>' : '',
+      cruise && cruise.shipInfo ? '<div class="cell-meta">1:' + escapeHtml(cruise.shipInfo.ratio) + '</div>' : '',
       '</td>',
+      '<td>', renderBestRecommendBadge(cruise), '</td>',
       '<td>', escapeHtml(formatDepartureDate(cruise && cruise.departureDate)), '</td>',
       '<td>', escapeHtml(formatNights(cruise && cruise.nights)), '</td>',
       '<td>', escapeHtml(cruise && cruise.departurePort || '-'), '</td>',
       '<td>', escapeHtml(cruise && cruise.arrivalPort || '-'), '</td>',
       itineraryMarkup,
-      '<td><span class="price-text">', escapeHtml(formatPrice(lowestPrice)), '</span>',
-      '<span class="cell-meta"> ', escapeHtml(getCabinLabel(cruise)), '</span>',
-      renderPriceChangeMarkup(priceChangeSummary),
-      '</td>',
+      renderCabinPriceCell(cruise, 'inside'),
+      renderCabinPriceCell(cruise, 'oceanview'),
+      renderCabinPriceCell(cruise, 'balcony'),
+      renderCabinPriceCell(cruise, 'suite'),
       '<td><span class="per-night-text">', escapeHtml(formatPerNight(perNight)), '</span></td>',
       '<td>', renderDiscountMarkup(Number(cruise && cruise.discountPct) || 0), '</td>',
       '<td>', renderScoreBadgeWithLabel(cruise && cruise.dealScores), '</td>',
@@ -1486,7 +1639,7 @@
     var dealScore = getBestScore(cruise && cruise.dealScores);
     var valueScore = getBestScore(cruise && cruise.valueScores);
     var busanTag = cruise && cruise.isBusanRelated ? '<span class="busan-tag">부산 관련</span>' : '';
-    var scoreRow = [busanTag, renderScoreBadge(dealScore), renderScoreBadge(valueScore)].filter(Boolean).join('');
+    var scoreRow = [busanTag, renderBestRecommendBadge(cruise), renderScoreBadge(dealScore), renderScoreBadge(valueScore)].filter(Boolean).join('');
     var stopCountText = Array.isArray(cruise && cruise.stopPorts) && cruise.stopPorts.length ? cruise.stopPorts.length + '개 기항 정보' : '세부 기항 정보 없음';
     var lineDisplay = formatCruiseLineDisplay(cruise && cruise.cruiseLine || '-');
 
@@ -1509,6 +1662,7 @@
       renderCardStat('할인율', discountPct > 0 ? discountPct + '%' : '-'),
       renderCardStat('일정', stopCountText),
       '</div>',
+      renderCardCabinPriceSummary(cruise),
       '<div class="card-subtitle">', escapeHtml(CruiseUtils.truncateText ? CruiseUtils.truncateText(cruise && cruise.itinerary || '-', 88) : cruise && cruise.itinerary || '-'), '</div>',
       '<div class="card-actions">',
       '<label class="ghost-button table-meta"><input type="checkbox" class="compare-checkbox" data-num="', escapeHtml(num), '"', isCompared ? ' checked' : '', '> 비교 선택</label>',
@@ -1644,34 +1798,21 @@
 
   function renderScoreBadge(score) {
     var numericScore = Number(score) || 0;
-    var scoreClass = 'normal';
-
-    if (numericScore >= 80) {
-      scoreClass = 'hot3';
-    } else if (numericScore >= 50) {
-      scoreClass = 'hot2';
-    } else if (numericScore >= 20) {
-      scoreClass = 'hot1';
-    }
-
-    return '<span class="score ' + scoreClass + '">' + escapeHtml(numericScore ? numericScore + '점' : '0점') + '</span>';
+    return '<span class="score ' + getScoreClass(numericScore) + '">' + escapeHtml(numericScore ? numericScore + '점' : '0점') + '</span>';
   }
 
   function renderScoreBadgeWithLabel(scores) {
     var result = getBestScoreWithLabel(scores);
     var numericScore = result.score;
     var label = result.label;
-    var scoreClass = 'normal';
-    if (numericScore >= 80) scoreClass = 'hot3';
-    else if (numericScore >= 50) scoreClass = 'hot2';
-    else if (numericScore >= 20) scoreClass = 'hot1';
+    var scoreClass = getScoreClass(numericScore);
     var text = label ? label + numericScore : (numericScore || '0');
     return '<span class="score ' + scoreClass + '">' + escapeHtml(text) + '</span>';
   }
 
   function renderDistributionChart(cruises) {
     var prices = cruises.map(function (cruise) {
-      return convertPriceForDisplay(getLowestPrice(cruise));
+      return convertPriceForDisplay(getCabinFilteredPrice(cruise));
     }).filter(function (value) {
       return Number.isFinite(value);
     });
@@ -1978,6 +2119,8 @@
       search: filters.search,
       line: filters.line,
       month: filters.month,
+      departureStart: filters.departureStart,
+      departureEnd: filters.departureEnd,
       departure: filters.departure,
       arrival: filters.arrival,
       destination: filters.destination,
@@ -1985,7 +2128,10 @@
       nightsMax: filters.nightsMax,
       priceMin: filters.priceMin,
       priceMax: filters.priceMax,
-      starMin: filters.starMin
+      starMin: filters.starMin,
+      cabinType: filters.cabinType,
+      perNightMax: filters.perNightMax,
+      recommendMin: filters.recommendMin
     };
   }
 
@@ -2105,6 +2251,21 @@
     var lowestPrice = getLowestPrice(cruise);
     var nights = Number(cruise && cruise.nights);
     return Number.isFinite(lowestPrice) && Number.isFinite(nights) && nights > 0 ? lowestPrice / nights : Infinity;
+  }
+
+  function getScoreClass(score) {
+    var numericScore = Number(score) || 0;
+    var scoreClass = 'normal';
+
+    if (numericScore >= 80) {
+      scoreClass = 'hot3';
+    } else if (numericScore >= 50) {
+      scoreClass = 'hot2';
+    } else if (numericScore >= 20) {
+      scoreClass = 'hot1';
+    }
+
+    return scoreClass;
   }
 
   function getBestScore(scores) {

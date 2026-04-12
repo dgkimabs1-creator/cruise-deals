@@ -150,6 +150,10 @@
             <input type="number" id="filterPerNightMax" placeholder="USD/박">
           </label>
           <label class="filter-group">
+            <span>추천 최소</span>
+            <input type="number" id="filterRecommendMin" placeholder="0~100">
+          </label>
+          <label class="filter-group">
             <span>별점</span>
             <select id="filterStarMin">
               <option value="">전체 별점</option>
@@ -182,6 +186,14 @@
             <select id="sortSelect">
               <option value="price-asc">가격 낮은순</option>
               <option value="price-desc">가격 높은순</option>
+              <option value="inside-asc">내측 낮은순</option>
+              <option value="inside-desc">내측 높은순</option>
+              <option value="oceanview-asc">바다 낮은순</option>
+              <option value="oceanview-desc">바다 높은순</option>
+              <option value="balcony-asc">발코니 낮은순</option>
+              <option value="balcony-desc">발코니 높은순</option>
+              <option value="suite-asc">스위트 낮은순</option>
+              <option value="suite-desc">스위트 높은순</option>
               <option value="date-asc">출발일 빠른순</option>
               <option value="date-desc">출발일 늦은순</option>
               <option value="discount-desc">할인율 높은순</option>
@@ -223,12 +235,16 @@
                 <th data-sort="line">선사</th>
                 <th data-sort="ship">선박</th>
                 <th data-sort="rating">⭐</th>
+                <th data-sort="recommend">추천</th>
                 <th data-sort="date">출발일</th>
                 <th data-sort="nights">박</th>
                 <th data-sort="departure">출발지</th>
                 <th data-sort="arrival">도착지</th>
                 <th>일정</th>
-                <th data-sort="inside">최저가</th>
+                <th data-sort="inside">내측</th>
+                <th data-sort="oceanview">바다</th>
+                <th data-sort="balcony">발코니</th>
+                <th data-sort="suite">스위트</th>
                 <th data-sort="pernight">박당</th>
                 <th data-sort="discount">할인</th>
                 <th data-sort="deal">딜</th>
