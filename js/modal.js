@@ -525,7 +525,13 @@
 
     actions.push(buildFavoriteButton(cruise.num));
     actions.push(buildActionLink(alertUrl, '텔레그램 알림', false));
-    actions.push(buildActionLink(cruise.bookingUrl, '예약하기', true));
+    var bookingSite = '예약하기';
+    if (cruise.bookingUrl) {
+      if (cruise.bookingUrl.indexOf('vacationstogo') !== -1) bookingSite = '🔗 VacationsToGo에서 예약';
+      else if (cruise.bookingUrl.indexOf('cruisetmk') !== -1) bookingSite = '🔗 크루즈TMK에서 예약';
+      else if (cruise.bookingUrl.indexOf('cruisebooking') !== -1) bookingSite = '🔗 크루즈부킹에서 예약';
+    }
+    actions.push(buildActionLink(cruise.bookingUrl, bookingSite, true));
     actions.push('<button type="button" class="modal-chip" data-modal-action="copy-link" data-num="' + escapeHtml(cruise.num) + '">🔗 링크 복사</button>');
 
     return actions.join('');
