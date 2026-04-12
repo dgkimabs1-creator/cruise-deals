@@ -865,6 +865,8 @@
         return Number.isFinite(perNight) && perNight <= 100;
       case 'luxury':
         return rating >= 5;
+      case 'new3d':
+        return isNewCruise(cruise, 3);
       case 'drop1d':
         return hasPriceDrop(cruise, 1);
       case 'drop3d':
@@ -874,6 +876,12 @@
       default:
         return true;
     }
+  }
+
+  function isNewCruise(cruise, days) {
+    if (!cruise || !cruise.priceHistory || cruise.priceHistory.length === 0) return false;
+    var firstSeen = new Date(cruise.priceHistory[0].date).getTime();
+    return Date.now() - firstSeen < days * 24 * 60 * 60 * 1000;
   }
 
   function hasPriceDrop(cruise, days) {
