@@ -599,7 +599,7 @@
         '<h3>선박 외관</h3>' +
         '<img class="modal-hero-image" src="' + escapeHtml(exteriorUrl) + '"' +
           ' alt="' + escapeHtml((cruise.shipName || '크루즈') + ' 외관 사진') + '"' +
-          ' loading="lazy">' +
+          ' loading="lazy" onerror="this.style.display=\'none\'">' +
       '</section>'
     );
   }
