@@ -524,7 +524,6 @@
     }
 
     actions.push(buildFavoriteButton(cruise.num));
-    actions.push(buildActionLink(alertUrl, '텔레그램 알림', false));
     var bookingSite = '예약하기';
     if (cruise.bookingUrl) {
       if (cruise.bookingUrl.indexOf('vacationstogo') !== -1) bookingSite = '🔗 VacationsToGo에서 예약';
