@@ -180,7 +180,11 @@
   }
 
   function safeAssetUrl(value) {
-    var resolved = safeUrl(value);
+    if (!value) return '';
+    var str = String(value);
+    // 상대경로 (images/...) 허용
+    if (str.indexOf('images/') === 0 || str.indexOf('./images/') === 0) return str;
+    var resolved = safeUrl(str);
     return resolved === '#' ? '' : resolved;
   }
 
