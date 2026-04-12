@@ -710,7 +710,7 @@
 
   function buildKidsPricingNote(cruise) {
     return cruise && cruise.shipInfo && cruise.shipInfo.kidsFriendly
-      ? '💰 2세 미만 무료 가능 (선사별 상이)'
+      ? '💰 어린이 할인/무료 가능 (선사별 상이, 예약 시 확인)'
       : '';
   }
 
@@ -1235,6 +1235,12 @@
     if (elements.overlay) {
       elements.overlay.classList.remove('show');
       elements.overlay.setAttribute('aria-hidden', 'true');
+    }
+
+    // URL 해시에서 cruise= 제거
+    if (typeof history !== 'undefined' && history.replaceState) {
+      var hash = location.hash.replace(/[#&]?cruise=\d+/, '').replace(/^#$/, '');
+      history.replaceState(null, '', hash || location.pathname + location.search);
     }
 
     if (elements.content) {
