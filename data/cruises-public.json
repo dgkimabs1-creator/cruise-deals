@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-04-12T12:51:44.406Z",
+  "exportedAt": "2026-04-12T12:53:30.711Z",
   "exchangeRate": 1482.511805,
   "count": 774,
   "cruises": [
@@ -749,8 +749,8 @@
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Tokyo (Yokohama), Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -1127,8 +1127,8 @@
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -1316,8 +1316,8 @@
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Tokyo (Yokohama), Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -1505,8 +1505,8 @@
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Hong Kong → Kao-hsiung, Taiwan → Taipei (Keelung), Taiwan → Ishigaki Island, Japan → At Sea → Nagasaki, Japan → Kagoshima, Japan → Hiroshima, Japan → Kochi, Japan → Kobe, Japan → Shimizu, Japan → Tokyo (Koto City), Japan",
       "departurePort": "Hong Kong",
@@ -2368,8 +2368,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Busan, South Korea → Sokcho-si, South Korea",
       "departurePort": "Busan, South Korea",
@@ -2490,8 +2490,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Sokcho-si, South Korea → At Sea → Otaru, Japan → Hakodate, Japan → At Sea → Busan, South Korea",
       "departurePort": "Sokcho-si, South Korea",
@@ -2747,8 +2747,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Otaru, Japan → Busan, South Korea",
       "departurePort": "Otaru, Japan",
@@ -2856,8 +2856,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Busan, South Korea → Busan, South Korea",
       "departurePort": "Busan, South Korea",
@@ -3359,8 +3359,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Busan, South Korea → Busan, South Korea",
       "departurePort": "Busan, South Korea",
@@ -3492,8 +3492,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Busan, South Korea → Incheon, South Korea",
       "departurePort": "Busan, South Korea",
@@ -3620,8 +3620,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Incheon, South Korea → Busan, South Korea",
       "departurePort": "Incheon, South Korea",
@@ -3760,8 +3760,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Okinawa (Naha), Japan → Busan, South Korea",
       "departurePort": "Okinawa (Naha), Japan",
@@ -3876,8 +3876,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Busan, South Korea → At Sea → Hakodate, Japan → Otaru, Japan",
       "departurePort": "Busan, South Korea",
@@ -4207,8 +4207,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Otaru, Japan → Busan, South Korea",
       "departurePort": "Otaru, Japan",
@@ -4316,8 +4316,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Busan, South Korea → Kao-hsiung, Taiwan",
       "departurePort": "Busan, South Korea",
@@ -4970,8 +4970,8 @@
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Tokyo (Koto City), Japan → Sendai, Japan → Hakodate, Japan → Aomori, Japan → Akita, Japan → Sakata, Japan → Kanazawa, Japan → Busan, South Korea → Sasebo, Japan → Scenic Cruising Kanmon Strait (Cruising Only) → Hiroshima, Japan → Kochi, Japan → Osaka, Japan → Nagoya, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -5165,8 +5165,8 @@
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Vancouver, BC, Canada → Tokyo (Yokohama), Japan",
       "departurePort": "Vancouver, BC, Canada",
@@ -5354,8 +5354,8 @@
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Tokyo (Yokohama), Japan → Incheon, South Korea",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -5535,8 +5535,8 @@
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Incheon, South Korea → Tokyo (Koto City), Japan",
       "departurePort": "Incheon, South Korea",
@@ -5706,8 +5706,8 @@
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Tokyo (Yokohama), Japan → Incheon, South Korea",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -5865,8 +5865,8 @@
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Incheon, South Korea → Tokyo (Yokohama), Japan",
       "departurePort": "Incheon, South Korea",
@@ -6024,8 +6024,8 @@
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Tokyo (Yokohama), Japan → Hong Kong",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -6372,8 +6372,8 @@
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Hong Kong → At Sea → Coron, Philippines → Boracay, Philippines → Puerto Princesa, Palawan, Philippines → At Sea → Muara (Bandar Seri Begawan), Brunei → At Sea → Ho Chi Minh City (Phu My), Vietnam → At Sea → Laem Chabang, Thailand → Laem Chabang, Thailand → Ko Samui, Thailand → At Sea → Singapore",
       "departurePort": "Hong Kong",
@@ -6751,8 +6751,8 @@
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Singapore → Hong Kong",
       "departurePort": "Singapore",
@@ -6922,8 +6922,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → Nagasaki, Japan → Busan, South Korea → Sakaiminato, Japan → Tsuruga, Japan → Toyama, Japan → Akita, Japan → At Sea → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -7281,8 +7281,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Tokyo (Koto City), Japan → Taipei (Keelung), Taiwan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -7410,8 +7410,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → At Sea → Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan → Ishigaki Island, Japan → Okinawa (Naha), Japan → At Sea → At Sea → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -7769,8 +7769,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Tokyo (Koto City), Japan",
       "departurePort": "Shanghai, China",
@@ -7892,8 +7892,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Tokyo (Koto City), Japan → At Sea → At Sea → Taipei (Keelung), Taiwan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -8335,8 +8335,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
@@ -8470,8 +8470,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
@@ -8605,8 +8605,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
@@ -8740,8 +8740,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
@@ -8869,8 +8869,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
@@ -8998,8 +8998,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
@@ -9127,8 +9127,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
@@ -9256,8 +9256,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
@@ -9385,8 +9385,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
@@ -9514,8 +9514,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
@@ -9643,8 +9643,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
@@ -9772,8 +9772,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
@@ -9901,8 +9901,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
@@ -10030,8 +10030,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
@@ -10159,8 +10159,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
@@ -10288,8 +10288,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
@@ -10417,8 +10417,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
@@ -10541,8 +10541,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "부산→상하이→제주→부산",
       "departurePort": "부산",
@@ -10686,8 +10686,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "부산→상하이→제주→부산",
       "departurePort": "부산",
@@ -10815,8 +10815,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "부산→상하이→제주→부산",
       "departurePort": "부산",
@@ -10944,8 +10944,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "부산→상하이→제주→부산",
       "departurePort": "부산",
@@ -11068,8 +11068,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "부산→상하이→제주→부산",
       "departurePort": "부산",
@@ -11206,8 +11206,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "부산→상하이→제주→부산",
       "departurePort": "부산",
@@ -11345,8 +11345,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "부산→상하이→제주→부산",
       "departurePort": "부산",
@@ -11474,8 +11474,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "부산→상하이→제주→사세보→부산",
       "departurePort": "부산",
@@ -11625,8 +11625,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "부산→상하이→후쿠오카→부산",
       "departurePort": "부산",
@@ -11745,8 +11745,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "부산→상하이→부산",
       "departurePort": "부산",
@@ -11871,8 +11871,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "부산→후쿠오카→상하이→제주→부산",
       "departurePort": "부산",
@@ -11980,8 +11980,8 @@
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Tokyo (Koto City), Japan → Incheon, South Korea",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -12139,8 +12139,8 @@
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Incheon, South Korea → Tokyo (Yokohama), Japan",
       "departurePort": "Incheon, South Korea",
@@ -12660,8 +12660,8 @@
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Tokyo (Yokohama), Japan → Incheon, South Korea",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -12841,8 +12841,8 @@
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Incheon, South Korea → Tokyo (Koto City), Japan",
       "departurePort": "Incheon, South Korea",
@@ -13012,8 +13012,8 @@
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -13183,8 +13183,8 @@
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Tokyo (Koto City), Japan → Hong Kong",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -13352,8 +13352,8 @@
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Tokyo (Koto City), Japan → Incheon, South Korea",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -13521,8 +13521,8 @@
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Incheon, South Korea → Tokyo (Yokohama), Japan",
       "departurePort": "Incheon, South Korea",
@@ -13680,8 +13680,8 @@
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Tokyo (Yokohama), Japan → Incheon, South Korea",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -13839,8 +13839,8 @@
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Incheon, South Korea → Tokyo (Yokohama), Japan",
       "departurePort": "Incheon, South Korea",
@@ -13998,8 +13998,8 @@
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Hong Kong → At Sea → Coron, Philippines → Boracay, Philippines → Puerto Princesa, Palawan, Philippines → Kota Kinabalu, Malaysia → Muara (Bandar Seri Begawan), Brunei → At Sea → Ho Chi Minh City (Phu My), Vietnam → At Sea → Laem Chabang, Thailand → Laem Chabang, Thailand → Ko Samui, Thailand → At Sea → Singapore",
       "departurePort": "Hong Kong",
@@ -14367,8 +14367,8 @@
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Singapore → Hong Kong",
       "departurePort": "Singapore",
@@ -14538,8 +14538,8 @@
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Hong Kong → At Sea → Coron, Philippines → Puerto Princesa, Palawan, Philippines → Kota Kinabalu, Malaysia → Muara (Bandar Seri Begawan), Brunei → At Sea → Ho Chi Minh City (Phu My), Vietnam → At Sea → Laem Chabang, Thailand → Ko Samui, Thailand → At Sea → Singapore",
       "departurePort": "Hong Kong",
@@ -14895,8 +14895,8 @@
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Singapore → At Sea → Ko Samui, Thailand → Laem Chabang, Thailand → At Sea → Ho Chi Minh City (Phu My), Vietnam → At Sea → Muara (Bandar Seri Begawan), Brunei → Kota Kinabalu, Malaysia → Puerto Princesa, Palawan, Philippines → Coron, Philippines → At Sea → Hong Kong → Hong Kong",
       "departurePort": "Singapore",
@@ -15469,8 +15469,8 @@
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Singapore → Hong Kong",
       "departurePort": "Singapore",
@@ -15656,8 +15656,8 @@
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Singapore → Hong Kong",
       "departurePort": "Singapore",
@@ -15843,8 +15843,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Tokyo (Koto City), Japan → Kobe, Japan → Kobe, Japan → At Sea → Busan, South Korea → Kagoshima, Japan → At Sea → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -16156,8 +16156,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → Toba, Japan → Osaka, Japan → At Sea → Nagasaki, Japan → Busan, South Korea → At Sea → Kochi, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -16505,8 +16505,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Tokyo (Koto City), Japan → At Sea → Gangjeong, South Korea → Yatsushiro, Japan → Kagoshima, Japan → At Sea → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -16736,8 +16736,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
@@ -16865,8 +16865,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
@@ -16994,8 +16994,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -17129,8 +17129,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Tokyo (Koto City), Japan → At Sea → Gangjeong, South Korea → Sasebo, Japan → Kagoshima, Japan → At Sea → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -18116,8 +18116,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Tokyo (Koto City), Japan",
       "departurePort": "Shanghai, China",
@@ -18257,8 +18257,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -18761,8 +18761,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -18945,8 +18945,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -19080,8 +19080,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Kanazawa, Japan → Kanazawa, Japan",
       "departurePort": "Kanazawa, Japan",
@@ -19208,8 +19208,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -19337,8 +19337,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -19482,8 +19482,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Hakodate, Japan → Sasebo, Japan",
       "departurePort": "Hakodate, Japan",
@@ -19616,8 +19616,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
@@ -19743,8 +19743,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -19909,8 +19909,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Incheon, South Korea → At Sea → Busan, South Korea → Sasebo, Japan → Yatsushiro, Japan → Kagoshima, Japan",
       "departurePort": "Incheon, South Korea",
@@ -20206,8 +20206,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -20335,8 +20335,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → Nagasaki, Japan → Busan, South Korea → Sakaiminato, Japan → At Sea → Aomori, Japan → At Sea → Tokyo (Yokohama), Japan → At Sea → Nagasaki, Japan → Busan, South Korea → At Sea → Hiroshima, Japan → Kochi, Japan → Kobe, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -20728,8 +20728,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -20863,8 +20863,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -21053,8 +21053,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -21188,8 +21188,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -21384,8 +21384,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -21513,8 +21513,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -21648,8 +21648,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -21838,8 +21838,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -21967,8 +21967,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → Toba, Japan → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → At Sea → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -22318,8 +22318,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -22504,8 +22504,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -22633,8 +22633,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
@@ -22754,8 +22754,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → Toba, Japan → Kochi, Japan → At Sea → Seogwipo City, South Korea → Kagoshima, Japan → At Sea → Tokyo (Yokohama), Japan → At Sea → Nagasaki, Japan → Busan, South Korea → At Sea → Aomori, Japan → Hakodate, Japan → At Sea → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -23139,8 +23139,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Fukuoka, Japan → Okinawa (Naha), Japan",
       "departurePort": "Fukuoka, Japan",
@@ -23255,8 +23255,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -23452,8 +23452,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -23581,8 +23581,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → Nagasaki, Japan → Busan, South Korea → At Sea → Aomori, Japan → Hakodate, Japan → At Sea → Tokyo (Yokohama), Japan → At Sea → Aomori, Japan → At Sea → Sakaiminato, Japan → Busan, South Korea → At Sea → Kochi, Japan → Tokushima, Japan → Osaka, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -23990,8 +23990,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -24125,8 +24125,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → Aomori, Japan → At Sea → Sakaiminato, Japan → Busan, South Korea → At Sea → Kochi, Japan → Tokushima, Japan → Osaka, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -24482,8 +24482,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -24672,8 +24672,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -24814,8 +24814,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → Kumano, Japan → Wakayama (Shimotsu), Japan → Kochi, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → At Sea → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -25169,8 +25169,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -25260,8 +25260,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -25389,8 +25389,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → Toba, Japan → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → At Sea → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -25744,8 +25744,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -25925,8 +25925,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -26060,8 +26060,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → Hakodate, Japan → Niigata, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → Kochi, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -26415,8 +26415,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -26594,8 +26594,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2026,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Vancouver, BC, Canada → Inside Passage, AK (Cruising) → Ketchikan, AK → At Sea → At Sea → At Sea → At Sea → Crossing International Dateline (Cruising) → At Sea → At Sea → Kushiro, Japan → Aomori, Japan → At Sea → Tokyo (Koto City), Japan → At Sea → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Sakaiminato, Japan → Tsuruga, Japan → Toyama, Japan → Sakata, Japan → Aomori, Japan → Hakodate, Japan → At Sea → Tokyo (Koto City), Japan",
       "departurePort": "Vancouver, BC, Canada",
@@ -27041,8 +27041,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → Nagasaki, Japan → Busan, South Korea → At Sea → Kochi, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -27364,8 +27364,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → At Sea → Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan → Ishigaki Island, Japan → Okinawa (Naha), Japan → At Sea → At Sea → Tokyo (Yokohama), Japan → Toba, Japan → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → At Sea → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -27753,8 +27753,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -27882,8 +27882,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2026,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Tokyo (Koto City), Japan → At Sea → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Sakaiminato, Japan → Tsuruga, Japan → Toyama, Japan → Sakata, Japan → Aomori, Japan → Hakodate, Japan → At Sea → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -28078,8 +28078,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -28226,8 +28226,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → Toba, Japan → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → At Sea → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -28717,8 +28717,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -28846,8 +28846,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -29008,8 +29008,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → Akita, Japan → Toyama, Japan → Tsuruga, Japan → Sakaiminato, Japan → Busan, South Korea → Nagasaki, Japan → At Sea → Tokyo (Yokohama), Japan → At Sea → Nagasaki, Japan → Busan, South Korea → At Sea → Hiroshima, Japan → Miyazaki (Aburatsu), Japan → Tokushima, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -29411,8 +29411,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -29546,8 +29546,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -29718,8 +29718,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → Nagasaki, Japan → Busan, South Korea → At Sea → Hiroshima, Japan → Miyazaki (Aburatsu), Japan → Tokushima, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -30012,8 +30012,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2026,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Tokyo (Koto City), Japan → Shimizu, Japan → At Sea → Kagoshima, Japan → Nagasaki, Japan → Yeosu, South Korea → At Sea → Seoul, South Korea → Seoul, South Korea → Jeju Island, South Korea → Busan, South Korea → Fukuoka, Japan → At Sea → Kobe, Japan → At Sea → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -30202,8 +30202,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → Hakodate, Japan → Aomori, Japan → Akita, Japan → Niigata, Japan → Kanazawa, Japan → Sakaiminato, Japan → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → Miyazaki (Aburatsu), Japan → At Sea → Omaezaki, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -30581,8 +30581,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Hong Kong",
       "departurePort": "Shanghai, China",
@@ -30716,8 +30716,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → Aomori, Japan → Sakata, Japan → Kanazawa, Japan → Sakaiminato, Japan → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → Beppu, Japan → Kochi, Japan → Osaka, Japan → At Sea → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -31095,8 +31095,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Hong Kong → Hong Kong",
       "departurePort": "Hong Kong",
@@ -31254,8 +31254,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Hong Kong → Tokyo (Yokohama), Japan",
       "departurePort": "Hong Kong",
@@ -32046,8 +32046,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2026,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Tokyo (Koto City), Japan → Shimizu, Japan → Osaka, Japan → Osaka, Japan → At Sea → Kagoshima, Japan → Nagasaki, Japan → Busan, South Korea → Yeosu, South Korea → Fukuoka, Japan → At Sea → Hiroshima, Japan → Kochi, Japan → At Sea → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -32255,8 +32255,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Singapore → At Sea → Ho Chi Minh City (Phu My), Vietnam → At Sea → Da Nang, Vietnam → At Sea → Hong Kong → At Sea → Taipei (Keelung), Taiwan → Ishigaki Island, Japan → Okinawa (Naha), Japan → At Sea → Kochi, Japan → Kobe, Japan → At Sea → Tokyo (Yokohama), Japan → At Sea → Beppu, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Miyazaki (Aburatsu), Japan → Kochi, Japan → Kobe, Japan → At Sea → Tokyo (Yokohama), Japan",
       "departurePort": "Singapore",
@@ -32706,8 +32706,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -32885,8 +32885,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -33546,8 +33546,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -33721,8 +33721,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → Beppu, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Miyazaki (Aburatsu), Japan → Kochi, Japan → Kobe, Japan → At Sea → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -34734,8 +34734,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -34896,8 +34896,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → Yatsushiro, Japan → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → Beppu, Japan → Matsuyama, Japan → Kochi, Japan → Osaka, Japan → Tokushima, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -35263,8 +35263,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2026,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Tokyo (Koto City), Japan → At Sea → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Sakaiminato, Japan → Tsuruga, Japan → Toyama, Japan → Sakata, Japan → Aomori, Japan → Hakodate, Japan → At Sea → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -36106,8 +36106,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -36652,8 +36652,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → Toba, Japan → At Sea → Nagasaki, Japan → Busan, South Korea → Sakaiminato, Japan → Maizuru, Japan → Toyama, Japan → Sakata, Japan → Hakodate, Japan → Miyako, Japan → Hitachinaka, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -37019,8 +37019,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -37674,8 +37674,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -37867,8 +37867,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -38230,8 +38230,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -38603,8 +38603,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → Toba, Japan → Kobe, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Seogwipo City, South Korea → Nagasaki, Japan → At Sea → Omaezaki, Japan → Tokyo (Yokohama), Japan → At Sea → Hakodate, Japan → Niigata, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → Kochi, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -39363,8 +39363,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Koto City), Japan → Incheon, South Korea",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -39907,8 +39907,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -41037,8 +41037,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -41571,8 +41571,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -42099,8 +42099,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -42801,8 +42801,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -43335,8 +43335,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -44036,8 +44036,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -44749,8 +44749,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -45289,8 +45289,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Koto City), Japan → Incheon, South Korea",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -46586,8 +46586,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -47467,8 +47467,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → Nagasaki, Japan → Seogwipo City, South Korea → At Sea → Kobe, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan → At Sea → Hakodate, Japan → Niigata, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → Kagoshima, Japan → Kochi, Japan → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -48846,8 +48846,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → Toba, Japan → Osaka, Japan → Kochi, Japan → Hiroshima, Japan → At Sea → Busan, South Korea → Nagasaki, Japan → At Sea → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -49734,8 +49734,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → Hitachinaka, Japan → At Sea → Hakodate, Japan → Akita, Japan → Niigata, Japan → Kanazawa, Japan → Sakaiminato, Japan → Busan, South Korea → Nagasaki, Japan → Miyazaki (Aburatsu), Japan → Kochi, Japan → At Sea → Shimizu, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -51502,8 +51502,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -52527,8 +52527,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -54990,8 +54990,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Kyoto, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Kyoto, Japan",
@@ -55188,8 +55188,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Kyoto, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Kyoto, Japan",
@@ -55390,8 +55390,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Kyoto, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Kyoto, Japan",
@@ -55586,8 +55586,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Kyoto, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Kyoto, Japan",
@@ -55795,8 +55795,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Kyoto, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Kyoto, Japan",
@@ -56003,8 +56003,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Kyoto, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Kyoto, Japan",
@@ -56200,8 +56200,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tour begins in Kyoto, Japan → Kyoto, Japan → Kyoto, Japan / Nara, Japan / Tokyo, Japan → Tokyo (Yokohama), Japan → Tokyo (Yokohama), Japan → Tokyo (Yokohama), Japan → Cruise begins in Tokyo (Yokohama), Japan → At Sea → Akita, Japan → Toyama, Japan → Tsuruga, Japan → Sakaiminato, Japan → Busan, South Korea → Nagasaki, Japan → At Sea → Tokyo (Yokohama), Japan",
       "departurePort": "Tour begins in Kyoto, Japan",
@@ -56412,8 +56412,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Kyoto, Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Kyoto, Japan",
@@ -56614,8 +56614,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
@@ -56872,8 +56872,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
@@ -57259,8 +57259,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Sasebo, Japan → Okinawa (Naha), Japan",
       "departurePort": "Sasebo, Japan",
@@ -57769,8 +57769,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -58102,8 +58102,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
@@ -58216,8 +58216,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
@@ -58336,8 +58336,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → Nagasaki, Japan → Seogwipo City, South Korea → At Sea → At Sea → Hakodate, Japan → Muroran, Japan → Aomori, Japan → At Sea → Tokyo (Yokohama), Japan → At Sea → At Sea → Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan → Ishigaki Island, Japan → Okinawa (Naha), Japan → At Sea → At Sea → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -58543,8 +58543,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
@@ -58657,8 +58657,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
@@ -58776,8 +58776,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -58927,8 +58927,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Taipei (Keelung), Taiwan → Kanazawa, Japan",
       "departurePort": "Taipei (Keelung), Taiwan",
@@ -59247,8 +59247,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -59513,8 +59513,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -59861,8 +59861,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Kanazawa, Japan → Kanazawa, Japan",
       "departurePort": "Kanazawa, Japan",
@@ -60435,8 +60435,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -60807,8 +60807,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Incheon, South Korea → Tokyo (Koto City), Japan",
       "departurePort": "Incheon, South Korea",
@@ -61164,8 +61164,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Kagoshima, Japan → Incheon, South Korea",
       "departurePort": "Kagoshima, Japan",
@@ -61301,8 +61301,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Nagasaki, Japan → Incheon, South Korea",
       "departurePort": "Nagasaki, Japan",
@@ -61417,8 +61417,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Kao-hsiung, Taiwan → Kao-hsiung, Taiwan",
       "departurePort": "Kao-hsiung, Taiwan",
@@ -61537,8 +61537,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
@@ -61647,8 +61647,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Kao-hsiung, Taiwan → Kao-hsiung, Taiwan",
       "departurePort": "Kao-hsiung, Taiwan",
@@ -61767,8 +61767,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
@@ -61883,8 +61883,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
@@ -61998,8 +61998,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
@@ -62102,8 +62102,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
@@ -62206,8 +62206,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
@@ -62316,8 +62316,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
@@ -62420,8 +62420,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Okinawa (Naha), Japan → Fukuoka, Japan",
       "departurePort": "Okinawa (Naha), Japan",
@@ -62524,8 +62524,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
@@ -62633,8 +62633,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
@@ -62737,8 +62737,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
@@ -62852,8 +62852,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
@@ -62962,8 +62962,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
@@ -63071,8 +63071,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -63207,8 +63207,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
@@ -63317,8 +63317,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -63483,8 +63483,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
@@ -63587,8 +63587,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Okinawa (Naha), Japan → Sasebo, Japan",
       "departurePort": "Okinawa (Naha), Japan",
@@ -63701,8 +63701,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Sasebo, Japan → Okinawa (Naha), Japan",
       "departurePort": "Sasebo, Japan",
@@ -63811,8 +63811,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
@@ -63920,8 +63920,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
@@ -64030,8 +64030,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
@@ -64145,8 +64145,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
@@ -64249,8 +64249,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
@@ -64544,8 +64544,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -65363,8 +65363,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2026,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Tokyo (Koto City), Japan → Omaezaki, Japan → Kobe, Japan → Kochi, Japan → At Sea → Fukuoka, Japan → Sokcho-si, South Korea → At Sea → Kanazawa, Japan → Sakata, Japan → Hakodate, Japan → Miyako, Japan → At Sea → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -65971,8 +65971,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -66100,8 +66100,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -66253,8 +66253,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → Hong Kong",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -66455,8 +66455,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Hong Kong → Hong Kong",
       "departurePort": "Hong Kong",
@@ -66590,8 +66590,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Hong Kong → Hong Kong",
       "departurePort": "Hong Kong",
@@ -67033,8 +67033,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → At Sea → Kagoshima, Japan → Nagasaki, Japan → At Sea → Ishigaki Island, Japan → Taipei (Keelung), Taiwan → At Sea → Hong Kong → At Sea → Da Nang, Vietnam → At Sea → Ho Chi Minh City (Phu My), Vietnam → At Sea → Singapore",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -67412,8 +67412,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Hong Kong → Hong Kong",
       "departurePort": "Hong Kong",
@@ -67557,8 +67557,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Hong Kong → Hong Kong",
       "departurePort": "Hong Kong",
@@ -68067,8 +68067,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Hong Kong → Hong Kong",
       "departurePort": "Hong Kong",
@@ -68212,8 +68212,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Hong Kong → Hong Kong",
       "departurePort": "Hong Kong",
@@ -68840,8 +68840,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Hong Kong → Hong Kong",
       "departurePort": "Hong Kong",
@@ -68975,8 +68975,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
@@ -69104,8 +69104,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Okinawa (Naha), Japan → Okinawa (Naha), Japan",
       "departurePort": "Okinawa (Naha), Japan",
@@ -69614,8 +69614,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Okinawa (Naha), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Okinawa (Naha), Japan",
@@ -69755,8 +69755,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Tokyo (Yokohama), Japan → Hong Kong",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -69918,8 +69918,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Hong Kong → Hong Kong",
       "departurePort": "Hong Kong",
@@ -70428,8 +70428,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Hong Kong → Shanghai, China",
       "departurePort": "Hong Kong",
@@ -71138,8 +71138,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Singapore → Kuala Lumpur (Port Kelang), Malaysia → Langkawi, Malaysia → Penang, Malaysia → Phuket, Thailand → At Sea → At Sea → At Sea → Nha Trang, Vietnam → At Sea → Cai Lan, Vietnam → Cai Lan, Vietnam → Da Nang, Vietnam → At Sea → Ho Chi Minh City (Phu My), Vietnam → At Sea → Singapore → At Sea → Ho Chi Minh City (Phu My), Vietnam → At Sea → Da Nang, Vietnam → At Sea → Hong Kong → At Sea → Taipei (Keelung), Taiwan → Ishigaki Island, Japan → Okinawa (Naha), Japan → At Sea → Kochi, Japan → Kobe, Japan → At Sea → Tokyo (Yokohama), Japan",
       "departurePort": "Singapore",
@@ -71783,8 +71783,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Singapore → Tokyo (Yokohama), Japan",
       "departurePort": "Singapore",
@@ -71975,8 +71975,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -72519,8 +72519,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -72648,8 +72648,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Tokyo (Koto City), Japan",
       "departurePort": "Shanghai, China",
@@ -72777,8 +72777,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -73082,8 +73082,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -73775,8 +73775,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -74290,8 +74290,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2026,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Tokyo (Koto City), Japan → Omaezaki, Japan → Osaka, Japan → Kochi, Japan → At Sea → Fukuoka, Japan → Sokcho-si, South Korea → At Sea → Kanazawa, Japan → Sakata, Japan → Aomori, Japan → Otaru, Japan → Hakodate, Japan → At Sea → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -75047,8 +75047,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -77161,8 +77161,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Incheon, South Korea → Tokyo (Koto City), Japan",
       "departurePort": "Incheon, South Korea",
@@ -77974,8 +77974,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Koto City), Japan → Singapore",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -78834,8 +78834,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -80768,8 +80768,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Singapore → Tokyo (Yokohama), Japan",
       "departurePort": "Singapore",
@@ -82545,8 +82545,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Yokohama), Japan → Tokyo (Yokohama), Japan",
       "departurePort": "Tokyo (Yokohama), Japan",
@@ -84539,8 +84539,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Hong Kong → Singapore",
       "departurePort": "Hong Kong",
@@ -84728,8 +84728,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Hong Kong → Hong Kong",
       "departurePort": "Hong Kong",
@@ -84857,8 +84857,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2026,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Singapore → At Sea → Ko Samui, Thailand → Laem Chabang, Thailand → Laem Chabang, Thailand → Sihanoukville, Cambodia → At Sea → Ho Chi Minh City (Phu My), Vietnam → Nha Trang, Vietnam → At Sea → Da Nang, Vietnam → At Sea → Halong Bay, Vietnam → At Sea → Hong Kong",
       "departurePort": "Singapore",
@@ -85441,8 +85441,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2026,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Hong Kong → At Sea → Halong Bay, Vietnam → At Sea → Da Nang, Vietnam → At Sea → Nha Trang, Vietnam → Ho Chi Minh City (Phu My), Vietnam → At Sea → Sihanoukville, Cambodia → Laem Chabang, Thailand → Laem Chabang, Thailand → Ko Samui, Thailand → At Sea → Singapore",
       "departurePort": "Hong Kong",
@@ -86350,8 +86350,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2026,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Singapore → At Sea → At Sea → Puerto Princesa, Palawan, Philippines → At Sea → Bitung, Indonesia → At Sea → At Sea → Jayapura, Papua Province, Indonesia → At Sea → Rabaul, Papua New Guinea → Kiriwina, Papua New Guinea → At Sea → Townsville, Australia → Cairns, Australia → Cairns, Australia → At Sea → At Sea → At Sea → Darwin, Australia → At Sea → At Sea → Komodo, Indonesia → Benoa, Bali, Indonesia → Benoa, Bali, Indonesia → At Sea → Krakatoa Volcano, Indonesia (Cruising) → At Sea → Singapore → At Sea → Ko Samui, Thailand → Pattaya, Thailand → Pattaya, Thailand → Sihanoukville, Cambodia → At Sea → Ho Chi Minh City (Phu My), Vietnam → Nha Trang, Vietnam → At Sea → Da Nang, Vietnam → At Sea → Halong Bay, Vietnam → At Sea → Hong Kong",
       "departurePort": "Singapore",
@@ -87410,8 +87410,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2026,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Singapore → At Sea → Ko Samui, Thailand → Pattaya, Thailand → Pattaya, Thailand → Sihanoukville, Cambodia → At Sea → Ho Chi Minh City (Phu My), Vietnam → Nha Trang, Vietnam → At Sea → Da Nang, Vietnam → At Sea → Halong Bay, Vietnam → At Sea → Hong Kong",
       "departurePort": "Singapore",
@@ -96749,8 +96749,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Incheon, South Korea → Taipei (Keelung), Taiwan",
       "departurePort": "Incheon, South Korea",
@@ -98022,8 +98022,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -98145,8 +98145,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -98732,8 +98732,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -99191,8 +99191,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Shanghai, China → Incheon, South Korea",
       "departurePort": "Shanghai, China",
@@ -99419,8 +99419,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -99542,8 +99542,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -100128,8 +100128,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -100486,8 +100486,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -100959,8 +100959,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -101424,8 +101424,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -101884,8 +101884,8 @@
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Taipei (Keelung), Taiwan → Taipei (Keelung), Taiwan",
       "departurePort": "Taipei (Keelung), Taiwan",
@@ -102343,8 +102343,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -102688,8 +102688,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -103504,8 +103504,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -103862,8 +103862,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -108968,8 +108968,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Singapore → Benoa, Bali, Indonesia",
       "departurePort": "Singapore",
@@ -110078,8 +110078,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Benoa, Bali, Indonesia → Singapore",
       "departurePort": "Benoa, Bali, Indonesia",
@@ -110255,8 +110255,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Singapore → At Sea → Ho Chi Minh City (Phu My), Vietnam → Nha Trang, Vietnam → At Sea → Cai Lan, Vietnam → Cai Lan, Vietnam → Da Nang, Vietnam → At Sea → At Sea → Singapore",
       "departurePort": "Singapore",
@@ -111900,8 +111900,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Singapore → At Sea → Phuket, Thailand → Langkawi, Malaysia → Penang, Malaysia → Kuala Lumpur (Port Kelang), Malaysia → At Sea → At Sea → Nha Trang, Vietnam → Ho Chi Minh City (Phu My), Vietnam → At Sea → Laem Chabang, Thailand → At Sea → At Sea → Singapore",
       "departurePort": "Singapore",
@@ -112416,8 +112416,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Singapore → Benoa, Bali, Indonesia",
       "departurePort": "Singapore",
@@ -113210,8 +113210,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Benoa, Bali, Indonesia → Singapore",
       "departurePort": "Benoa, Bali, Indonesia",
@@ -113546,8 +113546,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Singapore → Singapore",
       "departurePort": "Singapore",
@@ -114586,8 +114586,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Singapore → Benoa, Bali, Indonesia",
       "departurePort": "Singapore",
@@ -114877,8 +114877,8 @@
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Singapore → Kuala Lumpur (Port Kelang), Malaysia → Langkawi, Malaysia → Penang, Malaysia → Phuket, Thailand → At Sea → At Sea → At Sea → Ko Samui, Thailand → Laem Chabang, Thailand → At Sea → At Sea → Singapore",
       "departurePort": "Singapore",
@@ -115836,8 +115836,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Benoa, Bali, Indonesia → Singapore",
       "departurePort": "Benoa, Bali, Indonesia",
@@ -117022,8 +117022,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Singapore → Singapore",
       "departurePort": "Singapore",
@@ -117977,8 +117977,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -119990,8 +119990,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -121770,8 +121770,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -128055,8 +128055,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Singapore → Singapore",
       "departurePort": "Singapore",
@@ -128645,8 +128645,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Singapore → Benoa, Bali, Indonesia",
       "departurePort": "Singapore",
@@ -129490,8 +129490,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Benoa, Bali, Indonesia → Singapore",
       "departurePort": "Benoa, Bali, Indonesia",
@@ -130513,8 +130513,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Singapore → Benoa, Bali, Indonesia",
       "departurePort": "Singapore",
@@ -131364,8 +131364,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Benoa, Bali, Indonesia → Singapore",
       "departurePort": "Benoa, Bali, Indonesia",
@@ -132423,8 +132423,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Singapore → Benoa, Bali, Indonesia",
       "departurePort": "Singapore",
@@ -133182,8 +133182,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Benoa, Bali, Indonesia → Singapore",
       "departurePort": "Benoa, Bali, Indonesia",
@@ -134266,8 +134266,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Singapore → Benoa, Bali, Indonesia",
       "departurePort": "Singapore",
@@ -135289,8 +135289,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Benoa, Bali, Indonesia → Singapore",
       "departurePort": "Benoa, Bali, Indonesia",
@@ -137145,8 +137145,8 @@
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center, Babysitting"
       },
       "itinerary": "Tokyo (Koto City), Japan → Tokyo (Koto City), Japan",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -137324,8 +137324,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Shanghai, China → Shanghai, China",
       "departurePort": "Shanghai, China",
@@ -137460,8 +137460,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Tokyo (Koto City), Japan → Shanghai, China",
       "departurePort": "Tokyo (Koto City), Japan",
@@ -137583,8 +137583,8 @@
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null,
-        "kidsFriendly": false,
-        "kidsNotes": null
+        "kidsFriendly": true,
+        "kidsNotes": "Kids Playroom, Teen Center"
       },
       "itinerary": "Tokyo (Koto City), Japan → Incheon, South Korea",
       "departurePort": "Tokyo (Koto City), Japan",
