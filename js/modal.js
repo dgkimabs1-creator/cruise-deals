@@ -532,6 +532,7 @@
       else if (cruise.bookingUrl.indexOf('cruisebooking') !== -1) bookingSite = '🔗 크루즈부킹에서 예약';
     }
     actions.push(buildActionLink(cruise.bookingUrl, bookingSite, true));
+    actions.push(buildActionLink('https://www.cruisecompete.com/', '💡 CruiseCompete 견적 비교', true));
     actions.push('<button type="button" class="modal-chip" data-modal-action="copy-link" data-num="' + escapeHtml(cruise.num) + '">🔗 링크 복사</button>');
 
     return actions.join('');
