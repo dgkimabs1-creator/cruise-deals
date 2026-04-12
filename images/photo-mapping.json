@@ -1,0 +1,622 @@
+{
+  "Spectrum of the Seas": {
+    "exterior": "images/cabins/spectrum_of_the_seas_exterior.jpg",
+    "inside": [
+      "images/cabins/spectrum_of_the_seas_inside_0.jpg",
+      "images/cabins/spectrum_of_the_seas_inside_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/spectrum_of_the_seas_oceanview_0.jpg",
+      "images/cabins/spectrum_of_the_seas_oceanview_1.jpg"
+    ],
+    "balcony": [
+      "images/cabins/spectrum_of_the_seas_balcony_0.jpg",
+      "images/cabins/spectrum_of_the_seas_balcony_1.jpg"
+    ],
+    "suite": [
+      "images/cabins/spectrum_of_the_seas_suite_0.jpg",
+      "images/cabins/spectrum_of_the_seas_suite_1.jpg"
+    ]
+  },
+  "Costa Serena": {
+    "exterior": "images/cabins/costa_serena_exterior.jpg",
+    "inside": [],
+    "oceanview": [],
+    "balcony": [],
+    "suite": []
+  },
+  "MSC Bellissima": {
+    "exterior": "images/cabins/msc_bellissima_exterior.jpg",
+    "inside": [
+      "images/cabins/msc_bellissima_inside_0.jpg",
+      "images/cabins/msc_bellissima_inside_1.jpg"
+    ],
+    "oceanview": [],
+    "balcony": [
+      "images/cabins/msc_bellissima_balcony_0.jpg",
+      "images/cabins/msc_bellissima_balcony_1.jpg"
+    ],
+    "suite": [
+      "images/cabins/msc_bellissima_suite_0.jpg",
+      "images/cabins/msc_bellissima_suite_1.jpg"
+    ]
+  },
+  "Diamond Princess": {
+    "exterior": "images/cabins/diamond_princess_exterior.jpg",
+    "inside": [
+      "images/cabins/diamond_princess_inside_0.jpg",
+      "images/cabins/diamond_princess_inside_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/diamond_princess_oceanview_0.jpg",
+      "images/cabins/diamond_princess_oceanview_1.jpg"
+    ],
+    "balcony": [
+      "images/cabins/diamond_princess_balcony_0.jpg",
+      "images/cabins/diamond_princess_balcony_1.jpg"
+    ],
+    "suite": [
+      "images/cabins/diamond_princess_suite_0.jpg",
+      "images/cabins/diamond_princess_suite_1.jpg"
+    ]
+  },
+  "Le Soleal": {
+    "exterior": "images/cabins/le_soleal_exterior.jpg",
+    "oceanview": [
+      "images/cabins/le_soleal_oceanview_0.jpg"
+    ],
+    "balcony": [
+      "images/cabins/le_soleal_balcony_0.jpg",
+      "images/cabins/le_soleal_balcony_1.jpg"
+    ],
+    "suite": [
+      "images/cabins/le_soleal_suite_0.jpg",
+      "images/cabins/le_soleal_suite_1.jpg"
+    ]
+  },
+  "Celebrity Millennium": {
+    "inside": [
+      "images/cabins/celebrity_millennium_inside_0.jpg",
+      "images/cabins/celebrity_millennium_inside_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/celebrity_millennium_oceanview_0.jpg",
+      "images/cabins/celebrity_millennium_oceanview_1.jpg"
+    ],
+    "balcony": [
+      "images/cabins/celebrity_millennium_balcony_0.jpg",
+      "images/cabins/celebrity_millennium_balcony_1.jpg"
+    ],
+    "suite": [
+      "images/cabins/celebrity_millennium_suite_0.jpg",
+      "images/cabins/celebrity_millennium_suite_1.jpg"
+    ]
+  },
+  "Azamara Pursuit": {
+    "inside": [
+      "images/cabins/azamara_pursuit_inside_0.jpg",
+      "images/cabins/azamara_pursuit_inside_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/azamara_pursuit_oceanview_0.jpg",
+      "images/cabins/azamara_pursuit_oceanview_1.jpg"
+    ],
+    "balcony": [
+      "images/cabins/azamara_pursuit_balcony_0.jpg",
+      "images/cabins/azamara_pursuit_balcony_1.jpg"
+    ],
+    "suite": [
+      "images/cabins/azamara_pursuit_suite_0.jpg",
+      "images/cabins/azamara_pursuit_suite_1.jpg"
+    ]
+  },
+  "Norwegian Jade": {
+    "exterior": "images/cabins/norwegian_jade_exterior.jpg",
+    "inside": [
+      "images/cabins/norwegian_jade_inside_0.jpg",
+      "images/cabins/norwegian_jade_inside_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/norwegian_jade_oceanview_0.jpg",
+      "images/cabins/norwegian_jade_oceanview_1.jpg"
+    ],
+    "balcony": [
+      "images/cabins/norwegian_jade_balcony_0.jpg",
+      "images/cabins/norwegian_jade_balcony_1.jpg"
+    ],
+    "suite": [
+      "images/cabins/norwegian_jade_suite_0.jpg",
+      "images/cabins/norwegian_jade_suite_1.jpg"
+    ]
+  },
+  "Westerdam": {
+    "inside": [
+      "images/cabins/westerdam_inside_0.jpg",
+      "images/cabins/westerdam_inside_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/westerdam_oceanview_0.jpg",
+      "images/cabins/westerdam_oceanview_1.jpg"
+    ],
+    "balcony": [
+      "images/cabins/westerdam_balcony_0.jpg",
+      "images/cabins/westerdam_balcony_1.jpg"
+    ],
+    "suite": [
+      "images/cabins/westerdam_suite_0.jpg",
+      "images/cabins/westerdam_suite_1.jpg"
+    ]
+  },
+  "Seabourn Sojourn": {
+    "balcony": [
+      "images/cabins/seabourn_sojourn_balcony_0.jpg",
+      "images/cabins/seabourn_sojourn_balcony_1.jpg"
+    ],
+    "suite": [
+      "images/cabins/seabourn_sojourn_suite_0.jpg",
+      "images/cabins/seabourn_sojourn_suite_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/seabourn_sojourn_oceanview_0.jpg",
+      "images/cabins/seabourn_sojourn_oceanview_1.jpg"
+    ]
+  },
+  "Star Seeker": {
+    "exterior": "images/cabins/star_seeker_exterior.jpg",
+    "balcony": [
+      "images/cabins/star_seeker_balcony_0.jpg",
+      "images/cabins/star_seeker_balcony_1.jpg"
+    ],
+    "suite": [
+      "images/cabins/star_seeker_suite_0.jpg",
+      "images/cabins/star_seeker_suite_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/star_seeker_oceanview_0.jpg"
+    ]
+  },
+  "Noordam": {
+    "exterior": "images/cabins/noordam_exterior.jpg",
+    "inside": [
+      "images/cabins/noordam_inside_0.jpg",
+      "images/cabins/noordam_inside_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/noordam_oceanview_0.jpg",
+      "images/cabins/noordam_oceanview_1.jpg"
+    ],
+    "balcony": [
+      "images/cabins/noordam_balcony_0.jpg",
+      "images/cabins/noordam_balcony_1.jpg"
+    ],
+    "suite": [
+      "images/cabins/noordam_suite_0.jpg",
+      "images/cabins/noordam_suite_1.jpg"
+    ]
+  },
+  "Disney Adventure": {
+    "exterior": "images/cabins/disney_adventure_exterior.jpg",
+    "inside": [
+      "images/cabins/disney_adventure_inside_0.jpg",
+      "images/cabins/disney_adventure_inside_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/disney_adventure_oceanview_0.jpg",
+      "images/cabins/disney_adventure_oceanview_1.jpg"
+    ],
+    "balcony": [
+      "images/cabins/disney_adventure_balcony_0.jpg",
+      "images/cabins/disney_adventure_balcony_1.jpg"
+    ],
+    "suite": [
+      "images/cabins/disney_adventure_suite_0.jpg",
+      "images/cabins/disney_adventure_suite_1.jpg"
+    ]
+  },
+  "Quantum of the Seas": {
+    "inside": [
+      "images/cabins/quantum_of_the_seas_inside_0.jpg",
+      "images/cabins/quantum_of_the_seas_inside_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/quantum_of_the_seas_oceanview_0.jpg",
+      "images/cabins/quantum_of_the_seas_oceanview_1.jpg"
+    ],
+    "balcony": [
+      "images/cabins/quantum_of_the_seas_balcony_0.jpg",
+      "images/cabins/quantum_of_the_seas_balcony_1.jpg"
+    ],
+    "suite": [
+      "images/cabins/quantum_of_the_seas_suite_0.jpg",
+      "images/cabins/quantum_of_the_seas_suite_1.jpg"
+    ]
+  },
+  "Navigator of the Seas": {
+    "inside": [
+      "images/cabins/navigator_of_the_seas_inside_0.jpg",
+      "images/cabins/navigator_of_the_seas_inside_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/navigator_of_the_seas_oceanview_0.jpg",
+      "images/cabins/navigator_of_the_seas_oceanview_1.jpg"
+    ],
+    "balcony": [
+      "images/cabins/navigator_of_the_seas_balcony_0.jpg",
+      "images/cabins/navigator_of_the_seas_balcony_1.jpg"
+    ],
+    "suite": [
+      "images/cabins/navigator_of_the_seas_suite_0.jpg",
+      "images/cabins/navigator_of_the_seas_suite_1.jpg"
+    ]
+  },
+  "Sapphire Princess": {
+    "exterior": "images/cabins/sapphire_princess_exterior.jpg",
+    "inside": [
+      "images/cabins/sapphire_princess_inside_0.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/sapphire_princess_oceanview_0.jpg"
+    ],
+    "balcony": [
+      "images/cabins/sapphire_princess_balcony_0.jpg"
+    ],
+    "suite": [
+      "images/cabins/sapphire_princess_suite_0.jpg"
+    ]
+  },
+  "Riviera": {
+    "exterior": "images/cabins/riviera_exterior.jpg",
+    "inside": [
+      "images/cabins/riviera_inside_0.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/riviera_oceanview_0.jpg"
+    ],
+    "balcony": [
+      "images/cabins/riviera_balcony_0.jpg"
+    ],
+    "suite": [
+      "images/cabins/riviera_suite_0.jpg"
+    ]
+  },
+  "EXPLORA III": {
+    "balcony": [
+      "images/cabins/explora_iii_balcony_0.jpg",
+      "images/cabins/explora_iii_balcony_1.jpg"
+    ],
+    "suite": [
+      "images/cabins/explora_iii_suite_0.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/explora_iii_oceanview_0.jpg"
+    ]
+  },
+  "Nautica": {
+    "inside": [
+      "images/cabins/nautica_inside_0.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/nautica_oceanview_0.jpg"
+    ],
+    "balcony": [
+      "images/cabins/nautica_balcony_0.jpg"
+    ],
+    "suite": [
+      "images/cabins/nautica_suite_0.jpg"
+    ]
+  },
+  "Celebrity Solstice": {
+    "inside": [
+      "images/cabins/celebrity_solstice_inside_0.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/celebrity_solstice_oceanview_0.jpg"
+    ],
+    "balcony": [
+      "images/cabins/celebrity_solstice_balcony_0.jpg"
+    ],
+    "suite": [
+      "images/cabins/celebrity_solstice_suite_0.jpg"
+    ]
+  },
+  "Viking Orion": {
+    "balcony": [
+      "images/cabins/viking_orion_balcony_0.jpg"
+    ],
+    "suite": [
+      "images/cabins/viking_orion_suite_0.jpg"
+    ]
+  },
+  "Silver Muse": {
+    "balcony": [
+      "images/cabins/silver_muse_balcony_0.jpg"
+    ],
+    "suite": [
+      "images/cabins/silver_muse_suite_0.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/silver_muse_oceanview_0.jpg"
+    ]
+  },
+  "Silver Moon": {
+    "balcony": [
+      "images/cabins/silver_moon_balcony_0.jpg"
+    ],
+    "suite": [
+      "images/cabins/silver_moon_suite_0.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/silver_moon_oceanview_0.jpg"
+    ]
+  },
+  "Crystal Serenity": {
+    "oceanview": [
+      "images/cabins/crystal_serenity_oceanview_0.jpg"
+    ],
+    "balcony": [
+      "images/cabins/crystal_serenity_balcony_0.jpg"
+    ],
+    "suite": [
+      "images/cabins/crystal_serenity_suite_0.jpg"
+    ]
+  },
+  "Royal Princess": {
+    "inside": [
+      "images/cabins/royal_princess_inside_0.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/royal_princess_oceanview_0.jpg",
+      "images/cabins/royal_princess_oceanview_1.jpg"
+    ],
+    "balcony": [
+      "images/cabins/royal_princess_balcony_0.jpg"
+    ],
+    "suite": [
+      "images/cabins/royal_princess_suite_0.jpg"
+    ]
+  },
+  "Vista": {
+    "balcony": [
+      "images/cabins/vista_balcony_0.jpg"
+    ],
+    "suite": [
+      "images/cabins/vista_suite_0.jpg"
+    ]
+  },
+  "Seven Seas Navigator": {
+    "oceanview": [
+      "images/cabins/seven_seas_navigator_oceanview_0.jpg"
+    ],
+    "balcony": [
+      "images/cabins/seven_seas_navigator_balcony_0.jpg"
+    ],
+    "suite": [
+      "images/cabins/seven_seas_navigator_suite_0.jpg"
+    ]
+  },
+  "Seven Seas Explorer": {
+    "balcony": [
+      "images/cabins/seven_seas_explorer_balcony_0.jpg"
+    ],
+    "suite": [
+      "images/cabins/seven_seas_explorer_suite_0.jpg"
+    ]
+  },
+  "Viking Venus": {
+    "balcony": [
+      "images/cabins/viking_venus_balcony_0.jpg"
+    ],
+    "suite": [
+      "images/cabins/viking_venus_suite_0.jpg"
+    ]
+  },
+  "Azamara Quest": {
+    "inside": [
+      "images/cabins/azamara_quest_inside_0.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/azamara_quest_oceanview_0.jpg"
+    ],
+    "balcony": [
+      "images/cabins/azamara_quest_balcony_0.jpg"
+    ],
+    "suite": [
+      "images/cabins/azamara_quest_suite_0.jpg"
+    ]
+  },
+  "Queen Elizabeth": {
+    "inside": [
+      "images/cabins/queen_elizabeth_inside_0.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/queen_elizabeth_oceanview_0.jpg"
+    ],
+    "balcony": [
+      "images/cabins/queen_elizabeth_balcony_0.jpg"
+    ],
+    "suite": [
+      "images/cabins/queen_elizabeth_suite_0.jpg"
+    ]
+  },
+  "Seabourn Encore": {
+    "suite": [
+      "images/cabins/seabourn_encore_suite_0.jpg"
+    ],
+    "penthouse": [
+      "images/cabins/seabourn_encore_penthouse_0.jpg",
+      "images/cabins/seabourn_encore_penthouse_1.jpg"
+    ],
+    "balcony": [
+      "images/cabins/seabourn_encore_balcony_0.jpg"
+    ]
+  },
+  "Arcadia": {
+    "inside": [
+      "images/cabins/arcadia_inside_0.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/arcadia_oceanview_0.jpg"
+    ],
+    "balcony": [
+      "images/cabins/arcadia_balcony_0.jpg"
+    ],
+    "suite": [
+      "images/cabins/arcadia_suite_0.jpg"
+    ]
+  },
+  "Queen Victoria": {
+    "inside": [
+      "images/cabins/queen_victoria_inside_0.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/queen_victoria_oceanview_0.jpg"
+    ],
+    "balcony": [
+      "images/cabins/queen_victoria_balcony_0.jpg"
+    ],
+    "suite": [
+      "images/cabins/queen_victoria_suite_0.jpg"
+    ]
+  },
+  "Volendam": {
+    "inside": [
+      "images/cabins/volendam_inside_0.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/volendam_oceanview_0.jpg"
+    ],
+    "balcony": [
+      "images/cabins/volendam_balcony_0.jpg"
+    ],
+    "suite": [
+      "images/cabins/volendam_suite_0.jpg"
+    ]
+  },
+  "Ovation of the Seas": {
+    "inside": [],
+    "oceanview": [],
+    "balcony": [],
+    "suite": []
+  },
+  "Le Jacques Cartier": {
+    "oceanview": [
+      "images/cabins/le_jacques_cartier_oceanview_0.jpg",
+      "images/cabins/le_jacques_cartier_oceanview_1.jpg"
+    ],
+    "balcony": [
+      "images/cabins/le_jacques_cartier_balcony_0.jpg"
+    ],
+    "suite": [
+      "images/cabins/le_jacques_cartier_suite_0.jpg"
+    ]
+  },
+  "Coral Princess": {
+    "inside": [
+      "images/cabins/coral_princess_inside_0.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/coral_princess_oceanview_0.jpg"
+    ],
+    "balcony": [
+      "images/cabins/coral_princess_balcony_0.jpg"
+    ],
+    "suite": [
+      "images/cabins/coral_princess_suite_0.jpg"
+    ]
+  },
+  "Grand Princess": {
+    "inside": [
+      "images/cabins/grand_princess_inside_0.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/grand_princess_oceanview_0.jpg"
+    ],
+    "balcony": [
+      "images/cabins/grand_princess_balcony_0.jpg"
+    ],
+    "suite": [
+      "images/cabins/grand_princess_suite_0.jpg"
+    ]
+  },
+  "Queen Anne": {
+    "inside": [
+      "images/cabins/queen_anne_inside_0.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/queen_anne_oceanview_0.jpg"
+    ],
+    "balcony": [
+      "images/cabins/queen_anne_balcony_0.jpg"
+    ],
+    "suite": [
+      "images/cabins/queen_anne_suite_0.jpg"
+    ]
+  },
+  "Azamara Onward": {
+    "inside": [
+      "images/cabins/azamara_onward_inside_0.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/azamara_onward_oceanview_0.jpg"
+    ],
+    "balcony": [
+      "images/cabins/azamara_onward_balcony_0.jpg"
+    ],
+    "suite": [
+      "images/cabins/azamara_onward_suite_0.jpg"
+    ]
+  },
+  "Carnival Luminosa": {
+    "inside": [
+      "images/cabins/carnival_luminosa_inside_0.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/carnival_luminosa_oceanview_0.jpg"
+    ],
+    "balcony": [
+      "images/cabins/carnival_luminosa_balcony_0.jpg"
+    ],
+    "suite": [
+      "images/cabins/carnival_luminosa_suite_0.jpg"
+    ]
+  },
+  "Regatta": {
+    "inside": [
+      "images/cabins/regatta_inside_0.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/regatta_oceanview_0.jpg"
+    ],
+    "balcony": [
+      "images/cabins/regatta_balcony_0.jpg"
+    ],
+    "suite": [
+      "images/cabins/regatta_suite_0.jpg"
+    ]
+  },
+  "Carnival Adventure": {
+    "inside": [
+      "images/cabins/carnival_adventure_inside_0.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/carnival_adventure_oceanview_0.jpg"
+    ],
+    "balcony": [
+      "images/cabins/carnival_adventure_balcony_0.jpg"
+    ],
+    "suite": [
+      "images/cabins/carnival_adventure_suite_0.jpg"
+    ]
+  },
+  "Star Breeze": {
+    "oceanview": [
+      "images/cabins/star_breeze_oceanview_0.jpg"
+    ],
+    "balcony": [
+      "images/cabins/star_breeze_balcony_0.jpg"
+    ],
+    "suite": [
+      "images/cabins/star_breeze_suite_0.jpg"
+    ]
+  }
+}

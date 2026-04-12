@@ -28,7 +28,10 @@ async function run() {
   try { shipDb = JSON.parse(fs.readFileSync(SHIP_DB, 'utf8')); } catch (e) {}
   const shipInfoIndex = buildShipInfoIndex(shipDb);
 
-  // ship photos
+  // ship photos — 로컬 이미지 매핑 우선
+  let localPhotoMap = {};
+  try { localPhotoMap = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../images/photo-mapping.json'), 'utf8')); } catch (e) {}
+
   let shipPhotos = [];
   try { shipPhotos = JSON.parse(fs.readFileSync(SHIP_PHOTOS, 'utf8')); } catch (e) {}
   const shipPhotoMap = {};
@@ -93,10 +96,7 @@ async function run() {
       discountPct: c.discountPct || 0,
       bookingUrl: c.bookingUrl || '',
       itineraryImageUrl: c.itineraryImageUrl || null,
-      shipPhotos: shipPhotoMap[(c.shipName || '').toLowerCase()] ? {
-        exterior: shipPhotoMap[(c.shipName || '').toLowerCase()].exteriorImage || null,
-        cabins: shipPhotoMap[(c.shipName || '').toLowerCase()].cabinImages || {},
-      } : null,
+      shipPhotos: getShipPhotos(c.shipName, localPhotoMap, shipPhotoMap),
       itineraryUncertain: !c.detailedItinerary && (c.itinerary || '').split('→').length <= 2 && (c.nights || 0) > 1,
       listPriceOnly: !!c._listPriceOnly,
       isBusanRelated: !!c.isBusanRelated,
@@ -170,6 +170,8 @@ function buildShipInfoIndex(shipDb) {
       yearBuilt: yearBuilt || null,
       lastRefurbished: lastRefurbished || null,
       refurbishmentCost: (ship && ship.refurbishmentCost) || null,
+      kidsFriendly: !!ship.kidsFriendly,
+      kidsNotes: ship.kidsNotes || null,
     };
     const aliases = [ship && ship.name, key && key.replace(/_/g, ' ')];
 
@@ -187,6 +189,28 @@ function buildShipInfoIndex(shipDb) {
 function getShipInfoForCruise(cruise, shipInfoIndex) {
   const normalizedName = normalizeShipName(cruise && cruise.shipName);
   return normalizedName && shipInfoIndex && shipInfoIndex[normalizedName] ? shipInfoIndex[normalizedName] : null;
+}
+
+function getShipPhotos(shipName, localMap, remoteMap) {
+  const local = localMap[shipName];
+  const remote = remoteMap[(shipName || '').toLowerCase()];
+  if (!local && !remote) return null;
+
+  const result = { exterior: null, cabins: {} };
+  if (local) {
+    result.exterior = local.exterior || null;
+    for (const type of ['inside', 'oceanview', 'balcony', 'suite']) {
+      if (local[type] && local[type].length > 0) result.cabins[type] = local[type];
+    }
+  }
+  // 로컬 없으면 원격 URL 폴백
+  if (!result.exterior && remote) result.exterior = remote.exteriorImage || null;
+  if (remote && remote.cabinImages) {
+    for (const type of ['inside', 'oceanview', 'balcony', 'suite']) {
+      if (!result.cabins[type] && remote.cabinImages[type]) result.cabins[type] = remote.cabinImages[type];
+    }
+  }
+  return result;
 }
 
 function sanitizePrices(prices) {

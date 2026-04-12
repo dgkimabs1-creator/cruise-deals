@@ -578,6 +578,14 @@
     actions.push(buildActionLink(getOfficialWebsiteUrl(cruise.cruiseLine), '🌐 공식 사이트', false));
     actions.push(buildActionLink('https://www.cruisecompete.com/', '💡 CruiseCompete 견적 비교', true));
     actions.push('<button type="button" class="modal-chip" data-modal-action="copy-link" data-num="' + escapeHtml(cruise.num) + '">🔗 링크 복사</button>');
+    // 참고 사이트 링크
+    actions.push('<div class="modal-ref-links">' +
+      '<span style="color:var(--muted);font-size:0.8rem;">참고: </span>' +
+      '<a href="https://www.cruisetmk.kr" target="_blank" rel="noopener" style="font-size:0.8rem;">크루즈TMK</a> · ' +
+      '<a href="https://www.cruisebooking.co.kr" target="_blank" rel="noopener" style="font-size:0.8rem;">크루즈부킹</a> · ' +
+      '<a href="https://www.vacationstogo.com" target="_blank" rel="noopener" style="font-size:0.8rem;">VTG</a> · ' +
+      '<a href="https://www.cruisedirect.com" target="_blank" rel="noopener" style="font-size:0.8rem;">CruiseDirect</a>' +
+      '</div>');
 
     return actions.join('');
   }
@@ -634,7 +642,8 @@
           { label: '도착지', value: cruise.arrivalPort || '-' },
           { label: '박수', value: toNumber(cruise.nights) === null ? '-' : Math.round(Number(cruise.nights)) + '박' },
           { label: '할인율', value: toNumber(cruise.discountPct) === null ? '-' : Math.round(Number(cruise.discountPct)) + '%' },
-          { label: '부산 연관', value: formatBoolean(!!cruise.isBusanRelated) }
+          { label: '부산 연관', value: formatBoolean(!!cruise.isBusanRelated) },
+          { label: '키즈', value: cruise.shipInfo && cruise.shipInfo.kidsFriendly ? '👶 ' + (cruise.shipInfo.kidsNotes || '가능') : '🚫 성인 전용' }
         ]) +
       '</section>'
     );
