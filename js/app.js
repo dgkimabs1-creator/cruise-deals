@@ -1485,7 +1485,10 @@
       return '';
     }
 
-    var parts = [Math.round(passengers).toLocaleString('ko-KR') + '명'];
+    var parts = [];
+    var tonnage = shipInfo && shipInfo.tonnage;
+    if (tonnage) parts.push(Math.round(tonnage / 1000) + '만톤');
+    parts.push(Math.round(passengers).toLocaleString('ko-KR') + '명');
     if (ratio !== null) parts.push('1:' + ratio.toFixed(1));
     var yearBuilt = shipInfo && shipInfo.yearBuilt;
     var lastRefurb = shipInfo && shipInfo.lastRefurbished;

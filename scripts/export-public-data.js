@@ -160,10 +160,13 @@ function buildShipInfoIndex(shipDb) {
 
     const yearBuilt = toNumber(ship && ship.yearBuilt);
     const lastRefurbished = toNumber(ship && ship.lastRefurbished);
+    const tonnageRaw = (ship && ship.tonnage) || '';
+    const tonnageNum = toNumber(tonnageRaw.replace(/[^0-9]/g, ''));
     const shipInfo = {
       passengers,
       crew,
       ratio: Math.round((passengers / crew) * 10) / 10,
+      tonnage: tonnageNum || null,
       yearBuilt: yearBuilt || null,
       lastRefurbished: lastRefurbished || null,
       refurbishmentCost: (ship && ship.refurbishmentCost) || null,

@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-04-12T11:42:47.899Z",
+  "exportedAt": "2026-04-12T11:56:07.802Z",
   "exchangeRate": 1482.511805,
   "count": 774,
   "cruises": [
@@ -12,6 +12,7 @@
         "passengers": 264,
         "crew": 139,
         "ratio": 1.9,
+        "tonnage": 10944,
         "yearBuilt": 2013,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -173,6 +174,7 @@
         "passengers": 264,
         "crew": 139,
         "ratio": 1.9,
+        "tonnage": 10944,
         "yearBuilt": 2013,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -310,6 +312,7 @@
         "passengers": 264,
         "crew": 139,
         "ratio": 1.9,
+        "tonnage": 10944,
         "yearBuilt": 2013,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -447,6 +450,7 @@
         "passengers": 264,
         "crew": 139,
         "ratio": 1.9,
+        "tonnage": 10944,
         "yearBuilt": 2013,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -548,6 +552,7 @@
         "passengers": 702,
         "crew": 408,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2001,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$65M"
@@ -734,6 +739,7 @@
         "passengers": 2402,
         "crew": 1037,
         "ratio": 2.3,
+        "tonnage": 93558,
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null
@@ -920,6 +926,7 @@
         "passengers": 702,
         "crew": 408,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2001,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$65M"
@@ -1106,6 +1113,7 @@
         "passengers": 2402,
         "crew": 1037,
         "ratio": 2.3,
+        "tonnage": 93558,
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null
@@ -1292,6 +1300,7 @@
         "passengers": 2402,
         "crew": 1037,
         "ratio": 2.3,
+        "tonnage": 93558,
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null
@@ -1478,6 +1487,7 @@
         "passengers": 2402,
         "crew": 1037,
         "ratio": 2.3,
+        "tonnage": 93558,
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null
@@ -1826,6 +1836,7 @@
         "passengers": 702,
         "crew": 408,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2001,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$65M"
@@ -2018,6 +2029,7 @@
         "passengers": 450,
         "crew": 330,
         "ratio": 1.4,
+        "tonnage": 32000,
         "yearBuilt": 2010,
         "lastRefurbished": 2018,
         "refurbishmentCost": null
@@ -2169,6 +2181,7 @@
         "passengers": 264,
         "crew": 139,
         "ratio": 1.9,
+        "tonnage": 10944,
         "yearBuilt": 2013,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -2330,6 +2343,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -2453,6 +2467,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -2711,6 +2726,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -2821,6 +2837,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -3162,6 +3179,7 @@
         "passengers": 264,
         "crew": 139,
         "ratio": 1.9,
+        "tonnage": 10944,
         "yearBuilt": 2013,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -3323,6 +3341,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -3457,6 +3476,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -3586,6 +3606,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -3727,6 +3748,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -3844,6 +3866,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -4180,6 +4203,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -4290,6 +4314,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -4405,6 +4430,7 @@
         "passengers": 702,
         "crew": 408,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2001,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$65M"
@@ -4582,6 +4608,7 @@
         "passengers": 702,
         "crew": 408,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2001,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$65M"
@@ -4794,6 +4821,7 @@
         "passengers": 224,
         "crew": 135,
         "ratio": 1.7,
+        "tonnage": 9315,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -4933,6 +4961,7 @@
         "passengers": 2402,
         "crew": 1037,
         "ratio": 2.3,
+        "tonnage": 93558,
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null
@@ -5125,6 +5154,7 @@
         "passengers": 2402,
         "crew": 1037,
         "ratio": 2.3,
+        "tonnage": 93558,
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null
@@ -5311,6 +5341,7 @@
         "passengers": 2402,
         "crew": 1037,
         "ratio": 2.3,
+        "tonnage": 93558,
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null
@@ -5489,6 +5520,7 @@
         "passengers": 2402,
         "crew": 1037,
         "ratio": 2.3,
+        "tonnage": 93558,
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null
@@ -5657,6 +5689,7 @@
         "passengers": 2402,
         "crew": 1037,
         "ratio": 2.3,
+        "tonnage": 93558,
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null
@@ -5813,6 +5846,7 @@
         "passengers": 2402,
         "crew": 1037,
         "ratio": 2.3,
+        "tonnage": 93558,
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null
@@ -5969,6 +6003,7 @@
         "passengers": 2402,
         "crew": 1037,
         "ratio": 2.3,
+        "tonnage": 93558,
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null
@@ -6125,6 +6160,7 @@
         "passengers": 702,
         "crew": 408,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2001,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$65M"
@@ -6311,6 +6347,7 @@
         "passengers": 2402,
         "crew": 1037,
         "ratio": 2.3,
+        "tonnage": 93558,
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null
@@ -6687,6 +6724,7 @@
         "passengers": 2402,
         "crew": 1037,
         "ratio": 2.3,
+        "tonnage": 93558,
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null
@@ -6855,6 +6893,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -7211,6 +7250,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -7337,6 +7377,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -7693,6 +7734,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -7813,6 +7855,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -8253,6 +8296,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -8385,6 +8429,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -8517,6 +8562,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -8649,6 +8695,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -8775,6 +8822,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -8901,6 +8949,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -9027,6 +9076,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -9153,6 +9203,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -9279,6 +9330,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -9405,6 +9457,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -9531,6 +9584,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -9657,6 +9711,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -9783,6 +9838,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -9909,6 +9965,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -10035,6 +10092,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -10161,6 +10219,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -10287,6 +10346,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -10408,6 +10468,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -10494,7 +10555,7 @@
       "isBusanRelated": true,
       "source": "cruisetmk.kr",
       "dealScores": {
-        "inside": 45,
+        "inside": 48,
         "oceanview": 40,
         "balcony": 87,
         "suite": 4
@@ -10554,6 +10615,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -10640,7 +10702,7 @@
       "isBusanRelated": true,
       "source": "cruisetmk.kr",
       "dealScores": {
-        "inside": 14,
+        "inside": 15,
         "oceanview": 0,
         "balcony": 81,
         "suite": 0
@@ -10680,6 +10742,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -10766,7 +10829,7 @@
       "isBusanRelated": true,
       "source": "cruisetmk.kr",
       "dealScores": {
-        "inside": 14,
+        "inside": 15,
         "oceanview": 19,
         "balcony": 81,
         "suite": 0
@@ -10806,6 +10869,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -10927,6 +10991,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -11062,6 +11127,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -11148,7 +11214,7 @@
       "isBusanRelated": true,
       "source": "cruisetmk.kr",
       "dealScores": {
-        "inside": 92,
+        "inside": 98,
         "oceanview": 100,
         "balcony": 95,
         "suite": 11
@@ -11198,6 +11264,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -11284,7 +11351,7 @@
       "isBusanRelated": true,
       "source": "cruisetmk.kr",
       "dealScores": {
-        "inside": 14,
+        "inside": 15,
         "oceanview": 19,
         "balcony": 81,
         "suite": 0
@@ -11324,6 +11391,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -11416,7 +11484,7 @@
       "isBusanRelated": true,
       "source": "cruisetmk.kr",
       "dealScores": {
-        "inside": 70,
+        "inside": 75,
         "oceanview": 100,
         "balcony": 96,
         "suite": 10
@@ -11476,6 +11544,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -11593,6 +11662,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -11716,6 +11786,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -11822,6 +11893,7 @@
         "passengers": 2402,
         "crew": 1037,
         "ratio": 2.3,
+        "tonnage": 93558,
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null
@@ -11978,6 +12050,7 @@
         "passengers": 2402,
         "crew": 1037,
         "ratio": 2.3,
+        "tonnage": 93558,
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null
@@ -12140,6 +12213,7 @@
         "passengers": 694,
         "crew": 408,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2000,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$25M"
@@ -12326,6 +12400,7 @@
         "passengers": 740,
         "crew": 655,
         "ratio": 1.1,
+        "tonnage": 68870,
         "yearBuilt": 2003,
         "lastRefurbished": 2023,
         "refurbishmentCost": "$150M"
@@ -12497,6 +12572,7 @@
         "passengers": 2402,
         "crew": 1037,
         "ratio": 2.3,
+        "tonnage": 93558,
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null
@@ -12675,6 +12751,7 @@
         "passengers": 2402,
         "crew": 1037,
         "ratio": 2.3,
+        "tonnage": 93558,
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null
@@ -12843,6 +12920,7 @@
         "passengers": 2402,
         "crew": 1037,
         "ratio": 2.3,
+        "tonnage": 93558,
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null
@@ -13011,6 +13089,7 @@
         "passengers": 2402,
         "crew": 1037,
         "ratio": 2.3,
+        "tonnage": 93558,
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null
@@ -13177,6 +13256,7 @@
         "passengers": 2402,
         "crew": 1037,
         "ratio": 2.3,
+        "tonnage": 93558,
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null
@@ -13343,6 +13423,7 @@
         "passengers": 2402,
         "crew": 1037,
         "ratio": 2.3,
+        "tonnage": 93558,
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null
@@ -13499,6 +13580,7 @@
         "passengers": 2402,
         "crew": 1037,
         "ratio": 2.3,
+        "tonnage": 93558,
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null
@@ -13655,6 +13737,7 @@
         "passengers": 2402,
         "crew": 1037,
         "ratio": 2.3,
+        "tonnage": 93558,
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null
@@ -13811,6 +13894,7 @@
         "passengers": 2402,
         "crew": 1037,
         "ratio": 2.3,
+        "tonnage": 93558,
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null
@@ -14177,6 +14261,7 @@
         "passengers": 2402,
         "crew": 1037,
         "ratio": 2.3,
+        "tonnage": 93558,
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null
@@ -14345,6 +14430,7 @@
         "passengers": 2402,
         "crew": 1037,
         "ratio": 2.3,
+        "tonnage": 93558,
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null
@@ -14699,6 +14785,7 @@
         "passengers": 2402,
         "crew": 1037,
         "ratio": 2.3,
+        "tonnage": 93558,
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null
@@ -15059,6 +15146,7 @@
         "passengers": 694,
         "crew": 408,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2000,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$25M"
@@ -15275,6 +15363,7 @@
         "passengers": 2402,
         "crew": 1037,
         "ratio": 2.3,
+        "tonnage": 93558,
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null
@@ -15459,6 +15548,7 @@
         "passengers": 2402,
         "crew": 1037,
         "ratio": 2.3,
+        "tonnage": 93558,
         "yearBuilt": 2006,
         "lastRefurbished": 2022,
         "refurbishmentCost": null
@@ -15643,6 +15733,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -15953,6 +16044,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -16299,6 +16391,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -16531,6 +16624,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -16657,6 +16751,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -16783,6 +16878,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -16915,6 +17011,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -17233,6 +17330,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -17567,6 +17665,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -17901,6 +18000,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -18039,6 +18139,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -18171,6 +18272,7 @@
         "passengers": 1972,
         "crew": 820,
         "ratio": 2.4,
+        "tonnage": 82500,
         "yearBuilt": 2006,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -18537,6 +18639,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -18665,7 +18768,7 @@
       "dealScores": {
         "inside": 85,
         "oceanview": 35,
-        "balcony": 54
+        "balcony": 71
       },
       "valueScores": {
         "inside": 93,
@@ -18718,6 +18821,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -18850,6 +18954,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -18979,6 +19084,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -19105,6 +19211,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -19247,6 +19354,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -19382,6 +19490,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -19510,6 +19619,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -19673,6 +19783,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -19983,6 +20094,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -20109,6 +20221,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -20503,6 +20616,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -20635,6 +20749,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -20769,7 +20884,7 @@
       "dealScores": {
         "inside": 88,
         "oceanview": 28,
-        "balcony": 87
+        "balcony": 92
       },
       "valueScores": {
         "inside": 94,
@@ -20822,6 +20937,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -20954,6 +21070,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -21090,7 +21207,7 @@
       "dealScores": {
         "inside": 83,
         "oceanview": 69,
-        "balcony": 94,
+        "balcony": 96,
         "suite": 93
       },
       "valueScores": {
@@ -21147,6 +21264,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -21273,6 +21391,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -21405,6 +21524,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -21539,7 +21659,7 @@
       "dealScores": {
         "inside": 92,
         "oceanview": 57,
-        "balcony": 85
+        "balcony": 91
       },
       "valueScores": {
         "inside": 95,
@@ -21592,6 +21712,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -21718,6 +21839,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -22070,6 +22192,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -22204,7 +22327,7 @@
       "dealScores": {
         "inside": 90,
         "oceanview": 79,
-        "balcony": 87
+        "balcony": 92
       },
       "valueScores": {
         "inside": 94,
@@ -22253,6 +22376,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -22379,6 +22503,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -22501,6 +22626,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -22883,6 +23009,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -23000,6 +23127,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -23136,7 +23264,7 @@
       "dealScores": {
         "inside": 83,
         "oceanview": 81,
-        "balcony": 90,
+        "balcony": 93,
         "suite": 92
       },
       "valueScores": {
@@ -23194,6 +23322,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -23320,6 +23449,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -23726,6 +23856,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -23858,6 +23989,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -24216,6 +24348,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -24349,7 +24482,7 @@
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 58,
-        "balcony": 89,
+        "balcony": 93,
         "suite": 67
       },
       "valueScores": {
@@ -24403,6 +24536,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -24542,6 +24676,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -24894,6 +25029,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -24907,10 +25043,14 @@
       "days": 13,
       "cabinPrices": {
         "inside": 2471,
+        "balcony": 17265,
+        "suite": 17265,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 206
+        "inside": 206,
+        "balcony": 1439,
+        "suite": 1439
       },
       "origPrice": 4242,
       "salePrice": 2471,
@@ -24943,10 +25083,14 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 54
+        "inside": 54,
+        "balcony": 0,
+        "suite": 18
       },
       "valueScores": {
-        "inside": 84
+        "inside": 84,
+        "balcony": 0,
+        "suite": 37
       },
       "priceHistory": [
         {
@@ -24974,6 +25118,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -25100,6 +25245,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -25452,6 +25598,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -25583,7 +25730,7 @@
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 0,
-        "balcony": 80
+        "balcony": 87
       },
       "valueScores": {
         "inside": 68,
@@ -25630,6 +25777,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -25762,6 +25910,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -26114,6 +26263,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -26248,7 +26398,7 @@
       "dealScores": {
         "inside": 45,
         "oceanview": 18,
-        "balcony": 83
+        "balcony": 89
       },
       "valueScores": {
         "inside": 81,
@@ -26290,6 +26440,7 @@
         "passengers": 1964,
         "crew": 817,
         "ratio": 2.4,
+        "tonnage": 82300,
         "yearBuilt": 2004,
         "lastRefurbished": 2026,
         "refurbishmentCost": null
@@ -26734,6 +26885,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -27058,6 +27210,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -27448,6 +27601,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -27574,6 +27728,7 @@
         "passengers": 1964,
         "crew": 817,
         "ratio": 2.4,
+        "tonnage": 82300,
         "yearBuilt": 2004,
         "lastRefurbished": 2026,
         "refurbishmentCost": null
@@ -27767,6 +27922,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -27912,6 +28068,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -28204,6 +28361,7 @@
         "passengers": 702,
         "crew": 408,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2001,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$65M"
@@ -28397,6 +28555,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -28523,6 +28682,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -28686,6 +28846,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -29086,6 +29247,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -29218,6 +29380,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -29352,7 +29515,7 @@
       "dealScores": {
         "inside": 58,
         "oceanview": 30,
-        "balcony": 82
+        "balcony": 89
       },
       "valueScores": {
         "inside": 85,
@@ -29387,6 +29550,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -29678,6 +29842,7 @@
         "passengers": 1964,
         "crew": 817,
         "ratio": 2.4,
+        "tonnage": 82300,
         "yearBuilt": 2004,
         "lastRefurbished": 2026,
         "refurbishmentCost": null
@@ -29865,6 +30030,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -30241,6 +30407,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -30373,6 +30540,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -30749,6 +30917,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -30905,6 +31074,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -31065,6 +31235,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -31503,6 +31674,7 @@
         "passengers": 670,
         "crew": 400,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2000,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$100M"
@@ -31696,6 +31868,7 @@
         "passengers": 1964,
         "crew": 817,
         "ratio": 2.4,
+        "tonnage": 82300,
         "yearBuilt": 2004,
         "lastRefurbished": 2026,
         "refurbishmentCost": null
@@ -31902,6 +32075,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -32350,6 +32524,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -32484,7 +32659,7 @@
       "dealScores": {
         "inside": 80,
         "oceanview": 27,
-        "balcony": 77
+        "balcony": 86
       },
       "valueScores": {
         "inside": 91,
@@ -32526,6 +32701,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -32652,6 +32828,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -33010,6 +33187,7 @@
         "passengers": 670,
         "crew": 400,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2000,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$100M"
@@ -33186,6 +33364,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -33358,6 +33537,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -33671,6 +33851,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -34035,6 +34216,7 @@
         "passengers": 670,
         "crew": 400,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2000,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$100M"
@@ -34204,6 +34386,7 @@
         "passengers": 702,
         "crew": 408,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2001,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$65M"
@@ -34367,6 +34550,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -34526,6 +34710,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -34890,6 +35075,7 @@
         "passengers": 1964,
         "crew": 817,
         "ratio": 2.4,
+        "tonnage": 82300,
         "yearBuilt": 2004,
         "lastRefurbished": 2026,
         "refurbishmentCost": null
@@ -35231,6 +35417,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -35583,6 +35770,7 @@
         "passengers": 670,
         "crew": 400,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2000,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$100M"
@@ -35736,6 +35924,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -35872,7 +36061,7 @@
       "dealScores": {
         "inside": 69,
         "oceanview": 0,
-        "balcony": 72,
+        "balcony": 82,
         "suite": 0
       },
       "valueScores": {
@@ -35910,6 +36099,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -36280,6 +36470,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -36644,6 +36835,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -36930,6 +37122,7 @@
         "passengers": 1250,
         "crew": 800,
         "ratio": 1.6,
+        "tonnage": 66172,
         "yearBuilt": 2012,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -37105,6 +37298,7 @@
         "passengers": 694,
         "crew": 408,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2000,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$25M"
@@ -37298,6 +37492,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -37440,7 +37635,7 @@
       "dealScores": {
         "inside": 64,
         "oceanview": 34,
-        "balcony": 62,
+        "balcony": 76,
         "suite": 76
       },
       "valueScores": {
@@ -37488,6 +37683,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -37651,6 +37847,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -37849,6 +38046,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -37985,7 +38183,7 @@
       "dealScores": {
         "inside": 68,
         "oceanview": 46,
-        "balcony": 80,
+        "balcony": 87,
         "suite": 72
       },
       "valueScores": {
@@ -38023,6 +38221,7 @@
         "passengers": 702,
         "crew": 408,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2001,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$65M"
@@ -38216,6 +38415,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -38628,6 +38828,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -38974,6 +39175,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -39158,6 +39360,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -39516,6 +39719,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -39708,6 +39912,7 @@
         "passengers": 596,
         "crew": 411,
         "ratio": 1.5,
+        "tonnage": 40791,
         "yearBuilt": 2017,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -39883,6 +40088,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -40283,6 +40489,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -40641,6 +40848,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -40777,7 +40985,7 @@
       "dealScores": {
         "inside": 66,
         "oceanview": 40,
-        "balcony": 84,
+        "balcony": 90,
         "suite": 75
       },
       "valueScores": {
@@ -40815,6 +41023,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -41173,6 +41382,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -41309,7 +41519,7 @@
       "dealScores": {
         "inside": 66,
         "oceanview": 40,
-        "balcony": 83,
+        "balcony": 89,
         "suite": 79
       },
       "valueScores": {
@@ -41347,6 +41557,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -41699,6 +41910,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -41835,7 +42047,7 @@
       "dealScores": {
         "inside": 70,
         "oceanview": 45,
-        "balcony": 85,
+        "balcony": 91,
         "suite": 86
       },
       "valueScores": {
@@ -41873,6 +42085,7 @@
         "passengers": 596,
         "crew": 411,
         "ratio": 1.5,
+        "tonnage": 40791,
         "yearBuilt": 2017,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -42043,6 +42256,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -42395,6 +42609,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -42531,7 +42746,7 @@
       "dealScores": {
         "inside": 70,
         "oceanview": 45,
-        "balcony": 85,
+        "balcony": 91,
         "suite": 83
       },
       "valueScores": {
@@ -42569,6 +42784,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -42927,6 +43143,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -43063,7 +43280,7 @@
       "dealScores": {
         "inside": 74,
         "oceanview": 50,
-        "balcony": 86,
+        "balcony": 91,
         "suite": 83
       },
       "valueScores": {
@@ -43101,6 +43318,7 @@
         "passengers": 596,
         "crew": 411,
         "ratio": 1.5,
+        "tonnage": 40791,
         "yearBuilt": 2017,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -43264,6 +43482,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -43622,6 +43841,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -43758,7 +43978,7 @@
       "dealScores": {
         "inside": 80,
         "oceanview": 55,
-        "balcony": 82,
+        "balcony": 88,
         "suite": 84
       },
       "valueScores": {
@@ -43796,6 +44016,7 @@
         "passengers": 596,
         "crew": 411,
         "ratio": 1.5,
+        "tonnage": 40791,
         "yearBuilt": 2017,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -43959,6 +44180,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -44329,6 +44551,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -44465,7 +44688,7 @@
       "dealScores": {
         "inside": 80,
         "oceanview": 55,
-        "balcony": 85,
+        "balcony": 90,
         "suite": 84
       },
       "valueScores": {
@@ -44503,6 +44726,7 @@
         "passengers": 596,
         "crew": 411,
         "ratio": 1.5,
+        "tonnage": 40791,
         "yearBuilt": 2017,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -44666,6 +44890,7 @@
         "passengers": 702,
         "crew": 408,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2001,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$65M"
@@ -44859,6 +45084,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -44995,7 +45221,7 @@
       "dealScores": {
         "inside": 65,
         "oceanview": 29,
-        "balcony": 74,
+        "balcony": 84,
         "suite": 78
       },
       "valueScores": {
@@ -45033,6 +45259,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -45385,6 +45612,7 @@
         "passengers": 1972,
         "crew": 820,
         "ratio": 2.4,
+        "tonnage": 82500,
         "yearBuilt": 2006,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -45829,6 +46057,7 @@
         "passengers": 596,
         "crew": 411,
         "ratio": 1.5,
+        "tonnage": 40791,
         "yearBuilt": 2017,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -45992,6 +46221,7 @@
         "passengers": 596,
         "crew": 411,
         "ratio": 1.5,
+        "tonnage": 40700,
         "yearBuilt": 2020,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -46143,6 +46373,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -46279,7 +46510,7 @@
       "dealScores": {
         "inside": 58,
         "oceanview": 38,
-        "balcony": 67,
+        "balcony": 79,
         "suite": 75
       },
       "valueScores": {
@@ -46317,6 +46548,7 @@
         "passengers": 1972,
         "crew": 820,
         "ratio": 2.4,
+        "tonnage": 82500,
         "yearBuilt": 2006,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -46683,6 +46915,7 @@
         "passengers": 596,
         "crew": 411,
         "ratio": 1.5,
+        "tonnage": 40700,
         "yearBuilt": 2020,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -46840,6 +47073,7 @@
         "passengers": 1250,
         "crew": 800,
         "ratio": 1.6,
+        "tonnage": 66172,
         "yearBuilt": 2012,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -47015,6 +47249,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -47409,6 +47644,7 @@
         "passengers": 1972,
         "crew": 820,
         "ratio": 2.4,
+        "tonnage": 82500,
         "yearBuilt": 2006,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -47859,6 +48095,7 @@
         "passengers": 1250,
         "crew": 800,
         "ratio": 1.6,
+        "tonnage": 66172,
         "yearBuilt": 2012,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -48052,6 +48289,7 @@
         "passengers": 224,
         "crew": 135,
         "ratio": 1.7,
+        "tonnage": 9315,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -48219,6 +48457,7 @@
         "passengers": 2260,
         "crew": 1050,
         "ratio": 2.2,
+        "tonnage": 92600,
         "yearBuilt": 2009,
         "lastRefurbished": 2022,
         "refurbishmentCost": null
@@ -48384,6 +48623,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -48726,6 +48966,7 @@
         "passengers": 1972,
         "crew": 820,
         "ratio": 2.4,
+        "tonnage": 82500,
         "yearBuilt": 2006,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -49092,6 +49333,7 @@
         "passengers": 1250,
         "crew": 800,
         "ratio": 1.6,
+        "tonnage": 66172,
         "yearBuilt": 2012,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -49267,6 +49509,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -49643,6 +49886,7 @@
         "passengers": 922,
         "crew": 640,
         "ratio": 1.4,
+        "tonnage": 70000,
         "yearBuilt": 2026,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -49793,6 +50037,7 @@
         "passengers": 1972,
         "crew": 820,
         "ratio": 2.4,
+        "tonnage": 82500,
         "yearBuilt": 2006,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -50243,6 +50488,7 @@
         "passengers": 2092,
         "crew": 1005,
         "ratio": 2.1,
+        "tonnage": 90901,
         "yearBuilt": 2010,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -50558,6 +50804,7 @@
         "passengers": 1972,
         "crew": 820,
         "ratio": 2.4,
+        "tonnage": 82500,
         "yearBuilt": 2006,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -50744,6 +50991,7 @@
         "passengers": 2092,
         "crew": 1005,
         "ratio": 2.1,
+        "tonnage": 90901,
         "yearBuilt": 2010,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -51027,6 +51275,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -51169,7 +51418,7 @@
       "dealScores": {
         "inside": 77,
         "oceanview": 56,
-        "balcony": 85,
+        "balcony": 90,
         "suite": 79
       },
       "valueScores": {
@@ -51207,6 +51456,7 @@
         "passengers": 1972,
         "crew": 820,
         "ratio": 2.4,
+        "tonnage": 82500,
         "yearBuilt": 2006,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -51573,6 +51823,7 @@
         "passengers": 224,
         "crew": 135,
         "ratio": 1.7,
+        "tonnage": 9315,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -51740,6 +51991,7 @@
         "passengers": 922,
         "crew": 640,
         "ratio": 1.4,
+        "tonnage": 70000,
         "yearBuilt": 2026,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -51867,6 +52119,7 @@
         "passengers": 1250,
         "crew": 800,
         "ratio": 1.6,
+        "tonnage": 66172,
         "yearBuilt": 2012,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -52036,6 +52289,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -52184,7 +52438,7 @@
       "dealScores": {
         "inside": 73,
         "oceanview": 51,
-        "balcony": 85,
+        "balcony": 90,
         "suite": 80
       },
       "valueScores": {
@@ -52222,6 +52476,7 @@
         "passengers": 224,
         "crew": 135,
         "ratio": 1.7,
+        "tonnage": 9315,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -52389,6 +52644,7 @@
         "passengers": 2852,
         "crew": 1250,
         "ratio": 2.3,
+        "tonnage": 121878,
         "yearBuilt": 2008,
         "lastRefurbished": 2026,
         "refurbishmentCost": null
@@ -52525,7 +52781,7 @@
       "dealScores": {
         "inside": 73,
         "oceanview": 45,
-        "balcony": 89,
+        "balcony": 93,
         "suite": 79
       },
       "valueScores": {
@@ -52563,6 +52819,7 @@
         "passengers": 702,
         "crew": 408,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2001,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$65M"
@@ -52756,6 +53013,7 @@
         "passengers": 1250,
         "crew": 800,
         "ratio": 1.6,
+        "tonnage": 66172,
         "yearBuilt": 2012,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -52925,6 +53183,7 @@
         "passengers": 224,
         "crew": 135,
         "ratio": 1.7,
+        "tonnage": 9315,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -53092,6 +53351,7 @@
         "passengers": 2852,
         "crew": 1250,
         "ratio": 2.3,
+        "tonnage": 121878,
         "yearBuilt": 2008,
         "lastRefurbished": 2026,
         "refurbishmentCost": null
@@ -53228,7 +53488,7 @@
       "dealScores": {
         "inside": 66,
         "oceanview": 24,
-        "balcony": 87,
+        "balcony": 92,
         "suite": 79
       },
       "valueScores": {
@@ -53266,6 +53526,7 @@
         "passengers": 1250,
         "crew": 800,
         "ratio": 1.6,
+        "tonnage": 66172,
         "yearBuilt": 2012,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -53454,6 +53715,7 @@
         "passengers": 702,
         "crew": 408,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2001,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$65M"
@@ -53647,6 +53909,7 @@
         "passengers": 224,
         "crew": 135,
         "ratio": 1.7,
+        "tonnage": 9315,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -53814,6 +54077,7 @@
         "passengers": 224,
         "crew": 135,
         "ratio": 1.7,
+        "tonnage": 9315,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -53981,6 +54245,7 @@
         "passengers": 922,
         "crew": 640,
         "ratio": 1.4,
+        "tonnage": 70000,
         "yearBuilt": 2026,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -54137,6 +54402,7 @@
         "passengers": 596,
         "crew": 411,
         "ratio": 1.5,
+        "tonnage": 40700,
         "yearBuilt": 2020,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -54288,6 +54554,7 @@
         "passengers": 224,
         "crew": 135,
         "ratio": 1.7,
+        "tonnage": 9315,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -54455,6 +54722,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -54650,6 +54918,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -54849,6 +55118,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -55042,6 +55312,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -55248,6 +55519,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -55453,6 +55725,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -55647,6 +55920,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -55856,6 +56130,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -56055,6 +56330,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -56314,6 +56590,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -56441,6 +56718,7 @@
         "passengers": 1432,
         "crew": 647,
         "ratio": 2.2,
+        "tonnage": 60906,
         "yearBuilt": 1999,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$8M"
@@ -56703,6 +56981,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -56824,6 +57103,7 @@
         "passengers": 670,
         "crew": 400,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 1998,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -57026,6 +57306,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2016,
         "lastRefurbished": 2021,
         "refurbishmentCost": null
@@ -57216,6 +57497,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -57546,6 +57828,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -57661,6 +57944,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -57782,6 +58066,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -57990,6 +58275,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -58105,6 +58391,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -58225,6 +58512,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -58373,6 +58661,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -58494,6 +58783,7 @@
         "passengers": 604,
         "crew": 450,
         "ratio": 1.3,
+        "tonnage": 40350,
         "yearBuilt": 2016,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -58693,6 +58983,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -58956,6 +59247,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -59128,6 +59420,7 @@
         "passengers": 596,
         "crew": 411,
         "ratio": 1.5,
+        "tonnage": 40700,
         "yearBuilt": 2020,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -59297,6 +59590,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -59431,6 +59725,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2016,
         "lastRefurbished": 2021,
         "refurbishmentCost": null
@@ -59602,6 +59897,7 @@
         "passengers": 1250,
         "crew": 800,
         "ratio": 1.6,
+        "tonnage": 66172,
         "yearBuilt": 2012,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -59874,6 +60170,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -60031,6 +60328,7 @@
         "passengers": 930,
         "crew": 465,
         "ratio": 2,
+        "tonnage": 47842,
         "yearBuilt": 2018,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -60242,6 +60540,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -60378,7 +60677,7 @@
       "dealScores": {
         "inside": 58,
         "oceanview": 20,
-        "balcony": 83,
+        "balcony": 89,
         "suite": 91
       },
       "valueScores": {
@@ -60596,6 +60895,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -60734,6 +61034,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -60851,6 +61152,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -60972,6 +61274,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -61083,6 +61386,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -61204,6 +61508,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -61321,6 +61626,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -61437,6 +61743,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -61542,6 +61849,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -61647,6 +61955,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -61758,6 +62067,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -61863,6 +62173,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -61968,6 +62279,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -62078,6 +62390,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -62183,6 +62496,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -62299,6 +62613,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -62410,6 +62725,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -62520,6 +62836,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -62653,6 +62970,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -62764,6 +63082,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -62927,6 +63246,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -63032,6 +63352,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -63147,6 +63468,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -63258,6 +63580,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -63368,6 +63691,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -63479,6 +63803,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -63595,6 +63920,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -63700,6 +64026,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -63805,6 +64132,7 @@
         "passengers": 596,
         "crew": 411,
         "ratio": 1.5,
+        "tonnage": 40700,
         "yearBuilt": 2020,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -63992,6 +64320,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -64142,6 +64471,7 @@
         "passengers": 3600,
         "crew": 1346,
         "ratio": 2.7,
+        "tonnage": 142714,
         "yearBuilt": 2013,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -64431,6 +64761,7 @@
         "passengers": 3386,
         "crew": 1200,
         "ratio": 2.8,
+        "tonnage": 139999,
         "yearBuilt": 2002,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$115M"
@@ -64629,6 +64960,7 @@
         "passengers": 3600,
         "crew": 1346,
         "ratio": 2.7,
+        "tonnage": 142714,
         "yearBuilt": 2013,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -64805,6 +65137,7 @@
         "passengers": 1964,
         "crew": 817,
         "ratio": 2.4,
+        "tonnage": 82300,
         "yearBuilt": 2004,
         "lastRefurbished": 2026,
         "refurbishmentCost": null
@@ -65035,6 +65368,7 @@
         "passengers": 702,
         "crew": 408,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2001,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$65M"
@@ -65234,6 +65568,7 @@
         "passengers": 3386,
         "crew": 1200,
         "ratio": 2.8,
+        "tonnage": 139999,
         "yearBuilt": 2002,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$115M"
@@ -65404,6 +65739,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -65530,6 +65866,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -65680,6 +66017,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -65834,7 +66172,7 @@
       "dealScores": {
         "inside": 26,
         "oceanview": 7,
-        "balcony": 0,
+        "balcony": 36,
         "suite": 54
       },
       "valueScores": {
@@ -65879,6 +66217,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -66011,6 +66350,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -66143,6 +66483,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -66452,6 +66793,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -66828,6 +67170,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -66970,6 +67313,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -67112,6 +67456,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -67478,6 +67823,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -67620,6 +67966,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -67790,6 +68137,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -68246,6 +68594,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -68378,6 +68727,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -68504,6 +68854,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -68640,6 +68991,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -69012,6 +69364,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -69150,6 +69503,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -69310,6 +69664,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -69452,6 +69807,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -69818,6 +70174,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -69944,6 +70301,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -70349,6 +70707,7 @@
         "passengers": 3386,
         "crew": 1200,
         "ratio": 2.8,
+        "tonnage": 139999,
         "yearBuilt": 2002,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$115M"
@@ -70523,6 +70882,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -71001,6 +71361,7 @@
         "passengers": 604,
         "crew": 450,
         "ratio": 1.3,
+        "tonnage": 40350,
         "yearBuilt": 2016,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -71164,6 +71525,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -71353,6 +71715,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -71488,6 +71851,7 @@
         "passengers": 3386,
         "crew": 1200,
         "ratio": 2.8,
+        "tonnage": 139999,
         "yearBuilt": 2002,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$115M"
@@ -71662,6 +72026,7 @@
         "passengers": 184,
         "crew": 110,
         "ratio": 1.7,
+        "tonnage": 9900,
         "yearBuilt": 2020,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -71775,6 +72140,7 @@
         "passengers": 264,
         "crew": 139,
         "ratio": 1.9,
+        "tonnage": 10944,
         "yearBuilt": 2013,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -71888,6 +72254,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -72014,6 +72381,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -72140,6 +72508,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -72272,6 +72641,7 @@
         "passengers": 1200,
         "crew": 800,
         "ratio": 1.5,
+        "tonnage": 67817,
         "yearBuilt": 2023,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -72441,6 +72811,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -72591,6 +72962,7 @@
         "passengers": 2000,
         "crew": 900,
         "ratio": 2.2,
+        "tonnage": 91627,
         "yearBuilt": 2002,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -72966,6 +73338,7 @@
         "passengers": 702,
         "crew": 408,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2001,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$65M"
@@ -73129,6 +73502,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -73255,6 +73629,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -73460,6 +73835,7 @@
         "passengers": 670,
         "crew": 400,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2000,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$100M"
@@ -73647,6 +74023,7 @@
         "passengers": 1964,
         "crew": 817,
         "ratio": 2.4,
+        "tonnage": 82300,
         "yearBuilt": 2004,
         "lastRefurbished": 2026,
         "refurbishmentCost": null
@@ -73893,6 +74270,7 @@
         "passengers": 1200,
         "crew": 800,
         "ratio": 1.5,
+        "tonnage": 67817,
         "yearBuilt": 2023,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -74073,6 +74451,7 @@
         "passengers": 2000,
         "crew": 900,
         "ratio": 2.2,
+        "tonnage": 91627,
         "yearBuilt": 2002,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -74244,6 +74623,7 @@
         "passengers": 490,
         "crew": 340,
         "ratio": 1.4,
+        "tonnage": 28550,
         "yearBuilt": 1999,
         "lastRefurbished": 2016,
         "refurbishmentCost": "$40M"
@@ -74405,6 +74785,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -74555,6 +74936,7 @@
         "passengers": 1250,
         "crew": 800,
         "ratio": 1.6,
+        "tonnage": 66172,
         "yearBuilt": 2012,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -74766,6 +75148,7 @@
         "passengers": 490,
         "crew": 340,
         "ratio": 1.4,
+        "tonnage": 28550,
         "yearBuilt": 1999,
         "lastRefurbished": 2016,
         "refurbishmentCost": "$40M"
@@ -74915,6 +75298,7 @@
         "passengers": 3386,
         "crew": 1200,
         "ratio": 2.8,
+        "tonnage": 139999,
         "yearBuilt": 2002,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$115M"
@@ -75095,6 +75479,7 @@
         "passengers": 930,
         "crew": 465,
         "ratio": 2,
+        "tonnage": 47842,
         "yearBuilt": 2018,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -75323,6 +75708,7 @@
         "passengers": 3386,
         "crew": 1200,
         "ratio": 2.8,
+        "tonnage": 139999,
         "yearBuilt": 2002,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$115M"
@@ -75527,6 +75913,7 @@
         "passengers": 702,
         "crew": 408,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2001,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$65M"
@@ -75872,6 +76259,7 @@
         "passengers": 2590,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 107517,
         "yearBuilt": 1998,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -76154,6 +76542,7 @@
         "passengers": 224,
         "crew": 135,
         "ratio": 1.7,
+        "tonnage": 9315,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -76335,6 +76724,7 @@
         "passengers": 596,
         "crew": 411,
         "ratio": 1.5,
+        "tonnage": 40791,
         "yearBuilt": 2017,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -76498,6 +76888,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -76634,7 +77025,7 @@
       "dealScores": {
         "inside": 65,
         "oceanview": 29,
-        "balcony": 72,
+        "balcony": 82,
         "suite": 80
       },
       "valueScores": {
@@ -76672,6 +77063,7 @@
         "passengers": 1250,
         "crew": 800,
         "ratio": 1.6,
+        "tonnage": 66172,
         "yearBuilt": 2012,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -76889,6 +77281,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -77115,6 +77508,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -77307,6 +77701,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -77459,7 +77854,7 @@
       "dealScores": {
         "inside": 67,
         "oceanview": 47,
-        "balcony": 86
+        "balcony": 91
       },
       "valueScores": {
         "inside": 88,
@@ -77512,6 +77907,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -77692,6 +78088,7 @@
         "passengers": 224,
         "crew": 135,
         "ratio": 1.7,
+        "tonnage": 9315,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -77853,6 +78250,7 @@
         "passengers": 1250,
         "crew": 800,
         "ratio": 1.6,
+        "tonnage": 66172,
         "yearBuilt": 2012,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -78156,6 +78554,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -78392,6 +78791,7 @@
         "passengers": 750,
         "crew": 552,
         "ratio": 1.4,
+        "tonnage": 55254,
         "yearBuilt": 2016,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -78543,6 +78943,7 @@
         "passengers": 922,
         "crew": 640,
         "ratio": 1.4,
+        "tonnage": 70000,
         "yearBuilt": 2026,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -78687,6 +79088,7 @@
         "passengers": 1972,
         "crew": 820,
         "ratio": 2.4,
+        "tonnage": 82500,
         "yearBuilt": 2006,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -79137,6 +79539,7 @@
         "passengers": 1250,
         "crew": 800,
         "ratio": 1.6,
+        "tonnage": 66172,
         "yearBuilt": 2012,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -79318,6 +79721,7 @@
         "passengers": 2852,
         "crew": 1250,
         "ratio": 2.3,
+        "tonnage": 121878,
         "yearBuilt": 2008,
         "lastRefurbished": 2026,
         "refurbishmentCost": null
@@ -79466,7 +79870,7 @@
       "dealScores": {
         "inside": 87,
         "oceanview": 53,
-        "balcony": 92,
+        "balcony": 95,
         "suite": 96
       },
       "valueScores": {
@@ -79684,6 +80088,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -79846,6 +80251,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -80078,6 +80484,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -80232,7 +80639,7 @@
       "dealScores": {
         "inside": 89,
         "oceanview": 63,
-        "balcony": 87,
+        "balcony": 92,
         "suite": 90
       },
       "valueScores": {
@@ -80270,6 +80677,7 @@
         "passengers": 224,
         "crew": 135,
         "ratio": 1.7,
+        "tonnage": 9315,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -80437,6 +80845,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -80599,6 +81008,7 @@
         "passengers": 1250,
         "crew": 800,
         "ratio": 1.6,
+        "tonnage": 66172,
         "yearBuilt": 2012,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -80768,6 +81178,7 @@
         "passengers": 2852,
         "crew": 1250,
         "ratio": 2.3,
+        "tonnage": 121878,
         "yearBuilt": 2008,
         "lastRefurbished": 2026,
         "refurbishmentCost": null
@@ -80910,7 +81321,7 @@
       "dealScores": {
         "inside": 71,
         "oceanview": 46,
-        "balcony": 89,
+        "balcony": 93,
         "suite": 96
       },
       "valueScores": {
@@ -81128,6 +81539,7 @@
         "passengers": 922,
         "crew": 640,
         "ratio": 1.4,
+        "tonnage": 70000,
         "yearBuilt": 2026,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -81285,6 +81697,7 @@
         "passengers": 1250,
         "crew": 800,
         "ratio": 1.6,
+        "tonnage": 66172,
         "yearBuilt": 2012,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -81454,6 +81867,7 @@
         "passengers": 702,
         "crew": 408,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2001,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$65M"
@@ -81659,6 +82073,7 @@
         "passengers": 2852,
         "crew": 1250,
         "ratio": 2.3,
+        "tonnage": 121878,
         "yearBuilt": 2008,
         "lastRefurbished": 2026,
         "refurbishmentCost": null
@@ -81801,7 +82216,7 @@
       "dealScores": {
         "inside": 72,
         "oceanview": 44,
-        "balcony": 89,
+        "balcony": 93,
         "suite": 78
       },
       "valueScores": {
@@ -81839,6 +82254,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -81981,7 +82397,7 @@
       "dealScores": {
         "inside": 70,
         "oceanview": 47,
-        "balcony": 86,
+        "balcony": 91,
         "suite": 80
       },
       "valueScores": {
@@ -82019,6 +82435,7 @@
         "passengers": 1972,
         "crew": 820,
         "ratio": 2.4,
+        "tonnage": 82500,
         "yearBuilt": 2006,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -82385,6 +82802,7 @@
         "passengers": 922,
         "crew": 640,
         "ratio": 1.4,
+        "tonnage": 70000,
         "yearBuilt": 2026,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -82535,6 +82953,7 @@
         "passengers": 1250,
         "crew": 800,
         "ratio": 1.6,
+        "tonnage": 66172,
         "yearBuilt": 2012,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -82740,6 +83159,7 @@
         "passengers": 930,
         "crew": 465,
         "ratio": 2,
+        "tonnage": 47842,
         "yearBuilt": 2018,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -82968,6 +83388,7 @@
         "passengers": 2590,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 107517,
         "yearBuilt": 1998,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -83288,6 +83709,7 @@
         "passengers": 930,
         "crew": 465,
         "ratio": 2,
+        "tonnage": 47842,
         "yearBuilt": 2018,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -83451,6 +83873,7 @@
         "passengers": 930,
         "crew": 465,
         "ratio": 2,
+        "tonnage": 47842,
         "yearBuilt": 2021,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -83640,6 +84063,7 @@
         "passengers": 930,
         "crew": 465,
         "ratio": 2,
+        "tonnage": 47842,
         "yearBuilt": 2018,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -83820,6 +84244,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -83968,7 +84393,7 @@
       "dealScores": {
         "inside": 66,
         "oceanview": 49,
-        "balcony": 72,
+        "balcony": 82,
         "suite": 97
       },
       "valueScores": {
@@ -84006,6 +84431,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -84132,6 +84558,7 @@
         "passengers": 1964,
         "crew": 817,
         "ratio": 2.4,
+        "tonnage": 82300,
         "yearBuilt": 2004,
         "lastRefurbished": 2026,
         "refurbishmentCost": null
@@ -84327,6 +84754,7 @@
         "passengers": 670,
         "crew": 400,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2000,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$100M"
@@ -84513,6 +84941,7 @@
         "passengers": 2852,
         "crew": 1250,
         "ratio": 2.3,
+        "tonnage": 121878,
         "yearBuilt": 2008,
         "lastRefurbished": 2026,
         "refurbishmentCost": null
@@ -84667,7 +85096,7 @@
       "dealScores": {
         "inside": 47,
         "oceanview": 6,
-        "balcony": 87,
+        "balcony": 91,
         "suite": 79
       },
       "valueScores": {
@@ -84719,6 +85148,7 @@
         "passengers": 1964,
         "crew": 817,
         "ratio": 2.4,
+        "tonnage": 82300,
         "yearBuilt": 2004,
         "lastRefurbished": 2026,
         "refurbishmentCost": null
@@ -85085,6 +85515,7 @@
         "passengers": 670,
         "crew": 400,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2000,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$100M"
@@ -85279,6 +85710,7 @@
         "passengers": 2852,
         "crew": 1250,
         "ratio": 2.3,
+        "tonnage": 121878,
         "yearBuilt": 2008,
         "lastRefurbished": 2026,
         "refurbishmentCost": null
@@ -85409,7 +85841,7 @@
       "dealScores": {
         "inside": 65,
         "oceanview": 43,
-        "balcony": 84,
+        "balcony": 90,
         "suite": 62
       },
       "valueScores": {
@@ -85627,6 +86059,7 @@
         "passengers": 1964,
         "crew": 817,
         "ratio": 2.4,
+        "tonnage": 82300,
         "yearBuilt": 2004,
         "lastRefurbished": 2026,
         "refurbishmentCost": null
@@ -86161,6 +86594,7 @@
         "passengers": 2852,
         "crew": 1250,
         "ratio": 2.3,
+        "tonnage": 121878,
         "yearBuilt": 2008,
         "lastRefurbished": 2026,
         "refurbishmentCost": null
@@ -86300,7 +86734,7 @@
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 60,
-        "balcony": 39,
+        "balcony": 61,
         "suite": 77
       },
       "valueScores": {
@@ -86336,6 +86770,7 @@
         "passengers": 2852,
         "crew": 1250,
         "ratio": 2.3,
+        "tonnage": 121878,
         "yearBuilt": 2008,
         "lastRefurbished": 2026,
         "refurbishmentCost": null
@@ -86472,7 +86907,7 @@
       "dealScores": {
         "inside": 58,
         "oceanview": 31,
-        "balcony": 88,
+        "balcony": 92,
         "suite": 71
       },
       "valueScores": {
@@ -86690,6 +87125,7 @@
         "passengers": 1964,
         "crew": 817,
         "ratio": 2.4,
+        "tonnage": 82300,
         "yearBuilt": 2004,
         "lastRefurbished": 2026,
         "refurbishmentCost": null
@@ -86936,6 +87372,7 @@
         "passengers": 2852,
         "crew": 1250,
         "ratio": 2.3,
+        "tonnage": 121878,
         "yearBuilt": 2008,
         "lastRefurbished": 2026,
         "refurbishmentCost": null
@@ -87072,7 +87509,7 @@
       "dealScores": {
         "inside": 52,
         "oceanview": 29,
-        "balcony": 90,
+        "balcony": 93,
         "suite": 71
       },
       "valueScores": {
@@ -87290,6 +87727,7 @@
         "passengers": 670,
         "crew": 400,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2000,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$100M"
@@ -87473,6 +87911,7 @@
         "passengers": 1952,
         "crew": 866,
         "ratio": 2.3,
+        "tonnage": 84342,
         "yearBuilt": 2005,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -87731,6 +88170,7 @@
         "passengers": 1952,
         "crew": 866,
         "ratio": 2.3,
+        "tonnage": 84342,
         "yearBuilt": 2005,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -87930,6 +88370,7 @@
         "passengers": 2081,
         "crew": 900,
         "ratio": 2.3,
+        "tonnage": 90049,
         "yearBuilt": 2007,
         "lastRefurbished": 2017,
         "refurbishmentCost": "£34M"
@@ -88326,6 +88767,7 @@
         "passengers": 1952,
         "crew": 866,
         "ratio": 2.3,
+        "tonnage": 84342,
         "yearBuilt": 2005,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -88580,6 +89022,7 @@
         "passengers": 1200,
         "crew": 800,
         "ratio": 1.5,
+        "tonnage": 67817,
         "yearBuilt": 2023,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -88779,6 +89222,7 @@
         "passengers": 2081,
         "crew": 900,
         "ratio": 2.3,
+        "tonnage": 90049,
         "yearBuilt": 2007,
         "lastRefurbished": 2017,
         "refurbishmentCost": "£34M"
@@ -88927,6 +89371,7 @@
         "passengers": 2852,
         "crew": 1250,
         "ratio": 2.3,
+        "tonnage": 121878,
         "yearBuilt": 2008,
         "lastRefurbished": 2026,
         "refurbishmentCost": null
@@ -89091,6 +89536,7 @@
         "passengers": 930,
         "crew": 465,
         "ratio": 2,
+        "tonnage": 47842,
         "yearBuilt": 2018,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -89271,6 +89717,7 @@
         "passengers": 1250,
         "crew": 800,
         "ratio": 1.6,
+        "tonnage": 66172,
         "yearBuilt": 2012,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -89446,6 +89893,7 @@
         "passengers": 490,
         "crew": 340,
         "ratio": 1.4,
+        "tonnage": 28550,
         "yearBuilt": 1999,
         "lastRefurbished": 2016,
         "refurbishmentCost": "$40M"
@@ -89620,6 +90068,7 @@
         "passengers": 930,
         "crew": 465,
         "ratio": 2,
+        "tonnage": 47842,
         "yearBuilt": 2021,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -89800,6 +90249,7 @@
         "passengers": 670,
         "crew": 400,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2000,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$100M"
@@ -89993,6 +90443,7 @@
         "passengers": 702,
         "crew": 408,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2001,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$65M"
@@ -90174,6 +90625,7 @@
         "passengers": 702,
         "crew": 408,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2001,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$65M"
@@ -90361,6 +90813,7 @@
         "passengers": 930,
         "crew": 465,
         "ratio": 2,
+        "tonnage": 47842,
         "yearBuilt": 2021,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -90541,6 +90994,7 @@
         "passengers": 930,
         "crew": 465,
         "ratio": 2,
+        "tonnage": 47842,
         "yearBuilt": 2018,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -90721,6 +91175,7 @@
         "passengers": 1972,
         "crew": 820,
         "ratio": 2.4,
+        "tonnage": 82500,
         "yearBuilt": 2006,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -90907,6 +91362,7 @@
         "passengers": 1250,
         "crew": 800,
         "ratio": 1.6,
+        "tonnage": 66172,
         "yearBuilt": 2012,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -91064,6 +91520,7 @@
         "passengers": 2852,
         "crew": 1250,
         "ratio": 2.3,
+        "tonnage": 121878,
         "yearBuilt": 2008,
         "lastRefurbished": 2026,
         "refurbishmentCost": null
@@ -91200,7 +91657,7 @@
       "dealScores": {
         "inside": 81,
         "oceanview": 42,
-        "balcony": 86,
+        "balcony": 91,
         "suite": 86
       },
       "valueScores": {
@@ -91238,6 +91695,7 @@
         "passengers": 1972,
         "crew": 820,
         "ratio": 2.4,
+        "tonnage": 82500,
         "yearBuilt": 2006,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -91652,6 +92110,7 @@
         "passengers": 750,
         "crew": 552,
         "ratio": 1.4,
+        "tonnage": 55254,
         "yearBuilt": 2016,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -91809,6 +92268,7 @@
         "passengers": 1972,
         "crew": 820,
         "ratio": 2.4,
+        "tonnage": 82500,
         "yearBuilt": 2006,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -91995,6 +92455,7 @@
         "passengers": 2852,
         "crew": 1250,
         "ratio": 2.3,
+        "tonnage": 121878,
         "yearBuilt": 2008,
         "lastRefurbished": 2026,
         "refurbishmentCost": null
@@ -92131,7 +92592,7 @@
       "dealScores": {
         "inside": 71,
         "oceanview": 47,
-        "balcony": 93,
+        "balcony": 96,
         "suite": 86
       },
       "valueScores": {
@@ -92169,6 +92630,7 @@
         "passengers": 750,
         "crew": 552,
         "ratio": 1.4,
+        "tonnage": 55254,
         "yearBuilt": 2016,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -92326,6 +92788,7 @@
         "passengers": 1250,
         "crew": 800,
         "ratio": 1.6,
+        "tonnage": 66172,
         "yearBuilt": 2012,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -92411,9 +92874,9 @@
         "balcony": 483,
         "suite": 789
       },
-      "origPrice": 2999,
+      "origPrice": 3099,
       "salePrice": 2999,
-      "discountPct": 0,
+      "discountPct": 3,
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=48305",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/48305_250917154904353.jpg",
       "shipPhotos": {
@@ -92496,6 +92959,7 @@
         "passengers": 1972,
         "crew": 820,
         "ratio": 2.4,
+        "tonnage": 82500,
         "yearBuilt": 2006,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -92694,6 +93158,7 @@
         "passengers": 2852,
         "crew": 1250,
         "ratio": 2.3,
+        "tonnage": 121878,
         "yearBuilt": 2008,
         "lastRefurbished": 2026,
         "refurbishmentCost": null
@@ -92842,7 +93307,7 @@
       "dealScores": {
         "inside": 51,
         "oceanview": 26,
-        "balcony": 87,
+        "balcony": 92,
         "suite": 85
       },
       "valueScores": {
@@ -92887,6 +93352,7 @@
         "passengers": 1250,
         "crew": 800,
         "ratio": 1.6,
+        "tonnage": 66172,
         "yearBuilt": 2012,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -93080,6 +93546,7 @@
         "passengers": 1972,
         "crew": 820,
         "ratio": 2.4,
+        "tonnage": 82500,
         "yearBuilt": 2006,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -93254,6 +93721,7 @@
         "passengers": 1250,
         "crew": 800,
         "ratio": 1.6,
+        "tonnage": 66172,
         "yearBuilt": 2012,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -93435,6 +93903,7 @@
         "passengers": 922,
         "crew": 640,
         "ratio": 1.4,
+        "tonnage": 70000,
         "yearBuilt": 2026,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -93580,6 +94049,7 @@
         "passengers": 2852,
         "crew": 1250,
         "ratio": 2.3,
+        "tonnage": 121878,
         "yearBuilt": 2008,
         "lastRefurbished": 2026,
         "refurbishmentCost": null
@@ -93716,7 +94186,7 @@
       "dealScores": {
         "inside": 71,
         "oceanview": 47,
-        "balcony": 91,
+        "balcony": 94,
         "suite": 83
       },
       "valueScores": {
@@ -93754,6 +94224,7 @@
         "passengers": 1972,
         "crew": 820,
         "ratio": 2.4,
+        "tonnage": 82500,
         "yearBuilt": 2006,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -94120,6 +94591,7 @@
         "passengers": 2092,
         "crew": 1005,
         "ratio": 2.1,
+        "tonnage": 90901,
         "yearBuilt": 2010,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -94372,6 +94844,7 @@
         "passengers": 1250,
         "crew": 800,
         "ratio": 1.6,
+        "tonnage": 66172,
         "yearBuilt": 2012,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -94553,6 +95026,7 @@
         "passengers": 922,
         "crew": 640,
         "ratio": 1.4,
+        "tonnage": 70000,
         "yearBuilt": 2026,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -94691,6 +95165,7 @@
         "passengers": 2996,
         "crew": 1225,
         "ratio": 2.4,
+        "tonnage": 113000,
         "yearBuilt": 2024,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -94967,6 +95442,7 @@
         "passengers": 922,
         "crew": 640,
         "ratio": 1.4,
+        "tonnage": 70000,
         "yearBuilt": 2026,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -95105,6 +95581,7 @@
         "passengers": 2996,
         "crew": 1225,
         "ratio": 2.4,
+        "tonnage": 113000,
         "yearBuilt": 2024,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -95459,6 +95936,7 @@
         "passengers": 684,
         "crew": 408,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 1999,
         "lastRefurbished": 2022,
         "refurbishmentCost": "$16M"
@@ -95641,6 +96119,7 @@
         "passengers": 684,
         "crew": 408,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 1999,
         "lastRefurbished": 2022,
         "refurbishmentCost": "$16M"
@@ -95835,6 +96314,7 @@
         "passengers": 930,
         "crew": 465,
         "ratio": 2,
+        "tonnage": 47842,
         "yearBuilt": 2018,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -96015,6 +96495,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -96135,6 +96616,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -96240,6 +96722,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -96351,6 +96834,7 @@
         "passengers": 740,
         "crew": 655,
         "ratio": 1.1,
+        "tonnage": 68870,
         "yearBuilt": 2003,
         "lastRefurbished": 2023,
         "refurbishmentCost": "$150M"
@@ -96491,6 +96975,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -96596,6 +97081,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -96701,6 +97187,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -96812,6 +97299,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -96917,6 +97405,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -97042,6 +97531,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -97147,6 +97637,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -97258,6 +97749,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -97378,6 +97870,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -97504,6 +97997,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -97616,6 +98110,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -97734,6 +98229,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -97839,6 +98335,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -97950,6 +98447,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -98076,6 +98574,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -98181,6 +98680,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -98292,6 +98792,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -98397,6 +98898,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -98512,6 +99014,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -98623,6 +99126,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -98743,6 +99247,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -98869,6 +99374,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -98980,6 +99486,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -99092,6 +99599,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -99203,6 +99711,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -99314,6 +99823,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -99440,6 +99950,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -99545,6 +100056,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -99663,6 +100175,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -99789,6 +100302,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -99901,6 +100415,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -100019,6 +100534,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -100124,6 +100640,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -100250,6 +100767,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -100361,6 +100879,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -100466,6 +100985,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -100577,6 +101097,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -100697,6 +101218,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -100802,6 +101324,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -100913,6 +101436,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -101025,6 +101549,7 @@
         "passengers": 3700,
         "crew": 1100,
         "ratio": 3.4,
+        "tonnage": 112000,
         "yearBuilt": 2007,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -101142,6 +101667,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -101253,6 +101779,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -101365,6 +101892,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -101476,6 +102004,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -101596,6 +102125,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -101701,6 +102231,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -101812,6 +102343,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -101938,6 +102470,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -102043,6 +102576,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -102161,6 +102695,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -102273,6 +102808,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -102384,6 +102920,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -102489,6 +103026,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -102607,6 +103145,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -102733,6 +103272,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -102838,6 +103378,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -102956,6 +103497,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -103082,6 +103624,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -103194,6 +103737,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -103312,6 +103856,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -103417,6 +103962,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -103528,6 +104074,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -103633,6 +104180,7 @@
         "passengers": 670,
         "crew": 400,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2000,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$100M"
@@ -103875,6 +104423,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -103986,6 +104535,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -104091,6 +104641,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -104202,6 +104753,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -104307,6 +104859,7 @@
         "passengers": 3386,
         "crew": 1200,
         "ratio": 2.8,
+        "tonnage": 139999,
         "yearBuilt": 2002,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$115M"
@@ -104435,6 +104988,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -104546,6 +105100,7 @@
         "passengers": 1250,
         "crew": 800,
         "ratio": 1.6,
+        "tonnage": 66172,
         "yearBuilt": 2012,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -104763,6 +105318,7 @@
         "passengers": 3600,
         "crew": 1346,
         "ratio": 2.7,
+        "tonnage": 142714,
         "yearBuilt": 2013,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -105097,6 +105653,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -105202,6 +105759,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -105313,6 +105871,7 @@
         "passengers": 3386,
         "crew": 1200,
         "ratio": 2.8,
+        "tonnage": 139999,
         "yearBuilt": 2002,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$115M"
@@ -105443,6 +106002,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -105548,6 +106108,7 @@
         "passengers": 3600,
         "crew": 1346,
         "ratio": 2.7,
+        "tonnage": 142714,
         "yearBuilt": 2013,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -105894,6 +106455,7 @@
         "passengers": 3386,
         "crew": 1200,
         "ratio": 2.8,
+        "tonnage": 139999,
         "yearBuilt": 2002,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$115M"
@@ -106027,6 +106589,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -106138,6 +106701,7 @@
         "passengers": 670,
         "crew": 400,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2000,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$100M"
@@ -106307,6 +106871,7 @@
         "passengers": 930,
         "crew": 465,
         "ratio": 2,
+        "tonnage": 47842,
         "yearBuilt": 2018,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -106475,6 +107040,7 @@
         "passengers": 3386,
         "crew": 1200,
         "ratio": 2.8,
+        "tonnage": 139999,
         "yearBuilt": 2002,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$115M"
@@ -106605,6 +107171,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -106710,6 +107277,7 @@
         "passengers": 1250,
         "crew": 800,
         "ratio": 1.6,
+        "tonnage": 66172,
         "yearBuilt": 2012,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -106968,6 +107536,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -107079,6 +107648,7 @@
         "passengers": 3386,
         "crew": 1200,
         "ratio": 2.8,
+        "tonnage": 139999,
         "yearBuilt": 2002,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$115M"
@@ -107218,6 +107788,7 @@
         "passengers": 750,
         "crew": 552,
         "ratio": 1.4,
+        "tonnage": 55254,
         "yearBuilt": 2016,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -107411,6 +107982,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -107516,6 +108088,7 @@
         "passengers": 670,
         "crew": 400,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2000,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$100M"
@@ -107709,6 +108282,7 @@
         "passengers": 224,
         "crew": 135,
         "ratio": 1.7,
+        "tonnage": 9315,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -107876,6 +108450,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -107987,6 +108562,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -108129,7 +108705,7 @@
       "dealScores": {
         "inside": 68,
         "oceanview": 60,
-        "balcony": 87,
+        "balcony": 92,
         "suite": 61
       },
       "valueScores": {
@@ -108176,6 +108752,7 @@
         "passengers": 3386,
         "crew": 1200,
         "ratio": 2.8,
+        "tonnage": 139999,
         "yearBuilt": 2002,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$115M"
@@ -108306,6 +108883,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -108411,6 +108989,7 @@
         "passengers": 3386,
         "crew": 1200,
         "ratio": 2.8,
+        "tonnage": 139999,
         "yearBuilt": 2002,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$115M"
@@ -108541,6 +109120,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -108652,6 +109232,7 @@
         "passengers": 2852,
         "crew": 1250,
         "ratio": 2.3,
+        "tonnage": 121878,
         "yearBuilt": 2008,
         "lastRefurbished": 2026,
         "refurbishmentCost": null
@@ -108794,7 +109375,7 @@
       "dealScores": {
         "inside": 80,
         "oceanview": 64,
-        "balcony": 94,
+        "balcony": 96,
         "suite": 100
       },
       "valueScores": {
@@ -108842,6 +109423,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -108947,6 +109529,7 @@
         "passengers": 3386,
         "crew": 1200,
         "ratio": 2.8,
+        "tonnage": 139999,
         "yearBuilt": 2002,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$115M"
@@ -109077,6 +109660,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -109251,6 +109835,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -109603,6 +110188,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -109714,6 +110300,7 @@
         "passengers": 3386,
         "crew": 1200,
         "ratio": 2.8,
+        "tonnage": 139999,
         "yearBuilt": 2002,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$115M"
@@ -109850,6 +110437,7 @@
         "passengers": 604,
         "crew": 450,
         "ratio": 1.3,
+        "tonnage": 40350,
         "yearBuilt": 2016,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -109989,6 +110577,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -110094,6 +110683,7 @@
         "passengers": 3386,
         "crew": 1200,
         "ratio": 2.8,
+        "tonnage": 139999,
         "yearBuilt": 2002,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$115M"
@@ -110214,6 +110804,7 @@
         "passengers": 1250,
         "crew": 800,
         "ratio": 1.6,
+        "tonnage": 66172,
         "yearBuilt": 2012,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -110461,6 +111052,7 @@
         "passengers": 224,
         "crew": 135,
         "ratio": 1.7,
+        "tonnage": 9315,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -110628,6 +111220,7 @@
         "passengers": 3386,
         "crew": 1200,
         "ratio": 2.8,
+        "tonnage": 139999,
         "yearBuilt": 2002,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$115M"
@@ -110758,6 +111351,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -110869,6 +111463,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -111135,6 +111730,7 @@
         "passengers": 3386,
         "crew": 1200,
         "ratio": 2.8,
+        "tonnage": 139999,
         "yearBuilt": 2002,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$115M"
@@ -111271,6 +111867,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -111376,6 +111973,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -111512,7 +112110,7 @@
       "dealScores": {
         "inside": 81,
         "oceanview": 58,
-        "balcony": 91,
+        "balcony": 94,
         "suite": 84
       },
       "valueScores": {
@@ -111560,6 +112158,7 @@
         "passengers": 3386,
         "crew": 1200,
         "ratio": 2.8,
+        "tonnage": 139999,
         "yearBuilt": 2002,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$115M"
@@ -111686,6 +112285,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -111797,6 +112397,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -111902,6 +112503,7 @@
         "passengers": 3386,
         "crew": 1200,
         "ratio": 2.8,
+        "tonnage": 139999,
         "yearBuilt": 2002,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$115M"
@@ -112041,6 +112643,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -112152,6 +112755,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -112282,7 +112886,7 @@
       "dealScores": {
         "inside": 99,
         "oceanview": 96,
-        "balcony": 95,
+        "balcony": 97,
         "suite": 94
       },
       "valueScores": {
@@ -112320,6 +112924,7 @@
         "passengers": 3386,
         "crew": 1200,
         "ratio": 2.8,
+        "tonnage": 139999,
         "yearBuilt": 2002,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$115M"
@@ -112482,6 +113087,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -112706,6 +113312,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -112811,6 +113418,7 @@
         "passengers": 670,
         "crew": 400,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2000,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$100M"
@@ -112992,6 +113600,7 @@
         "passengers": 224,
         "crew": 135,
         "ratio": 1.7,
+        "tonnage": 9315,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -113159,6 +113768,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -113270,6 +113880,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -113382,6 +113993,7 @@
         "passengers": 3386,
         "crew": 1200,
         "ratio": 2.8,
+        "tonnage": 139999,
         "yearBuilt": 2002,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$115M"
@@ -113502,6 +114114,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -113638,7 +114251,7 @@
       "dealScores": {
         "inside": 81,
         "oceanview": 73,
-        "balcony": 87,
+        "balcony": 92,
         "suite": 95
       },
       "valueScores": {
@@ -113676,6 +114289,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -113787,6 +114401,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2020,
         "refurbishmentCost": null
@@ -114041,6 +114656,7 @@
         "passengers": 3386,
         "crew": 1200,
         "ratio": 2.8,
+        "tonnage": 139999,
         "yearBuilt": 2002,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$115M"
@@ -114177,6 +114793,7 @@
         "passengers": 670,
         "crew": 400,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2000,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$100M"
@@ -114370,6 +114987,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -114475,6 +115093,7 @@
         "passengers": 3386,
         "crew": 1200,
         "ratio": 2.8,
+        "tonnage": 139999,
         "yearBuilt": 2002,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$115M"
@@ -114621,6 +115240,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -114732,6 +115352,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -114868,7 +115489,7 @@
       "dealScores": {
         "inside": 94,
         "oceanview": 74,
-        "balcony": 93,
+        "balcony": 96,
         "suite": 90
       },
       "valueScores": {
@@ -114906,6 +115527,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -115011,6 +115633,7 @@
         "passengers": 3386,
         "crew": 1200,
         "ratio": 2.8,
+        "tonnage": 139999,
         "yearBuilt": 2002,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$115M"
@@ -115147,6 +115770,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -115258,6 +115882,7 @@
         "passengers": 670,
         "crew": 400,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2000,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$100M"
@@ -115433,6 +116058,7 @@
         "passengers": 3386,
         "crew": 1200,
         "ratio": 2.8,
+        "tonnage": 139999,
         "yearBuilt": 2002,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$115M"
@@ -115553,6 +116179,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -115658,6 +116285,7 @@
         "passengers": 3386,
         "crew": 1200,
         "ratio": 2.8,
+        "tonnage": 139999,
         "yearBuilt": 2002,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$115M"
@@ -115784,6 +116412,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -115895,6 +116524,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -116011,7 +116641,7 @@
       "dealScores": {
         "inside": 90,
         "oceanview": 55,
-        "balcony": 81
+        "balcony": 88
       },
       "valueScores": {
         "inside": 94,
@@ -116046,6 +116676,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -116151,6 +116782,7 @@
         "passengers": 3386,
         "crew": 1200,
         "ratio": 2.8,
+        "tonnage": 139999,
         "yearBuilt": 2002,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$115M"
@@ -116283,6 +116915,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -116394,6 +117027,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -116499,6 +117133,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -116610,6 +117245,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -116715,6 +117351,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -116826,6 +117463,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -116952,6 +117590,7 @@
         "passengers": 2600,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 109000,
         "yearBuilt": 2001,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -117118,6 +117757,7 @@
         "passengers": 1432,
         "crew": 647,
         "ratio": 2.2,
+        "tonnage": 60906,
         "yearBuilt": 1999,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$8M"
@@ -117390,6 +118030,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -117495,6 +118136,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -117606,6 +118248,7 @@
         "passengers": 1250,
         "crew": 800,
         "ratio": 1.6,
+        "tonnage": 66172,
         "yearBuilt": 2012,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -117788,6 +118431,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -117893,6 +118537,7 @@
         "passengers": 3386,
         "crew": 1200,
         "ratio": 2.8,
+        "tonnage": 139999,
         "yearBuilt": 2002,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$115M"
@@ -118029,6 +118674,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -118140,6 +118786,7 @@
         "passengers": 3386,
         "crew": 1200,
         "ratio": 2.8,
+        "tonnage": 139999,
         "yearBuilt": 2002,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$115M"
@@ -118266,6 +118913,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -118371,6 +119019,7 @@
         "passengers": 3386,
         "crew": 1200,
         "ratio": 2.8,
+        "tonnage": 139999,
         "yearBuilt": 2002,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$115M"
@@ -118497,6 +119146,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -118608,6 +119258,7 @@
         "passengers": 1250,
         "crew": 800,
         "ratio": 1.6,
+        "tonnage": 66172,
         "yearBuilt": 2012,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -118813,6 +119464,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -118939,6 +119591,7 @@
         "passengers": 3386,
         "crew": 1200,
         "ratio": 2.8,
+        "tonnage": 139999,
         "yearBuilt": 2002,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$115M"
@@ -119071,6 +119724,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -119176,6 +119830,7 @@
         "passengers": 2081,
         "crew": 900,
         "ratio": 2.3,
+        "tonnage": 90049,
         "yearBuilt": 2007,
         "lastRefurbished": 2017,
         "refurbishmentCost": "£34M"
@@ -119399,6 +120054,7 @@
         "passengers": 930,
         "crew": 465,
         "ratio": 2,
+        "tonnage": 47842,
         "yearBuilt": 2018,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -119576,6 +120232,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -119687,6 +120344,7 @@
         "passengers": 3386,
         "crew": 1200,
         "ratio": 2.8,
+        "tonnage": 139999,
         "yearBuilt": 2002,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$115M"
@@ -119807,6 +120465,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -119912,6 +120571,7 @@
         "passengers": 930,
         "crew": 465,
         "ratio": 2,
+        "tonnage": 47842,
         "yearBuilt": 2021,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -120080,6 +120740,7 @@
         "passengers": 740,
         "crew": 655,
         "ratio": 1.1,
+        "tonnage": 68870,
         "yearBuilt": 2003,
         "lastRefurbished": 2023,
         "refurbishmentCost": "$150M"
@@ -120238,6 +120899,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -120349,6 +121011,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -120454,6 +121117,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -120565,6 +121229,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -120734,6 +121399,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -120839,6 +121505,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -120950,6 +121617,7 @@
         "passengers": 184,
         "crew": 110,
         "ratio": 1.7,
+        "tonnage": 9900,
         "yearBuilt": 2020,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -121051,6 +121719,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -121156,6 +121825,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -121267,6 +121937,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -121372,6 +122043,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -121483,6 +122155,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -121588,6 +122261,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -121699,6 +122373,7 @@
         "passengers": 670,
         "crew": 400,
         "ratio": 1.7,
+        "tonnage": 30277,
         "yearBuilt": 2000,
         "lastRefurbished": 2024,
         "refurbishmentCost": "$100M"
@@ -121916,6 +122591,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -122021,6 +122697,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -122132,6 +122809,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -122237,6 +122915,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -122348,6 +123027,7 @@
         "passengers": 490,
         "crew": 340,
         "ratio": 1.4,
+        "tonnage": 28550,
         "yearBuilt": 1999,
         "lastRefurbished": 2016,
         "refurbishmentCost": "$40M"
@@ -122523,6 +123203,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -122628,6 +123309,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -122739,6 +123421,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -122844,6 +123527,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -122955,6 +123639,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -123060,6 +123745,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -123171,6 +123857,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -123276,6 +123963,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -123387,6 +124075,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -123492,6 +124181,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -123603,6 +124293,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -123708,6 +124399,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -123819,6 +124511,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -123924,6 +124617,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -124035,6 +124729,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -124140,6 +124835,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -124251,6 +124947,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -124356,6 +125053,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -124467,6 +125165,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -124572,6 +125271,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -124683,6 +125383,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -124788,6 +125489,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -124899,6 +125601,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -125004,6 +125707,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -125115,6 +125819,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -125220,6 +125925,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -125331,6 +126037,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -125436,6 +126143,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -125547,6 +126255,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -125652,6 +126361,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -126016,6 +126726,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -126136,6 +126847,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -126262,6 +126974,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -126382,6 +127095,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -126544,6 +127258,7 @@
         "passengers": 930,
         "crew": 465,
         "ratio": 2,
+        "tonnage": 47842,
         "yearBuilt": 2018,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -126712,6 +127427,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -126830,7 +127546,7 @@
       "dealScores": {
         "inside": 89,
         "oceanview": 57,
-        "balcony": 91,
+        "balcony": 94,
         "suite": 98
       },
       "valueScores": {
@@ -126868,6 +127584,7 @@
         "passengers": 224,
         "crew": 135,
         "ratio": 1.7,
+        "tonnage": 9315,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -127035,6 +127752,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -127167,6 +127885,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -127287,6 +128006,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -127417,7 +128137,7 @@
       "dealScores": {
         "inside": 91,
         "oceanview": 74,
-        "balcony": 92,
+        "balcony": 95,
         "suite": 94
       },
       "valueScores": {
@@ -127455,6 +128175,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -127581,6 +128302,7 @@
         "passengers": 224,
         "crew": 135,
         "ratio": 1.7,
+        "tonnage": 9315,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -127748,6 +128470,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -127868,6 +128591,7 @@
         "passengers": 922,
         "crew": 640,
         "ratio": 1.4,
+        "tonnage": 70000,
         "yearBuilt": 2026,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -127989,6 +128713,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -128109,6 +128834,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -128239,7 +128965,7 @@
       "dealScores": {
         "inside": 95,
         "oceanview": 76,
-        "balcony": 96,
+        "balcony": 97,
         "suite": 96
       },
       "valueScores": {
@@ -128277,6 +129003,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -128403,6 +129130,7 @@
         "passengers": 922,
         "crew": 640,
         "ratio": 1.4,
+        "tonnage": 70000,
         "yearBuilt": 2026,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -128541,6 +129269,7 @@
         "passengers": 224,
         "crew": 135,
         "ratio": 1.7,
+        "tonnage": 9315,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -128708,6 +129437,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -128828,6 +129558,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -128954,6 +129685,7 @@
         "passengers": 922,
         "crew": 640,
         "ratio": 1.4,
+        "tonnage": 70000,
         "yearBuilt": 2026,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -129104,6 +129836,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -129272,6 +130005,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -129392,6 +130126,7 @@
         "passengers": 224,
         "crew": 135,
         "ratio": 1.7,
+        "tonnage": 9315,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -129559,6 +130294,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -129685,6 +130421,7 @@
         "passengers": 922,
         "crew": 640,
         "ratio": 1.4,
+        "tonnage": 70000,
         "yearBuilt": 2026,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -129806,6 +130543,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -129932,6 +130670,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -130062,7 +130801,7 @@
       "dealScores": {
         "inside": 66,
         "oceanview": 37,
-        "balcony": 92,
+        "balcony": 95,
         "suite": 87
       },
       "valueScores": {
@@ -130100,6 +130839,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -130232,6 +130972,7 @@
         "passengers": 224,
         "crew": 135,
         "ratio": 1.7,
+        "tonnage": 9315,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -130399,6 +131140,7 @@
         "passengers": 922,
         "crew": 640,
         "ratio": 1.4,
+        "tonnage": 70000,
         "yearBuilt": 2026,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -130537,6 +131279,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -130663,6 +131406,7 @@
         "passengers": 922,
         "crew": 640,
         "ratio": 1.4,
+        "tonnage": 70000,
         "yearBuilt": 2026,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -130801,6 +131545,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -130963,6 +131708,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -131099,7 +131845,7 @@
       "dealScores": {
         "inside": 88,
         "oceanview": 78,
-        "balcony": 94,
+        "balcony": 96,
         "suite": 91
       },
       "valueScores": {
@@ -131137,6 +131883,7 @@
         "passengers": 596,
         "crew": 411,
         "ratio": 1.5,
+        "tonnage": 40791,
         "yearBuilt": 2017,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -131288,6 +132035,7 @@
         "passengers": 224,
         "crew": 135,
         "ratio": 1.7,
+        "tonnage": 9315,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -131455,6 +132203,7 @@
         "passengers": 312,
         "crew": 190,
         "ratio": 1.6,
+        "tonnage": 9975,
         "yearBuilt": 1989,
         "lastRefurbished": 2021,
         "refurbishmentCost": null
@@ -131574,6 +132323,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -131706,6 +132456,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -131842,7 +132593,7 @@
       "dealScores": {
         "inside": 78,
         "oceanview": 63,
-        "balcony": 95,
+        "balcony": 97,
         "suite": 90
       },
       "valueScores": {
@@ -131880,6 +132631,7 @@
         "passengers": 224,
         "crew": 135,
         "ratio": 1.7,
+        "tonnage": 9315,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -132047,6 +132799,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -132173,6 +132926,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -132293,6 +133047,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -132419,6 +133174,7 @@
         "passengers": 224,
         "crew": 135,
         "ratio": 1.7,
+        "tonnage": 9315,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -132586,6 +133342,7 @@
         "passengers": 1250,
         "crew": 800,
         "ratio": 1.6,
+        "tonnage": 66172,
         "yearBuilt": 2012,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -132767,6 +133524,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -132915,7 +133673,7 @@
       "dealScores": {
         "inside": 92,
         "oceanview": 79,
-        "balcony": 96,
+        "balcony": 97,
         "suite": 95
       },
       "valueScores": {
@@ -132953,6 +133711,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -133079,6 +133838,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -133199,6 +133959,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -133325,6 +134086,7 @@
         "passengers": 1200,
         "crew": 800,
         "ratio": 1.5,
+        "tonnage": 67817,
         "yearBuilt": 2023,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -133475,6 +134237,7 @@
         "passengers": 224,
         "crew": 135,
         "ratio": 1.7,
+        "tonnage": 9315,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -133642,6 +134405,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -133768,6 +134532,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -133916,7 +134681,7 @@
       "dealScores": {
         "inside": 87,
         "oceanview": 73,
-        "balcony": 95,
+        "balcony": 97,
         "suite": 93
       },
       "valueScores": {
@@ -133954,6 +134719,7 @@
         "passengers": 2670,
         "crew": 1100,
         "ratio": 2.4,
+        "tonnage": 115875,
         "yearBuilt": 2004,
         "lastRefurbished": 2025,
         "refurbishmentCost": null
@@ -134178,6 +134944,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -134298,6 +135065,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -134430,6 +135198,7 @@
         "passengers": 224,
         "crew": 135,
         "ratio": 1.7,
+        "tonnage": 9315,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -134597,6 +135366,7 @@
         "passengers": 922,
         "crew": 640,
         "ratio": 1.4,
+        "tonnage": 70000,
         "yearBuilt": 2026,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -134735,6 +135505,7 @@
         "passengers": 922,
         "crew": 640,
         "ratio": 1.4,
+        "tonnage": 70000,
         "yearBuilt": 2026,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -134873,6 +135644,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -134999,6 +135771,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -135125,6 +135898,7 @@
         "passengers": 930,
         "crew": 465,
         "ratio": 2,
+        "tonnage": 47842,
         "yearBuilt": 2018,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -135293,6 +136067,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -135425,6 +136200,7 @@
         "passengers": 4180,
         "crew": 1500,
         "ratio": 2.8,
+        "tonnage": 168666,
         "yearBuilt": 2014,
         "lastRefurbished": 2019,
         "refurbishmentCost": "$65M"
@@ -135587,6 +136363,7 @@
         "passengers": 2138,
         "crew": 999,
         "ratio": 2.1,
+        "tonnage": 91011,
         "yearBuilt": 2000,
         "lastRefurbished": 2019,
         "refurbishmentCost": null
@@ -135720,7 +136497,7 @@
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 49,
-        "balcony": 71,
+        "balcony": 82,
         "suite": 71
       },
       "valueScores": {
@@ -135763,6 +136540,7 @@
         "passengers": 4246,
         "crew": 1551,
         "ratio": 2.7,
+        "tonnage": 169380,
         "yearBuilt": 2019,
         "lastRefurbished": 2024,
         "refurbishmentCost": null
@@ -135896,6 +136674,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -136016,6 +136795,7 @@
         "passengers": 4500,
         "crew": 1536,
         "ratio": 2.9,
+        "tonnage": 171600,
         "yearBuilt": 2019,
         "lastRefurbished": 2023,
         "refurbishmentCost": null
@@ -136142,6 +136922,7 @@
         "passengers": 4222,
         "crew": 2300,
         "ratio": 1.8,
+        "tonnage": 208108,
         "yearBuilt": 2025,
         "lastRefurbished": null,
         "refurbishmentCost": null
@@ -136247,6 +137028,7 @@
         "passengers": 930,
         "crew": 465,
         "ratio": 2,
+        "tonnage": 47842,
         "yearBuilt": 2018,
         "lastRefurbished": null,
         "refurbishmentCost": null
