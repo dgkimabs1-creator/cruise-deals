@@ -20,10 +20,18 @@
   },
   "Costa Serena": {
     "exterior": "images/cabins/costa_serena_exterior.jpg",
-    "inside": [],
-    "oceanview": [],
-    "balcony": [],
-    "suite": []
+    "inside": [
+      "images/cabins/costa_serena_inside_0.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/costa_serena_oceanview_0.jpg"
+    ],
+    "balcony": [
+      "images/cabins/costa_serena_balcony_0.jpg"
+    ],
+    "suite": [
+      "images/cabins/costa_serena_suite_0.jpg"
+    ]
   },
   "MSC Bellissima": {
     "exterior": "images/cabins/msc_bellissima_exterior.jpg",

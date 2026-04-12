@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-04-12T12:38:19.966Z",
+  "exportedAt": "2026-04-12T12:51:44.406Z",
   "exchangeRate": 1482.511805,
   "count": 774,
   "cruises": [
@@ -714,7 +714,7 @@
         "inside": 54,
         "oceanview": 70,
         "balcony": 61,
-        "suite": 68
+        "suite": 58
       },
       "priceHistory": [
         {
@@ -903,7 +903,7 @@
         "inside": 72,
         "oceanview": 82,
         "balcony": 55,
-        "suite": 80
+        "suite": 73
       },
       "priceHistory": [
         {
@@ -1092,7 +1092,7 @@
         "inside": 58,
         "oceanview": 72,
         "balcony": 62,
-        "suite": 67
+        "suite": 56
       },
       "priceHistory": [
         {
@@ -1281,7 +1281,7 @@
         "inside": 79,
         "oceanview": 87,
         "balcony": 72,
-        "suite": 86
+        "suite": 81
       },
       "priceHistory": [
         {
@@ -1470,7 +1470,7 @@
         "inside": 78,
         "oceanview": 85,
         "balcony": 69,
-        "suite": 85
+        "suite": 80
       },
       "priceHistory": [
         {
@@ -1590,14 +1590,12 @@
       "days": 12,
       "cabinPrices": {
         "inside": 2499,
-        "oceanview": 2479,
         "balcony": 4399,
         "suite": 4499,
         "currency": "USD"
       },
       "perNight": {
         "inside": 227,
-        "oceanview": 225,
         "balcony": 400,
         "suite": 409
       },
@@ -1633,15 +1631,13 @@
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 31,
-        "oceanview": 44,
         "balcony": 38,
         "suite": 43
       },
       "valueScores": {
         "inside": 81,
-        "oceanview": 90,
         "balcony": 70,
-        "suite": 88
+        "suite": 84
       },
       "priceHistory": [
         {
@@ -1837,11 +1833,11 @@
       ],
       "recommendScores": {
         "inside": 51,
-        "oceanview": 53,
+        "oceanview": null,
         "balcony": 38,
         "suite": 37
       },
-      "recommendScore": 53
+      "recommendScore": 51
     },
     {
       "num": 11,
@@ -2016,7 +2012,7 @@
         "inside": 58,
         "oceanview": 72,
         "balcony": 62,
-        "suite": 72
+        "suite": 63
       },
       "priceHistory": [
         {
@@ -2169,7 +2165,7 @@
       },
       "valueScores": {
         "inside": 8,
-        "suite": 72
+        "suite": 63
       },
       "priceHistory": [
         {
@@ -2431,16 +2427,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -2559,16 +2555,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -2804,16 +2800,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -2925,16 +2921,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -3430,16 +3426,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -3561,16 +3557,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -3701,16 +3697,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -3817,16 +3813,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -3917,12 +3913,10 @@
       "days": 4,
       "cabinPrices": {
         "inside": 913,
-        "oceanview": 1953,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 304,
-        "oceanview": 651
+        "inside": 304
       },
       "origPrice": 913,
       "salePrice": 913,
@@ -3933,16 +3927,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -3951,12 +3945,10 @@
       "isBusanRelated": true,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 62,
-        "oceanview": 13
+        "inside": 62
       },
       "valueScores": {
-        "inside": 70,
-        "oceanview": 53
+        "inside": 70
       },
       "priceHistory": [
         {
@@ -4196,7 +4188,7 @@
       ],
       "recommendScores": {
         "inside": 4,
-        "oceanview": 0,
+        "oceanview": null,
         "balcony": null,
         "suite": null
       },
@@ -4268,16 +4260,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -4379,16 +4371,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -4778,7 +4770,7 @@
         "inside": 59,
         "oceanview": 77,
         "balcony": 65,
-        "suite": 69
+        "suite": 59
       },
       "priceHistory": [
         {
@@ -4946,7 +4938,7 @@
         "suite": 0
       },
       "valueScores": {
-        "suite": 59
+        "suite": 46
       },
       "priceHistory": [
         {
@@ -5138,7 +5130,7 @@
         "inside": 79,
         "oceanview": 84,
         "balcony": 64,
-        "suite": 85
+        "suite": 80
       },
       "priceHistory": [
         {
@@ -5498,7 +5490,7 @@
         "inside": 77,
         "oceanview": 83,
         "balcony": 70,
-        "suite": 87
+        "suite": 83
       },
       "priceHistory": [
         {
@@ -5679,7 +5671,7 @@
         "inside": 86,
         "oceanview": 91,
         "balcony": 72,
-        "suite": 89
+        "suite": 85
       },
       "priceHistory": [
         {
@@ -5838,7 +5830,7 @@
         "inside": 74,
         "oceanview": 84,
         "balcony": 74,
-        "suite": 90
+        "suite": 87
       },
       "priceHistory": [
         {
@@ -5997,7 +5989,7 @@
         "inside": 78,
         "oceanview": 87,
         "balcony": 72,
-        "suite": 89
+        "suite": 85
       },
       "priceHistory": [
         {
@@ -6156,7 +6148,7 @@
         "inside": 81,
         "oceanview": 88,
         "balcony": 69,
-        "suite": 87
+        "suite": 83
       },
       "priceHistory": [
         {
@@ -6345,7 +6337,7 @@
         "inside": 72,
         "oceanview": 81,
         "balcony": 66,
-        "suite": 73
+        "suite": 64
       },
       "priceHistory": [
         {
@@ -6534,7 +6526,7 @@
         "inside": 87,
         "oceanview": 93,
         "balcony": 85,
-        "suite": 94
+        "suite": 92
       },
       "priceHistory": [
         {
@@ -6895,7 +6887,7 @@
         "inside": 85,
         "oceanview": 92,
         "balcony": 79,
-        "suite": 91
+        "suite": 88
       },
       "priceHistory": [
         {
@@ -7054,7 +7046,7 @@
         "inside": 94,
         "oceanview": 97,
         "balcony": 91,
-        "suite": 92
+        "suite": 89
       },
       "priceHistory": [
         {
@@ -7383,7 +7375,7 @@
         "inside": 100,
         "oceanview": 100,
         "balcony": 100,
-        "suite": 96
+        "suite": 95
       },
       "priceHistory": [
         {
@@ -7542,7 +7534,7 @@
         "inside": 97,
         "oceanview": 96,
         "balcony": 88,
-        "suite": 94
+        "suite": 92
       },
       "priceHistory": [
         {
@@ -7865,7 +7857,7 @@
         "inside": 100,
         "oceanview": 100,
         "balcony": 100,
-        "suite": 96
+        "suite": 95
       },
       "priceHistory": [
         {
@@ -7988,7 +7980,7 @@
         "inside": 100,
         "oceanview": 100,
         "balcony": 100,
-        "suite": 98
+        "suite": 97
       },
       "priceHistory": [
         {
@@ -8443,7 +8435,7 @@
         "inside": 98,
         "oceanview": 98,
         "balcony": 61,
-        "suite": 91
+        "suite": 87
       },
       "priceHistory": [
         {
@@ -8578,7 +8570,7 @@
         "inside": 94,
         "oceanview": 97,
         "balcony": 96,
-        "suite": 92
+        "suite": 89
       },
       "priceHistory": [
         {
@@ -8713,7 +8705,7 @@
         "inside": 96,
         "oceanview": 97,
         "balcony": 67,
-        "suite": 92
+        "suite": 89
       },
       "priceHistory": [
         {
@@ -8842,7 +8834,7 @@
         "inside": 93,
         "oceanview": 96,
         "balcony": 95,
-        "suite": 91
+        "suite": 88
       },
       "priceHistory": [
         {
@@ -8971,7 +8963,7 @@
         "inside": 95,
         "oceanview": 97,
         "balcony": 67,
-        "suite": 91
+        "suite": 88
       },
       "priceHistory": [
         {
@@ -9100,7 +9092,7 @@
         "inside": 95,
         "oceanview": 97,
         "balcony": 96,
-        "suite": 91
+        "suite": 89
       },
       "priceHistory": [
         {
@@ -9229,7 +9221,7 @@
         "inside": 95,
         "oceanview": 97,
         "balcony": 67,
-        "suite": 91
+        "suite": 88
       },
       "priceHistory": [
         {
@@ -9358,7 +9350,7 @@
         "inside": 94,
         "oceanview": 96,
         "balcony": 95,
-        "suite": 91
+        "suite": 88
       },
       "priceHistory": [
         {
@@ -9487,7 +9479,7 @@
         "inside": 95,
         "oceanview": 97,
         "balcony": 67,
-        "suite": 91
+        "suite": 88
       },
       "priceHistory": [
         {
@@ -9616,7 +9608,7 @@
         "inside": 95,
         "oceanview": 97,
         "balcony": 96,
-        "suite": 91
+        "suite": 89
       },
       "priceHistory": [
         {
@@ -9745,7 +9737,7 @@
         "inside": 95,
         "oceanview": 97,
         "balcony": 67,
-        "suite": 91
+        "suite": 88
       },
       "priceHistory": [
         {
@@ -9874,7 +9866,7 @@
         "inside": 94,
         "oceanview": 96,
         "balcony": 95,
-        "suite": 91
+        "suite": 88
       },
       "priceHistory": [
         {
@@ -10003,7 +9995,7 @@
         "inside": 95,
         "oceanview": 97,
         "balcony": 67,
-        "suite": 91
+        "suite": 88
       },
       "priceHistory": [
         {
@@ -10132,7 +10124,7 @@
         "inside": 95,
         "oceanview": 97,
         "balcony": 96,
-        "suite": 91
+        "suite": 89
       },
       "priceHistory": [
         {
@@ -10261,7 +10253,7 @@
         "inside": 93,
         "oceanview": 95,
         "balcony": 65,
-        "suite": 90
+        "suite": 87
       },
       "priceHistory": [
         {
@@ -10390,7 +10382,7 @@
         "inside": 91,
         "oceanview": 94,
         "balcony": 64,
-        "suite": 90
+        "suite": 86
       },
       "priceHistory": [
         {
@@ -10515,7 +10507,7 @@
       "valueScores": {
         "inside": 82,
         "balcony": 78,
-        "suite": 81
+        "suite": 75
       },
       "priceHistory": [
         {
@@ -10592,14 +10584,12 @@
       "days": 5,
       "cabinPrices": {
         "inside": 519,
-        "oceanview": 629,
         "balcony": 889,
         "suite": 1649,
         "currency": "USD"
       },
       "perNight": {
         "inside": 130,
-        "oceanview": 157,
         "balcony": 222,
         "suite": 412
       },
@@ -10635,15 +10625,13 @@
       "source": "cruisetmk.kr",
       "dealScores": {
         "inside": 48,
-        "oceanview": 40,
         "balcony": 87,
         "suite": 4
       },
       "valueScores": {
         "inside": 95,
-        "oceanview": 96,
         "balcony": 90,
-        "suite": 88
+        "suite": 84
       },
       "priceHistory": [
         {
@@ -10679,7 +10667,7 @@
       ],
       "recommendScores": {
         "inside": 33,
-        "oceanview": 28,
+        "oceanview": null,
         "balcony": 25,
         "suite": 13
       },
@@ -10792,7 +10780,7 @@
         "inside": 94,
         "oceanview": 96,
         "balcony": 89,
-        "suite": 88
+        "suite": 84
       },
       "priceHistory": [
         {
@@ -10921,7 +10909,7 @@
         "inside": 94,
         "oceanview": 96,
         "balcony": 89,
-        "suite": 88
+        "suite": 84
       },
       "priceHistory": [
         {
@@ -11046,7 +11034,7 @@
       "valueScores": {
         "oceanview": 96,
         "balcony": 90,
-        "suite": 88
+        "suite": 84
       },
       "priceHistory": [
         {
@@ -11174,7 +11162,7 @@
         "inside": 94,
         "oceanview": 96,
         "balcony": 89,
-        "suite": 88
+        "suite": 84
       },
       "priceHistory": [
         {
@@ -11312,7 +11300,7 @@
         "inside": 96,
         "oceanview": 97,
         "balcony": 91,
-        "suite": 88
+        "suite": 84
       },
       "priceHistory": [
         {
@@ -11451,7 +11439,7 @@
         "inside": 94,
         "oceanview": 96,
         "balcony": 89,
-        "suite": 88
+        "suite": 84
       },
       "priceHistory": [
         {
@@ -11537,14 +11525,12 @@
         "inside": 629,
         "oceanview": 749,
         "balcony": 1069,
-        "suite": 2029,
         "currency": "USD"
       },
       "perNight": {
         "inside": 126,
         "oceanview": 150,
-        "balcony": 214,
-        "suite": 406
+        "balcony": 214
       },
       "origPrice": null,
       "salePrice": null,
@@ -11579,14 +11565,12 @@
       "dealScores": {
         "inside": 75,
         "oceanview": 100,
-        "balcony": 96,
-        "suite": 10
+        "balcony": 96
       },
       "valueScores": {
         "inside": 96,
         "oceanview": 97,
-        "balcony": 91,
-        "suite": 88
+        "balcony": 91
       },
       "priceHistory": [
         {
@@ -11624,7 +11608,7 @@
         "inside": 41,
         "oceanview": 36,
         "balcony": 32,
-        "suite": 17
+        "suite": null
       },
       "recommendScore": 41
     },
@@ -11847,7 +11831,7 @@
       },
       "valueScores": {
         "balcony": 81,
-        "suite": 88
+        "suite": 84
       },
       "priceHistory": [
         {
@@ -11957,7 +11941,7 @@
         "suite": 100
       },
       "valueScores": {
-        "suite": 93
+        "suite": 91
       },
       "priceHistory": [
         {
@@ -12120,7 +12104,7 @@
         "inside": 78,
         "oceanview": 84,
         "balcony": 65,
-        "suite": 85
+        "suite": 80
       },
       "priceHistory": [
         {
@@ -12285,7 +12269,7 @@
         "inside": 77,
         "oceanview": 85,
         "balcony": 64,
-        "suite": 83
+        "suite": 77
       },
       "priceHistory": [
         {
@@ -12470,7 +12454,7 @@
         "inside": 66,
         "oceanview": 75,
         "balcony": 60,
-        "suite": 72
+        "suite": 63
       },
       "priceHistory": [
         {
@@ -12642,7 +12626,7 @@
       "valueScores": {
         "oceanview": 75,
         "balcony": 62,
-        "suite": 84
+        "suite": 78
       },
       "priceHistory": [
         {
@@ -12812,7 +12796,7 @@
         "inside": 84,
         "oceanview": 89,
         "balcony": 74,
-        "suite": 88
+        "suite": 84
       },
       "priceHistory": [
         {
@@ -12993,7 +12977,7 @@
         "inside": 84,
         "oceanview": 89,
         "balcony": 74,
-        "suite": 88
+        "suite": 84
       },
       "priceHistory": [
         {
@@ -13164,7 +13148,7 @@
         "inside": 85,
         "oceanview": 90,
         "balcony": 75,
-        "suite": 88
+        "suite": 84
       },
       "priceHistory": [
         {
@@ -13323,7 +13307,7 @@
         "inside": 86,
         "oceanview": 90,
         "balcony": 76,
-        "suite": 89
+        "suite": 85
       },
       "priceHistory": [
         {
@@ -13492,7 +13476,7 @@
         "inside": 82,
         "oceanview": 88,
         "balcony": 72,
-        "suite": 86
+        "suite": 82
       },
       "priceHistory": [
         {
@@ -13661,7 +13645,7 @@
         "inside": 79,
         "oceanview": 86,
         "balcony": 70,
-        "suite": 85
+        "suite": 80
       },
       "priceHistory": [
         {
@@ -13820,7 +13804,7 @@
         "inside": 79,
         "oceanview": 86,
         "balcony": 69,
-        "suite": 85
+        "suite": 80
       },
       "priceHistory": [
         {
@@ -13979,7 +13963,7 @@
         "inside": 78,
         "oceanview": 85,
         "balcony": 68,
-        "suite": 84
+        "suite": 79
       },
       "priceHistory": [
         {
@@ -14168,7 +14152,7 @@
         "inside": 89,
         "oceanview": 92,
         "balcony": 80,
-        "suite": 92
+        "suite": 89
       },
       "priceHistory": [
         {
@@ -14519,7 +14503,7 @@
         "inside": 90,
         "oceanview": 93,
         "balcony": 80,
-        "suite": 93
+        "suite": 90
       },
       "priceHistory": [
         {
@@ -14696,7 +14680,7 @@
         "inside": 81,
         "oceanview": 89,
         "balcony": 68,
-        "suite": 87
+        "suite": 83
       },
       "priceHistory": [
         {
@@ -15008,14 +14992,12 @@
       "days": 14,
       "cabinPrices": {
         "inside": 3399,
-        "oceanview": 2699,
         "balcony": 5399,
         "suite": 5639,
         "currency": "USD"
       },
       "perNight": {
         "inside": 261,
-        "oceanview": 208,
         "balcony": 415,
         "suite": 434
       },
@@ -15051,15 +15033,13 @@
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 14,
-        "oceanview": 52,
         "balcony": 33,
         "suite": 36
       },
       "valueScores": {
         "inside": 76,
-        "oceanview": 92,
         "balcony": 68,
-        "suite": 87
+        "suite": 83
       },
       "priceHistory": [
         {
@@ -15255,11 +15235,11 @@
       ],
       "recommendScores": {
         "inside": 27,
-        "oceanview": 37,
+        "oceanview": null,
         "balcony": 22,
         "suite": 23
       },
-      "recommendScore": 37
+      "recommendScore": 27
     },
     {
       "num": 88,
@@ -15454,7 +15434,7 @@
         "inside": 67,
         "oceanview": 79,
         "balcony": 70,
-        "suite": 77
+        "suite": 69
       },
       "priceHistory": [
         {
@@ -15631,7 +15611,7 @@
         "inside": 87,
         "oceanview": 92,
         "balcony": 81,
-        "suite": 92
+        "suite": 90
       },
       "priceHistory": [
         {
@@ -15818,7 +15798,7 @@
         "inside": 89,
         "oceanview": 94,
         "balcony": 83,
-        "suite": 93
+        "suite": 91
       },
       "priceHistory": [
         {
@@ -16300,7 +16280,7 @@
         "inside": 98,
         "oceanview": 96,
         "balcony": 93,
-        "suite": 90
+        "suite": 87
       },
       "priceHistory": [
         {
@@ -16580,14 +16560,12 @@
       "days": 7,
       "cabinPrices": {
         "inside": 866,
-        "oceanview": 2957,
         "balcony": 1360,
         "suite": 3150,
         "currency": "USD"
       },
       "perNight": {
         "inside": 144,
-        "oceanview": 493,
         "balcony": 227,
         "suite": 525
       },
@@ -16623,15 +16601,13 @@
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 51,
-        "oceanview": 0,
         "balcony": 68,
         "suite": 8
       },
       "valueScores": {
         "inside": 93,
-        "oceanview": 67,
         "balcony": 89,
-        "suite": 82
+        "suite": 77
       },
       "priceHistory": [
         {
@@ -16741,7 +16717,7 @@
       ],
       "recommendScores": {
         "inside": 29,
-        "oceanview": 7,
+        "oceanview": null,
         "balcony": 24,
         "suite": 10
       },
@@ -16854,7 +16830,7 @@
         "inside": 88,
         "oceanview": 93,
         "balcony": 60,
-        "suite": 88
+        "suite": 84
       },
       "priceHistory": [
         {
@@ -16983,7 +16959,7 @@
         "inside": 95,
         "oceanview": 97,
         "balcony": 96,
-        "suite": 91
+        "suite": 89
       },
       "priceHistory": [
         {
@@ -17118,7 +17094,7 @@
         "inside": 90,
         "oceanview": 95,
         "balcony": 88,
-        "suite": 87
+        "suite": 83
       },
       "priceHistory": [
         {
@@ -17259,7 +17235,7 @@
         "inside": 93,
         "oceanview": 96,
         "balcony": 90,
-        "suite": 88
+        "suite": 84
       },
       "priceHistory": [
         {
@@ -17582,7 +17558,7 @@
         "inside": 93,
         "oceanview": 97,
         "balcony": 92,
-        "suite": 93
+        "suite": 91
       },
       "priceHistory": [
         {
@@ -17915,7 +17891,7 @@
         "inside": 93,
         "oceanview": 98,
         "balcony": 96,
-        "suite": 95
+        "suite": 94
       },
       "priceHistory": [
         {
@@ -18246,7 +18222,7 @@
         "inside": 94,
         "oceanview": 97,
         "balcony": 88,
-        "suite": 86
+        "suite": 82
       },
       "priceHistory": [
         {
@@ -18381,7 +18357,7 @@
         "inside": 90,
         "oceanview": 95,
         "balcony": 88,
-        "suite": 87
+        "suite": 83
       },
       "priceHistory": [
         {
@@ -18570,7 +18546,7 @@
         "inside": 85,
         "oceanview": 93,
         "balcony": 84,
-        "suite": 91
+        "suite": 88
       },
       "priceHistory": [
         {
@@ -19165,16 +19141,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -19461,7 +19437,7 @@
         "inside": 98,
         "oceanview": 99,
         "balcony": 99,
-        "suite": 96
+        "suite": 94
       },
       "priceHistory": [
         {
@@ -19577,16 +19553,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -19711,16 +19687,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -19891,7 +19867,7 @@
         "inside": 83,
         "oceanview": 92,
         "balcony": 80,
-        "suite": 90
+        "suite": 86
       },
       "priceHistory": [
         {
@@ -19982,16 +19958,10 @@
       "days": 6,
       "cabinPrices": {
         "inside": 667,
-        "oceanview": 2246,
-        "balcony": 3385,
-        "suite": 4524,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 133,
-        "oceanview": 449,
-        "balcony": 677,
-        "suite": 905
+        "inside": 133
       },
       "origPrice": 667,
       "salePrice": 667,
@@ -20002,16 +19972,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -20020,16 +19990,10 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 90,
-        "oceanview": 44,
-        "balcony": 0,
-        "suite": 0
+        "inside": 90
       },
       "valueScores": {
-        "inside": 95,
-        "oceanview": 71,
-        "balcony": 39,
-        "suite": 64
+        "inside": 95
       },
       "priceHistory": [
         {
@@ -20223,9 +20187,9 @@
       ],
       "recommendScores": {
         "inside": 28,
-        "oceanview": 6,
-        "balcony": 3,
-        "suite": 4
+        "oceanview": null,
+        "balcony": null,
+        "suite": null
       },
       "recommendScore": 28
     },
@@ -20336,7 +20300,7 @@
         "inside": 96,
         "oceanview": 97,
         "balcony": 97,
-        "suite": 97
+        "suite": 96
       },
       "priceHistory": [
         {
@@ -20494,14 +20458,12 @@
         "inside": 2669,
         "oceanview": 2472,
         "balcony": 3872,
-        "suite": 5569,
         "currency": "USD"
       },
       "perNight": {
         "inside": 157,
         "oceanview": 145,
-        "balcony": 228,
-        "suite": 328
+        "balcony": 228
       },
       "origPrice": 5312,
       "salePrice": 2138,
@@ -20536,14 +20498,12 @@
       "dealScores": {
         "inside": 85,
         "oceanview": 90,
-        "balcony": 83,
-        "suite": 79
+        "balcony": 83
       },
       "valueScores": {
         "inside": 91,
         "oceanview": 97,
-        "balcony": 89,
-        "suite": 92
+        "balcony": 89
       },
       "priceHistory": [
         {
@@ -20751,7 +20711,7 @@
         "inside": 48,
         "oceanview": 55,
         "balcony": 45,
-        "suite": 31
+        "suite": null
       },
       "recommendScore": 55
     },
@@ -20868,7 +20828,7 @@
         "inside": 97,
         "oceanview": 98,
         "balcony": 98,
-        "suite": 98
+        "suite": 97
       },
       "priceHistory": [
         {
@@ -21193,7 +21153,7 @@
         "inside": 92,
         "oceanview": 95,
         "balcony": 94,
-        "suite": 96
+        "suite": 94
       },
       "priceHistory": [
         {
@@ -21370,7 +21330,7 @@
         "inside": 92,
         "oceanview": 96,
         "balcony": 92,
-        "suite": 86
+        "suite": 81
       },
       "priceHistory": [
         {
@@ -21518,7 +21478,7 @@
         "inside": 95,
         "oceanview": 97,
         "balcony": 96,
-        "suite": 97
+        "suite": 95
       },
       "priceHistory": [
         {
@@ -21653,7 +21613,7 @@
         "inside": 90,
         "oceanview": 94,
         "balcony": 92,
-        "suite": 95
+        "suite": 93
       },
       "priceHistory": [
         {
@@ -21972,7 +21932,7 @@
         "inside": 87,
         "oceanview": 92,
         "balcony": 90,
-        "suite": 94
+        "suite": 92
       },
       "priceHistory": [
         {
@@ -22086,14 +22046,12 @@
       "days": 11,
       "cabinPrices": {
         "inside": 2254,
-        "oceanview": 2655,
         "balcony": 4554,
         "suite": 4554,
         "currency": "USD"
       },
       "perNight": {
         "inside": 225,
-        "oceanview": 266,
         "balcony": 455,
         "suite": 455
       },
@@ -22129,15 +22087,13 @@
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 71,
-        "oceanview": 57,
         "balcony": 36,
         "suite": 59
       },
       "valueScores": {
         "inside": 81,
-        "oceanview": 87,
         "balcony": 64,
-        "suite": 86
+        "suite": 81
       },
       "priceHistory": [
         {
@@ -22343,7 +22299,7 @@
       ],
       "recommendScores": {
         "inside": 39,
-        "oceanview": 34,
+        "oceanview": null,
         "balcony": 25,
         "suite": 26
       },
@@ -22642,7 +22598,7 @@
         "inside": 87,
         "oceanview": 92,
         "balcony": 90,
-        "suite": 94
+        "suite": 92
       },
       "priceHistory": [
         {
@@ -22742,16 +22698,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -22958,7 +22914,7 @@
         "inside": 64,
         "oceanview": 80,
         "balcony": 65,
-        "suite": 79
+        "suite": 72
       },
       "priceHistory": [
         {
@@ -23246,16 +23202,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -23441,7 +23397,7 @@
         "inside": 92,
         "oceanview": 97,
         "balcony": 88,
-        "suite": 86
+        "suite": 81
       },
       "priceHistory": [
         {
@@ -23590,7 +23546,7 @@
         "inside": 87,
         "oceanview": 92,
         "balcony": 90,
-        "suite": 94
+        "suite": 92
       },
       "priceHistory": [
         {
@@ -23809,7 +23765,7 @@
         "inside": 70,
         "oceanview": 85,
         "balcony": 71,
-        "suite": 77
+        "suite": 70
       },
       "priceHistory": [
         {
@@ -24134,7 +24090,7 @@
         "inside": 87,
         "oceanview": 92,
         "balcony": 90,
-        "suite": 94
+        "suite": 92
       },
       "priceHistory": [
         {
@@ -24256,14 +24212,12 @@
         "inside": 3014,
         "oceanview": 2914,
         "balcony": 3439,
-        "suite": 6326,
         "currency": "USD"
       },
       "perNight": {
         "inside": 274,
         "oceanview": 265,
-        "balcony": 313,
-        "suite": 575
+        "balcony": 313
       },
       "origPrice": 3578,
       "salePrice": 2561,
@@ -24298,14 +24252,12 @@
       "dealScores": {
         "inside": 62,
         "oceanview": 58,
-        "balcony": 65,
-        "suite": 41
+        "balcony": 65
       },
       "valueScores": {
         "inside": 74,
         "oceanview": 87,
-        "balcony": 80,
-        "suite": 80
+        "balcony": 80
       },
       "priceHistory": [
         {
@@ -24513,7 +24465,7 @@
         "inside": 29,
         "oceanview": 31,
         "balcony": 34,
-        "suite": 18
+        "suite": null
       },
       "recommendScore": 34
     },
@@ -24668,7 +24620,7 @@
       "valueScores": {
         "inside": 85,
         "balcony": 88,
-        "suite": 69
+        "suite": 59
       },
       "priceHistory": [
         {
@@ -24820,7 +24772,7 @@
         "inside": 84,
         "oceanview": 90,
         "balcony": 87,
-        "suite": 92
+        "suite": 90
       },
       "priceHistory": [
         {
@@ -24992,7 +24944,7 @@
         "inside": 91,
         "oceanview": 95,
         "balcony": 90,
-        "suite": 92
+        "suite": 89
       },
       "priceHistory": [
         {
@@ -25276,7 +25228,7 @@
       "valueScores": {
         "inside": 84,
         "balcony": 0,
-        "suite": 37
+        "suite": 16
       },
       "priceHistory": [
         {
@@ -25402,7 +25354,7 @@
         "inside": 92,
         "oceanview": 95,
         "balcony": 94,
-        "suite": 96
+        "suite": 94
       },
       "priceHistory": [
         {
@@ -25567,7 +25519,7 @@
         "inside": 92,
         "oceanview": 92,
         "balcony": 87,
-        "suite": 93
+        "suite": 91
       },
       "priceHistory": [
         {
@@ -26073,7 +26025,7 @@
         "inside": 96,
         "oceanview": 97,
         "balcony": 97,
-        "suite": 97
+        "suite": 96
       },
       "priceHistory": [
         {
@@ -26238,7 +26190,7 @@
         "inside": 85,
         "oceanview": 90,
         "balcony": 68,
-        "suite": 85
+        "suite": 80
       },
       "priceHistory": [
         {
@@ -26874,7 +26826,7 @@
         "inside": 84,
         "oceanview": 91,
         "balcony": 85,
-        "suite": 83
+        "suite": 78
       },
       "priceHistory": [
         {
@@ -27152,14 +27104,12 @@
         "inside": 2569,
         "oceanview": 2772,
         "balcony": 3760,
-        "suite": 2289,
         "currency": "USD"
       },
       "perNight": {
         "inside": 367,
         "oceanview": 396,
-        "balcony": 537,
-        "suite": 327
+        "balcony": 537
       },
       "origPrice": 3149,
       "salePrice": 2569,
@@ -27194,14 +27144,12 @@
       "dealScores": {
         "inside": 44,
         "oceanview": 22,
-        "balcony": 19,
-        "suite": 79
+        "balcony": 19
       },
       "valueScores": {
         "inside": 61,
         "oceanview": 76,
-        "balcony": 55,
-        "suite": 92
+        "balcony": 55
       },
       "priceHistory": [
         {
@@ -27399,9 +27347,9 @@
         "inside": 18,
         "oceanview": 17,
         "balcony": 15,
-        "suite": 30
+        "suite": null
       },
-      "recommendScore": 30
+      "recommendScore": 18
     },
     {
       "num": 145,
@@ -27542,14 +27490,12 @@
       "nights": 18,
       "days": 19,
       "cabinPrices": {
-        "inside": 1404,
         "oceanview": 4411,
         "balcony": 6795,
         "suite": 9170,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 78,
         "oceanview": 245,
         "balcony": 378,
         "suite": 509
@@ -27585,16 +27531,14 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 100,
         "oceanview": 63,
         "balcony": 52,
         "suite": 51
       },
       "valueScores": {
-        "inside": 100,
         "oceanview": 89,
         "balcony": 73,
-        "suite": 83
+        "suite": 78
       },
       "priceHistory": [
         {
@@ -27789,12 +27733,12 @@
         }
       ],
       "recommendScores": {
-        "inside": 94,
+        "inside": null,
         "oceanview": 29,
         "balcony": 23,
         "suite": 18
       },
-      "recommendScore": 94
+      "recommendScore": 29
     },
     {
       "num": 146,
@@ -27903,7 +27847,7 @@
         "inside": 95,
         "oceanview": 97,
         "balcony": 96,
-        "suite": 96
+        "suite": 95
       },
       "priceHistory": [
         {
@@ -28092,7 +28036,7 @@
         "inside": 84,
         "oceanview": 91,
         "balcony": 82,
-        "suite": 86
+        "suite": 81
       },
       "priceHistory": [
         {
@@ -28240,7 +28184,7 @@
         "inside": 83,
         "oceanview": 89,
         "balcony": 86,
-        "suite": 92
+        "suite": 89
       },
       "priceHistory": [
         {
@@ -28731,7 +28675,7 @@
         "inside": 54,
         "oceanview": 70,
         "balcony": 61,
-        "suite": 76
+        "suite": 68
       },
       "priceHistory": [
         {
@@ -28867,7 +28811,7 @@
         "inside": 97,
         "oceanview": 98,
         "balcony": 98,
-        "suite": 98
+        "suite": 97
       },
       "priceHistory": [
         {
@@ -29005,16 +28949,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -29242,7 +29186,7 @@
         "inside": 69,
         "oceanview": 82,
         "balcony": 62,
-        "suite": 80
+        "suite": 74
       },
       "priceHistory": [
         {
@@ -29567,7 +29511,7 @@
         "inside": 97,
         "oceanview": 98,
         "balcony": 98,
-        "suite": 98
+        "suite": 97
       },
       "priceHistory": [
         {
@@ -29898,7 +29842,7 @@
         "inside": 60,
         "oceanview": 75,
         "balcony": 47,
-        "suite": 71
+        "suite": 61
       },
       "priceHistory": [
         {
@@ -30224,7 +30168,7 @@
       "valueScores": {
         "oceanview": 93,
         "balcony": 87,
-        "suite": 92
+        "suite": 90
       },
       "priceHistory": [
         {
@@ -30412,7 +30356,7 @@
         "inside": 84,
         "oceanview": 90,
         "balcony": 72,
-        "suite": 87
+        "suite": 83
       },
       "priceHistory": [
         {
@@ -30737,7 +30681,7 @@
         "inside": 97,
         "oceanview": 99,
         "balcony": 98,
-        "suite": 97
+        "suite": 96
       },
       "priceHistory": [
         {
@@ -30926,7 +30870,7 @@
         "inside": 82,
         "oceanview": 90,
         "balcony": 75,
-        "suite": 91
+        "suite": 88
       },
       "priceHistory": [
         {
@@ -31275,7 +31219,7 @@
         "inside": 92,
         "oceanview": 91,
         "balcony": 90,
-        "suite": 91
+        "suite": 88
       },
       "priceHistory": [
         {
@@ -31428,7 +31372,7 @@
         "inside": 93,
         "oceanview": 95,
         "balcony": 94,
-        "suite": 95
+        "suite": 93
       },
       "priceHistory": [
         {
@@ -31695,7 +31639,7 @@
         "inside": 86,
         "oceanview": 93,
         "balcony": 84,
-        "suite": 88
+        "suite": 84
       },
       "priceHistory": [
         {
@@ -32060,7 +32004,7 @@
         "inside": 73,
         "oceanview": 83,
         "balcony": 69,
-        "suite": 80
+        "suite": 73
       },
       "priceHistory": [
         {
@@ -32537,7 +32481,7 @@
         "inside": 84,
         "oceanview": 89,
         "balcony": 69,
-        "suite": 88
+        "suite": 84
       },
       "priceHistory": [
         {
@@ -33202,7 +33146,7 @@
         "inside": 85,
         "oceanview": 93,
         "balcony": 88,
-        "suite": 92
+        "suite": 90
       },
       "priceHistory": [
         {
@@ -33553,7 +33497,7 @@
         "inside": 51,
         "oceanview": 70,
         "balcony": 0,
-        "suite": 57
+        "suite": 43
       },
       "priceHistory": [
         {
@@ -33913,7 +33857,7 @@
         "inside": 82,
         "oceanview": 91,
         "balcony": 72,
-        "suite": 89
+        "suite": 86
       },
       "priceHistory": [
         {
@@ -34231,7 +34175,7 @@
         "inside": 87,
         "oceanview": 91,
         "balcony": 75,
-        "suite": 89
+        "suite": 85
       },
       "priceHistory": [
         {
@@ -34582,7 +34526,7 @@
         "inside": 57,
         "oceanview": 74,
         "balcony": 46,
-        "suite": 66
+        "suite": 55
       },
       "priceHistory": [
         {
@@ -34748,7 +34692,7 @@
         "inside": 47,
         "oceanview": 65,
         "balcony": 54,
-        "suite": 68
+        "suite": 57
       },
       "priceHistory": [
         {
@@ -35094,7 +35038,7 @@
         "inside": 82,
         "oceanview": 87,
         "balcony": 65,
-        "suite": 82
+        "suite": 76
       },
       "priceHistory": [
         {
@@ -35423,13 +35367,11 @@
       "cabinPrices": {
         "inside": 2499,
         "oceanview": 2699,
-        "balcony": 8529,
         "currency": "USD"
       },
       "perNight": {
         "inside": 179,
-        "oceanview": 193,
-        "balcony": 609
+        "oceanview": 193
       },
       "origPrice": 3584,
       "salePrice": 2344,
@@ -35463,13 +35405,11 @@
       "source": "vacationstogo.com",
       "dealScores": {
         "inside": 50,
-        "oceanview": 54,
-        "balcony": 0
+        "oceanview": 54
       },
       "valueScores": {
         "inside": 88,
-        "oceanview": 93,
-        "balcony": 47
+        "oceanview": 93
       },
       "priceHistory": [
         {
@@ -35645,7 +35585,7 @@
       "recommendScores": {
         "inside": 51,
         "oceanview": 49,
-        "balcony": 18,
+        "balcony": null,
         "suite": null
       },
       "recommendScore": 51
@@ -35789,7 +35729,7 @@
         "inside": 81,
         "oceanview": 90,
         "balcony": 71,
-        "suite": 82
+        "suite": 77
       },
       "priceHistory": [
         {
@@ -36308,7 +36248,7 @@
         "inside": 88,
         "oceanview": 86,
         "balcony": 72,
-        "suite": 25
+        "suite": 0
       },
       "priceHistory": [
         {
@@ -36487,7 +36427,7 @@
         "inside": 90,
         "oceanview": 90,
         "balcony": 80,
-        "suite": 91
+        "suite": 88
       },
       "priceHistory": [
         {
@@ -36854,7 +36794,7 @@
         "inside": 84,
         "oceanview": 89,
         "balcony": 84,
-        "suite": 91
+        "suite": 87
       },
       "priceHistory": [
         {
@@ -37173,7 +37113,7 @@
         "inside": 94,
         "oceanview": 95,
         "balcony": 93,
-        "suite": 94
+        "suite": 92
       },
       "priceHistory": [
         {
@@ -37500,7 +37440,7 @@
         "inside": 51,
         "oceanview": 66,
         "balcony": 53,
-        "suite": 72
+        "suite": 63
       },
       "priceHistory": [
         {
@@ -37692,7 +37632,7 @@
         "inside": 55,
         "oceanview": 71,
         "balcony": 57,
-        "suite": 72
+        "suite": 62
       },
       "priceHistory": [
         {
@@ -37882,7 +37822,7 @@
         "inside": 87,
         "oceanview": 91,
         "balcony": 63,
-        "suite": 75
+        "suite": 67
       },
       "priceHistory": [
         {
@@ -38051,7 +37991,7 @@
         "inside": 85,
         "oceanview": 92,
         "balcony": 81,
-        "suite": 91
+        "suite": 88
       },
       "priceHistory": [
         {
@@ -38225,7 +38165,7 @@
         "inside": 92,
         "oceanview": 95,
         "balcony": 88,
-        "suite": 94
+        "suite": 91
       },
       "priceHistory": [
         {
@@ -38432,7 +38372,7 @@
         "inside": 88,
         "oceanview": 92,
         "balcony": 80,
-        "suite": 73
+        "suite": 64
       },
       "priceHistory": [
         {
@@ -38621,7 +38561,7 @@
         "inside": 57,
         "oceanview": 72,
         "balcony": 62,
-        "suite": 74
+        "suite": 66
       },
       "priceHistory": [
         {
@@ -38853,7 +38793,7 @@
         "inside": 92,
         "oceanview": 95,
         "balcony": 87,
-        "suite": 92
+        "suite": 89
       },
       "priceHistory": [
         {
@@ -39198,7 +39138,7 @@
         "inside": 95,
         "oceanview": 98,
         "balcony": 95,
-        "suite": 98
+        "suite": 97
       },
       "priceHistory": [
         {
@@ -39567,7 +39507,7 @@
       "valueScores": {
         "inside": 86,
         "oceanview": 90,
-        "suite": 75
+        "suite": 67
       },
       "priceHistory": [
         {
@@ -39742,7 +39682,7 @@
         "inside": 90,
         "oceanview": 92,
         "balcony": 80,
-        "suite": 91
+        "suite": 88
       },
       "priceHistory": [
         {
@@ -40097,7 +40037,7 @@
         "inside": 93,
         "oceanview": 96,
         "balcony": 91,
-        "suite": 94
+        "suite": 92
       },
       "priceHistory": [
         {
@@ -40301,7 +40241,7 @@
       },
       "valueScores": {
         "inside": 43,
-        "suite": 84
+        "suite": 79
       },
       "priceHistory": [
         {
@@ -40515,7 +40455,7 @@
         "inside": 94,
         "oceanview": 97,
         "balcony": 93,
-        "suite": 97
+        "suite": 95
       },
       "priceHistory": [
         {
@@ -40872,7 +40812,7 @@
         "inside": 96,
         "oceanview": 97,
         "balcony": 92,
-        "suite": 97
+        "suite": 96
       },
       "priceHistory": [
         {
@@ -41239,7 +41179,7 @@
         "inside": 87,
         "oceanview": 92,
         "balcony": 83,
-        "suite": 75
+        "suite": 66
       },
       "priceHistory": [
         {
@@ -41406,7 +41346,7 @@
         "inside": 97,
         "oceanview": 97,
         "balcony": 91,
-        "suite": 95
+        "suite": 94
       },
       "priceHistory": [
         {
@@ -41773,7 +41713,7 @@
         "inside": 87,
         "oceanview": 92,
         "balcony": 83,
-        "suite": 77
+        "suite": 70
       },
       "priceHistory": [
         {
@@ -41934,7 +41874,7 @@
         "inside": 98,
         "oceanview": 99,
         "balcony": 95,
-        "suite": 97
+        "suite": 96
       },
       "priceHistory": [
         {
@@ -42301,7 +42241,7 @@
         "inside": 88,
         "oceanview": 92,
         "balcony": 84,
-        "suite": 82
+        "suite": 75
       },
       "priceHistory": [
         {
@@ -42463,7 +42403,7 @@
       },
       "valueScores": {
         "inside": 27,
-        "suite": 79
+        "suite": 72
       },
       "priceHistory": [
         {
@@ -42636,7 +42576,7 @@
         "inside": 97,
         "oceanview": 98,
         "balcony": 91,
-        "suite": 94
+        "suite": 91
       },
       "priceHistory": [
         {
@@ -43003,7 +42943,7 @@
         "inside": 88,
         "oceanview": 92,
         "balcony": 84,
-        "suite": 80
+        "suite": 73
       },
       "priceHistory": [
         {
@@ -43170,7 +43110,7 @@
         "inside": 96,
         "oceanview": 97,
         "balcony": 92,
-        "suite": 97
+        "suite": 96
       },
       "priceHistory": [
         {
@@ -43537,7 +43477,7 @@
         "inside": 90,
         "oceanview": 93,
         "balcony": 85,
-        "suite": 80
+        "suite": 73
       },
       "priceHistory": [
         {
@@ -43699,7 +43639,7 @@
       },
       "valueScores": {
         "inside": 27,
-        "suite": 79
+        "suite": 72
       },
       "priceHistory": [
         {
@@ -43871,7 +43811,7 @@
         "inside": 95,
         "oceanview": 97,
         "balcony": 94,
-        "suite": 95
+        "suite": 93
       },
       "priceHistory": [
         {
@@ -44238,7 +44178,7 @@
         "inside": 91,
         "oceanview": 94,
         "balcony": 81,
-        "suite": 80
+        "suite": 74
       },
       "priceHistory": [
         {
@@ -44400,7 +44340,7 @@
       },
       "valueScores": {
         "inside": 31,
-        "suite": 80
+        "suite": 74
       },
       "priceHistory": [
         {
@@ -44584,7 +44524,7 @@
         "inside": 92,
         "oceanview": 96,
         "balcony": 88,
-        "suite": 93
+        "suite": 91
       },
       "priceHistory": [
         {
@@ -44951,7 +44891,7 @@
         "inside": 91,
         "oceanview": 94,
         "balcony": 84,
-        "suite": 80
+        "suite": 74
       },
       "priceHistory": [
         {
@@ -45113,7 +45053,7 @@
       },
       "valueScores": {
         "inside": 36,
-        "suite": 82
+        "suite": 76
       },
       "priceHistory": [
         {
@@ -45307,7 +45247,7 @@
         "inside": 55,
         "oceanview": 69,
         "balcony": 54,
-        "suite": 72
+        "suite": 63
       },
       "priceHistory": [
         {
@@ -45491,7 +45431,7 @@
         "inside": 87,
         "oceanview": 90,
         "balcony": 74,
-        "suite": 77
+        "suite": 69
       },
       "priceHistory": [
         {
@@ -45652,7 +45592,7 @@
         "inside": 88,
         "oceanview": 94,
         "balcony": 80,
-        "suite": 92
+        "suite": 89
       },
       "priceHistory": [
         {
@@ -46109,7 +46049,7 @@
         "inside": 95,
         "oceanview": 98,
         "balcony": 93,
-        "suite": 95
+        "suite": 94
       },
       "priceHistory": [
         {
@@ -46451,7 +46391,7 @@
       },
       "valueScores": {
         "inside": 23,
-        "suite": 77
+        "suite": 70
       },
       "priceHistory": [
         {
@@ -46606,7 +46546,7 @@
       },
       "valueScores": {
         "inside": 22,
-        "suite": 77
+        "suite": 70
       },
       "priceHistory": [
         {
@@ -46788,7 +46728,7 @@
         "inside": 85,
         "oceanview": 91,
         "balcony": 67,
-        "suite": 75
+        "suite": 66
       },
       "priceHistory": [
         {
@@ -46977,7 +46917,7 @@
         "inside": 89,
         "oceanview": 94,
         "balcony": 86,
-        "suite": 92
+        "suite": 89
       },
       "priceHistory": [
         {
@@ -47313,7 +47253,7 @@
       },
       "valueScores": {
         "inside": 25,
-        "suite": 78
+        "suite": 71
       },
       "priceHistory": [
         {
@@ -47485,7 +47425,7 @@
         "inside": 51,
         "oceanview": 63,
         "balcony": 48,
-        "suite": 63
+        "suite": 50
       },
       "priceHistory": [
         {
@@ -47699,7 +47639,7 @@
         "inside": 93,
         "oceanview": 96,
         "balcony": 91,
-        "suite": 95
+        "suite": 93
       },
       "priceHistory": [
         {
@@ -48162,7 +48102,7 @@
         "inside": 90,
         "oceanview": 95,
         "balcony": 88,
-        "suite": 93
+        "suite": 91
       },
       "priceHistory": [
         {
@@ -48527,7 +48467,7 @@
         "inside": 52,
         "oceanview": 64,
         "balcony": 48,
-        "suite": 62
+        "suite": 49
       },
       "priceHistory": [
         {
@@ -48700,7 +48640,7 @@
         "inside": 6,
         "oceanview": 45,
         "balcony": 12,
-        "suite": 72
+        "suite": 62
       },
       "priceHistory": [
         {
@@ -49036,7 +48976,7 @@
         "inside": 88,
         "oceanview": 92,
         "balcony": 85,
-        "suite": 91
+        "suite": 89
       },
       "priceHistory": [
         {
@@ -49405,7 +49345,7 @@
         "inside": 90,
         "oceanview": 95,
         "balcony": 88,
-        "suite": 94
+        "suite": 91
       },
       "priceHistory": [
         {
@@ -49752,7 +49692,7 @@
         "inside": 58,
         "oceanview": 67,
         "balcony": 51,
-        "suite": 63
+        "suite": 50
       },
       "priceHistory": [
         {
@@ -49948,7 +49888,7 @@
         "inside": 87,
         "oceanview": 91,
         "balcony": 84,
-        "suite": 89
+        "suite": 85
       },
       "priceHistory": [
         {
@@ -50287,7 +50227,7 @@
       "valueScores": {
         "inside": 10,
         "balcony": 35,
-        "suite": 73
+        "suite": 64
       },
       "priceHistory": [
         {
@@ -50566,7 +50506,7 @@
         "inside": 92,
         "oceanview": 95,
         "balcony": 90,
-        "suite": 94
+        "suite": 93
       },
       "priceHistory": [
         {
@@ -50925,7 +50865,7 @@
         "inside": 81,
         "oceanview": 88,
         "balcony": 79,
-        "suite": 69
+        "suite": 59
       },
       "priceHistory": [
         {
@@ -51249,7 +51189,7 @@
         "inside": 90,
         "oceanview": 94,
         "balcony": 89,
-        "suite": 93
+        "suite": 90
       },
       "priceHistory": [
         {
@@ -51353,14 +51293,12 @@
         "inside": 1819,
         "oceanview": 2019,
         "balcony": 2469,
-        "suite": 17499,
         "currency": "USD"
       },
       "perNight": {
         "inside": 227,
         "oceanview": 252,
-        "balcony": 309,
-        "suite": 2187
+        "balcony": 309
       },
       "origPrice": 1999,
       "salePrice": 1819,
@@ -51391,14 +51329,12 @@
       "dealScores": {
         "inside": 74,
         "oceanview": 76,
-        "balcony": 75,
-        "suite": 0
+        "balcony": 75
       },
       "valueScores": {
         "inside": 81,
         "oceanview": 88,
-        "balcony": 80,
-        "suite": 0
+        "balcony": 80
       },
       "priceHistory": [
         {
@@ -51549,7 +51485,7 @@
         "inside": 26,
         "oceanview": 24,
         "balcony": 25,
-        "suite": 3
+        "suite": null
       },
       "recommendScore": 26
     },
@@ -51714,7 +51650,7 @@
         "inside": 91,
         "oceanview": 94,
         "balcony": 84,
-        "suite": 77
+        "suite": 70
       },
       "priceHistory": [
         {
@@ -51903,7 +51839,7 @@
         "inside": 88,
         "oceanview": 93,
         "balcony": 88,
-        "suite": 92
+        "suite": 90
       },
       "priceHistory": [
         {
@@ -52249,7 +52185,7 @@
         "inside": 6,
         "oceanview": 45,
         "balcony": 12,
-        "suite": 72
+        "suite": 62
       },
       "priceHistory": [
         {
@@ -52391,7 +52327,7 @@
         "suite": 0
       },
       "valueScores": {
-        "suite": 64
+        "suite": 52
       },
       "priceHistory": [
         {
@@ -52549,7 +52485,7 @@
         "inside": 56,
         "oceanview": 66,
         "balcony": 48,
-        "suite": 60
+        "suite": 46
       },
       "priceHistory": [
         {
@@ -52745,7 +52681,7 @@
         "inside": 89,
         "oceanview": 93,
         "balcony": 84,
-        "suite": 77
+        "suite": 70
       },
       "priceHistory": [
         {
@@ -52911,7 +52847,7 @@
         "inside": 6,
         "oceanview": 45,
         "balcony": 12,
-        "suite": 72
+        "suite": 62
       },
       "priceHistory": [
         {
@@ -53091,7 +53027,7 @@
         "inside": 89,
         "oceanview": 92,
         "balcony": 88,
-        "suite": 77
+        "suite": 69
       },
       "priceHistory": [
         {
@@ -53280,7 +53216,7 @@
         "inside": 57,
         "oceanview": 71,
         "balcony": 55,
-        "suite": 73
+        "suite": 64
       },
       "priceHistory": [
         {
@@ -53448,7 +53384,7 @@
         "inside": 56,
         "oceanview": 66,
         "balcony": 48,
-        "suite": 60
+        "suite": 46
       },
       "priceHistory": [
         {
@@ -53621,7 +53557,7 @@
         "inside": 6,
         "oceanview": 45,
         "balcony": 12,
-        "suite": 72
+        "suite": 62
       },
       "priceHistory": [
         {
@@ -53801,7 +53737,7 @@
         "inside": 87,
         "oceanview": 90,
         "balcony": 86,
-        "suite": 77
+        "suite": 70
       },
       "priceHistory": [
         {
@@ -53982,7 +53918,7 @@
       "valueScores": {
         "inside": 54,
         "balcony": 45,
-        "suite": 58
+        "suite": 45
       },
       "priceHistory": [
         {
@@ -54177,7 +54113,7 @@
         "inside": 57,
         "oceanview": 71,
         "balcony": 56,
-        "suite": 73
+        "suite": 64
       },
       "priceHistory": [
         {
@@ -54350,7 +54286,7 @@
         "inside": 6,
         "oceanview": 45,
         "balcony": 12,
-        "suite": 72
+        "suite": 62
       },
       "priceHistory": [
         {
@@ -54523,7 +54459,7 @@
         "inside": 6,
         "oceanview": 45,
         "balcony": 12,
-        "suite": 72
+        "suite": 62
       },
       "priceHistory": [
         {
@@ -54685,7 +54621,7 @@
       "valueScores": {
         "inside": 6,
         "balcony": 32,
-        "suite": 71
+        "suite": 62
       },
       "priceHistory": [
         {
@@ -54841,7 +54777,7 @@
       },
       "valueScores": {
         "inside": 5,
-        "suite": 71
+        "suite": 62
       },
       "priceHistory": [
         {
@@ -55012,7 +54948,7 @@
         "inside": 6,
         "oceanview": 45,
         "balcony": 12,
-        "suite": 72
+        "suite": 62
       },
       "priceHistory": [
         {
@@ -55412,7 +55348,7 @@
         "inside": 51,
         "oceanview": 72,
         "balcony": 59,
-        "suite": 80
+        "suite": 73
       },
       "priceHistory": [
         {
@@ -55608,7 +55544,7 @@
         "inside": 61,
         "oceanview": 75,
         "balcony": 68,
-        "suite": 84
+        "suite": 78
       },
       "priceHistory": [
         {
@@ -55810,7 +55746,7 @@
         "inside": 76,
         "oceanview": 86,
         "balcony": 81,
-        "suite": 90
+        "suite": 86
       },
       "priceHistory": [
         {
@@ -56025,7 +55961,7 @@
         "inside": 71,
         "oceanview": 83,
         "balcony": 67,
-        "suite": 86
+        "suite": 81
       },
       "priceHistory": [
         {
@@ -56424,7 +56360,7 @@
         "inside": 53,
         "oceanview": 74,
         "balcony": 52,
-        "suite": 67
+        "suite": 56
       },
       "priceHistory": [
         {
@@ -56636,7 +56572,7 @@
         "inside": 48,
         "oceanview": 68,
         "balcony": 47,
-        "suite": 74
+        "suite": 65
       },
       "priceHistory": [
         {
@@ -56733,16 +56669,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -57003,16 +56939,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -57248,7 +57184,7 @@
         "inside": 89,
         "oceanview": 93,
         "balcony": 68,
-        "suite": 88
+        "suite": 84
       },
       "priceHistory": [
         {
@@ -57384,16 +57320,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -58221,16 +58157,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -58341,16 +58277,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -58521,12 +58457,10 @@
       "days": 11,
       "cabinPrices": {
         "inside": 5917,
-        "balcony": 5917,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 592,
-        "balcony": 592
+        "inside": 592
       },
       "origPrice": 6395,
       "salePrice": 5917,
@@ -58559,12 +58493,10 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 0,
-        "balcony": 8
+        "inside": 0
       },
       "valueScores": {
-        "inside": 28,
-        "balcony": 49
+        "inside": 28
       },
       "priceHistory": [
         {
@@ -58593,10 +58525,10 @@
       "recommendScores": {
         "inside": 18,
         "oceanview": null,
-        "balcony": 24,
+        "balcony": null,
         "suite": null
       },
-      "recommendScore": 24
+      "recommendScore": 18
     },
     {
       "num": 278,
@@ -58666,16 +58598,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -58782,16 +58714,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -58809,7 +58741,7 @@
         "inside": 88,
         "oceanview": 93,
         "balcony": 89,
-        "suite": 96
+        "suite": 94
       },
       "priceHistory": [
         {
@@ -58940,7 +58872,7 @@
       "valueScores": {
         "inside": 59,
         "balcony": 73,
-        "suite": 90
+        "suite": 86
       },
       "priceHistory": [
         {
@@ -59056,16 +58988,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -59275,7 +59207,7 @@
       },
       "valueScores": {
         "inside": 80,
-        "suite": 97
+        "suite": 96
       },
       "priceHistory": [
         {
@@ -59415,7 +59347,7 @@
         "inside": 84,
         "oceanview": 91,
         "balcony": 82,
-        "suite": 82
+        "suite": 76
       },
       "priceHistory": [
         {
@@ -59897,7 +59829,7 @@
         "suite": 100
       },
       "valueScores": {
-        "suite": 96
+        "suite": 95
       },
       "priceHistory": [
         {
@@ -59996,16 +59928,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -60418,7 +60350,7 @@
         "inside": 68,
         "oceanview": 80,
         "balcony": 84,
-        "suite": 60
+        "suite": 47
       },
       "priceHistory": [
         {
@@ -60621,7 +60553,7 @@
         "inside": 82,
         "oceanview": 89,
         "balcony": 88,
-        "suite": 82
+        "suite": 76
       },
       "priceHistory": [
         {
@@ -61017,7 +60949,7 @@
         "inside": 85,
         "oceanview": 89,
         "balcony": 82,
-        "suite": 85
+        "suite": 81
       },
       "priceHistory": [
         {
@@ -61307,16 +61239,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -61432,16 +61364,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -61546,16 +61478,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -61662,16 +61594,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -61776,16 +61708,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -61898,16 +61830,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -62010,16 +61942,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -62117,16 +62049,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -62221,16 +62153,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -62331,16 +62263,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -62435,16 +62367,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -62539,16 +62471,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -62645,16 +62577,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -62752,16 +62684,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -62864,16 +62796,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -62977,16 +62909,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -63083,16 +63015,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -63233,7 +63165,7 @@
         "inside": 80,
         "oceanview": 87,
         "balcony": 84,
-        "suite": 91
+        "suite": 88
       },
       "priceHistory": [
         {
@@ -63332,16 +63264,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -63509,7 +63441,7 @@
         "inside": 83,
         "oceanview": 89,
         "balcony": 86,
-        "suite": 86
+        "suite": 81
       },
       "priceHistory": [
         {
@@ -63602,16 +63534,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -63710,16 +63642,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -63826,16 +63758,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -63932,16 +63864,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -64045,16 +63977,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -64157,16 +64089,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -64264,16 +64196,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -64368,16 +64300,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -64572,7 +64504,7 @@
       },
       "valueScores": {
         "inside": 66,
-        "suite": 92
+        "suite": 89
       },
       "priceHistory": [
         {
@@ -64730,7 +64662,7 @@
         "inside": 94,
         "oceanview": 94,
         "balcony": 93,
-        "suite": 94
+        "suite": 92
       },
       "priceHistory": [
         {
@@ -64984,7 +64916,7 @@
       "valueScores": {
         "inside": 94,
         "balcony": 97,
-        "suite": 96
+        "suite": 95
       },
       "priceHistory": [
         {
@@ -65220,7 +65152,7 @@
         "inside": 96,
         "oceanview": 95,
         "balcony": 88,
-        "suite": 93
+        "suite": 91
       },
       "priceHistory": [
         {
@@ -65390,7 +65322,7 @@
       "valueScores": {
         "inside": 79,
         "balcony": 88,
-        "suite": 86
+        "suite": 81
       },
       "priceHistory": [
         {
@@ -65579,7 +65511,7 @@
         "inside": 87,
         "oceanview": 93,
         "balcony": 79,
-        "suite": 87
+        "suite": 83
       },
       "priceHistory": [
         {
@@ -65824,7 +65756,7 @@
         "inside": 70,
         "oceanview": 77,
         "balcony": 71,
-        "suite": 78
+        "suite": 71
       },
       "priceHistory": [
         {
@@ -65998,7 +65930,7 @@
       "valueScores": {
         "inside": 73,
         "balcony": 1,
-        "suite": 58
+        "suite": 44
       },
       "priceHistory": [
         {
@@ -66133,7 +66065,7 @@
         "inside": 91,
         "oceanview": 94,
         "balcony": 93,
-        "suite": 95
+        "suite": 93
       },
       "priceHistory": [
         {
@@ -66286,7 +66218,7 @@
         "inside": 94,
         "oceanview": 93,
         "balcony": 91,
-        "suite": 93
+        "suite": 91
       },
       "priceHistory": [
         {
@@ -66481,7 +66413,7 @@
         "inside": 76,
         "oceanview": 87,
         "balcony": 7,
-        "suite": 60
+        "suite": 47
       },
       "priceHistory": [
         {
@@ -66623,7 +66555,7 @@
         "inside": 96,
         "oceanview": 97,
         "balcony": 97,
-        "suite": 97
+        "suite": 95
       },
       "priceHistory": [
         {
@@ -66758,7 +66690,7 @@
         "inside": 93,
         "oceanview": 96,
         "balcony": 95,
-        "suite": 95
+        "suite": 93
       },
       "priceHistory": [
         {
@@ -67057,7 +66989,7 @@
         "inside": 98,
         "oceanview": 100,
         "balcony": 98,
-        "suite": 99
+        "suite": 98
       },
       "priceHistory": [
         {
@@ -67255,7 +67187,7 @@
         "inside": 92,
         "oceanview": 91,
         "balcony": 78,
-        "suite": 88
+        "suite": 84
       },
       "priceHistory": [
         {
@@ -67580,7 +67512,7 @@
         "inside": 93,
         "oceanview": 96,
         "balcony": 94,
-        "suite": 94
+        "suite": 92
       },
       "priceHistory": [
         {
@@ -67725,7 +67657,7 @@
         "inside": 93,
         "oceanview": 95,
         "balcony": 95,
-        "suite": 94
+        "suite": 92
       },
       "priceHistory": [
         {
@@ -67920,7 +67852,7 @@
         "inside": 95,
         "oceanview": 99,
         "balcony": 98,
-        "suite": 95
+        "suite": 93
       },
       "priceHistory": [
         {
@@ -68235,7 +68167,7 @@
         "inside": 90,
         "oceanview": 94,
         "balcony": 92,
-        "suite": 92
+        "suite": 90
       },
       "priceHistory": [
         {
@@ -68404,7 +68336,7 @@
         "inside": 82,
         "oceanview": 89,
         "balcony": 85,
-        "suite": 88
+        "suite": 85
       },
       "priceHistory": [
         {
@@ -68693,7 +68625,7 @@
         "inside": 89,
         "oceanview": 94,
         "balcony": 90,
-        "suite": 94
+        "suite": 92
       },
       "priceHistory": [
         {
@@ -69008,7 +68940,7 @@
         "inside": 87,
         "oceanview": 91,
         "balcony": 89,
-        "suite": 93
+        "suite": 90
       },
       "priceHistory": [
         {
@@ -69137,7 +69069,7 @@
         "inside": 94,
         "oceanview": 96,
         "balcony": 67,
-        "suite": 91
+        "suite": 88
       },
       "priceHistory": [
         {
@@ -69266,7 +69198,7 @@
         "inside": 93,
         "oceanview": 95,
         "balcony": 94,
-        "suite": 91
+        "suite": 88
       },
       "priceHistory": [
         {
@@ -69467,7 +69399,7 @@
         "inside": 94,
         "oceanview": 94,
         "balcony": 90,
-        "suite": 94
+        "suite": 92
       },
       "priceHistory": [
         {
@@ -69788,7 +69720,7 @@
         "inside": 99,
         "oceanview": 99,
         "balcony": 99,
-        "suite": 93
+        "suite": 91
       },
       "priceHistory": [
         {
@@ -69941,7 +69873,7 @@
         "inside": 93,
         "oceanview": 95,
         "balcony": 94,
-        "suite": 95
+        "suite": 93
       },
       "priceHistory": [
         {
@@ -70086,7 +70018,7 @@
         "inside": 93,
         "oceanview": 96,
         "balcony": 94,
-        "suite": 93
+        "suite": 91
       },
       "priceHistory": [
         {
@@ -70281,7 +70213,7 @@
         "inside": 95,
         "oceanview": 99,
         "balcony": 92,
-        "suite": 95
+        "suite": 93
       },
       "priceHistory": [
         {
@@ -70590,7 +70522,7 @@
         "inside": 98,
         "oceanview": 99,
         "balcony": 98,
-        "suite": 97
+        "suite": 96
       },
       "priceHistory": [
         {
@@ -70859,7 +70791,7 @@
         "inside": 85,
         "oceanview": 92,
         "balcony": 84,
-        "suite": 90
+        "suite": 86
       },
       "priceHistory": [
         {
@@ -71171,7 +71103,7 @@
         "inside": 92,
         "oceanview": 94,
         "balcony": 92,
-        "suite": 90
+        "suite": 87
       },
       "priceHistory": [
         {
@@ -71462,7 +71394,7 @@
         "inside": 87,
         "oceanview": 91,
         "balcony": 74,
-        "suite": 88
+        "suite": 84
       },
       "priceHistory": [
         {
@@ -71811,7 +71743,7 @@
       },
       "valueScores": {
         "inside": 23,
-        "suite": 77
+        "suite": 70
       },
       "priceHistory": [
         {
@@ -72323,7 +72255,7 @@
         "inside": 86,
         "oceanview": 92,
         "balcony": 93,
-        "suite": 88
+        "suite": 85
       },
       "priceHistory": [
         {
@@ -72681,7 +72613,7 @@
         "inside": 94,
         "oceanview": 96,
         "balcony": 95,
-        "suite": 96
+        "suite": 94
       },
       "priceHistory": [
         {
@@ -72810,7 +72742,7 @@
         "inside": 94,
         "oceanview": 97,
         "balcony": 89,
-        "suite": 87
+        "suite": 82
       },
       "priceHistory": [
         {
@@ -72945,7 +72877,7 @@
         "inside": 93,
         "oceanview": 96,
         "balcony": 95,
-        "suite": 96
+        "suite": 94
       },
       "priceHistory": [
         {
@@ -73268,7 +73200,7 @@
         "inside": 95,
         "oceanview": 96,
         "balcony": 95,
-        "suite": 95
+        "suite": 94
       },
       "priceHistory": [
         {
@@ -73507,7 +73439,7 @@
         "inside": 77,
         "oceanview": 88,
         "balcony": 82,
-        "suite": 87
+        "suite": 83
       },
       "priceHistory": [
         {
@@ -73801,7 +73733,7 @@
         "inside": 48,
         "oceanview": 66,
         "balcony": 55,
-        "suite": 68
+        "suite": 58
       },
       "priceHistory": [
         {
@@ -73937,7 +73869,7 @@
         "inside": 92,
         "oceanview": 95,
         "balcony": 93,
-        "suite": 95
+        "suite": 93
       },
       "priceHistory": [
         {
@@ -74134,7 +74066,7 @@
         "inside": 67,
         "oceanview": 81,
         "balcony": 67,
-        "suite": 83
+        "suite": 77
       },
       "priceHistory": [
         {
@@ -74275,14 +74207,12 @@
         "inside": 4649,
         "oceanview": 4999,
         "balcony": 6549,
-        "suite": 9449,
         "currency": "USD"
       },
       "perNight": {
         "inside": 358,
         "oceanview": 385,
-        "balcony": 504,
-        "suite": 727
+        "balcony": 504
       },
       "origPrice": 10198,
       "salePrice": 4080,
@@ -74313,14 +74243,12 @@
       "dealScores": {
         "inside": 43,
         "oceanview": 45,
-        "balcony": 67,
-        "suite": 43
+        "balcony": 67
       },
       "valueScores": {
         "inside": 62,
         "oceanview": 77,
-        "balcony": 59,
-        "suite": 72
+        "balcony": 59
       },
       "priceHistory": [
         {
@@ -74345,7 +74273,7 @@
         "inside": 50,
         "oceanview": 48,
         "balcony": 48,
-        "suite": 32
+        "suite": null
       },
       "recommendScore": 50
     },
@@ -74516,7 +74444,7 @@
         "inside": 88,
         "oceanview": 93,
         "balcony": 80,
-        "suite": 81
+        "suite": 75
       },
       "priceHistory": [
         {
@@ -74713,13 +74641,11 @@
       "nights": 14,
       "days": 15,
       "cabinPrices": {
-        "inside": 6162,
         "balcony": 6417,
         "suite": 9477,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 440,
         "balcony": 458,
         "suite": 677
       },
@@ -74744,14 +74670,12 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 17,
         "balcony": 73,
         "suite": 50
       },
       "valueScores": {
-        "inside": 50,
         "balcony": 64,
-        "suite": 75
+        "suite": 66
       },
       "priceHistory": [
         {
@@ -74772,7 +74696,7 @@
         }
       ],
       "recommendScores": {
-        "inside": 37,
+        "inside": null,
         "oceanview": null,
         "balcony": 49,
         "suite": 32
@@ -75083,7 +75007,7 @@
       },
       "valueScores": {
         "inside": 42,
-        "suite": 84
+        "suite": 79
       },
       "priceHistory": [
         {
@@ -75241,7 +75165,7 @@
         "inside": 94,
         "oceanview": 94,
         "balcony": 95,
-        "suite": 95
+        "suite": 94
       },
       "priceHistory": [
         {
@@ -75444,7 +75368,7 @@
         "inside": 72,
         "oceanview": 78,
         "balcony": 69,
-        "suite": 79
+        "suite": 72
       },
       "priceHistory": [
         {
@@ -75595,7 +75519,7 @@
       },
       "valueScores": {
         "inside": 0,
-        "suite": 69
+        "suite": 59
       },
       "priceHistory": [
         {
@@ -75783,7 +75707,7 @@
         "inside": 91,
         "oceanview": 89,
         "balcony": 86,
-        "suite": 88
+        "suite": 84
       },
       "priceHistory": [
         {
@@ -76006,7 +75930,7 @@
       "valueScores": {
         "inside": 70,
         "balcony": 81,
-        "suite": 72
+        "suite": 63
       },
       "priceHistory": [
         {
@@ -76219,7 +76143,7 @@
         "inside": 100,
         "oceanview": 100,
         "balcony": 100,
-        "suite": 98
+        "suite": 97
       },
       "priceHistory": [
         {
@@ -76408,7 +76332,7 @@
         "inside": 88,
         "oceanview": 93,
         "balcony": 85,
-        "suite": 88
+        "suite": 83
       },
       "priceHistory": [
         {
@@ -76848,7 +76772,7 @@
         "inside": 90,
         "oceanview": 91,
         "balcony": 84,
-        "suite": 92
+        "suite": 90
       },
       "priceHistory": [
         {
@@ -77197,7 +77121,7 @@
       },
       "valueScores": {
         "inside": 29,
-        "suite": 79
+        "suite": 73
       },
       "priceHistory": [
         {
@@ -77379,7 +77303,7 @@
         "inside": 87,
         "oceanview": 90,
         "balcony": 72,
-        "suite": 78
+        "suite": 70
       },
       "priceHistory": [
         {
@@ -77588,7 +77512,7 @@
         "inside": 68,
         "oceanview": 77,
         "balcony": 66,
-        "suite": 77
+        "suite": 69
       },
       "priceHistory": [
         {
@@ -77780,7 +77704,7 @@
         "inside": 95,
         "oceanview": 98,
         "balcony": 88,
-        "suite": 96
+        "suite": 94
       },
       "priceHistory": [
         {
@@ -78406,7 +78330,7 @@
         "inside": 89,
         "oceanview": 91,
         "balcony": 91,
-        "suite": 93
+        "suite": 90
       },
       "priceHistory": [
         {
@@ -78566,7 +78490,7 @@
         "inside": 19,
         "oceanview": 53,
         "balcony": 30,
-        "suite": 76
+        "suite": 68
       },
       "priceHistory": [
         {
@@ -78740,7 +78664,7 @@
         "inside": 64,
         "oceanview": 74,
         "balcony": 63,
-        "suite": 70
+        "suite": 60
       },
       "priceHistory": [
         {
@@ -79064,7 +78988,7 @@
         "inside": 86,
         "oceanview": 91,
         "balcony": 84,
-        "suite": 90
+        "suite": 87
       },
       "priceHistory": [
         {
@@ -79261,7 +79185,7 @@
       },
       "valueScores": {
         "inside": 12,
-        "suite": 74
+        "suite": 65
       },
       "priceHistory": [
         {
@@ -79409,7 +79333,7 @@
       "valueScores": {
         "inside": 10,
         "balcony": 35,
-        "suite": 73
+        "suite": 64
       },
       "priceHistory": [
         {
@@ -79688,7 +79612,7 @@
         "inside": 94,
         "oceanview": 97,
         "balcony": 92,
-        "suite": 95
+        "suite": 93
       },
       "priceHistory": [
         {
@@ -80041,7 +79965,7 @@
         "inside": 64,
         "oceanview": 72,
         "balcony": 58,
-        "suite": 67
+        "suite": 56
       },
       "priceHistory": [
         {
@@ -80233,7 +80157,7 @@
         "inside": 93,
         "oceanview": 93,
         "balcony": 90,
-        "suite": 89
+        "suite": 85
       },
       "priceHistory": [
         {
@@ -80578,7 +80502,7 @@
         "inside": 95,
         "oceanview": 97,
         "balcony": 95,
-        "suite": 97
+        "suite": 95
       },
       "priceHistory": [
         {
@@ -80769,7 +80693,7 @@
         "inside": 92,
         "oceanview": 94,
         "balcony": 87,
-        "suite": 94
+        "suite": 92
       },
       "priceHistory": [
         {
@@ -81004,7 +80928,7 @@
         "inside": 94,
         "oceanview": 95,
         "balcony": 86,
-        "suite": 84
+        "suite": 79
       },
       "priceHistory": [
         {
@@ -81170,7 +81094,7 @@
         "inside": 33,
         "oceanview": 62,
         "balcony": 39,
-        "suite": 81
+        "suite": 75
       },
       "priceHistory": [
         {
@@ -81342,7 +81266,7 @@
         "inside": 96,
         "oceanview": 98,
         "balcony": 97,
-        "suite": 97
+        "suite": 96
       },
       "priceHistory": [
         {
@@ -81503,7 +81427,7 @@
         "inside": 68,
         "oceanview": 74,
         "balcony": 61,
-        "suite": 68
+        "suite": 57
       },
       "priceHistory": [
         {
@@ -81689,7 +81613,7 @@
         "inside": 89,
         "oceanview": 93,
         "balcony": 88,
-        "suite": 88
+        "suite": 84
       },
       "priceHistory": [
         {
@@ -82018,7 +81942,7 @@
       "valueScores": {
         "inside": 0,
         "balcony": 27,
-        "suite": 70
+        "suite": 60
       },
       "priceHistory": [
         {
@@ -82192,7 +82116,7 @@
         "inside": 68,
         "oceanview": 74,
         "balcony": 61,
-        "suite": 68
+        "suite": 57
       },
       "priceHistory": [
         {
@@ -82400,7 +82324,7 @@
         "inside": 73,
         "oceanview": 80,
         "balcony": 68,
-        "suite": 78
+        "suite": 71
       },
       "priceHistory": [
         {
@@ -82586,7 +82510,7 @@
         "inside": 89,
         "oceanview": 92,
         "balcony": 87,
-        "suite": 77
+        "suite": 69
       },
       "priceHistory": [
         {
@@ -82769,7 +82693,7 @@
         "inside": 88,
         "oceanview": 93,
         "balcony": 85,
-        "suite": 78
+        "suite": 71
       },
       "priceHistory": [
         {
@@ -82958,7 +82882,7 @@
         "inside": 84,
         "oceanview": 92,
         "balcony": 84,
-        "suite": 91
+        "suite": 88
       },
       "priceHistory": [
         {
@@ -83287,7 +83211,7 @@
       "valueScores": {
         "inside": 0,
         "balcony": 27,
-        "suite": 70
+        "suite": 60
       },
       "priceHistory": [
         {
@@ -83490,7 +83414,7 @@
         "inside": 71,
         "oceanview": 80,
         "balcony": 71,
-        "suite": 78
+        "suite": 71
       },
       "priceHistory": [
         {
@@ -83720,7 +83644,7 @@
       "valueScores": {
         "inside": 64,
         "balcony": 77,
-        "suite": 70
+        "suite": 60
       },
       "priceHistory": [
         {
@@ -84384,7 +84308,7 @@
       "valueScores": {
         "inside": 45,
         "balcony": 63,
-        "suite": 66
+        "suite": 55
       },
       "priceHistory": [
         {
@@ -84574,7 +84498,7 @@
       "valueScores": {
         "inside": 46,
         "balcony": 63,
-        "suite": 66
+        "suite": 55
       },
       "priceHistory": [
         {
@@ -84769,7 +84693,7 @@
         "inside": 87,
         "oceanview": 93,
         "balcony": 72,
-        "suite": 89
+        "suite": 86
       },
       "priceHistory": [
         {
@@ -84898,7 +84822,7 @@
         "inside": 96,
         "oceanview": 97,
         "balcony": 97,
-        "suite": 97
+        "suite": 96
       },
       "priceHistory": [
         {
@@ -85035,14 +84959,12 @@
       "nights": 14,
       "days": 15,
       "cabinPrices": {
-        "inside": 2152,
         "oceanview": 2299,
         "balcony": 2799,
         "suite": 3499,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 154,
         "oceanview": 164,
         "balcony": 200,
         "suite": 250
@@ -85078,16 +85000,14 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 71,
         "oceanview": 76,
         "balcony": 95,
         "suite": 89
       },
       "valueScores": {
-        "inside": 92,
         "oceanview": 96,
         "balcony": 92,
-        "suite": 96
+        "suite": 95
       },
       "priceHistory": [
         {
@@ -85111,7 +85031,7 @@
         }
       ],
       "recommendScores": {
-        "inside": 48,
+        "inside": null,
         "oceanview": 46,
         "balcony": 50,
         "suite": 39
@@ -85281,7 +85201,7 @@
         "inside": 88,
         "oceanview": 93,
         "balcony": 87,
-        "suite": 92
+        "suite": 89
       },
       "priceHistory": [
         {
@@ -85472,7 +85392,7 @@
         "inside": 82,
         "oceanview": 87,
         "balcony": 86,
-        "suite": 77
+        "suite": 70
       },
       "priceHistory": [
         {
@@ -85675,7 +85595,7 @@
         "inside": 91,
         "oceanview": 95,
         "balcony": 92,
-        "suite": 96
+        "suite": 94
       },
       "priceHistory": [
         {
@@ -86215,7 +86135,7 @@
         "inside": 87,
         "oceanview": 92,
         "balcony": 83,
-        "suite": 66
+        "suite": 55
       },
       "priceHistory": [
         {
@@ -86703,14 +86623,12 @@
         "inside": 6764,
         "oceanview": 7334,
         "balcony": 9994,
-        "suite": 8999,
         "currency": "USD"
       },
       "perNight": {
         "inside": 161,
         "oceanview": 175,
-        "balcony": 238,
-        "suite": 214
+        "balcony": 238
       },
       "origPrice": 9484,
       "salePrice": 6643,
@@ -86745,14 +86663,12 @@
       "dealScores": {
         "inside": 64,
         "oceanview": 68,
-        "balcony": 86,
-        "suite": 100
+        "balcony": 86
       },
       "valueScores": {
         "inside": 91,
         "oceanview": 95,
-        "balcony": 88,
-        "suite": 98
+        "balcony": 88
       },
       "priceHistory": [
         {
@@ -86950,9 +86866,9 @@
         "inside": 39,
         "oceanview": 37,
         "balcony": 35,
-        "suite": 40
+        "suite": null
       },
-      "recommendScore": 40
+      "recommendScore": 39
     },
     {
       "num": 426,
@@ -87107,7 +87023,7 @@
       "valueScores": {
         "inside": 86,
         "balcony": 42,
-        "suite": 76
+        "suite": 68
       },
       "priceHistory": [
         {
@@ -87279,7 +87195,7 @@
         "inside": 85,
         "oceanview": 91,
         "balcony": 87,
-        "suite": 72
+        "suite": 63
       },
       "priceHistory": [
         {
@@ -87648,7 +87564,7 @@
         "inside": 86,
         "oceanview": 91,
         "balcony": 83,
-        "suite": 90
+        "suite": 86
       },
       "priceHistory": [
         {
@@ -87881,7 +87797,7 @@
         "inside": 83,
         "oceanview": 90,
         "balcony": 88,
-        "suite": 72
+        "suite": 63
       },
       "priceHistory": [
         {
@@ -88500,7 +88416,7 @@
         "inside": 86,
         "oceanview": 91,
         "balcony": 85,
-        "suite": 87
+        "suite": 83
       },
       "priceHistory": [
         {
@@ -88691,7 +88607,7 @@
         "inside": 84,
         "oceanview": 89,
         "balcony": 78,
-        "suite": 84
+        "suite": 79
       },
       "priceHistory": [
         {
@@ -88865,17 +88781,13 @@
       "nights": 19,
       "days": 20,
       "cabinPrices": {
-        "inside": 3999,
         "oceanview": 3599,
         "balcony": 4589,
-        "suite": 13729,
         "currency": "USD"
       },
       "perNight": {
-        "inside": 210,
         "oceanview": 189,
-        "balcony": 242,
-        "suite": 723
+        "balcony": 242
       },
       "origPrice": 5389,
       "salePrice": 3599,
@@ -88904,16 +88816,12 @@
       "isBusanRelated": false,
       "source": "vacationstogo.com",
       "dealScores": {
-        "inside": 77,
         "oceanview": 86,
-        "balcony": 85,
-        "suite": 92
+        "balcony": 85
       },
       "valueScores": {
-        "inside": 83,
         "oceanview": 94,
-        "balcony": 88,
-        "suite": 73
+        "balcony": 88
       },
       "priceHistory": [
         {
@@ -89108,10 +89016,10 @@
         }
       ],
       "recommendScores": {
-        "inside": 19,
+        "inside": null,
         "oceanview": 23,
         "balcony": 22,
-        "suite": 7
+        "suite": null
       },
       "recommendScore": 23
     },
@@ -89533,7 +89441,7 @@
       "valueScores": {
         "inside": 48,
         "balcony": 64,
-        "suite": 76
+        "suite": 68
       },
       "priceHistory": [
         {
@@ -90031,7 +89939,7 @@
       "valueScores": {
         "inside": 40,
         "balcony": 58,
-        "suite": 52
+        "suite": 36
       },
       "priceHistory": [
         {
@@ -90204,7 +90112,7 @@
         "inside": 60,
         "oceanview": 70,
         "balcony": 66,
-        "suite": 78
+        "suite": 71
       },
       "priceHistory": [
         {
@@ -90373,7 +90281,7 @@
       },
       "valueScores": {
         "inside": 39,
-        "suite": 83
+        "suite": 77
       },
       "priceHistory": [
         {
@@ -90560,7 +90468,7 @@
       "valueScores": {
         "inside": 40,
         "balcony": 58,
-        "suite": 55
+        "suite": 40
       },
       "priceHistory": [
         {
@@ -90751,7 +90659,7 @@
         "inside": 69,
         "oceanview": 81,
         "balcony": 69,
-        "suite": 79
+        "suite": 72
       },
       "priceHistory": [
         {
@@ -90935,7 +90843,7 @@
         "inside": 64,
         "oceanview": 75,
         "balcony": 61,
-        "suite": 75
+        "suite": 66
       },
       "priceHistory": [
         {
@@ -91125,7 +91033,7 @@
         "inside": 64,
         "oceanview": 75,
         "balcony": 61,
-        "suite": 75
+        "suite": 67
       },
       "priceHistory": [
         {
@@ -91307,7 +91215,7 @@
       "valueScores": {
         "inside": 38,
         "balcony": 57,
-        "suite": 62
+        "suite": 50
       },
       "priceHistory": [
         {
@@ -91488,7 +91396,7 @@
       "valueScores": {
         "inside": 41,
         "balcony": 59,
-        "suite": 62
+        "suite": 50
       },
       "priceHistory": [
         {
@@ -91683,7 +91591,7 @@
         "inside": 94,
         "oceanview": 97,
         "balcony": 92,
-        "suite": 95
+        "suite": 94
       },
       "priceHistory": [
         {
@@ -91832,7 +91740,7 @@
         "inside": 65,
         "oceanview": 69,
         "balcony": 57,
-        "suite": 68
+        "suite": 58
       },
       "priceHistory": [
         {
@@ -92012,7 +91920,7 @@
         "inside": 92,
         "oceanview": 92,
         "balcony": 85,
-        "suite": 81
+        "suite": 75
       },
       "priceHistory": [
         {
@@ -92249,7 +92157,7 @@
         "inside": 97,
         "oceanview": 98,
         "balcony": 95,
-        "suite": 96
+        "suite": 95
       },
       "priceHistory": [
         {
@@ -92582,7 +92490,7 @@
       },
       "valueScores": {
         "inside": 15,
-        "suite": 75
+        "suite": 66
       },
       "priceHistory": [
         {
@@ -92776,7 +92684,7 @@
         "inside": 97,
         "oceanview": 98,
         "balcony": 95,
-        "suite": 97
+        "suite": 96
       },
       "priceHistory": [
         {
@@ -92949,7 +92857,7 @@
         "inside": 89,
         "oceanview": 93,
         "balcony": 91,
-        "suite": 82
+        "suite": 76
       },
       "priceHistory": [
         {
@@ -93102,7 +93010,7 @@
       },
       "valueScores": {
         "inside": 22,
-        "suite": 77
+        "suite": 69
       },
       "priceHistory": [
         {
@@ -93262,7 +93170,7 @@
         "inside": 65,
         "oceanview": 73,
         "balcony": 61,
-        "suite": 69
+        "suite": 59
       },
       "priceHistory": [
         {
@@ -93477,7 +93385,7 @@
         "inside": 93,
         "oceanview": 96,
         "balcony": 91,
-        "suite": 93
+        "suite": 91
       },
       "priceHistory": [
         {
@@ -93662,7 +93570,7 @@
         "inside": 83,
         "oceanview": 90,
         "balcony": 86,
-        "suite": 81
+        "suite": 75
       },
       "priceHistory": [
         {
@@ -93854,7 +93762,7 @@
         "inside": 64,
         "oceanview": 70,
         "balcony": 58,
-        "suite": 68
+        "suite": 57
       },
       "priceHistory": [
         {
@@ -94038,7 +93946,7 @@
         "inside": 93,
         "oceanview": 96,
         "balcony": 90,
-        "suite": 94
+        "suite": 92
       },
       "priceHistory": [
         {
@@ -94211,7 +94119,7 @@
         "inside": 61,
         "oceanview": 73,
         "balcony": 59,
-        "suite": 68
+        "suite": 58
       },
       "priceHistory": [
         {
@@ -94355,7 +94263,7 @@
       "valueScores": {
         "inside": 4,
         "balcony": 31,
-        "suite": 71
+        "suite": 61
       },
       "priceHistory": [
         {
@@ -94541,7 +94449,7 @@
         "inside": 89,
         "oceanview": 93,
         "balcony": 90,
-        "suite": 80
+        "suite": 73
       },
       "priceHistory": [
         {
@@ -94730,7 +94638,7 @@
         "inside": 94,
         "oceanview": 97,
         "balcony": 93,
-        "suite": 95
+        "suite": 94
       },
       "priceHistory": [
         {
@@ -95161,7 +95069,7 @@
         "inside": 86,
         "oceanview": 90,
         "balcony": 82,
-        "suite": 74
+        "suite": 65
       },
       "priceHistory": [
         {
@@ -95334,7 +95242,7 @@
         "inside": 65,
         "oceanview": 73,
         "balcony": 59,
-        "suite": 68
+        "suite": 57
       },
       "priceHistory": [
         {
@@ -95478,7 +95386,7 @@
       "valueScores": {
         "inside": 10,
         "balcony": 35,
-        "suite": 73
+        "suite": 64
       },
       "priceHistory": [
         {
@@ -95759,7 +95667,7 @@
         "inside": 86,
         "oceanview": 89,
         "balcony": 81,
-        "suite": 79
+        "suite": 72
       },
       "priceHistory": [
         {
@@ -95896,7 +95804,7 @@
       "valueScores": {
         "inside": 10,
         "balcony": 35,
-        "suite": 73
+        "suite": 64
       },
       "priceHistory": [
         {
@@ -96030,14 +95938,12 @@
         "inside": 2769,
         "oceanview": 3419,
         "balcony": 4319,
-        "suite": 16695,
         "currency": "USD"
       },
       "perNight": {
         "inside": 231,
         "oceanview": 285,
-        "balcony": 360,
-        "suite": 1391
+        "balcony": 360
       },
       "origPrice": 2969,
       "salePrice": 2769,
@@ -96068,14 +95974,12 @@
       "dealScores": {
         "inside": 73,
         "oceanview": 70,
-        "balcony": 68,
-        "suite": 50
+        "balcony": 68
       },
       "valueScores": {
         "inside": 80,
         "oceanview": 85,
-        "balcony": 75,
-        "suite": 39
+        "balcony": 75
       },
       "priceHistory": [
         {
@@ -96273,7 +96177,7 @@
         "inside": 16,
         "oceanview": 13,
         "balcony": 13,
-        "suite": 3
+        "suite": null
       },
       "recommendScore": 16
     },
@@ -96422,7 +96326,7 @@
         "inside": 62,
         "oceanview": 76,
         "balcony": 65,
-        "suite": 76
+        "suite": 68
       },
       "priceHistory": [
         {
@@ -96615,7 +96519,7 @@
         "inside": 64,
         "oceanview": 77,
         "balcony": 66,
-        "suite": 76
+        "suite": 68
       },
       "priceHistory": [
         {
@@ -96804,7 +96708,7 @@
       "valueScores": {
         "inside": 41,
         "balcony": 59,
-        "suite": 62
+        "suite": 50
       },
       "priceHistory": [
         {
@@ -96933,7 +96837,7 @@
         "inside": 100,
         "oceanview": 100,
         "balcony": 100,
-        "suite": 97
+        "suite": 96
       },
       "priceHistory": [
         {
@@ -97288,7 +97192,7 @@
         "inside": 17,
         "oceanview": 52,
         "balcony": 27,
-        "suite": 57
+        "suite": 43
       },
       "priceHistory": [
         {
@@ -98206,7 +98110,7 @@
         "inside": 91,
         "oceanview": 94,
         "balcony": 91,
-        "suite": 92
+        "suite": 90
       },
       "priceHistory": [
         {
@@ -98335,7 +98239,7 @@
         "inside": 95,
         "oceanview": 97,
         "balcony": 96,
-        "suite": 97
+        "suite": 96
       },
       "priceHistory": [
         {
@@ -98922,7 +98826,7 @@
         "inside": 93,
         "oceanview": 96,
         "balcony": 95,
-        "suite": 96
+        "suite": 95
       },
       "priceHistory": [
         {
@@ -99342,16 +99246,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -99603,7 +99507,7 @@
         "inside": 95,
         "oceanview": 97,
         "balcony": 91,
-        "suite": 96
+        "suite": 94
       },
       "priceHistory": [
         {
@@ -99732,7 +99636,7 @@
         "inside": 95,
         "oceanview": 96,
         "balcony": 96,
-        "suite": 97
+        "suite": 95
       },
       "priceHistory": [
         {
@@ -100318,7 +100222,7 @@
         "inside": 87,
         "oceanview": 92,
         "balcony": 90,
-        "suite": 94
+        "suite": 92
       },
       "priceHistory": [
         {
@@ -100676,7 +100580,7 @@
         "inside": 87,
         "oceanview": 92,
         "balcony": 90,
-        "suite": 94
+        "suite": 92
       },
       "priceHistory": [
         {
@@ -101149,7 +101053,7 @@
         "inside": 87,
         "oceanview": 92,
         "balcony": 90,
-        "suite": 94
+        "suite": 92
       },
       "priceHistory": [
         {
@@ -101608,7 +101512,7 @@
         "inside": 90,
         "oceanview": 94,
         "balcony": 91,
-        "suite": 94
+        "suite": 92
       },
       "priceHistory": [
         {
@@ -102043,16 +101947,16 @@
         "exterior": "images/cabins/costa_serena_exterior.jpg",
         "cabins": {
           "inside": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-interior-cabin.jpg"
+            "images/cabins/costa_serena_inside_0.jpg"
           ],
           "oceanview": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-oceanview-cabin.jpg"
+            "images/cabins/costa_serena_oceanview_0.jpg"
           ],
           "balcony": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-balcony-cabin.jpg"
+            "images/cabins/costa_serena_balcony_0.jpg"
           ],
           "suite": [
-            "https://www.costacruises.com/content/dam/costa/inventory-assets/ships/SE/cabins/costa-serena-suite.jpg"
+            "images/cabins/costa_serena_suite_0.jpg"
           ]
         }
       },
@@ -102527,7 +102431,7 @@
         "inside": 92,
         "oceanview": 94,
         "balcony": 93,
-        "suite": 94
+        "suite": 93
       },
       "priceHistory": [
         {
@@ -102878,7 +102782,7 @@
         "inside": 96,
         "oceanview": 97,
         "balcony": 97,
-        "suite": 97
+        "suite": 96
       },
       "priceHistory": [
         {
@@ -103694,7 +103598,7 @@
         "inside": 95,
         "oceanview": 97,
         "balcony": 96,
-        "suite": 96
+        "suite": 95
       },
       "priceHistory": [
         {
@@ -104052,7 +103956,7 @@
         "inside": 95,
         "oceanview": 97,
         "balcony": 96,
-        "suite": 97
+        "suite": 95
       },
       "priceHistory": [
         {
@@ -104845,7 +104749,7 @@
         "inside": 70,
         "oceanview": 82,
         "balcony": 64,
-        "suite": 78
+        "suite": 71
       },
       "priceHistory": [
         {
@@ -105428,7 +105332,7 @@
       "valueScores": {
         "inside": 85,
         "balcony": 82,
-        "suite": 79
+        "suite": 72
       },
       "priceHistory": [
         {
@@ -105757,7 +105661,7 @@
         "inside": 66,
         "oceanview": 77,
         "balcony": 84,
-        "suite": 88
+        "suite": 84
       },
       "priceHistory": [
         {
@@ -105928,7 +105832,7 @@
       "valueScores": {
         "inside": 77,
         "balcony": 89,
-        "suite": 96
+        "suite": 94
       },
       "priceHistory": [
         {
@@ -106443,7 +106347,7 @@
         "inside": 93,
         "oceanview": 94,
         "balcony": 92,
-        "suite": 94
+        "suite": 92
       },
       "priceHistory": [
         {
@@ -106737,7 +106641,7 @@
       "valueScores": {
         "inside": 93,
         "balcony": 94,
-        "suite": 90
+        "suite": 86
       },
       "priceHistory": [
         {
@@ -107036,7 +106940,7 @@
         "inside": 82,
         "oceanview": 83,
         "balcony": 84,
-        "suite": 84
+        "suite": 79
       },
       "priceHistory": [
         {
@@ -107318,7 +107222,7 @@
         "inside": 75,
         "oceanview": 86,
         "balcony": 72,
-        "suite": 83
+        "suite": 77
       },
       "priceHistory": [
         {
@@ -107488,7 +107392,7 @@
       "valueScores": {
         "inside": 28,
         "balcony": 49,
-        "suite": 34
+        "suite": 12
       },
       "priceHistory": [
         {
@@ -107617,7 +107521,7 @@
         "inside": 95,
         "oceanview": 90,
         "balcony": 93,
-        "suite": 92
+        "suite": 90
       },
       "priceHistory": [
         {
@@ -107932,7 +107836,7 @@
         "inside": 76,
         "oceanview": 82,
         "balcony": 84,
-        "suite": 89
+        "suite": 85
       },
       "priceHistory": [
         {
@@ -108241,7 +108145,7 @@
         "inside": 74,
         "oceanview": 81,
         "balcony": 74,
-        "suite": 82
+        "suite": 76
       },
       "priceHistory": [
         {
@@ -108401,7 +108305,7 @@
       },
       "valueScores": {
         "inside": 41,
-        "suite": 81
+        "suite": 75
       },
       "priceHistory": [
         {
@@ -108735,7 +108639,7 @@
         "inside": 84,
         "oceanview": 91,
         "balcony": 83,
-        "suite": 88
+        "suite": 85
       },
       "priceHistory": [
         {
@@ -108908,7 +108812,7 @@
         "inside": 17,
         "oceanview": 52,
         "balcony": 29,
-        "suite": 75
+        "suite": 67
       },
       "priceHistory": [
         {
@@ -109212,7 +109116,7 @@
         "inside": 88,
         "oceanview": 94,
         "balcony": 86,
-        "suite": 65
+        "suite": 54
       },
       "priceHistory": [
         {
@@ -109346,7 +109250,7 @@
       "valueScores": {
         "inside": 89,
         "balcony": 87,
-        "suite": 87
+        "suite": 82
       },
       "priceHistory": [
         {
@@ -109587,7 +109491,7 @@
       "valueScores": {
         "inside": 92,
         "balcony": 81,
-        "suite": 87
+        "suite": 83
       },
       "priceHistory": [
         {
@@ -109888,7 +109792,7 @@
         "inside": 91,
         "oceanview": 95,
         "balcony": 92,
-        "suite": 91
+        "suite": 88
       },
       "priceHistory": [
         {
@@ -110129,7 +110033,7 @@
         "inside": 97,
         "oceanview": 96,
         "balcony": 95,
-        "suite": 92
+        "suite": 90
       },
       "priceHistory": [
         {
@@ -110316,7 +110220,7 @@
         "inside": 96,
         "oceanview": 99,
         "balcony": 98,
-        "suite": 89
+        "suite": 85
       },
       "priceHistory": [
         {
@@ -110481,7 +110385,7 @@
         "inside": 89,
         "oceanview": 95,
         "balcony": 92,
-        "suite": 98
+        "suite": 97
       },
       "priceHistory": [
         {
@@ -110914,7 +110818,7 @@
         "inside": 92,
         "oceanview": 92,
         "balcony": 80,
-        "suite": 88
+        "suite": 84
       },
       "priceHistory": [
         {
@@ -111059,7 +110963,7 @@
       },
       "valueScores": {
         "inside": 23,
-        "suite": 77
+        "suite": 70
       },
       "priceHistory": [
         {
@@ -111295,7 +111199,7 @@
         "inside": 97,
         "oceanview": 95,
         "balcony": 94,
-        "suite": 93
+        "suite": 91
       },
       "priceHistory": [
         {
@@ -111534,7 +111438,7 @@
         "inside": 65,
         "oceanview": 71,
         "balcony": 74,
-        "suite": 85
+        "suite": 79
       },
       "priceHistory": [
         {
@@ -111707,7 +111611,7 @@
         "inside": 19,
         "oceanview": 53,
         "balcony": 30,
-        "suite": 76
+        "suite": 68
       },
       "priceHistory": [
         {
@@ -111837,7 +111741,7 @@
         "inside": 92,
         "oceanview": 96,
         "balcony": 94,
-        "suite": 92
+        "suite": 90
       },
       "priceHistory": [
         {
@@ -112150,7 +112054,7 @@
         "inside": 87,
         "oceanview": 95,
         "balcony": 94,
-        "suite": 91
+        "suite": 88
       },
       "priceHistory": [
         {
@@ -112359,7 +112263,7 @@
         "inside": 92,
         "oceanview": 90,
         "balcony": 91,
-        "suite": 90
+        "suite": 86
       },
       "priceHistory": [
         {
@@ -112654,7 +112558,7 @@
         "inside": 92,
         "oceanview": 94,
         "balcony": 90,
-        "suite": 80
+        "suite": 74
       },
       "priceHistory": [
         {
@@ -112793,7 +112697,7 @@
         "inside": 87,
         "oceanview": 85,
         "balcony": 82,
-        "suite": 83
+        "suite": 77
       },
       "priceHistory": [
         {
@@ -113150,7 +113054,7 @@
         "inside": 75,
         "oceanview": 75,
         "balcony": 75,
-        "suite": 66
+        "suite": 55
       },
       "priceHistory": [
         {
@@ -113442,7 +113346,7 @@
         "inside": 97,
         "oceanview": 99,
         "balcony": 93,
-        "suite": 87
+        "suite": 83
       },
       "priceHistory": [
         {
@@ -113607,7 +113511,7 @@
         "inside": 94,
         "oceanview": 96,
         "balcony": 92,
-        "suite": 92
+        "suite": 89
       },
       "priceHistory": [
         {
@@ -113784,7 +113688,7 @@
         "inside": 96,
         "oceanview": 98,
         "balcony": 90,
-        "suite": 96
+        "suite": 94
       },
       "priceHistory": [
         {
@@ -114115,7 +114019,7 @@
         "inside": 63,
         "oceanview": 78,
         "balcony": 57,
-        "suite": 74
+        "suite": 65
       },
       "priceHistory": [
         {
@@ -114288,7 +114192,7 @@
         "inside": 29,
         "oceanview": 59,
         "balcony": 17,
-        "suite": 80
+        "suite": 73
       },
       "priceHistory": [
         {
@@ -114647,7 +114551,7 @@
         "inside": 100,
         "oceanview": 100,
         "balcony": 97,
-        "suite": 95
+        "suite": 93
       },
       "priceHistory": [
         {
@@ -114824,7 +114728,7 @@
         "inside": 92,
         "oceanview": 96,
         "balcony": 86,
-        "suite": 88
+        "suite": 84
       },
       "priceHistory": [
         {
@@ -115115,7 +115019,7 @@
         "inside": 89,
         "oceanview": 95,
         "balcony": 83,
-        "suite": 94
+        "suite": 92
       },
       "priceHistory": [
         {
@@ -115324,7 +115228,7 @@
         "inside": 98,
         "oceanview": 97,
         "balcony": 88,
-        "suite": 94
+        "suite": 93
       },
       "priceHistory": [
         {
@@ -115519,7 +115423,7 @@
         "inside": 77,
         "oceanview": 86,
         "balcony": 74,
-        "suite": 83
+        "suite": 77
       },
       "priceHistory": [
         {
@@ -115763,7 +115667,7 @@
         "inside": 100,
         "oceanview": 97,
         "balcony": 94,
-        "suite": 95
+        "suite": 94
       },
       "priceHistory": [
         {
@@ -116074,7 +115978,7 @@
         "inside": 95,
         "oceanview": 96,
         "balcony": 92,
-        "suite": 84
+        "suite": 79
       },
       "priceHistory": [
         {
@@ -116311,7 +116215,7 @@
         "inside": 99,
         "oceanview": 99,
         "balcony": 90,
-        "suite": 95
+        "suite": 93
       },
       "priceHistory": [
         {
@@ -116602,7 +116506,7 @@
         "inside": 73,
         "oceanview": 84,
         "balcony": 66,
-        "suite": 80
+        "suite": 73
       },
       "priceHistory": [
         {
@@ -116732,7 +116636,7 @@
         "inside": 100,
         "oceanview": 100,
         "balcony": 98,
-        "suite": 96
+        "suite": 94
       },
       "priceHistory": [
         {
@@ -116969,7 +116873,7 @@
         "inside": 94,
         "oceanview": 95,
         "balcony": 86,
-        "suite": 89
+        "suite": 85
       },
       "priceHistory": [
         {
@@ -117480,7 +117384,7 @@
         "inside": 92,
         "oceanview": 95,
         "balcony": 86,
-        "suite": 90
+        "suite": 87
       },
       "priceHistory": [
         {
@@ -118167,7 +118071,7 @@
         "inside": 96,
         "oceanview": 97,
         "balcony": 97,
-        "suite": 97
+        "suite": 96
       },
       "priceHistory": [
         {
@@ -118322,7 +118226,7 @@
         "inside": 96,
         "oceanview": 98,
         "balcony": 95,
-        "suite": 96
+        "suite": 95
       },
       "priceHistory": [
         {
@@ -119000,7 +118904,7 @@
       "valueScores": {
         "inside": 69,
         "balcony": 68,
-        "suite": 79
+        "suite": 73
       },
       "priceHistory": [
         {
@@ -119243,7 +119147,7 @@
         "inside": 97,
         "oceanview": 98,
         "balcony": 96,
-        "suite": 95
+        "suite": 93
       },
       "priceHistory": [
         {
@@ -119496,7 +119400,7 @@
         "inside": 100,
         "oceanview": 98,
         "balcony": 93,
-        "suite": 95
+        "suite": 94
       },
       "priceHistory": [
         {
@@ -119733,7 +119637,7 @@
         "inside": 99,
         "oceanview": 99,
         "balcony": 94,
-        "suite": 95
+        "suite": 94
       },
       "priceHistory": [
         {
@@ -120044,7 +119948,7 @@
         "inside": 64,
         "oceanview": 74,
         "balcony": 72,
-        "suite": 81
+        "suite": 75
       },
       "priceHistory": [
         {
@@ -120180,7 +120084,7 @@
         "inside": 96,
         "oceanview": 97,
         "balcony": 97,
-        "suite": 97
+        "suite": 96
       },
       "priceHistory": [
         {
@@ -120315,7 +120219,7 @@
         "inside": 91,
         "oceanview": 93,
         "balcony": 89,
-        "suite": 94
+        "suite": 92
       },
       "priceHistory": [
         {
@@ -120638,7 +120542,7 @@
         "inside": 84,
         "oceanview": 89,
         "balcony": 78,
-        "suite": 71
+        "suite": 61
       },
       "priceHistory": [
         {
@@ -120808,7 +120712,7 @@
       "valueScores": {
         "inside": 24,
         "balcony": 47,
-        "suite": 53
+        "suite": 37
       },
       "priceHistory": [
         {
@@ -121060,7 +120964,7 @@
         "inside": 98,
         "oceanview": 99,
         "balcony": 98,
-        "suite": 95
+        "suite": 93
       },
       "priceHistory": [
         {
@@ -121331,7 +121235,7 @@
       "valueScores": {
         "inside": 24,
         "balcony": 46,
-        "suite": 53
+        "suite": 37
       },
       "priceHistory": [
         {
@@ -121488,7 +121392,7 @@
         "inside": 17,
         "oceanview": 52,
         "balcony": 27,
-        "suite": 67
+        "suite": 56
       },
       "priceHistory": [
         {
@@ -121996,7 +121900,7 @@
         "inside": 83,
         "oceanview": 89,
         "balcony": 84,
-        "suite": 84
+        "suite": 79
       },
       "priceHistory": [
         {
@@ -123202,7 +123106,7 @@
         "inside": 67,
         "oceanview": 81,
         "balcony": 66,
-        "suite": 79
+        "suite": 73
       },
       "priceHistory": [
         {
@@ -123815,7 +123719,7 @@
       },
       "valueScores": {
         "inside": 43,
-        "suite": 83
+        "suite": 77
       },
       "priceHistory": [
         {
@@ -127217,7 +127121,7 @@
         "inside": 90,
         "oceanview": 93,
         "balcony": 87,
-        "suite": 96
+        "suite": 95
       },
       "priceHistory": [
         {
@@ -127530,7 +127434,7 @@
         "inside": 98,
         "oceanview": 99,
         "balcony": 100,
-        "suite": 100
+        "suite": 99
       },
       "priceHistory": [
         {
@@ -127659,7 +127563,7 @@
         "inside": 96,
         "oceanview": 98,
         "balcony": 98,
-        "suite": 98
+        "suite": 97
       },
       "priceHistory": [
         {
@@ -127782,7 +127686,7 @@
         "inside": 98,
         "oceanview": 99,
         "balcony": 100,
-        "suite": 100
+        "suite": 99
       },
       "priceHistory": [
         {
@@ -127947,7 +127851,7 @@
         "inside": 95,
         "oceanview": 97,
         "balcony": 95,
-        "suite": 96
+        "suite": 95
       },
       "priceHistory": [
         {
@@ -128110,7 +128014,7 @@
       "valueScores": {
         "inside": 24,
         "balcony": 46,
-        "suite": 55
+        "suite": 40
       },
       "priceHistory": [
         {
@@ -128275,7 +128179,7 @@
         "inside": 94,
         "oceanview": 94,
         "balcony": 89,
-        "suite": 89
+        "suite": 86
       },
       "priceHistory": [
         {
@@ -128441,7 +128345,7 @@
         "inside": 19,
         "oceanview": 53,
         "balcony": 30,
-        "suite": 76
+        "suite": 68
       },
       "priceHistory": [
         {
@@ -128583,7 +128487,7 @@
         "inside": 96,
         "oceanview": 98,
         "balcony": 98,
-        "suite": 98
+        "suite": 97
       },
       "priceHistory": [
         {
@@ -128877,7 +128781,7 @@
         "inside": 94,
         "oceanview": 96,
         "balcony": 91,
-        "suite": 87
+        "suite": 83
       },
       "priceHistory": [
         {
@@ -129006,7 +128910,7 @@
         "inside": 95,
         "oceanview": 97,
         "balcony": 96,
-        "suite": 97
+        "suite": 96
       },
       "priceHistory": [
         {
@@ -129172,7 +129076,7 @@
         "inside": 25,
         "oceanview": 57,
         "balcony": 35,
-        "suite": 78
+        "suite": 71
       },
       "priceHistory": [
         {
@@ -129302,7 +129206,7 @@
         "inside": 94,
         "oceanview": 97,
         "balcony": 96,
-        "suite": 98
+        "suite": 97
       },
       "priceHistory": [
         {
@@ -129431,7 +129335,7 @@
         "suite": 8
       },
       "valueScores": {
-        "suite": 65
+        "suite": 53
       },
       "priceHistory": [
         {
@@ -129551,7 +129455,7 @@
         "inside": 95,
         "oceanview": 97,
         "balcony": 97,
-        "suite": 98
+        "suite": 97
       },
       "priceHistory": [
         {
@@ -129722,7 +129626,7 @@
         "inside": 96,
         "oceanview": 97,
         "balcony": 94,
-        "suite": 88
+        "suite": 85
       },
       "priceHistory": [
         {
@@ -129851,7 +129755,7 @@
         "inside": 94,
         "oceanview": 97,
         "balcony": 96,
-        "suite": 96
+        "suite": 95
       },
       "priceHistory": [
         {
@@ -129988,7 +129892,7 @@
       "valueScores": {
         "inside": 17,
         "balcony": 40,
-        "suite": 75
+        "suite": 67
       },
       "priceHistory": [
         {
@@ -130160,7 +130064,7 @@
         "inside": 34,
         "oceanview": 62,
         "balcony": 44,
-        "suite": 81
+        "suite": 75
       },
       "priceHistory": [
         {
@@ -130290,7 +130194,7 @@
         "inside": 95,
         "oceanview": 97,
         "balcony": 97,
-        "suite": 98
+        "suite": 97
       },
       "priceHistory": [
         {
@@ -130419,7 +130323,7 @@
         "inside": 94,
         "oceanview": 97,
         "balcony": 95,
-        "suite": 97
+        "suite": 96
       },
       "priceHistory": [
         {
@@ -130568,7 +130472,7 @@
       "valueScores": {
         "inside": 17,
         "balcony": 40,
-        "suite": 75
+        "suite": 67
       },
       "priceHistory": [
         {
@@ -130745,7 +130649,7 @@
         "inside": 97,
         "oceanview": 100,
         "balcony": 98,
-        "suite": 88
+        "suite": 84
       },
       "priceHistory": [
         {
@@ -130868,7 +130772,7 @@
         "inside": 94,
         "oceanview": 97,
         "balcony": 96,
-        "suite": 97
+        "suite": 96
       },
       "priceHistory": [
         {
@@ -131034,7 +130938,7 @@
         "inside": 47,
         "oceanview": 70,
         "balcony": 54,
-        "suite": 86
+        "suite": 81
       },
       "priceHistory": [
         {
@@ -131170,7 +131074,7 @@
         "inside": 93,
         "oceanview": 96,
         "balcony": 95,
-        "suite": 96
+        "suite": 95
       },
       "priceHistory": [
         {
@@ -131299,7 +131203,7 @@
         "suite": 42
       },
       "valueScores": {
-        "suite": 69
+        "suite": 58
       },
       "priceHistory": [
         {
@@ -131425,7 +131329,7 @@
         "inside": 93,
         "oceanview": 96,
         "balcony": 94,
-        "suite": 96
+        "suite": 94
       },
       "priceHistory": [
         {
@@ -131596,7 +131500,7 @@
         "inside": 87,
         "oceanview": 91,
         "balcony": 91,
-        "suite": 83
+        "suite": 77
       },
       "priceHistory": [
         {
@@ -131731,7 +131635,7 @@
         "inside": 90,
         "oceanview": 93,
         "balcony": 90,
-        "suite": 93
+        "suite": 91
       },
       "priceHistory": [
         {
@@ -131897,7 +131801,7 @@
         "inside": 47,
         "oceanview": 70,
         "balcony": 54,
-        "suite": 86
+        "suite": 81
       },
       "priceHistory": [
         {
@@ -132041,7 +131945,7 @@
       "valueScores": {
         "inside": 0,
         "balcony": 21,
-        "suite": 67
+        "suite": 56
       },
       "priceHistory": [
         {
@@ -132176,7 +132080,7 @@
         "inside": 91,
         "oceanview": 94,
         "balcony": 92,
-        "suite": 94
+        "suite": 92
       },
       "priceHistory": [
         {
@@ -132313,7 +132217,7 @@
       "valueScores": {
         "inside": 12,
         "balcony": 36,
-        "suite": 74
+        "suite": 65
       },
       "priceHistory": [
         {
@@ -132484,7 +132388,7 @@
         "inside": 95,
         "oceanview": 97,
         "balcony": 95,
-        "suite": 96
+        "suite": 95
       },
       "priceHistory": [
         {
@@ -132661,7 +132565,7 @@
         "inside": 94,
         "oceanview": 97,
         "balcony": 93,
-        "suite": 85
+        "suite": 80
       },
       "priceHistory": [
         {
@@ -132811,7 +132715,7 @@
       },
       "valueScores": {
         "inside": 27,
-        "suite": 79
+        "suite": 72
       },
       "priceHistory": [
         {
@@ -132982,7 +132886,7 @@
         "inside": 47,
         "oceanview": 70,
         "balcony": 51,
-        "suite": 86
+        "suite": 81
       },
       "priceHistory": [
         {
@@ -133243,7 +133147,7 @@
         "inside": 96,
         "oceanview": 98,
         "balcony": 98,
-        "suite": 98
+        "suite": 97
       },
       "priceHistory": [
         {
@@ -133420,7 +133324,7 @@
         "inside": 91,
         "oceanview": 95,
         "balcony": 93,
-        "suite": 84
+        "suite": 79
       },
       "priceHistory": [
         {
@@ -133586,7 +133490,7 @@
         "inside": 41,
         "oceanview": 66,
         "balcony": 47,
-        "suite": 84
+        "suite": 78
       },
       "priceHistory": [
         {
@@ -133974,7 +133878,7 @@
         "inside": 92,
         "oceanview": 95,
         "balcony": 93,
-        "suite": 95
+        "suite": 94
       },
       "priceHistory": [
         {
@@ -134140,7 +134044,7 @@
         "inside": 42,
         "oceanview": 67,
         "balcony": 49,
-        "suite": 84
+        "suite": 79
       },
       "priceHistory": [
         {
@@ -134320,7 +134224,7 @@
         "inside": 61,
         "oceanview": 72,
         "balcony": 57,
-        "suite": 67
+        "suite": 56
       },
       "priceHistory": [
         {
@@ -134516,7 +134420,7 @@
         "inside": 95,
         "oceanview": 97,
         "balcony": 94,
-        "suite": 88
+        "suite": 84
       },
       "priceHistory": [
         {
@@ -134645,7 +134549,7 @@
         "inside": 91,
         "oceanview": 95,
         "balcony": 92,
-        "suite": 95
+        "suite": 93
       },
       "priceHistory": [
         {
@@ -135042,7 +134946,7 @@
       "valueScores": {
         "inside": 48,
         "balcony": 65,
-        "suite": 68
+        "suite": 58
       },
       "priceHistory": [
         {
@@ -135214,7 +135118,7 @@
         "inside": 41,
         "oceanview": 66,
         "balcony": 48,
-        "suite": 84
+        "suite": 78
       },
       "priceHistory": [
         {
@@ -135539,7 +135443,7 @@
         "inside": 93,
         "oceanview": 96,
         "balcony": 93,
-        "suite": 86
+        "suite": 82
       },
       "priceHistory": [
         {
@@ -135712,7 +135616,7 @@
         "inside": 96,
         "oceanview": 97,
         "balcony": 94,
-        "suite": 98
+        "suite": 97
       },
       "priceHistory": [
         {
@@ -136020,7 +135924,7 @@
         "inside": 97,
         "oceanview": 99,
         "balcony": 99,
-        "suite": 99
+        "suite": 98
       },
       "priceHistory": [
         {
@@ -136186,7 +136090,7 @@
         "inside": 40,
         "oceanview": 66,
         "balcony": 46,
-        "suite": 83
+        "suite": 77
       },
       "priceHistory": [
         {
@@ -136330,7 +136234,7 @@
       "valueScores": {
         "inside": 4,
         "balcony": 31,
-        "suite": 71
+        "suite": 61
       },
       "priceHistory": [
         {
@@ -136473,7 +136377,7 @@
       "valueScores": {
         "inside": 10,
         "balcony": 35,
-        "suite": 73
+        "suite": 64
       },
       "priceHistory": [
         {
@@ -136608,7 +136512,7 @@
         "inside": 94,
         "oceanview": 97,
         "balcony": 96,
-        "suite": 97
+        "suite": 96
       },
       "priceHistory": [
         {
@@ -136737,7 +136641,7 @@
         "inside": 94,
         "oceanview": 97,
         "balcony": 96,
-        "suite": 97
+        "suite": 96
       },
       "priceHistory": [
         {
@@ -136900,7 +136804,7 @@
       "valueScores": {
         "inside": 28,
         "balcony": 49,
-        "suite": 55
+        "suite": 40
       },
       "priceHistory": [
         {
@@ -137206,7 +137110,7 @@
         "inside": 95,
         "oceanview": 97,
         "balcony": 95,
-        "suite": 96
+        "suite": 95
       },
       "priceHistory": [
         {
@@ -137379,7 +137283,7 @@
       "valueScores": {
         "inside": 83,
         "balcony": 71,
-        "suite": 72
+        "suite": 62
       },
       "priceHistory": [
         {
@@ -137514,7 +137418,7 @@
         "inside": 93,
         "oceanview": 96,
         "balcony": 95,
-        "suite": 96
+        "suite": 95
       },
       "priceHistory": [
         {
@@ -137644,7 +137548,7 @@
         "inside": 96,
         "oceanview": 97,
         "balcony": 96,
-        "suite": 90
+        "suite": 86
       },
       "priceHistory": [
         {
@@ -137773,7 +137677,7 @@
         "inside": 100,
         "oceanview": 100,
         "balcony": 100,
-        "suite": 97
+        "suite": 96
       },
       "priceHistory": [
         {
