@@ -114,8 +114,13 @@ async function run() {
     });
   }
 
-  // 추천 점수 계산
-  calcRecommendScores(publicList);
+  // 추천 점수 계산 — 아시아/럭셔리/초럭셔리 3그룹 따로 정규화
+  const asiaCruises = publicList.filter(c => !c.luxuryTier);
+  const luxuryCruises = publicList.filter(c => c.luxuryTier === 'luxury');
+  const ultraCruises = publicList.filter(c => c.luxuryTier === 'ultra');
+  calcRecommendScores(asiaCruises);
+  calcRecommendScores(luxuryCruises);
+  calcRecommendScores(ultraCruises);
 
   // sort by num
   publicList.sort((a, b) => (a.num || 9999) - (b.num || 9999));
@@ -175,6 +180,7 @@ function buildShipInfoIndex(shipDb) {
       lastRefurbished: lastRefurbished || null,
       refurbishmentCost: (ship && ship.refurbishmentCost) || null,
       kidsFriendly: !!ship.kidsFriendly,
+      kidsLevel: ship.kidsLevel || (ship.kidsFriendly ? 'mid' : 'none'),
       kidsNotes: ship.kidsNotes || null,
     };
     const aliases = [ship && ship.name, key && key.replace(/_/g, ' ')];

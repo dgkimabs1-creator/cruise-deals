@@ -49,7 +49,7 @@
     lines: 'lineAnalysisPanel'
   };
   var VALID_VIEWS = Object.keys(VIEW_PANEL_MAP);
-  var VALID_QUICK_FILTERS = ['all', 'busan', 'deal80', 'deal50', 'cheap', 'luxury', 'ultraLuxury', 'new3d', 'drop1d', 'drop3d', 'drop7d'];
+  var VALID_QUICK_FILTERS = ['all', 'asia', 'luxury', 'ultraLuxury', 'busan', 'deal80', 'deal50', 'cheap', 'new3d', 'drop1d', 'drop3d', 'drop7d'];
   var SORT_OPTION_MAP = {
     'price-asc': { key: 'price', dir: 'asc' },
     'price-desc': { key: 'price', dir: 'desc' },
@@ -115,7 +115,8 @@
     num: '',
     search: '',
     region: '',
-    line: '',
+    kids: [],
+    line: [],
     month: '',
     departureStart: '',
     departureEnd: '',
@@ -187,6 +188,7 @@
     dom.filterNum = root.document.getElementById('filterNum');
     dom.searchInput = root.document.getElementById('searchInput');
     dom.filterRegion = root.document.getElementById('filterRegion');
+    dom.filterKids = root.document.getElementById('filterKids');
     dom.filterLine = root.document.getElementById('filterLine');
     dom.filterMonth = root.document.getElementById('filterMonth');
     dom.filterDepartureStart = root.document.getElementById('filterDepartureStart');
@@ -261,6 +263,7 @@
     bindFilterInput(dom.filterNum, 'num', 'input');
     bindFilterInput(dom.searchInput, 'search', 'input');
     bindFilterInput(dom.filterRegion, 'region', 'change');
+    bindFilterInput(dom.filterKids, 'kids', 'change');
     bindFilterInput(dom.filterLine, 'line', 'change');
     bindFilterInput(dom.filterMonth, 'month', 'change');
     bindFilterInput(dom.filterDepartureStart, 'departureStart', 'change');
@@ -321,13 +324,31 @@
     }
   }
 
+  function restoreMultiSelect(selectEl, values) {
+    if (!selectEl || !values) return;
+    var arr = Array.isArray(values) ? values : [];
+    for (var i = 0; i < selectEl.options.length; i++) {
+      selectEl.options[i].selected = arr.indexOf(selectEl.options[i].value) !== -1;
+    }
+  }
+
   function bindFilterInput(element, key, eventName) {
     if (!element) {
       return;
     }
 
-    element.addEventListener(eventName, function (event) {
-      state.filters[key] = normalizeFilterValue(event.target.value);
+    element.addEventListener(eventName, function () {
+      if (element.multiple) {
+        var selected = [];
+        for (var i = 0; i < element.options.length; i++) {
+          if (element.options[i].selected && element.options[i].value) {
+            selected.push(element.options[i].value);
+          }
+        }
+        state.filters[key] = selected;
+      } else {
+        state.filters[key] = normalizeFilterValue(element.value);
+      }
       state.page = 1;
       applyStateAndRender();
     });
@@ -665,7 +686,7 @@
     }
 
     line = trigger.getAttribute('data-line') || '';
-    state.filters.line = line;
+    state.filters.line = line ? [line] : [];
     state.activeView = 'list';
     syncFilterInputs();
     updateViewTabState();
@@ -853,8 +874,11 @@
     if (dom.filterRegion) {
       dom.filterRegion.value = state.filters.region;
     }
-    if (dom.filterLine) {
-      dom.filterLine.value = state.filters.line;
+    if (dom.filterKids && dom.filterKids.multiple) {
+      restoreMultiSelect(dom.filterKids, state.filters.kids);
+    }
+    if (dom.filterLine && dom.filterLine.multiple) {
+      restoreMultiSelect(dom.filterLine, state.filters.line);
     }
     if (dom.filterMonth) {
       dom.filterMonth.value = state.filters.month;
@@ -944,6 +968,8 @@
     var rating = toNumber(cruise && cruise.shipRating) || 0;
 
     switch (state.quickFilter) {
+      case 'asia':
+        return cruise.isAsia !== false && !cruise.luxuryTier;
       case 'busan':
         return !!(cruise && cruise.isBusanRelated);
       case 'deal80':
@@ -1053,8 +1079,14 @@
       return false;
     }
 
-    if (filters.line && String(cruise && cruise.cruiseLine || '') !== filters.line) {
-      return false;
+    if (filters.kids && filters.kids.length > 0) {
+      var kl = cruise.shipInfo && cruise.shipInfo.kidsLevel || 'none';
+      if (filters.kids.indexOf(kl) === -1) return false;
+    }
+
+    if (filters.line && filters.line.length > 0) {
+      var cruiseLine = String(cruise && cruise.cruiseLine || '');
+      if (filters.line.indexOf(cruiseLine) === -1) return false;
     }
 
     if (filters.month && String(cruise && cruise.departureDate || '').slice(0, 7) !== filters.month) {
@@ -2177,7 +2209,9 @@
     return {
       num: filters.num,
       search: filters.search,
-      line: filters.line,
+      region: filters.region,
+      kids: [].concat(filters.kids || []),
+      line: [].concat(filters.line || []),
       month: filters.month,
       departureStart: filters.departureStart,
       departureEnd: filters.departureEnd,

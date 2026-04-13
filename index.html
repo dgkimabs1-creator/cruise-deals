@@ -70,12 +70,13 @@
           <div class="panel-label">빠른 필터</div>
           <div class="tab-row" id="quickTabs">
             <button type="button" class="tab active" data-filter="all">전체</button>
+            <button type="button" class="tab" data-filter="asia">아시아</button>
+            <button type="button" class="tab" data-filter="luxury">럭셔리</button>
+            <button type="button" class="tab" data-filter="ultraLuxury">초럭셔리</button>
             <button type="button" class="tab" data-filter="busan">부산 관련</button>
             <button type="button" class="tab" data-filter="deal80">80%+ 초특가</button>
             <button type="button" class="tab" data-filter="deal50">50%+ 특가</button>
             <button type="button" class="tab" data-filter="cheap">$100/박 이하</button>
-            <button type="button" class="tab" data-filter="luxury">럭셔리</button>
-            <button type="button" class="tab" data-filter="ultraLuxury">초럭셔리</button>
             <button type="button" class="tab" data-filter="new3d">3일내 신규</button>
             <button type="button" class="tab" data-filter="drop1d">1일내 하락</button>
             <button type="button" class="tab" data-filter="drop3d">3일내 하락</button>
@@ -111,8 +112,8 @@
             </select>
           </label>
           <label class="filter-group">
-            <span>선사</span>
-            <select id="filterLine">
+            <span>선사 (Ctrl+클릭 복수선택)</span>
+            <select id="filterLine" multiple size="4">
               <option value="">전체 선사</option>
             </select>
           </label>
@@ -184,6 +185,15 @@
               <option value="oceanview">바다전망</option>
               <option value="balcony">발코니</option>
               <option value="suite">스위트</option>
+            </select>
+          </label>
+          <label class="filter-group">
+            <span>키즈</span>
+            <select id="filterKids" multiple size="4">
+              <option value="high">키즈 상 (프로그램+시설)</option>
+              <option value="mid">키즈 중 (일부 시설)</option>
+              <option value="low">키즈 하 (탑승만 가능)</option>
+              <option value="none">탑승 불가/성인전용</option>
             </select>
           </label>
           <div class="filter-actions">
