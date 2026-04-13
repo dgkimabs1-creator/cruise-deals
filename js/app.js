@@ -1135,7 +1135,15 @@
   }
 
   function compareCruises(left, right) {
-    var comparison = compareValues(getSortValue(left, state.sortKey), getSortValue(right, state.sortKey), state.sortKey);
+    // 가격 없는 건 항상 맨 뒤로
+    var leftVal = getSortValue(left, state.sortKey);
+    var rightVal = getSortValue(right, state.sortKey);
+    var leftMiss = isMissingValue(leftVal);
+    var rightMiss = isMissingValue(rightVal);
+    if (leftMiss && !rightMiss) return 1;
+    if (!leftMiss && rightMiss) return -1;
+
+    var comparison = compareValues(leftVal, rightVal, state.sortKey);
 
     if (comparison === 0) {
       comparison = compareValues(getSortValue(left, 'date'), getSortValue(right, 'date'), 'date');
