@@ -122,6 +122,14 @@ async function run() {
   calcRecommendScores(luxuryCruises);
   calcRecommendScores(ultraCruises);
 
+  // 럭셔리/초럭셔리: 내측/바다뷰 추천점수 제거 (발코니/스위트만)
+  for (const c of [...luxuryCruises, ...ultraCruises]) {
+    if (c.recommendScores) {
+      c.recommendScores.inside = null;
+      c.recommendScores.oceanview = null;
+    }
+  }
+
   // sort by num
   publicList.sort((a, b) => (a.num || 9999) - (b.num || 9999));
 
