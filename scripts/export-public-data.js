@@ -102,6 +102,8 @@ async function run() {
       itineraryUncertain: !c.detailedItinerary && (c.itinerary || '').split('→').length <= 2 && (c.nights || 0) > 1,
       listPriceOnly: !!c._listPriceOnly,
       isBusanRelated: !!c.isBusanRelated,
+      isAsia: c.isAsia !== false,
+      luxuryTier: c._luxuryTier || null,
       source: c.source || '',
       dealScores,
       valueScores,

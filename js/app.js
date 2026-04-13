@@ -49,7 +49,7 @@
     lines: 'lineAnalysisPanel'
   };
   var VALID_VIEWS = Object.keys(VIEW_PANEL_MAP);
-  var VALID_QUICK_FILTERS = ['all', 'busan', 'deal80', 'deal50', 'cheap', 'luxury', 'new3d', 'drop1d', 'drop3d', 'drop7d'];
+  var VALID_QUICK_FILTERS = ['all', 'busan', 'deal80', 'deal50', 'cheap', 'luxury', 'ultraLuxury', 'new3d', 'drop1d', 'drop3d', 'drop7d'];
   var SORT_OPTION_MAP = {
     'price-asc': { key: 'price', dir: 'asc' },
     'price-desc': { key: 'price', dir: 'desc' },
@@ -114,6 +114,7 @@
   var DEFAULT_FILTERS = {
     num: '',
     search: '',
+    region: '',
     line: '',
     month: '',
     departureStart: '',
@@ -185,6 +186,7 @@
     dom.filterPanel = root.document.getElementById('filterPanel');
     dom.filterNum = root.document.getElementById('filterNum');
     dom.searchInput = root.document.getElementById('searchInput');
+    dom.filterRegion = root.document.getElementById('filterRegion');
     dom.filterLine = root.document.getElementById('filterLine');
     dom.filterMonth = root.document.getElementById('filterMonth');
     dom.filterDepartureStart = root.document.getElementById('filterDepartureStart');
@@ -258,6 +260,7 @@
 
     bindFilterInput(dom.filterNum, 'num', 'input');
     bindFilterInput(dom.searchInput, 'search', 'input');
+    bindFilterInput(dom.filterRegion, 'region', 'change');
     bindFilterInput(dom.filterLine, 'line', 'change');
     bindFilterInput(dom.filterMonth, 'month', 'change');
     bindFilterInput(dom.filterDepartureStart, 'departureStart', 'change');
@@ -847,6 +850,9 @@
     if (dom.searchInput) {
       dom.searchInput.value = state.filters.search;
     }
+    if (dom.filterRegion) {
+      dom.filterRegion.value = state.filters.region;
+    }
     if (dom.filterLine) {
       dom.filterLine.value = state.filters.line;
     }
@@ -947,7 +953,9 @@
       case 'cheap':
         return Number.isFinite(perNight) && perNight <= 100;
       case 'luxury':
-        return rating >= 5;
+        return cruise.luxuryTier === 'luxury' || cruise.luxuryTier === 'ultra';
+      case 'ultraLuxury':
+        return cruise.luxuryTier === 'ultra';
       case 'new3d':
         return isNewCruise(cruise, 3);
       case 'drop1d':
@@ -1035,6 +1043,13 @@
     }
 
     if (filters.search && !matchText(searchableText, filters.search)) {
+      return false;
+    }
+
+    if (filters.region === 'asia' && cruise.isAsia === false) {
+      return false;
+    }
+    if (filters.region === 'nonAsia' && cruise.isAsia !== false) {
       return false;
     }
 

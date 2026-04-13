@@ -74,7 +74,8 @@
             <button type="button" class="tab" data-filter="deal80">80%+ 초특가</button>
             <button type="button" class="tab" data-filter="deal50">50%+ 특가</button>
             <button type="button" class="tab" data-filter="cheap">$100/박 이하</button>
-            <button type="button" class="tab" data-filter="luxury">럭셔리 5⭐+</button>
+            <button type="button" class="tab" data-filter="luxury">럭셔리</button>
+            <button type="button" class="tab" data-filter="ultraLuxury">초럭셔리</button>
             <button type="button" class="tab" data-filter="new3d">3일내 신규</button>
             <button type="button" class="tab" data-filter="drop1d">1일내 하락</button>
             <button type="button" class="tab" data-filter="drop3d">3일내 하락</button>
@@ -100,6 +101,14 @@
           <label class="filter-group">
             <span>검색</span>
             <input type="text" id="searchInput" placeholder="선사, 선박, 일정">
+          </label>
+          <label class="filter-group">
+            <span>지역</span>
+            <select id="filterRegion">
+              <option value="">전체</option>
+              <option value="asia">아시아</option>
+              <option value="nonAsia">비아시아</option>
+            </select>
           </label>
           <label class="filter-group">
             <span>선사</span>
