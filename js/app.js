@@ -188,8 +188,12 @@
     dom.filterNum = root.document.getElementById('filterNum');
     dom.searchInput = root.document.getElementById('searchInput');
     dom.filterRegion = root.document.getElementById('filterRegion');
-    dom.filterKids = root.document.getElementById('filterKids');
-    dom.filterLine = root.document.getElementById('filterLine');
+    dom.filterKidsDropdown = root.document.getElementById('filterKidsDropdown');
+    dom.filterKidsBtn = root.document.getElementById('filterKidsBtn');
+    dom.filterKidsPanel = root.document.getElementById('filterKidsPanel');
+    dom.filterLineDropdown = root.document.getElementById('filterLineDropdown');
+    dom.filterLineBtn = root.document.getElementById('filterLineBtn');
+    dom.filterLinePanel = root.document.getElementById('filterLinePanel');
     dom.filterMonth = root.document.getElementById('filterMonth');
     dom.filterDepartureStart = root.document.getElementById('filterDepartureStart');
     dom.filterDepartureEnd = root.document.getElementById('filterDepartureEnd');
@@ -263,8 +267,8 @@
     bindFilterInput(dom.filterNum, 'num', 'input');
     bindFilterInput(dom.searchInput, 'search', 'input');
     bindFilterInput(dom.filterRegion, 'region', 'change');
-    bindFilterInput(dom.filterKids, 'kids', 'change');
-    bindFilterInput(dom.filterLine, 'line', 'change');
+    initMultiDropdown(dom.filterKidsDropdown, dom.filterKidsBtn, dom.filterKidsPanel, 'kids', '전체');
+    initMultiDropdown(dom.filterLineDropdown, dom.filterLineBtn, dom.filterLinePanel, 'line', '전체 선사');
     bindFilterInput(dom.filterMonth, 'month', 'change');
     bindFilterInput(dom.filterDepartureStart, 'departureStart', 'change');
     bindFilterInput(dom.filterDepartureEnd, 'departureEnd', 'change');
@@ -324,11 +328,44 @@
     }
   }
 
-  function restoreMultiSelect(selectEl, values) {
-    if (!selectEl || !values) return;
+  function initMultiDropdown(dropdown, btn, panel, filterKey, defaultLabel) {
+    if (!dropdown || !btn || !panel) return;
+    btn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      // 다른 드롭다운 닫기
+      root.document.querySelectorAll('.multi-dropdown.open').forEach(function (d) {
+        if (d !== dropdown) d.classList.remove('open');
+      });
+      dropdown.classList.toggle('open');
+    });
+    panel.addEventListener('change', function () {
+      var checked = [];
+      panel.querySelectorAll('input[type="checkbox"]:checked').forEach(function (cb) {
+        checked.push(cb.value);
+      });
+      state.filters[filterKey] = checked;
+      btn.textContent = checked.length > 0
+        ? checked.length + '개 선택 ▾'
+        : defaultLabel + ' ▾';
+      state.page = 1;
+      applyStateAndRender();
+    });
+    // 바깥 클릭 시 닫기
+    root.document.addEventListener('click', function (e) {
+      if (!dropdown.contains(e.target)) {
+        dropdown.classList.remove('open');
+      }
+    });
+  }
+
+  function restoreMultiDropdown(panel, btn, values, defaultLabel) {
+    if (!panel) return;
     var arr = Array.isArray(values) ? values : [];
-    for (var i = 0; i < selectEl.options.length; i++) {
-      selectEl.options[i].selected = arr.indexOf(selectEl.options[i].value) !== -1;
+    panel.querySelectorAll('input[type="checkbox"]').forEach(function (cb) {
+      cb.checked = arr.indexOf(cb.value) !== -1;
+    });
+    if (btn) {
+      btn.textContent = arr.length > 0 ? arr.length + '개 선택 ▾' : defaultLabel + ' ▾';
     }
   }
 
@@ -513,12 +550,11 @@
       return cruise && cruise.departureDate ? String(cruise.departureDate).slice(0, 7) : '';
     }).filter(Boolean))).sort();
 
-    replaceSelectOptions(dom.filterLine, '전체 선사', lines.map(function (line) {
-      return {
-        value: line,
-        label: line
-      };
-    }));
+    if (dom.filterLinePanel) {
+      dom.filterLinePanel.innerHTML = lines.map(function (line) {
+        return '<label><input type="checkbox" value="' + CruiseUtils.escapeHtml(line) + '"> ' + CruiseUtils.escapeHtml(line) + '</label>';
+      }).join('');
+    }
 
     replaceSelectOptions(dom.filterMonth, '전체 월', months.map(function (month) {
       return {
@@ -874,12 +910,8 @@
     if (dom.filterRegion) {
       dom.filterRegion.value = state.filters.region;
     }
-    if (dom.filterKids && dom.filterKids.multiple) {
-      restoreMultiSelect(dom.filterKids, state.filters.kids);
-    }
-    if (dom.filterLine && dom.filterLine.multiple) {
-      restoreMultiSelect(dom.filterLine, state.filters.line);
-    }
+    restoreMultiDropdown(dom.filterKidsPanel, dom.filterKidsBtn, state.filters.kids, '전체');
+    restoreMultiDropdown(dom.filterLinePanel, dom.filterLineBtn, state.filters.line, '전체 선사');
     if (dom.filterMonth) {
       dom.filterMonth.value = state.filters.month;
     }

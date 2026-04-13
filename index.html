@@ -112,10 +112,11 @@
             </select>
           </label>
           <label class="filter-group">
-            <span>선사 (Ctrl+클릭 복수선택)</span>
-            <select id="filterLine" multiple size="4">
-              <option value="">전체 선사</option>
-            </select>
+            <span>선사</span>
+            <div class="multi-dropdown" id="filterLineDropdown">
+              <button type="button" class="multi-dropdown-btn" id="filterLineBtn">전체 선사 ▾</button>
+              <div class="multi-dropdown-panel" id="filterLinePanel"></div>
+            </div>
           </label>
           <label class="filter-group">
             <span>출발 월</span>
@@ -189,12 +190,15 @@
           </label>
           <label class="filter-group">
             <span>키즈</span>
-            <select id="filterKids" multiple size="4">
-              <option value="high">키즈 상 (프로그램+시설)</option>
-              <option value="mid">키즈 중 (일부 시설)</option>
-              <option value="low">키즈 하 (탑승만 가능)</option>
-              <option value="none">탑승 불가/성인전용</option>
-            </select>
+            <div class="multi-dropdown" id="filterKidsDropdown">
+              <button type="button" class="multi-dropdown-btn" id="filterKidsBtn">전체 ▾</button>
+              <div class="multi-dropdown-panel" id="filterKidsPanel">
+                <label><input type="checkbox" value="high"> 상 (프로그램+시설)</label>
+                <label><input type="checkbox" value="mid"> 중 (일부 시설)</label>
+                <label><input type="checkbox" value="low"> 하 (탑승만 가능)</label>
+                <label><input type="checkbox" value="none"> 불가/성인전용</label>
+              </div>
+            </div>
           </label>
           <div class="filter-actions">
             <button type="button" class="ghost-button" id="resetFiltersButton">필터 초기화</button>
