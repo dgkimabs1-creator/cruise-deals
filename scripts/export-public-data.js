@@ -162,8 +162,10 @@ function buildShipInfoIndex(shipDb) {
   for (const [key, ship] of Object.entries(shipDb || {})) {
     const passengers = toNumber(ship && ship.passengerCapacity);
     const crew = toNumber(ship && ship.crewSize);
+    const hasCapacity = passengers !== null && crew !== null && crew > 0;
+    const hasKidsInfo = !!(ship.kidsLevel || ship.kidsNotes || ship.kidsFriendly != null);
 
-    if (passengers === null || crew === null || crew <= 0) {
+    if (!hasCapacity && !hasKidsInfo) {
       continue;
     }
 
@@ -172,9 +174,9 @@ function buildShipInfoIndex(shipDb) {
     const tonnageRaw = (ship && ship.tonnage) || '';
     const tonnageNum = toNumber(tonnageRaw.replace(/[^0-9]/g, ''));
     const shipInfo = {
-      passengers,
-      crew,
-      ratio: Math.round((passengers / crew) * 10) / 10,
+      passengers: passengers || null,
+      crew: crew || null,
+      ratio: hasCapacity ? Math.round((passengers / crew) * 10) / 10 : null,
       tonnage: tonnageNum || null,
       yearBuilt: yearBuilt || null,
       lastRefurbished: lastRefurbished || null,
