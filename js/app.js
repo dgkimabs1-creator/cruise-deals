@@ -174,7 +174,6 @@
 
   function cacheDom() {
     dom.totalCount = root.document.getElementById('totalCount');
-    dom.expiredCount = root.document.getElementById('expiredCount');
     dom.busanCount = root.document.getElementById('busanCount');
     dom.dealCount = root.document.getElementById('dealCount');
     dom.favoriteCount = root.document.getElementById('favoriteCount');
@@ -747,7 +746,6 @@
     var favoriteCount = favoritesApi && typeof favoritesApi.getAll === 'function' ? favoritesApi.getAll().length : 0;
 
     setText(dom.totalCount, state.cruises.length ? activity.activeCount.toLocaleString('ko-KR') : (state.loadError ? '0' : '-'));
-    setText(dom.expiredCount, state.cruises.length ? activity.expiredCount.toLocaleString('ko-KR') : (state.loadError ? '0' : '-'));
     setText(dom.busanCount, state.cruises.length ? busanCount.toLocaleString('ko-KR') : (state.loadError ? '0' : '-'));
     setText(dom.dealCount, state.cruises.length ? dealCount.toLocaleString('ko-KR') : (state.loadError ? '0' : '-'));
     setText(dom.favoriteCount, favoriteCount.toLocaleString('ko-KR'));
