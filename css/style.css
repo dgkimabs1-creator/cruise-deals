@@ -247,11 +247,19 @@ a:hover {
 .tab-row {
   display: flex;
   gap: 8px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.tab-row::-webkit-scrollbar {
+  display: none;
 }
 
 .tab {
   padding: 0 16px;
+  white-space: nowrap;
+  flex-shrink: 0;
   border-radius: 999px;
   border: 1px solid var(--border);
   background: var(--surface-muted);
