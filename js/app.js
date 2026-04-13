@@ -948,7 +948,7 @@
 
     switch (state.quickFilter) {
       case 'asia':
-        return cruise.isAsia !== false && !cruise.luxuryTier;
+        return cruise.isAsia !== false;
       case 'busan':
         return !!(cruise && cruise.isBusanRelated);
       case 'deal80':
