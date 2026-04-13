@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-04-13T15:41:38.611Z",
+  "exportedAt": "2026-04-13T16:00:14.385Z",
   "exchangeRate": 1485.528728,
   "count": 4820,
   "cruises": [
@@ -737,7 +737,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=20798",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/20798_241224093205717.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -1132,7 +1132,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=20922",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/20922_241224094158987.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -2115,7 +2115,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=20388",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/20388_241224092848080.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -4922,7 +4922,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=14528",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/14528_240415112932450.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -5116,7 +5116,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=14523",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/14523_241224073927347.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -6759,7 +6759,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=19424",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/19424_241224081640977.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -13398,7 +13398,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=34901",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/34901_250513120954020.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -16598,7 +16598,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=10084",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/10084_250619094554157.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -20422,7 +20422,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=36837",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/36837_241002073020327.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -22727,7 +22727,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=37841",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/37841_241002075209507.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -23072,7 +23072,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=38044",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/38044_241002075459060.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -23555,7 +23555,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=38114",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/38114_241002075605330.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -24286,7 +24286,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=38221",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/38221_250224075001513.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -25318,7 +25318,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=38229",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/38229_250224075454807.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -26666,7 +26666,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=38241",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/38241_241002075728480.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -27341,7 +27341,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=38326",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -28058,7 +28058,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=38371",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/38371_241002075841283.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -28796,7 +28796,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=38411",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/38411_241002075951343.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -31137,7 +31137,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=14863",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/14863_241224074949747.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -32236,7 +32236,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=38761",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/38761_241002081424877.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -35742,7 +35742,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=30399",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/30399_241210153448567.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -36688,7 +36688,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=30517",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/30517_241210154156583.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -37836,7 +37836,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=11548",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/11548_250626071235080.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -38022,7 +38022,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=30744",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/30744_241210153531220.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -39578,7 +39578,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=30765",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/30765_250224075832557.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -41139,7 +41139,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=34968",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/34968_250513121405290.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -41338,7 +41338,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=33631",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/33631_250806102351513.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -41979,7 +41979,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=27873",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/27873_2508051514252BD77.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -42177,7 +42177,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=20996",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/20996_241224094406913.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -43255,7 +43255,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=37532",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/37532_250806102549883.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -45165,7 +45165,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=22164",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/22164_250805151446D0FBD.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -45771,7 +45771,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=25978",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/25978_250805151446E673F.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -46371,7 +46371,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=25001",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/25001_250805151446CB9EA.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -47148,7 +47148,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=23180",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/23180_250805151446BEFCF.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -47754,7 +47754,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=20540",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/20540_250805153017660.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -48530,7 +48530,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=24745",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/24745_250805145646257.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -49318,7 +49318,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=22656",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/22656_2508051515148980B.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -49686,7 +49686,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=18361",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/18361_260202060244927.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -49878,7 +49878,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=21435",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/21435_250805151944783.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -51292,7 +51292,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=26702",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/26702_2508051515144F52F.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -55136,7 +55136,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=48034",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/48034_250904150702563.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -56686,7 +56686,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=12648",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/12648_251216094637737.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -57424,7 +57424,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=44236",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/44236_250904152514910.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -57786,7 +57786,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=15860",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/15860_251216094754257.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -58146,7 +58146,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=19736",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/19736_251216104543337.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/a/af/Celebrity_Solstice_in_Sydney_Photo_2_9_april_2026.jpg",
+        "exterior": "images/cabins/celebrity_solstice_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_solstice_inside_0.jpg",
@@ -58344,7 +58344,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=59677",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/59677_251030141644850.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -58891,7 +58891,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=14252",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/a/af/Celebrity_Solstice_in_Sydney_Photo_2_9_april_2026.jpg",
+        "exterior": "images/cabins/celebrity_solstice_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_solstice_inside_0.jpg",
@@ -59289,7 +59289,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=17462",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -59813,7 +59813,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=46003",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/46003_251120125806687.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -62869,7 +62869,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=31828",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/4/49/Ovation_of_the_Seas_%2826417060696%29_%28cropped%29.jpg",
+        "exterior": "images/cabins/ovation_of_the_seas_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/ovation_of_the_seas_oceanview_0.jpg",
@@ -65427,7 +65427,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=31860",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/4/49/Ovation_of_the_Seas_%2826417060696%29_%28cropped%29.jpg",
+        "exterior": "images/cabins/ovation_of_the_seas_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/ovation_of_the_seas_oceanview_0.jpg",
@@ -66272,7 +66272,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=37793",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/37793_241002075008233.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -71569,7 +71569,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=18716",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/18716_241224080819413.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -72259,7 +72259,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=28097",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/28097_241210151010280.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -78276,7 +78276,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=30076",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/30076_241210153046687.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -80220,7 +80220,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=10360",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/10360_250626070351230.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -82838,7 +82838,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=34583",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/34583_250513112908893.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -83864,7 +83864,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=21342",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/21342_250805153720890.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -84767,7 +84767,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=39694",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/39694_250806102647740.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -86058,7 +86058,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=49826",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/49826_250904150912483.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -86935,7 +86935,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=10994",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/31580_241211073650297.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/a/af/Celebrity_Solstice_in_Sydney_Photo_2_9_april_2026.jpg",
+        "exterior": "images/cabins/celebrity_solstice_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_solstice_inside_0.jpg",
@@ -87797,7 +87797,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=10936",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/10936_251216100221500.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -88518,7 +88518,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=13217",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/13217_251216104109397.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/a/af/Celebrity_Solstice_in_Sydney_Photo_2_9_april_2026.jpg",
+        "exterior": "images/cabins/celebrity_solstice_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_solstice_inside_0.jpg",
@@ -88890,7 +88890,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=40242",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/40242_250904152128153.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -89282,7 +89282,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=29980",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/29980_260312102146983.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -89480,7 +89480,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=10419",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/10419_251216104334277.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/a/af/Celebrity_Solstice_in_Sydney_Photo_2_9_april_2026.jpg",
+        "exterior": "images/cabins/celebrity_solstice_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_solstice_inside_0.jpg",
@@ -89672,7 +89672,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=15667",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/15667_251216094847767.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -90244,7 +90244,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=43074",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/43074_250904155203030.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -91772,7 +91772,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=28650",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/28650_241210151217730.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -92533,7 +92533,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=31319",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/31319_241211073011520.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/a/af/Celebrity_Solstice_in_Sydney_Photo_2_9_april_2026.jpg",
+        "exterior": "images/cabins/celebrity_solstice_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_solstice_inside_0.jpg",
@@ -93339,7 +93339,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=31338",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/31338_241211073153797.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/a/af/Celebrity_Solstice_in_Sydney_Photo_2_9_april_2026.jpg",
+        "exterior": "images/cabins/celebrity_solstice_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_solstice_inside_0.jpg",
@@ -94296,7 +94296,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=31414",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/31414_241211073402060.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/a/af/Celebrity_Solstice_in_Sydney_Photo_2_9_april_2026.jpg",
+        "exterior": "images/cabins/celebrity_solstice_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_solstice_inside_0.jpg",
@@ -94479,7 +94479,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=31521",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/31521_241211073533007.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/a/af/Celebrity_Solstice_in_Sydney_Photo_2_9_april_2026.jpg",
+        "exterior": "images/cabins/celebrity_solstice_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_solstice_inside_0.jpg",
@@ -95153,7 +95153,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=31565",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/31565_241211074118370.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/a/af/Celebrity_Solstice_in_Sydney_Photo_2_9_april_2026.jpg",
+        "exterior": "images/cabins/celebrity_solstice_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_solstice_inside_0.jpg",
@@ -97273,7 +97273,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=31994",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/31994_241211073828250.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/a/af/Celebrity_Solstice_in_Sydney_Photo_2_9_april_2026.jpg",
+        "exterior": "images/cabins/celebrity_solstice_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_solstice_inside_0.jpg",
@@ -98413,7 +98413,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=14272",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/14272_260216070244067.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -98611,7 +98611,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=18596",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/18596_260216070631473.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -99541,7 +99541,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=10126",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/10126_251216102433417.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/a/af/Celebrity_Solstice_in_Sydney_Photo_2_9_april_2026.jpg",
+        "exterior": "images/cabins/celebrity_solstice_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_solstice_inside_0.jpg",
@@ -100542,7 +100542,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=16370",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/16370_251216103214623.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/a/af/Celebrity_Solstice_in_Sydney_Photo_2_9_april_2026.jpg",
+        "exterior": "images/cabins/celebrity_solstice_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_solstice_inside_0.jpg",
@@ -101293,7 +101293,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=16487",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/a/af/Celebrity_Solstice_in_Sydney_Photo_2_9_april_2026.jpg",
+        "exterior": "images/cabins/celebrity_solstice_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_solstice_inside_0.jpg",
@@ -102036,7 +102036,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=41491",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/41491_250904150352177.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -102223,7 +102223,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=10653",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/10653_251216102608880.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/a/af/Celebrity_Solstice_in_Sydney_Photo_2_9_april_2026.jpg",
+        "exterior": "images/cabins/celebrity_solstice_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_solstice_inside_0.jpg",
@@ -103240,7 +103240,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=45548",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/45548_250904151413457.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -103674,7 +103674,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=49249",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/49249_250904151946127.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -118014,7 +118014,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=28951",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/28951_241210151517177.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -118737,7 +118737,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=31210",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/31210_241211072757910.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/a/af/Celebrity_Solstice_in_Sydney_Photo_2_9_april_2026.jpg",
+        "exterior": "images/cabins/celebrity_solstice_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_solstice_inside_0.jpg",
@@ -119192,7 +119192,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=29124",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/29124_241210143858300.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -121755,7 +121755,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=29249",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/29249_241210144036003.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -122597,7 +122597,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=29283",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/29283_241210151915457.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -124106,7 +124106,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=29562",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/29562_241210152458860.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -125492,7 +125492,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=29981",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/29981_241210152414417.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -126763,7 +126763,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=30055",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/30055_241210152643617.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -138726,7 +138726,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=10876",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/10876_251216093849550.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -139356,7 +139356,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=19619",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/19619_251216094144530.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -139950,7 +139950,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=42785",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/42785_250904142742860.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -140245,7 +140245,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=10809",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/10809_251216094632410.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -140535,7 +140535,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=49839",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/49839_250904145347853.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -141137,7 +141137,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=46711",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/46711_250904145531123.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -141311,7 +141311,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=13784",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/13784_251216094408410.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -141905,7 +141905,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=44467",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/44467_25090415010403287.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -142206,7 +142206,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=14547",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/14547_251216094827353.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -142676,7 +142676,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=43969",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/43969_2509041501337D695.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -142960,7 +142960,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=43364",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/43364_250904150203BC8CA.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -143314,7 +143314,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=16377",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/16377_251216095229937.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -144098,7 +144098,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=18096",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/18096_251216095439447.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -145245,7 +145245,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=15202",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/15202_251216095615473.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -146329,7 +146329,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=14962",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/14962_251216100022793.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -147197,7 +147197,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=44490",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/44490_250904151600197.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -147343,7 +147343,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=47543",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/47543_250904151721883.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -148289,7 +148289,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=37268",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/37268_241002072438163.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg/1280px-Celebrity_Millennium_in_Victoria%2C_British_Columbia.jpg",
+        "exterior": "images/cabins/celebrity_millennium_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/celebrity_millennium_inside_0.jpg",
@@ -234399,7 +234399,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=36659",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/36659_250515152741380.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -234567,7 +234567,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=36660",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/36660_250515153451490.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -234723,7 +234723,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=36700",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/36700_250515155220347.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -234897,7 +234897,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=10343",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/10343_250516081355537.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -235059,7 +235059,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=10475",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/10475_250516082059047.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -235203,7 +235203,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=10528",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/10528_251231070625053.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -235353,7 +235353,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=10975",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/10975_251231071007663.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -235497,7 +235497,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=11659",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/11659_250516083522773.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -235647,7 +235647,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=12258",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/12258_2505160837322B936.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -235791,7 +235791,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=12278",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/12278_25051608394429901.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -235941,7 +235941,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=12424",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/12424_250516084631A4DB2.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -236109,7 +236109,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=12984",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/12984_250516085643027.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -236265,7 +236265,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=13024",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/13024_250516090101240.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -236409,7 +236409,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=13089",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/20084_250701105246663.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -236600,7 +236600,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=44885",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/44885_250904122955020.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -236783,7 +236783,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=45660",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/45660_251120130259130.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -236925,7 +236925,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=44262",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/44262_250904123718337.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -237087,7 +237087,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=46125",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/46125_250904141427167.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -237242,7 +237242,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=49870",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/49870_250904141743397.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -237383,7 +237383,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=46085",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/46085_250904142030763.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -237537,7 +237537,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=44856",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -237699,7 +237699,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=44359",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/44359_250904142639567.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -237867,7 +237867,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=46674",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/46674_250904151117747.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -238011,7 +238011,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=49869",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/15870_250917075549247.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -238167,7 +238167,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=43448",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/43448_251120125401680.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -238311,7 +238311,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=40484",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/52669_250305113957543.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -238461,7 +238461,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=52671",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/44899_250916113501450.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -239401,7 +239401,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=45544",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/13444_241203074844867.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -239736,7 +239736,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=52672",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/45543_250916114005533.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -239880,7 +239880,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=52673",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/49241_250916115848353.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -240167,7 +240167,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=52670",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/47587_250916121341530.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -240466,7 +240466,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=52674",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/44493_250916140404977.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -240753,7 +240753,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=52676",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/48434_250916141050343.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -241034,7 +241034,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=52677",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/47553_250916141846427.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -241184,7 +241184,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=52678",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/46019_250916142721493.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -241614,7 +241614,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=52679",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/52679_250305124148530.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -241901,7 +241901,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=52680",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/44267_250916143411703.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -242200,7 +242200,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=52681",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/45097_250916144330620.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -242499,7 +242499,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=52682",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/43906_250916145149847.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -242780,7 +242780,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=52683",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/45377_250916145824940.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -242924,7 +242924,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=52684",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/49469_250916151508753.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -243205,7 +243205,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=52685",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/44018_250916152449637.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -243528,7 +243528,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=52686",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/44238_250917071331220.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -243672,7 +243672,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=52687",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/49086_250916155157710.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -243959,7 +243959,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=52689",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/13808_250917071216407.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -244103,7 +244103,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=52690",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/14344_250917072326150.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -244253,7 +244253,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=52692",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/12587_250917080413143.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -244421,7 +244421,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=52693",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/16009_250917081720747.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -250004,7 +250004,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=10127",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/20175_250506085707643.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -250154,7 +250154,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=22620",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/40113_241202163500690.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -250322,7 +250322,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=40178",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/38935_250916104417333.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -250478,7 +250478,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=11045",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/45717_250916104850710.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -250628,7 +250628,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=11531",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/47631_250916105808297.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -255656,7 +255656,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=30894",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/30894_251021092924500.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -256203,7 +256203,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=38862",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/10120_251120122640703.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -256484,7 +256484,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=19811",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/39443_251120123208750.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -271577,7 +271577,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=52694",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/49652_250919092644323.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -274426,7 +274426,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=39511",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/20078_250701104620057.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -274576,7 +274576,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=39648",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/39648_241202162837143.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -276888,7 +276888,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=52695",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/52695_250305155153353.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Explora_I.jpg",
+        "exterior": "images/cabins/explora_iii_exterior.jpg",
         "cabins": {
           "oceanview": [
             "images/cabins/explora_iii_oceanview_0.jpg"
@@ -284585,7 +284585,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=53676",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/53676_250403144641487.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -284818,7 +284818,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=53683",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/53678_250403145034270.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -288517,7 +288517,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=36070",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/36102_260109104141393.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -288758,7 +288758,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=36125",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/36125_260109104259300.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -288957,7 +288957,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=23651",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/36265_260109104428040.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -289775,7 +289775,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=22376",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/22376_250108131025057.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -289940,7 +289940,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=22646",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/53694_250403151914823.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -290574,7 +290574,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=24890",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/24890_241016151258900.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -291747,7 +291747,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=53674",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -303856,7 +303856,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=22672",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/10044_250627081710277.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -304386,7 +304386,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=22721",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/48392_250917121945203.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -310754,7 +310754,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=35492",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/15755_241016145724210.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -311327,7 +311327,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=15879",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/15879_241016150027243.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -312425,7 +312425,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=16319",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/43293_250917150951580.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -312781,7 +312781,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=21085",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/21085_241016150603963.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -322751,7 +322751,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=45978",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/45437_250917143554603.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -324683,7 +324683,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=44662",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/44662_250917145712263.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -325737,7 +325737,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=49868",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/49868_250917150729333.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -327245,7 +327245,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=43827",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/43827_250917151413160.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -327927,7 +327927,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=40249",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/40249_250917151946383.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -328623,7 +328623,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=45104",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/45104_250917152311657.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -334259,7 +334259,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=23015",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/23015_240416125006610.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -334641,7 +334641,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=34134",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -335274,7 +335274,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=34345",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/35339_241016144702747.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -335680,7 +335680,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=34395",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/34395_250317143940260.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -336238,7 +336238,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=11675",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/40209_250917142335687.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -336763,7 +336763,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=12757",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/12757_260102073245430.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -337342,7 +337342,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=12784",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -337919,7 +337919,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=14403",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/14403_241016145255217.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -338522,7 +338522,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=15094",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/15094_241016145614907.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -339263,7 +339263,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=53690",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/53692_250403151750043.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -339836,7 +339836,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=43903",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/43903_250917122430320.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -340236,7 +340236,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=41208",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/42391_250917123759587.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -340444,7 +340444,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=42210",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/42210_250917140647880.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -340828,7 +340828,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=46685",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/46685_250917141227070.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -341766,7 +341766,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=45743",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -342502,7 +342502,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=49183",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/49183_250917142949797.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -342874,7 +342874,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=45984",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/45984_250917145335830.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -343322,7 +343322,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=53675",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/53675_250403144528483.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -343508,7 +343508,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=53685",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/53685_250403150647517.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -343762,7 +343762,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=53687",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/53687_250403150757180.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/insignia_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/insignia_inside_0.jpg",
@@ -413760,7 +413760,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=39914",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/23230_250417104208587.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -413936,7 +413936,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=39944",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/23943_250417115024207.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -414127,7 +414127,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=39968",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/27860_250417144935780.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -414306,7 +414306,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=40059",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/28503_250417155228840.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -414491,7 +414491,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=24914",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/11890_250418084844523.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -414670,7 +414670,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=40353",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/12845_250418092638650.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -414853,7 +414853,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=41001",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/18668_250418103447DC43B.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -415029,7 +415029,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=11288",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/11288_241018080718360.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -415196,7 +415196,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=26699",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/26699_260106102203477.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -415519,7 +415519,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=13657",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/11649_241224071810200.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -415749,7 +415749,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=18632",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/10036_251024113529253.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -415977,7 +415977,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=10588",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -416163,7 +416163,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=34679",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/34679_250513113128357.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -416342,7 +416342,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=34766",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/34766_250513113439117.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -416527,7 +416527,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=34768",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/34768_250513113808153.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -416706,7 +416706,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=34770",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/34770_250513114147007.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -416891,7 +416891,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=34771",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/34771_250513114613080.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -417070,7 +417070,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=34829",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/34829_250513115126653.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -417237,7 +417237,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=18553",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/10013_251110072840113.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -417434,7 +417434,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=18902",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/38857_241018094140563.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -417647,7 +417647,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=22295",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/19733_250417093720867.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -417845,7 +417845,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=22298",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/22298_250417101442643.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -418061,7 +418061,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=23614",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/23614_250417112352497.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -418251,7 +418251,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=23699",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/23699_250417113659187.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -418460,7 +418460,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=24712",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/24712_250417122242790.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -418681,7 +418681,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=28155",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/28155_250417150710260.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -418874,7 +418874,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=28303",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/28303_250417151718883.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -419083,7 +419083,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=10831",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/11196_250418082916520.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -419282,7 +419282,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=11553",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/11553_250418083517043.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -419497,7 +419497,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=11943",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/11943_250418091344007.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -419690,7 +419690,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=12777",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/12777_250418092027323.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -419897,7 +419897,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=13631",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/15608_250418100556720.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -420093,7 +420093,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=17551",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/17551_250418101519307.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -420308,7 +420308,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=19458",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/19458_250418104722743.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -420587,7 +420587,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=20030",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/20030_250418111650647.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -420837,7 +420837,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=20066",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/20066_250418112209103.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -421306,7 +421306,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=14408",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/13801_251024111624340.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -421480,7 +421480,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=19454",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/10167_251110123449953.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -421678,7 +421678,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=17109",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/17109_251103092108703.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -421912,7 +421912,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=20338",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/20131_241224092147377.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -422091,7 +422091,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=19535",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/10613_251110074254240.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -422306,7 +422306,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=19855",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/19420_251110075323617.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -422521,7 +422521,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=19882",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/19882_241224084735070.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -422736,7 +422736,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=19926",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/19926_241224085050587.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -422951,7 +422951,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=19968",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/19953_241224085626517.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -423160,7 +423160,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=29388",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/29388_250731114929913.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -423364,7 +423364,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=31336",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -423543,7 +423543,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=11763",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/19562_251110075002477.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -423758,7 +423758,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=10408",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/10408_251110075752180.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -423973,7 +423973,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=18203",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/18203_251110080509523.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -424176,7 +424176,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=13490",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/13490_251110080841370.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -427300,7 +427300,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=35766",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/12239_251110085746003.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -427468,7 +427468,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=14018",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/10937_251110104231700.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -427630,7 +427630,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=12461",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/18078_251110104839393.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -427792,7 +427792,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=10428",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/14767_251110105704370.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -427954,7 +427954,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=17255",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/13768_251110111042487.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -428268,7 +428268,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=14215",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/10164_251110112008617.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -428582,7 +428582,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=12636",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/17555_251110112550807.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -428908,7 +428908,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=15138",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/11111_251110113138763.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -429239,7 +429239,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=19960",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/19908_251110113923680.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -429515,7 +429515,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=27362",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/29634_251110143149750.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -429689,7 +429689,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=29545",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/29545_251110144225767.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -429875,7 +429875,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=25262",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/25262_251110144635693.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -431122,7 +431122,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=34982",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/34985_250513122840487.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -431356,7 +431356,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=35021",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/35021_250513123117163.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -431566,7 +431566,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=35430",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/35428_250513145150437.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -431758,7 +431758,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=35431",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/35483_250513151156917.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -431980,7 +431980,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=35661",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/35661_250513151629503.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -432184,7 +432184,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=35664",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/35664_250513151931460.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -432376,7 +432376,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=35666",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/35666_250513152329467.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -432568,7 +432568,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=35667",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/35667_250513152615257.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -432766,7 +432766,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=35672",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/35672_250513152839520.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -432946,7 +432946,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=30161",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/30161_260107092830400.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -433296,7 +433296,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=30197",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -433471,7 +433471,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=31639",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/31639_240906104013107.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -434024,7 +434024,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=32689",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/31887_240906105052687.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -435911,7 +435911,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=33235",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/33235_240906113604297.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -436611,7 +436611,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=33249",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/33336_250909124512523.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -436773,7 +436773,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=33370",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/33370_250909125230570.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -437120,7 +437120,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=33413",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/33413_240906115624237.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -437477,7 +437477,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=33417",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/33417_240906115933870.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -437843,7 +437843,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=33476",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/33476_240906120707157.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -438537,7 +438537,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=49156",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/42062_260116112642077.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -447435,7 +447435,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=21478",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/21478_250909130433487.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -447621,7 +447621,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=32812",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/32812_240906105927540.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -448057,7 +448057,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=32847",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/32847_250304113410577.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -448426,7 +448426,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=33017",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/33017_240906111721690.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -448784,7 +448784,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=33152",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/33152_240906112828757.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -448965,7 +448965,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=33224",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/33224_250304130938500.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -449713,7 +449713,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=35184",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/35184_250513142802247.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -450086,7 +450086,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=10393",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/11918_251110085147937.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -450851,7 +450851,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=34972",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/34972_250513121821507.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -451047,7 +451047,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=40162",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/40162_260116105956407.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -451242,7 +451242,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=12733",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/12733_251110073549197.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Azamara_Pursuit_in_Tallinn_22_July_2019.jpg/1280px-Azamara_Pursuit_in_Tallinn_22_July_2019.jpg",
+        "exterior": "images/cabins/azamara_pursuit_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_pursuit_inside_0.jpg",
@@ -451679,7 +451679,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=10827",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/10827_251110123037370.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -451883,7 +451883,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=20267",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/20267_251110143842057.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -452099,7 +452099,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=18143",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/18143_250529091442473.jpg",
       "shipPhotos": {
-        "exterior": "https://upload.wikimedia.org/wikipedia/commons/9/91/Azamara_Quest_%28ship%2C_2000%29_IMO_9210218%3B_Split%2C_2013-09-29_%281%29.jpg",
+        "exterior": "images/cabins/azamara_quest_exterior.jpg",
         "cabins": {
           "inside": [
             "images/cabins/azamara_quest_inside_0.jpg",
@@ -587681,7 +587681,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=22996",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -618160,7 +618160,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=14795",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/14795_251230070415923.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -618736,7 +618736,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=14822",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/14822_251230070748500.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -619492,7 +619492,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=33820",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/33820_241211102724960.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -622255,7 +622255,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=10608",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -622562,7 +622562,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=15648",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -623585,7 +623585,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=20326",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -624057,7 +624057,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=24027",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -624656,7 +624656,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=21041",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -625119,7 +625119,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=26323",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/26323_251110151832887.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -636138,7 +636138,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=23570",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -636422,7 +636422,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=23612",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -636633,7 +636633,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=23627",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -636777,7 +636777,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=24050",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -637061,7 +637061,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=24332",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -637417,7 +637417,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=24409",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -637634,7 +637634,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=24655",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -637773,7 +637773,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=24726",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -638062,7 +638062,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=24848",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -638201,7 +638201,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=25303",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -638412,7 +638412,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=25399",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -638762,7 +638762,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=25431",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -639041,7 +639041,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=25433",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -639392,7 +639392,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=25462",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -639670,7 +639670,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=59642",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -639954,7 +639954,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=25907",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -640305,7 +640305,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=26045",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -640444,7 +640444,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=26287",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -640861,7 +640861,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=26768",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -641072,7 +641072,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=27195",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -641211,7 +641211,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=27203",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -641628,7 +641628,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=54229",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -641772,7 +641772,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=58763",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -641983,7 +641983,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=56496",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -642328,7 +642328,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=59101",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -642606,7 +642606,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=54906",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -642750,7 +642750,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=59821",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -642889,7 +642889,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=58806",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -643028,7 +643028,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=56356",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -643239,7 +643239,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=54853",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -643522,7 +643522,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=56970",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -643666,7 +643666,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=23328",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -644093,7 +644093,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=55735",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -644304,7 +644304,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=59069",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -644520,7 +644520,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=54961",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -644731,7 +644731,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=57395",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -645014,7 +645014,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=18965",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -645153,7 +645153,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=18661",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -645297,7 +645297,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=14101",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -645642,7 +645642,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=16220",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -645920,7 +645920,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=19640",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -646198,7 +646198,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=16219",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -646476,7 +646476,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=16010",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -646687,7 +646687,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=15074",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -646826,7 +646826,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=17965",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -651149,7 +651149,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=37677",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -651494,7 +651494,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=32311",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -651705,7 +651705,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=37884",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -651911,7 +651911,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=59524",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -652122,7 +652122,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=37016",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -652194,7 +652194,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=37083",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/silver_nova_exterior.jpg",
         "cabins": {
           "balcony": [
             "images/cabins/silver_nova_balcony_0.jpg",
@@ -674836,7 +674836,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=38451",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/star_explorer_exterior.jpg",
         "cabins": {
           "suite": [
             "images/cabins/star_explorer_suite_0.jpg"
@@ -674966,7 +674966,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=38457",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/38422_250904141023850.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/star_explorer_exterior.jpg",
         "cabins": {
           "suite": [
             "images/cabins/star_explorer_suite_0.jpg"
@@ -675114,7 +675114,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=38477",
       "itineraryImageUrl": null,
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/star_explorer_exterior.jpg",
         "cabins": {
           "suite": [
             "images/cabins/star_explorer_suite_0.jpg"
@@ -675244,7 +675244,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=38487",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/38372_250905082553293.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/star_explorer_exterior.jpg",
         "cabins": {
           "suite": [
             "images/cabins/star_explorer_suite_0.jpg"
@@ -686033,7 +686033,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=38223",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/38223_250813145818677.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/star_explorer_exterior.jpg",
         "cabins": {
           "suite": [
             "images/cabins/star_explorer_suite_0.jpg"
@@ -686169,7 +686169,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=38252",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/38377_250904132151427.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/star_explorer_exterior.jpg",
         "cabins": {
           "suite": [
             "images/cabins/star_explorer_suite_0.jpg"
@@ -686293,7 +686293,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=38253",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/38417_250904134703613.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/star_explorer_exterior.jpg",
         "cabins": {
           "suite": [
             "images/cabins/star_explorer_suite_0.jpg"
@@ -686423,7 +686423,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=38272",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/38272_250904135245863.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/star_explorer_exterior.jpg",
         "cabins": {
           "suite": [
             "images/cabins/star_explorer_suite_0.jpg"
@@ -686547,7 +686547,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=38287",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/38441_250904143435893.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/star_explorer_exterior.jpg",
         "cabins": {
           "suite": [
             "images/cabins/star_explorer_suite_0.jpg"
@@ -686683,7 +686683,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=38304",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/38304_250904144036683.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/star_explorer_exterior.jpg",
         "cabins": {
           "suite": [
             "images/cabins/star_explorer_suite_0.jpg"
@@ -686819,7 +686819,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=38312",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/38447_250904145033340.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/star_explorer_exterior.jpg",
         "cabins": {
           "suite": [
             "images/cabins/star_explorer_suite_0.jpg"
@@ -687117,7 +687117,7 @@
       "bookingUrl": "https://www.vacationstogo.com/fastdeal.cfm?deal=38345",
       "itineraryImageUrl": "https://assets.vacationstogo.com/images/deal_images/38210_250905081950283.jpg",
       "shipPhotos": {
-        "exterior": null,
+        "exterior": "images/cabins/star_explorer_exterior.jpg",
         "cabins": {
           "suite": [
             "images/cabins/star_explorer_suite_0.jpg"

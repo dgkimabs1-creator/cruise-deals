@@ -110,7 +110,8 @@
     "suite": [
       "images/cabins/celebrity_millennium_suite_0.jpg",
       "images/cabins/celebrity_millennium_suite_1.jpg"
-    ]
+    ],
+    "exterior": "images/cabins/celebrity_millennium_exterior.jpg"
   },
   "Azamara Pursuit": {
     "inside": [
@@ -127,7 +128,8 @@
     ],
     "suite": [
       "images/cabins/azamara_pursuit_suite_0.jpg"
-    ]
+    ],
+    "exterior": "images/cabins/azamara_pursuit_exterior.jpg"
   },
   "Norwegian Jade": {
     "exterior": "images/cabins/norwegian_jade_exterior.jpg",
@@ -316,7 +318,8 @@
     ],
     "oceanview": [
       "images/cabins/explora_iii_oceanview_0.jpg"
-    ]
+    ],
+    "exterior": "images/cabins/explora_iii_exterior.jpg"
   },
   "Nautica": {
     "inside": [
@@ -352,7 +355,8 @@
     "suite": [
       "images/cabins/celebrity_solstice_suite_0.jpg",
       "images/cabins/celebrity_solstice_suite_1.jpg"
-    ]
+    ],
+    "exterior": "images/cabins/celebrity_solstice_exterior.jpg"
   },
   "Viking Orion": {
     "balcony": [
@@ -484,7 +488,8 @@
     "suite": [
       "images/cabins/azamara_quest_suite_0.jpg",
       "images/cabins/azamara_quest_suite_1.jpg"
-    ]
+    ],
+    "exterior": "images/cabins/azamara_quest_exterior.jpg"
   },
   "Queen Elizabeth": {
     "inside": [
@@ -580,7 +585,8 @@
     ],
     "suite": [
       "images/cabins/ovation_of_the_seas_suite_0.jpg"
-    ]
+    ],
+    "exterior": "images/cabins/ovation_of_the_seas_exterior.jpg"
   },
   "Le Jacques Cartier": {
     "oceanview": [
@@ -1031,7 +1037,8 @@
     "inside": [
       "images/cabins/insignia_inside_0.jpg",
       "images/cabins/insignia_inside_1.jpg"
-    ]
+    ],
+    "exterior": "images/cabins/insignia_exterior.jpg"
   },
   "Marina": {
     "suite": [
@@ -1464,7 +1471,8 @@
     "balcony": [
       "images/cabins/silver_nova_balcony_0.jpg",
       "images/cabins/silver_nova_balcony_1.jpg"
-    ]
+    ],
+    "exterior": "images/cabins/silver_nova_exterior.jpg"
   },
   "Silver Whisper": {
     "suite": [
@@ -1575,6 +1583,7 @@
     ],
     "_floors": {
       "suite": "images/cabins/star_explorer_suite_floor.webp"
-    }
+    },
+    "exterior": "images/cabins/star_explorer_exterior.jpg"
   }
 }
