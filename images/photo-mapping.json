@@ -737,5 +737,844 @@
       "images/cabins/star_breeze_suite_0.jpg",
       "images/cabins/star_breeze_suite_1.jpg"
     ]
+  },
+  "Azamara Journey": {
+    "suite": [
+      "images/cabins/azamara_journey_suite_0.jpg",
+      "images/cabins/azamara_journey_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/azamara_journey_suite_floor.webp",
+      "balcony": "images/cabins/azamara_journey_balcony_floor.webp",
+      "oceanview": "images/cabins/azamara_journey_oceanview_floor.webp",
+      "inside": "images/cabins/azamara_journey_inside_floor.webp"
+    },
+    "balcony": [
+      "images/cabins/azamara_journey_balcony_0.jpg",
+      "images/cabins/azamara_journey_balcony_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/azamara_journey_oceanview_0.jpg",
+      "images/cabins/azamara_journey_oceanview_1.jpg"
+    ],
+    "inside": [
+      "images/cabins/azamara_journey_inside_0.jpg",
+      "images/cabins/azamara_journey_inside_1.jpg"
+    ]
+  },
+  "Crystal Symphony": {
+    "suite": [
+      "images/cabins/crystal_symphony_suite_0.jpg",
+      "images/cabins/crystal_symphony_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/crystal_symphony_suite_floor.webp",
+      "balcony": "images/cabins/crystal_symphony_balcony_floor.webp",
+      "oceanview": "images/cabins/crystal_symphony_oceanview_floor.webp"
+    },
+    "balcony": [
+      "images/cabins/crystal_symphony_balcony_0.jpg",
+      "images/cabins/crystal_symphony_balcony_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/crystal_symphony_oceanview_0.jpg",
+      "images/cabins/crystal_symphony_oceanview_1.jpg"
+    ]
+  },
+  "Disney Wonder": {
+    "suite": [
+      "images/cabins/disney_wonder_suite_0.jpg",
+      "images/cabins/disney_wonder_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/disney_wonder_suite_floor.webp",
+      "balcony": "images/cabins/disney_wonder_balcony_floor.webp",
+      "oceanview": "images/cabins/disney_wonder_oceanview_floor.webp",
+      "inside": "images/cabins/disney_wonder_inside_floor.webp"
+    },
+    "balcony": [
+      "images/cabins/disney_wonder_balcony_0.jpg",
+      "images/cabins/disney_wonder_balcony_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/disney_wonder_oceanview_0.jpg",
+      "images/cabins/disney_wonder_oceanview_1.jpg"
+    ],
+    "inside": [
+      "images/cabins/disney_wonder_inside_0.jpg",
+      "images/cabins/disney_wonder_inside_1.jpg"
+    ]
+  },
+  "Disney Magic": {
+    "suite": [
+      "images/cabins/disney_magic_suite_0.jpg",
+      "images/cabins/disney_magic_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/disney_magic_suite_floor.webp",
+      "balcony": "images/cabins/disney_magic_balcony_floor.webp",
+      "oceanview": "images/cabins/disney_magic_oceanview_floor.webp",
+      "inside": "images/cabins/disney_magic_inside_floor.webp"
+    },
+    "balcony": [
+      "images/cabins/disney_magic_balcony_0.jpg",
+      "images/cabins/disney_magic_balcony_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/disney_magic_oceanview_0.jpg",
+      "images/cabins/disney_magic_oceanview_1.jpg"
+    ],
+    "inside": [
+      "images/cabins/disney_magic_inside_0.jpg",
+      "images/cabins/disney_magic_inside_1.jpg"
+    ]
+  },
+  "Disney Destiny": {
+    "suite": [
+      "images/cabins/disney_destiny_suite_0.jpg",
+      "images/cabins/disney_destiny_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/disney_destiny_suite_floor.webp",
+      "balcony": "images/cabins/disney_destiny_balcony_floor.webp",
+      "oceanview": "images/cabins/disney_destiny_oceanview_floor.webp",
+      "inside": "images/cabins/disney_destiny_inside_floor.webp"
+    },
+    "balcony": [
+      "images/cabins/disney_destiny_balcony_0.jpg",
+      "images/cabins/disney_destiny_balcony_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/disney_destiny_oceanview_0.jpg",
+      "images/cabins/disney_destiny_oceanview_1.jpg"
+    ],
+    "inside": [
+      "images/cabins/disney_destiny_inside_0.jpg",
+      "images/cabins/disney_destiny_inside_1.jpg"
+    ]
+  },
+  "Disney Dream": {
+    "suite": [
+      "images/cabins/disney_dream_suite_0.jpg",
+      "images/cabins/disney_dream_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/disney_dream_suite_floor.webp",
+      "balcony": "images/cabins/disney_dream_balcony_floor.webp",
+      "oceanview": "images/cabins/disney_dream_oceanview_floor.webp",
+      "inside": "images/cabins/disney_dream_inside_floor.webp"
+    },
+    "balcony": [
+      "images/cabins/disney_dream_balcony_0.jpg",
+      "images/cabins/disney_dream_balcony_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/disney_dream_oceanview_0.jpg",
+      "images/cabins/disney_dream_oceanview_1.jpg"
+    ],
+    "inside": [
+      "images/cabins/disney_dream_inside_0.jpg",
+      "images/cabins/disney_dream_inside_1.jpg"
+    ]
+  },
+  "Disney Wish": {
+    "suite": [
+      "images/cabins/disney_wish_suite_0.jpg",
+      "images/cabins/disney_wish_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/disney_wish_suite_floor.webp",
+      "balcony": "images/cabins/disney_wish_balcony_floor.webp",
+      "oceanview": "images/cabins/disney_wish_oceanview_floor.webp",
+      "inside": "images/cabins/disney_wish_inside_floor.webp"
+    },
+    "balcony": [
+      "images/cabins/disney_wish_balcony_0.jpg",
+      "images/cabins/disney_wish_balcony_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/disney_wish_oceanview_0.jpg",
+      "images/cabins/disney_wish_oceanview_1.jpg"
+    ],
+    "inside": [
+      "images/cabins/disney_wish_inside_0.jpg",
+      "images/cabins/disney_wish_inside_1.jpg"
+    ]
+  },
+  "Disney Fantasy": {
+    "suite": [
+      "images/cabins/disney_fantasy_suite_0.jpg",
+      "images/cabins/disney_fantasy_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/disney_fantasy_suite_floor.webp",
+      "balcony": "images/cabins/disney_fantasy_balcony_floor.webp",
+      "oceanview": "images/cabins/disney_fantasy_oceanview_floor.webp",
+      "inside": "images/cabins/disney_fantasy_inside_floor.webp"
+    },
+    "balcony": [
+      "images/cabins/disney_fantasy_balcony_0.jpg",
+      "images/cabins/disney_fantasy_balcony_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/disney_fantasy_oceanview_0.jpg",
+      "images/cabins/disney_fantasy_oceanview_1.jpg"
+    ],
+    "inside": [
+      "images/cabins/disney_fantasy_inside_0.jpg",
+      "images/cabins/disney_fantasy_inside_1.jpg"
+    ]
+  },
+  "Disney Treasure": {
+    "suite": [
+      "images/cabins/disney_treasure_suite_0.jpg",
+      "images/cabins/disney_treasure_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/disney_treasure_suite_floor.webp",
+      "balcony": "images/cabins/disney_treasure_balcony_floor.webp",
+      "oceanview": "images/cabins/disney_treasure_oceanview_floor.webp",
+      "inside": "images/cabins/disney_treasure_inside_floor.webp"
+    },
+    "balcony": [
+      "images/cabins/disney_treasure_balcony_0.jpg",
+      "images/cabins/disney_treasure_balcony_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/disney_treasure_oceanview_0.jpg",
+      "images/cabins/disney_treasure_oceanview_1.jpg"
+    ],
+    "inside": [
+      "images/cabins/disney_treasure_inside_0.jpg",
+      "images/cabins/disney_treasure_inside_1.jpg"
+    ]
+  },
+  "EXPLORA II": {
+    "suite": [
+      "images/cabins/explora_ii_suite_0.jpg",
+      "images/cabins/explora_ii_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/explora_ii_suite_floor.webp"
+    }
+  },
+  "EXPLORA I": {
+    "suite": [
+      "images/cabins/explora_i_suite_0.jpg",
+      "images/cabins/explora_i_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/explora_i_suite_floor.webp"
+    }
+  },
+  "EXPLORA IV": {
+    "suite": [
+      "images/cabins/explora_iv_suite_0.jpg",
+      "images/cabins/explora_iv_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/explora_iv_suite_floor.webp"
+    }
+  },
+  "EXPLORA V": {
+    "suite": [
+      "images/cabins/explora_v_suite_0.jpg",
+      "images/cabins/explora_v_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/explora_v_suite_floor.webp"
+    }
+  },
+  "Sirena": {
+    "suite": [
+      "images/cabins/sirena_suite_0.jpg",
+      "images/cabins/sirena_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/sirena_suite_floor.webp",
+      "balcony": "images/cabins/sirena_balcony_floor.webp",
+      "oceanview": "images/cabins/sirena_oceanview_floor.webp",
+      "inside": "images/cabins/sirena_inside_floor.webp"
+    },
+    "balcony": [
+      "images/cabins/sirena_balcony_0.jpg",
+      "images/cabins/sirena_balcony_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/sirena_oceanview_0.jpg",
+      "images/cabins/sirena_oceanview_1.jpg"
+    ],
+    "inside": [
+      "images/cabins/sirena_inside_0.jpg",
+      "images/cabins/sirena_inside_1.jpg"
+    ]
+  },
+  "Insignia": {
+    "suite": [
+      "images/cabins/insignia_suite_0.jpg",
+      "images/cabins/insignia_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/insignia_suite_floor.webp",
+      "balcony": "images/cabins/insignia_balcony_floor.webp",
+      "oceanview": "images/cabins/insignia_oceanview_floor.webp",
+      "inside": "images/cabins/insignia_inside_floor.webp"
+    },
+    "balcony": [
+      "images/cabins/insignia_balcony_0.jpg",
+      "images/cabins/insignia_balcony_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/insignia_oceanview_0.jpg",
+      "images/cabins/insignia_oceanview_1.jpg"
+    ],
+    "inside": [
+      "images/cabins/insignia_inside_0.jpg",
+      "images/cabins/insignia_inside_1.jpg"
+    ]
+  },
+  "Marina": {
+    "suite": [
+      "images/cabins/marina_suite_0.jpg",
+      "images/cabins/marina_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/marina_suite_floor.webp",
+      "balcony": "images/cabins/marina_balcony_floor.webp",
+      "oceanview": "images/cabins/marina_oceanview_floor.webp",
+      "inside": "images/cabins/marina_inside_floor.webp"
+    },
+    "balcony": [
+      "images/cabins/marina_balcony_0.jpg",
+      "images/cabins/marina_balcony_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/marina_oceanview_0.jpg",
+      "images/cabins/marina_oceanview_1.jpg"
+    ],
+    "inside": [
+      "images/cabins/marina_inside_0.jpg",
+      "images/cabins/marina_inside_1.jpg"
+    ]
+  },
+  "Allura": {
+    "suite": [
+      "images/cabins/allura_suite_0.jpg",
+      "images/cabins/allura_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/allura_suite_floor.webp",
+      "balcony": "images/cabins/allura_balcony_floor.webp",
+      "oceanview": "images/cabins/allura_oceanview_floor.webp",
+      "inside": "images/cabins/allura_inside_floor.webp"
+    },
+    "balcony": [
+      "images/cabins/allura_balcony_0.jpg",
+      "images/cabins/allura_balcony_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/allura_oceanview_0.jpg",
+      "images/cabins/allura_oceanview_1.jpg"
+    ],
+    "inside": [
+      "images/cabins/allura_inside_0.jpg",
+      "images/cabins/allura_inside_1.jpg"
+    ]
+  },
+  "Sonata": {
+    "suite": [
+      "images/cabins/sonata_suite_0.jpg",
+      "images/cabins/sonata_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/sonata_suite_floor.webp",
+      "balcony": "images/cabins/sonata_balcony_floor.webp",
+      "oceanview": "images/cabins/sonata_oceanview_floor.webp",
+      "inside": "images/cabins/sonata_inside_floor.webp"
+    },
+    "balcony": [
+      "images/cabins/sonata_balcony_0.jpg",
+      "images/cabins/sonata_balcony_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/sonata_oceanview_0.jpg",
+      "images/cabins/sonata_oceanview_1.jpg"
+    ],
+    "inside": [
+      "images/cabins/sonata_inside_0.jpg",
+      "images/cabins/sonata_inside_1.jpg"
+    ]
+  },
+  "Le Ponant": {
+    "suite": [
+      "images/cabins/le_ponant_suite_0.jpg",
+      "images/cabins/le_ponant_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/le_ponant_suite_floor.webp",
+      "balcony": "images/cabins/le_ponant_balcony_floor.webp",
+      "oceanview": "images/cabins/le_ponant_oceanview_floor.webp",
+      "inside": "images/cabins/le_ponant_inside_floor.webp"
+    },
+    "balcony": [
+      "images/cabins/le_ponant_balcony_0.jpg",
+      "images/cabins/le_ponant_balcony_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/le_ponant_oceanview_0.jpg",
+      "images/cabins/le_ponant_oceanview_1.jpg"
+    ],
+    "inside": [
+      "images/cabins/le_ponant_inside_0.jpg",
+      "images/cabins/le_ponant_inside_1.jpg"
+    ]
+  },
+  "Le Laperouse": {
+    "suite": [
+      "images/cabins/le_laperouse_suite_0.jpg",
+      "images/cabins/le_laperouse_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/le_laperouse_suite_floor.webp",
+      "balcony": "images/cabins/le_laperouse_balcony_floor.webp",
+      "oceanview": "images/cabins/le_laperouse_oceanview_floor.webp",
+      "inside": "images/cabins/le_laperouse_inside_floor.webp"
+    },
+    "balcony": [
+      "images/cabins/le_laperouse_balcony_0.jpg",
+      "images/cabins/le_laperouse_balcony_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/le_laperouse_oceanview_0.jpg",
+      "images/cabins/le_laperouse_oceanview_1.jpg"
+    ],
+    "inside": [
+      "images/cabins/le_laperouse_inside_0.jpg",
+      "images/cabins/le_laperouse_inside_1.jpg"
+    ]
+  },
+  "Le Dumont d'Urville": {
+    "suite": [
+      "images/cabins/le_dumont_d_urville_suite_0.jpg",
+      "images/cabins/le_dumont_d_urville_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/le_dumont_d_urville_suite_floor.webp",
+      "balcony": "images/cabins/le_dumont_d_urville_balcony_floor.webp",
+      "oceanview": "images/cabins/le_dumont_d_urville_oceanview_floor.webp",
+      "inside": "images/cabins/le_dumont_d_urville_inside_floor.webp"
+    },
+    "balcony": [
+      "images/cabins/le_dumont_d_urville_balcony_0.jpg",
+      "images/cabins/le_dumont_d_urville_balcony_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/le_dumont_d_urville_oceanview_0.jpg",
+      "images/cabins/le_dumont_d_urville_oceanview_1.jpg"
+    ],
+    "inside": [
+      "images/cabins/le_dumont_d_urville_inside_0.jpg",
+      "images/cabins/le_dumont_d_urville_inside_1.jpg"
+    ]
+  },
+  "Le Champlain": {
+    "suite": [
+      "images/cabins/le_champlain_suite_0.jpg",
+      "images/cabins/le_champlain_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/le_champlain_suite_floor.webp",
+      "balcony": "images/cabins/le_champlain_balcony_floor.webp",
+      "oceanview": "images/cabins/le_champlain_oceanview_floor.webp",
+      "inside": "images/cabins/le_champlain_inside_floor.webp"
+    },
+    "balcony": [
+      "images/cabins/le_champlain_balcony_0.jpg",
+      "images/cabins/le_champlain_balcony_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/le_champlain_oceanview_0.jpg",
+      "images/cabins/le_champlain_oceanview_1.jpg"
+    ],
+    "inside": [
+      "images/cabins/le_champlain_inside_0.jpg",
+      "images/cabins/le_champlain_inside_1.jpg"
+    ]
+  },
+  "Le Boreal": {
+    "suite": [
+      "images/cabins/le_boreal_suite_0.jpg",
+      "images/cabins/le_boreal_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/le_boreal_suite_floor.webp",
+      "balcony": "images/cabins/le_boreal_balcony_floor.webp",
+      "oceanview": "images/cabins/le_boreal_oceanview_floor.webp",
+      "inside": "images/cabins/le_boreal_inside_floor.webp"
+    },
+    "balcony": [
+      "images/cabins/le_boreal_balcony_0.jpg",
+      "images/cabins/le_boreal_balcony_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/le_boreal_oceanview_0.jpg",
+      "images/cabins/le_boreal_oceanview_1.jpg"
+    ],
+    "inside": [
+      "images/cabins/le_boreal_inside_0.jpg",
+      "images/cabins/le_boreal_inside_1.jpg"
+    ]
+  },
+  "L'Austral": {
+    "suite": [
+      "images/cabins/l_austral_suite_0.jpg",
+      "images/cabins/l_austral_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/l_austral_suite_floor.webp",
+      "balcony": "images/cabins/l_austral_balcony_floor.webp",
+      "oceanview": "images/cabins/l_austral_oceanview_floor.webp",
+      "inside": "images/cabins/l_austral_inside_floor.webp"
+    },
+    "balcony": [
+      "images/cabins/l_austral_balcony_0.jpg",
+      "images/cabins/l_austral_balcony_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/l_austral_oceanview_0.jpg",
+      "images/cabins/l_austral_oceanview_1.jpg"
+    ],
+    "inside": [
+      "images/cabins/l_austral_inside_0.jpg",
+      "images/cabins/l_austral_inside_1.jpg"
+    ]
+  },
+  "Le Lyrial": {
+    "suite": [
+      "images/cabins/le_lyrial_suite_0.jpg",
+      "images/cabins/le_lyrial_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/le_lyrial_suite_floor.webp",
+      "balcony": "images/cabins/le_lyrial_balcony_floor.webp",
+      "oceanview": "images/cabins/le_lyrial_oceanview_floor.webp",
+      "inside": "images/cabins/le_lyrial_inside_floor.webp"
+    },
+    "balcony": [
+      "images/cabins/le_lyrial_balcony_0.jpg",
+      "images/cabins/le_lyrial_balcony_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/le_lyrial_oceanview_0.jpg",
+      "images/cabins/le_lyrial_oceanview_1.jpg"
+    ],
+    "inside": [
+      "images/cabins/le_lyrial_inside_0.jpg",
+      "images/cabins/le_lyrial_inside_1.jpg"
+    ]
+  },
+  "Le Commandant Charcot": {
+    "suite": [
+      "images/cabins/le_commandant_charcot_suite_0.jpg",
+      "images/cabins/le_commandant_charcot_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/le_commandant_charcot_suite_floor.webp",
+      "balcony": "images/cabins/le_commandant_charcot_balcony_floor.webp",
+      "oceanview": "images/cabins/le_commandant_charcot_oceanview_floor.webp",
+      "inside": "images/cabins/le_commandant_charcot_inside_floor.webp"
+    },
+    "balcony": [
+      "images/cabins/le_commandant_charcot_balcony_0.jpg",
+      "images/cabins/le_commandant_charcot_balcony_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/le_commandant_charcot_oceanview_0.jpg",
+      "images/cabins/le_commandant_charcot_oceanview_1.jpg"
+    ],
+    "inside": [
+      "images/cabins/le_commandant_charcot_inside_0.jpg",
+      "images/cabins/le_commandant_charcot_inside_1.jpg"
+    ]
+  },
+  "Le Bougainville": {
+    "suite": [
+      "images/cabins/le_bougainville_suite_0.jpg",
+      "images/cabins/le_bougainville_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/le_bougainville_suite_floor.webp",
+      "balcony": "images/cabins/le_bougainville_balcony_floor.webp",
+      "oceanview": "images/cabins/le_bougainville_oceanview_floor.webp",
+      "inside": "images/cabins/le_bougainville_inside_floor.webp"
+    },
+    "balcony": [
+      "images/cabins/le_bougainville_balcony_0.jpg",
+      "images/cabins/le_bougainville_balcony_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/le_bougainville_oceanview_0.jpg",
+      "images/cabins/le_bougainville_oceanview_1.jpg"
+    ],
+    "inside": [
+      "images/cabins/le_bougainville_inside_0.jpg",
+      "images/cabins/le_bougainville_inside_1.jpg"
+    ]
+  },
+  "Le Bellot": {
+    "suite": [
+      "images/cabins/le_bellot_suite_0.jpg",
+      "images/cabins/le_bellot_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/le_bellot_suite_floor.webp",
+      "balcony": "images/cabins/le_bellot_balcony_floor.webp",
+      "oceanview": "images/cabins/le_bellot_oceanview_floor.webp",
+      "inside": "images/cabins/le_bellot_inside_floor.webp"
+    },
+    "balcony": [
+      "images/cabins/le_bellot_balcony_0.jpg",
+      "images/cabins/le_bellot_balcony_1.jpg"
+    ],
+    "oceanview": [
+      "images/cabins/le_bellot_oceanview_0.jpg",
+      "images/cabins/le_bellot_oceanview_1.jpg"
+    ],
+    "inside": [
+      "images/cabins/le_bellot_inside_0.jpg",
+      "images/cabins/le_bellot_inside_1.jpg"
+    ]
+  },
+  "Seven Seas Mariner": {
+    "suite": [
+      "images/cabins/seven_seas_mariner_suite_0.jpg",
+      "images/cabins/seven_seas_mariner_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/seven_seas_mariner_suite_floor.webp"
+    }
+  },
+  "Seven Seas Voyager": {
+    "suite": [
+      "images/cabins/seven_seas_voyager_suite_0.jpg",
+      "images/cabins/seven_seas_voyager_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/seven_seas_voyager_suite_floor.webp"
+    }
+  },
+  "Seven Seas Splendor": {
+    "suite": [
+      "images/cabins/seven_seas_splendor_suite_0.jpg",
+      "images/cabins/seven_seas_splendor_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/seven_seas_splendor_suite_floor.webp"
+    }
+  },
+  "Seven Seas Prestige": {
+    "suite": [
+      "images/cabins/seven_seas_prestige_suite_0.jpg",
+      "images/cabins/seven_seas_prestige_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/seven_seas_prestige_suite_floor.webp"
+    }
+  },
+  "Seven Seas Grandeur": {
+    "suite": [
+      "images/cabins/seven_seas_grandeur_suite_0.jpg",
+      "images/cabins/seven_seas_grandeur_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/seven_seas_grandeur_suite_floor.webp"
+    }
+  },
+  "Seabourn Quest": {
+    "suite": [
+      "images/cabins/seabourn_quest_suite_0.jpg",
+      "images/cabins/seabourn_quest_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/seabourn_quest_suite_floor.webp"
+    }
+  },
+  "Seabourn Venture": {
+    "suite": [
+      "images/cabins/seabourn_venture_suite_0.jpg",
+      "images/cabins/seabourn_venture_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/seabourn_venture_suite_floor.webp"
+    }
+  },
+  "Seabourn Pursuit": {
+    "suite": [
+      "images/cabins/seabourn_pursuit_suite_0.jpg",
+      "images/cabins/seabourn_pursuit_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/seabourn_pursuit_suite_floor.webp"
+    }
+  },
+  "Seabourn Ovation": {
+    "suite": [
+      "images/cabins/seabourn_ovation_suite_0.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/seabourn_ovation_suite_floor.webp"
+    }
+  },
+  "Silver Dawn": {
+    "suite": [
+      "images/cabins/silver_dawn_suite_0.jpg",
+      "images/cabins/silver_dawn_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/silver_dawn_suite_floor.webp"
+    }
+  },
+  "Silver Wind": {
+    "suite": [
+      "images/cabins/silver_wind_suite_0.jpg",
+      "images/cabins/silver_wind_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/silver_wind_suite_floor.webp"
+    }
+  },
+  "Silver Shadow": {
+    "suite": [
+      "images/cabins/silver_shadow_suite_0.jpg",
+      "images/cabins/silver_shadow_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/silver_shadow_suite_floor.webp"
+    }
+  },
+  "Silver Nova": {
+    "suite": [
+      "images/cabins/silver_nova_suite_0.jpg",
+      "images/cabins/silver_nova_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/silver_nova_suite_floor.webp",
+      "balcony": "images/cabins/silver_nova_balcony_floor.webp"
+    },
+    "balcony": [
+      "images/cabins/silver_nova_balcony_0.jpg",
+      "images/cabins/silver_nova_balcony_1.jpg"
+    ]
+  },
+  "Silver Whisper": {
+    "suite": [
+      "images/cabins/silver_whisper_suite_0.jpg",
+      "images/cabins/silver_whisper_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/silver_whisper_suite_floor.webp"
+    }
+  },
+  "Silver Endeavour": {
+    "suite": [
+      "images/cabins/silver_endeavour_suite_0.jpg",
+      "images/cabins/silver_endeavour_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/silver_endeavour_suite_floor.webp",
+      "balcony": "images/cabins/silver_endeavour_balcony_floor.webp"
+    },
+    "balcony": [
+      "images/cabins/silver_endeavour_balcony_0.jpg",
+      "images/cabins/silver_endeavour_balcony_1.jpg"
+    ]
+  },
+  "Silver Cloud": {
+    "suite": [
+      "images/cabins/silver_cloud_suite_0.jpg",
+      "images/cabins/silver_cloud_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/silver_cloud_suite_floor.webp"
+    }
+  },
+  "Silver Spirit": {
+    "suite": [
+      "images/cabins/silver_spirit_suite_0.jpg",
+      "images/cabins/silver_spirit_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/silver_spirit_suite_floor.webp"
+    }
+  },
+  "Silver Ray": {
+    "suite": [
+      "images/cabins/silver_ray_suite_0.jpg",
+      "images/cabins/silver_ray_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/silver_ray_suite_floor.webp",
+      "balcony": "images/cabins/silver_ray_balcony_floor.webp"
+    },
+    "balcony": [
+      "images/cabins/silver_ray_balcony_0.jpg",
+      "images/cabins/silver_ray_balcony_1.jpg"
+    ]
+  },
+  "Silver Origin": {
+    "suite": [
+      "images/cabins/silver_origin_suite_0.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/silver_origin_suite_floor.webp",
+      "balcony": "images/cabins/silver_origin_balcony_floor.webp"
+    },
+    "balcony": [
+      "images/cabins/silver_origin_balcony_0.jpg"
+    ]
+  },
+  "Star Pride": {
+    "suite": [
+      "images/cabins/star_pride_suite_0.jpg",
+      "images/cabins/star_pride_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/star_pride_suite_floor.webp"
+    }
+  },
+  "Wind Spirit": {
+    "_floors": {
+      "suite": "images/cabins/wind_spirit_suite_floor.webp"
+    }
+  },
+  "Wind Star": {
+    "_floors": {
+      "suite": "images/cabins/wind_star_suite_floor.webp"
+    }
+  },
+  "Star Legend": {
+    "suite": [
+      "images/cabins/star_legend_suite_0.jpg",
+      "images/cabins/star_legend_suite_1.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/star_legend_suite_floor.webp"
+    }
+  },
+  "Wind Surf": {
+    "suite": [
+      "images/cabins/wind_surf_suite_0.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/wind_surf_suite_floor.webp"
+    }
+  },
+  "Star Explorer": {
+    "suite": [
+      "images/cabins/star_explorer_suite_0.jpg"
+    ],
+    "_floors": {
+      "suite": "images/cabins/star_explorer_suite_floor.webp"
+    }
   }
 }
