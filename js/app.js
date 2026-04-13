@@ -2350,8 +2350,15 @@
     var sortOption = SORT_OPTION_MAP[params.get('sort')] || SORT_OPTION_MAP['price-asc'];
     var filters = cloneFilters(DEFAULT_FILTERS);
 
+    var ARRAY_FILTER_KEYS = ['kids', 'line'];
     Object.keys(DEFAULT_FILTERS).forEach(function (key) {
-      filters[key] = normalizeFilterValue(params.get(key));
+      var raw = params.get(key);
+      if (raw == null) return;
+      if (ARRAY_FILTER_KEYS.indexOf(key) !== -1) {
+        filters[key] = String(raw).split(',').filter(Boolean);
+      } else {
+        filters[key] = normalizeFilterValue(raw);
+      }
     });
 
     return {
