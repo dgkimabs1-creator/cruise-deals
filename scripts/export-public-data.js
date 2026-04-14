@@ -136,15 +136,48 @@ async function run() {
   // 환율
   const exchangeRate = await getExchangeRate(readExistingExchangeRate());
 
+  // TMK 시크릿딜 수집
+  let secretDeals = [];
+  try {
+    const https = require('https');
+    const sdHtml = await new Promise((resolve, reject) => {
+      https.get('https://cruisetmk.kr/wv/secretdeal/list', { headers: { 'User-Agent': 'Mozilla/5.0' }, timeout: 10000 }, (res) => {
+        let d = ''; res.on('data', c => d += c); res.on('end', () => resolve(d));
+      }).on('error', reject);
+    });
+    const sdRegex = /class="glc([^"]*)"[^>]*data-sunsa="([^"]*)"[^>]*data-nights="(\d+)"[^>]*data-price="([\d.]+)"[^>]*data-saildate="([^"]*)"[^>]*>([\s\S]*?)(?=<div class="glc[ "]|$)/g;
+    let sm;
+    while ((sm = sdRegex.exec(sdHtml)) !== null) {
+      const classes = sm[1], nights = parseInt(sm[3]), price = parseFloat(sm[4]), sailDate = sm[5], body = sm[6];
+      const idM = body.match(/detail\?id=(\d+)/);
+      const itinM = body.match(/일정명<\/strong>([^<]+)/);
+      const remainM = body.match(/잔여\s*(\d+)/);
+      secretDeals.push({
+        id: idM ? parseInt(idM[1]) : 0,
+        price, currency: 'USD', sailDate, nights, days: nights + 1,
+        itinerary: itinM ? `부산 → ${itinM[1].trim()} → 부산` : '',
+        remaining: remainM ? parseInt(remainM[1]) : 0,
+        soldOut: classes.includes('is-soldout'),
+        shipName: 'MSC Bellissima', cruiseLine: 'MSC', departurePort: '부산',
+        detailUrl: `https://cruisetmk.kr/wv/secretdeal/detail?id=${idM ? idM[1] : 0}`,
+        source: 'tmk_secret',
+      });
+    }
+    console.log(`TMK 시크릿딜: ${secretDeals.length}개`);
+  } catch (e) {
+    console.log(`TMK 시크릿딜 수집 실패: ${e.message}`);
+  }
+
   const output = {
     exportedAt: new Date().toISOString(),
     exchangeRate,
     count: publicList.length,
     cruises: publicList,
+    secretDeals,
   };
 
   fs.writeFileSync(DEST, JSON.stringify(output, null, 2), 'utf8');
-  console.log(`Exported ${publicList.length} cruises → ${DEST}`);
+  console.log(`Exported ${publicList.length} cruises + ${secretDeals.length} secret deals → ${DEST}`);
 }
 
 function toNumber(value) {

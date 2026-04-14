@@ -49,7 +49,7 @@
     lines: 'lineAnalysisPanel'
   };
   var VALID_VIEWS = Object.keys(VIEW_PANEL_MAP);
-  var VALID_QUICK_FILTERS = ['all', 'asia', 'luxury', 'ultraLuxury', 'busan', 'deal80', 'deal50', 'cheap', 'new3d', 'drop1d', 'drop3d', 'drop7d'];
+  var VALID_QUICK_FILTERS = ['all', 'asia', 'luxury', 'ultraLuxury', 'tmkSecret', 'busan', 'deal80', 'deal50', 'cheap', 'new3d', 'drop1d', 'drop3d', 'drop7d'];
   var SORT_OPTION_MAP = {
     'price-asc': { key: 'price', dir: 'asc' },
     'price-desc': { key: 'price', dir: 'desc' },
@@ -389,6 +389,33 @@
 
         state.loadError = false;
         state.cruises = Array.isArray(payload.cruises) ? payload.cruises.slice() : [];
+        // TMK 시크릿딜 합치기
+        if (Array.isArray(payload.secretDeals)) {
+          for (var si = 0; si < payload.secretDeals.length; si++) {
+            var sd = payload.secretDeals[si];
+            state.cruises.push({
+              num: 'S' + sd.id,
+              cruiseLine: sd.cruiseLine || 'MSC',
+              shipName: sd.shipName || 'MSC Bellissima',
+              shipRating: 4.5,
+              itinerary: sd.itinerary || '',
+              departurePort: sd.departurePort || '부산',
+              arrivalPort: sd.departurePort || '부산',
+              departureDate: sd.sailDate || '',
+              nights: sd.nights || 0,
+              days: sd.days || 0,
+              cabinPrices: sd.price > 0 ? { inside: sd.price, currency: sd.currency || 'USD' } : {},
+              perNight: sd.price > 0 && sd.nights > 0 ? { inside: Math.round(sd.price / sd.nights) } : {},
+              bookingUrl: sd.detailUrl || '',
+              source: 'tmk_secret',
+              isBusanRelated: true,
+              isAsia: true,
+              _secretDeal: true,
+              _remaining: sd.remaining,
+              _soldOut: sd.soldOut,
+            });
+          }
+        }
         state.exportedAt = payload.exportedAt || '';
         installExchangeRate(payload.exchangeRate);
         hashState = applyHashState(root.location && root.location.hash ? root.location.hash : '');
@@ -949,6 +976,8 @@
     switch (state.quickFilter) {
       case 'asia':
         return cruise.isAsia !== false;
+      case 'tmkSecret':
+        return cruise.source === 'tmk_secret';
       case 'busan':
         return !!(cruise && cruise.isBusanRelated);
       case 'deal80':
