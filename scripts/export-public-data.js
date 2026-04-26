@@ -18,7 +18,19 @@ const CABIN_IMAGES_DIR = path.resolve(__dirname, '../images/cabins');
 const CABIN_TYPES = ['inside', 'oceanview', 'balcony', 'suite'];
 
 async function run() {
-  const raw = JSON.parse(fs.readFileSync(SOURCE, 'utf8'));
+  // 2026-04-26 P1 fix audit (cruise): SOURCE 손상 시 fail-closed — 이전 데이터 보존.
+  // 이전엔 throw 가 발생하긴 했지만 process exit code 가 0 인 경로가 있어 silent skip 가능.
+  let raw;
+  try {
+    raw = JSON.parse(fs.readFileSync(SOURCE, 'utf8'));
+  } catch (e) {
+    console.error(`[FATAL] SOURCE JSON parse 실패: ${SOURCE} — ${e.message}. 이전 ${path.basename(DEST)} 보존하고 종료.`);
+    process.exit(2);
+  }
+  if (!raw || typeof raw !== 'object') {
+    console.error(`[FATAL] SOURCE schema 비정상 (root not object) — 이전 ${path.basename(DEST)} 보존하고 종료.`);
+    process.exit(2);
+  }
   const cruises = raw.cruises || {};
 
   // lineprices for deal scores
@@ -140,10 +152,14 @@ async function run() {
   let secretDeals = [];
   try {
     const https = require('https');
+    // 2026-04-26 P1 fix audit (cruise): timeout handler 추가 — 이전엔 timeout option 만 있고 실제 abort 가
+    // 없어 PM2 cron 경로에서 무기한 hung 가능. timeout 이벤트 발생 시 socket 명시적 destroy + reject.
     const sdHtml = await new Promise((resolve, reject) => {
-      https.get('https://cruisetmk.kr/wv/secretdeal/list', { headers: { 'User-Agent': 'Mozilla/5.0' }, timeout: 10000 }, (res) => {
-        let d = ''; res.on('data', c => d += c); res.on('end', () => resolve(d));
-      }).on('error', reject);
+      const req = https.get('https://cruisetmk.kr/wv/secretdeal/list', { headers: { 'User-Agent': 'Mozilla/5.0' }, timeout: 10000 }, (res) => {
+        let d = ''; res.on('data', c => d += c); res.on('end', () => resolve(d)); res.on('error', reject);
+      });
+      req.on('timeout', () => { req.destroy(new Error('TMK request timeout')); });
+      req.on('error', reject);
     });
     const sdRegex = /class="glc([^"]*)"[^>]*data-sunsa="([^"]*)"[^>]*data-nights="(\d+)"[^>]*data-price="([\d.]+)"[^>]*data-saildate="([^"]*)"[^>]*>([\s\S]*?)(?=<div class="glc[ "]|$)/g;
     let sm;
@@ -176,7 +192,11 @@ async function run() {
     secretDeals,
   };
 
-  fs.writeFileSync(DEST, JSON.stringify(output, null, 2), 'utf8');
+  // 2026-04-26 P2 fix audit (cruise): atomic write — tmp + rename. 이전엔 direct write 라
+  // 부분쓰기 발생 시 손상된 JSON 이 그대로 배포될 위험.
+  const tmpDest = DEST + '.tmp.' + process.pid;
+  fs.writeFileSync(tmpDest, JSON.stringify(output, null, 2), 'utf8');
+  fs.renameSync(tmpDest, DEST);
   console.log(`Exported ${publicList.length} cruises + ${secretDeals.length} secret deals → ${DEST}`);
 }
 

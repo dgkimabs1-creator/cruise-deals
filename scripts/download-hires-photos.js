@@ -80,25 +80,45 @@ function sanitize(name) {
 }
 
 function fetchPage(url) {
+  // 2026-04-26 P2 fix audit (cruise): timeout handler 추가 — 이전엔 timeout option 만 있고 abort 없음.
   return new Promise((resolve, reject) => {
-    https.get(url, { headers: { 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)' }, timeout: 15000 }, (res) => {
+    const req = https.get(url, { headers: { 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)' }, timeout: 15000 }, (res) => {
       if (res.statusCode !== 200) { resolve(''); return; }
       let data = '';
       res.on('data', d => data += d);
       res.on('end', () => resolve(data));
-    }).on('error', () => resolve(''));
+      res.on('error', () => resolve(''));
+    });
+    req.on('timeout', () => { req.destroy(); resolve(''); });
+    req.on('error', () => resolve(''));
   });
 }
 
 function download(url, dest) {
+  // 2026-04-26 P2 fix audit (cruise): timeout handler + atomic write (tmp + rename) + dir 생성 보장.
   return new Promise((resolve) => {
     if (!url || !url.startsWith('http')) { resolve(false); return; }
-    const file = fs.createWriteStream(dest);
-    https.get(url, { headers: { 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)' }, timeout: 15000 }, (res) => {
-      if (res.statusCode !== 200) { file.close(); try { fs.unlinkSync(dest); } catch(e) {} resolve(false); return; }
+    try { fs.mkdirSync(path.dirname(dest), { recursive: true }); } catch(_) {}
+    const tmp = dest + '.dl.tmp';
+    const file = fs.createWriteStream(tmp);
+    const _cleanup = (ok) => {
+      try { file.close(); } catch(_) {}
+      if (ok) {
+        try { fs.renameSync(tmp, dest); } catch(_) { ok = false; }
+      } else {
+        try { fs.unlinkSync(tmp); } catch(_) {}
+      }
+      resolve(ok);
+    };
+    const req = https.get(url, { headers: { 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)' }, timeout: 15000 }, (res) => {
+      if (res.statusCode !== 200) { _cleanup(false); return; }
       res.pipe(file);
-      file.on('finish', () => { file.close(); resolve(true); });
-    }).on('error', () => { file.close(); try { fs.unlinkSync(dest); } catch(e) {} resolve(false); });
+      file.on('finish', () => _cleanup(true));
+      file.on('error', () => _cleanup(false));
+      res.on('error', () => _cleanup(false));
+    });
+    req.on('timeout', () => { req.destroy(); _cleanup(false); });
+    req.on('error', () => _cleanup(false));
   });
 }
 
@@ -185,9 +205,16 @@ async function run() {
   console.log('대상:', SHIPS.length, '척');
 
   const mapping = {};
-  try {
-    Object.assign(mapping, JSON.parse(fs.readFileSync(MAPPING_FILE, 'utf8')));
-  } catch(e) {}
+  // 2026-04-26 P2 fix audit (cruise): JSON parse 실패 시 fail-closed.
+  // 이전엔 silent ignore → 손상 매핑이 빈 객체로 덮어쓰여 기존 매핑 유실.
+  if (fs.existsSync(MAPPING_FILE)) {
+    try {
+      Object.assign(mapping, JSON.parse(fs.readFileSync(MAPPING_FILE, 'utf8')));
+    } catch(e) {
+      console.error(`[FATAL] photo-mapping.json parse 실패 (${e.message}) — 기존 데이터 보호 위해 종료.`);
+      process.exit(2);
+    }
+  }
 
   let total = 0, ok = 0;
 

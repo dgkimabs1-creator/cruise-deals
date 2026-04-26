@@ -6,21 +6,27 @@ set -euo pipefail
 # git push timeout + git push fail 시 재시도 + 2>/dev/null 제거.
 
 LOCK_FILE="/tmp/cruise-auto-update.lock"
-# PID + 타임스탬프 기반 lock — mkdir 은 crash 시 stale lock 남으면 영구 block.
-# 대신 lockfile 에 pid 적고, 기존 pid 가 죽은 프로세스면 stale 로 간주하고 재획득.
+# 2026-04-26 P1 fix audit (cruise): atomic lock — set -C (noclobber) 로 race-free.
+# 이전엔 -f 검사 후 write 분리 → 두 프로세스 동시 시작 시 둘 다 통과 가능.
 _acquire_lock() {
-  if [[ -f "$LOCK_FILE" ]]; then
-    local existing_pid
-    existing_pid=$(cat "$LOCK_FILE" 2>/dev/null || echo "")
-    if [[ -n "$existing_pid" ]] && kill -0 "$existing_pid" 2>/dev/null; then
-      echo "Already running (pid=$existing_pid), skip"
-      exit 0
-    fi
-    # stale lock
-    echo "Stale lock (pid=$existing_pid not running) — removing"
-    rm -f "$LOCK_FILE"
+  # noclobber 로 atomic create-or-fail
+  if (set -C; echo "$$" > "$LOCK_FILE") 2>/dev/null; then
+    return 0
   fi
-  echo "$$" > "$LOCK_FILE"
+  # 이미 존재 — stale 검사
+  local existing_pid
+  existing_pid=$(cat "$LOCK_FILE" 2>/dev/null || echo "")
+  if [[ -n "$existing_pid" ]] && kill -0 "$existing_pid" 2>/dev/null; then
+    echo "Already running (pid=$existing_pid), skip"
+    exit 0
+  fi
+  # stale — atomic 으로 교체 (rm + noclobber write)
+  echo "Stale lock (pid=$existing_pid not running) — replacing"
+  rm -f "$LOCK_FILE"
+  if ! (set -C; echo "$$" > "$LOCK_FILE") 2>/dev/null; then
+    echo "Lock race — 다른 프로세스가 먼저 획득함, skip"
+    exit 0
+  fi
 }
 
 _cleanup() {
@@ -84,8 +90,46 @@ if git diff --quiet --cached data/cruises-public.json; then
 fi
 
 # Push with timeout — 네트워크 hung 으로 무한 block 방지 (이 후 모든 run 이 lock 대기).
-if ! timeout 60 git push origin main; then
-  echo "ERROR: git push 실패 — 다음 run 에서 재시도 (HEAD 가 ahead 상태로 남음)"
+# 2026-04-26 P1 fix audit (cruise): timeout 명령 macOS 기본 미설치 → gtimeout (coreutils) 또는 fallback.
+# 이전 `timeout 60 git push` 가 timeout 명령 부재로 즉시 실패하던 문제.
+_run_with_timeout() {
+  local secs="$1"; shift
+  if command -v timeout >/dev/null 2>&1; then
+    timeout "$secs" "$@"
+  elif command -v gtimeout >/dev/null 2>&1; then
+    gtimeout "$secs" "$@"
+  else
+    # fallback: background + sleep + kill — 가장 단순한 portable timeout
+    "$@" &
+    local _pid=$!
+    ( sleep "$secs" && kill -TERM "$_pid" 2>/dev/null && sleep 5 && kill -KILL "$_pid" 2>/dev/null ) &
+    local _killer=$!
+    wait "$_pid" 2>/dev/null
+    local _rc=$?
+    kill -TERM "$_killer" 2>/dev/null || true
+    wait "$_killer" 2>/dev/null || true
+    return $_rc
+  fi
+}
+
+# 2026-04-26 P1 fix audit (cruise): git push 재시도 추가 (주석엔 있었지만 실제 코드엔 없었음).
+# 60s timeout × 2회 시도. 실패해도 ahead 상태로 남으니 다음 run 에서 재시도 가능.
+_push_attempt=0
+_push_max_attempts=2
+_push_ok=0
+while [[ $_push_attempt -lt $_push_max_attempts ]]; do
+  _push_attempt=$((_push_attempt + 1))
+  if _run_with_timeout 60 git push origin main; then
+    _push_ok=1
+    break
+  fi
+  echo "WARN: git push attempt $_push_attempt/$_push_max_attempts 실패"
+  if [[ $_push_attempt -lt $_push_max_attempts ]]; then
+    sleep 5
+  fi
+done
+if [[ $_push_ok -eq 0 ]]; then
+  echo "ERROR: git push 2회 실패 — 다음 run 에서 재시도 (HEAD 가 ahead 상태로 남음)"
   exit 1
 fi
 echo "Pushed updated data"
