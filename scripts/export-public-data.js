@@ -42,8 +42,18 @@ async function run() {
   const shipInfoIndex = buildShipInfoIndex(shipDb);
 
   // ship photos — 로컬 이미지 매핑 우선
+  // 2026-04-26 P1 fix audit (cruise codex follow-up): photo-mapping.json parse 실패 시 명시 경고
+  // 이전: silent ignore → 손상된 매핑이 빈 객체로 fallback → 공개 JSON 에 사진 누락된 채 배포
   let localPhotoMap = {};
-  try { localPhotoMap = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../images/photo-mapping.json'), 'utf8')); } catch (e) {}
+  const _photoMappingPath = path.resolve(__dirname, '../images/photo-mapping.json');
+  if (fs.existsSync(_photoMappingPath)) {
+    try {
+      localPhotoMap = JSON.parse(fs.readFileSync(_photoMappingPath, 'utf8'));
+    } catch (e) {
+      console.error(`[FATAL] photo-mapping.json parse 실패 (${e.message}) — 손상된 매핑으로 빈 사진 데이터 배포 방지 위해 종료.`);
+      process.exit(2);
+    }
+  }
   localPhotoMap = buildLocalPhotoIndex(localPhotoMap);
 
   let shipPhotos = [];
@@ -291,6 +301,21 @@ function getLocalCabinAssetPath(fileName) {
     : null;
 }
 
+// 2026-04-26 P1 fix audit (cruise codex follow-up): photo-mapping path 검증
+//  - allow only paths under images/cabins/ (no ../, no absolute, no scheme)
+function _isSafeCabinPath(p) {
+  if (typeof p !== 'string' || !p) return false;
+  if (p.includes('..') || p.startsWith('/') || /^[a-z]+:\/\//i.test(p)) return false;
+  return p.startsWith('images/cabins/');
+}
+function _filterSafePathArray(arr) {
+  if (!Array.isArray(arr)) return [];
+  return arr.filter(_isSafeCabinPath);
+}
+function _safeOrNull(v) {
+  return _isSafeCabinPath(v) ? v : null;
+}
+
 function getShipPhotos(shipName, localMap, remoteMap) {
   const normalizedName = normalizeShipName(shipName);
   const local = localMap
@@ -303,9 +328,10 @@ function getShipPhotos(shipName, localMap, remoteMap) {
   const assetStem = buildShipAssetStem(shipName);
   const result = { exterior: null, cabins: {}, floorPlans: {} };
   if (local) {
-    result.exterior = local.exterior || null;
+    result.exterior = _safeOrNull(local.exterior);
     for (const type of CABIN_TYPES) {
-      if (local[type] && local[type].length > 0) result.cabins[type] = local[type];
+      const safe = _filterSafePathArray(local[type]);
+      if (safe.length > 0) result.cabins[type] = safe;
     }
   }
 

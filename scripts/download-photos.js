@@ -14,27 +14,49 @@ const outDir = path.resolve(__dirname, '../images/cabins');
 if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
 
 function sanitize(name) {
-  return name.replace(/[^a-zA-Z0-9]/g, '_').toLowerCase();
+  return String(name).replace(/[^a-zA-Z0-9]/g, '_').toLowerCase();
 }
 
-function download(url, dest) {
+// 2026-04-26 P1 fix audit (cruise codex follow-up): redirect handling 보강
+//  - dest stream 을 redirect 결정 후 (200 OK 일 때만) 열기 → FD leak 방지
+//  - depth 제한 (maxRedirects=5) 으로 redirect loop 방지
+//  - tmp + rename atomic write
+function download(url, dest, depth = 0) {
   return new Promise((resolve) => {
-    if (!url || !url.startsWith('http')) { resolve(false); return; }
+    if (!url || typeof url !== 'string' || !url.startsWith('http')) { resolve(false); return; }
+    if (depth > 5) { console.log('  ❌ redirect depth > 5'); resolve(false); return; }
     const mod = url.startsWith('https') ? https : http;
-    const file = fs.createWriteStream(dest);
+    const tmp = dest + '.dl.tmp';
     const req = mod.get(url, { headers: { 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)' }, timeout: 15000 }, (res) => {
       if (res.statusCode === 301 || res.statusCode === 302) {
-        // follow redirect
-        download(res.headers.location, dest).then(resolve);
+        const loc = res.headers.location;
+        res.resume(); // drain
+        if (!loc) { resolve(false); return; }
+        download(loc, dest, depth + 1).then(resolve);
         return;
       }
-      if (res.statusCode !== 200) { file.close(); fs.unlinkSync(dest); resolve(false); return; }
+      if (res.statusCode !== 200) { res.resume(); resolve(false); return; }
+      const file = fs.createWriteStream(tmp);
       res.pipe(file);
-      file.on('finish', () => { file.close(); resolve(true); });
+      file.on('finish', () => {
+        file.close(() => {
+          try { fs.renameSync(tmp, dest); resolve(true); }
+          catch(e) { try { fs.unlinkSync(tmp); } catch(_){} resolve(false); }
+        });
+      });
+      file.on('error', () => { try { fs.unlinkSync(tmp); } catch(_){} resolve(false); });
+      res.on('error', () => { try { fs.unlinkSync(tmp); } catch(_){} resolve(false); });
     });
-    req.on('error', () => { file.close(); try { fs.unlinkSync(dest); } catch(e) {} resolve(false); });
-    req.on('timeout', () => { req.destroy(); file.close(); try { fs.unlinkSync(dest); } catch(e) {} resolve(false); });
+    req.on('error', () => { try { fs.unlinkSync(tmp); } catch(_){} resolve(false); });
+    req.on('timeout', () => { req.destroy(); try { fs.unlinkSync(tmp); } catch(_){} resolve(false); });
   });
+}
+
+// 2026-04-26 P1 fix audit (cruise codex follow-up): atomic JSON write
+function writeJsonAtomic(filePath, obj) {
+  const tmp = filePath + '.tmp.' + process.pid;
+  fs.writeFileSync(tmp, JSON.stringify(obj, null, 2));
+  fs.renameSync(tmp, filePath);
 }
 
 async function run() {
@@ -62,12 +84,20 @@ async function run() {
     }
 
     // Cabins
-    for (const [type, urls] of Object.entries(ship.cabinImages || {})) {
+    for (const [typeRaw, urls] of Object.entries(ship.cabinImages || {})) {
       if (!Array.isArray(urls)) continue;
+      // 2026-04-26 P1 fix audit (cruise codex follow-up): type 키 sanitize — path traversal 방지
+      const type = sanitize(typeRaw);
+      if (!type) continue;
       mapping[ship.shipName][type] = [];
       for (let i = 0; i < urls.length; i++) {
         const fname = `${shipKey}_${type}_${i}.jpg`;
         const dest = path.join(outDir, fname);
+        // 추가 방어: dest 가 outDir 밖으로 빠지지 않는지 확인
+        if (!path.resolve(dest).startsWith(path.resolve(outDir) + path.sep)) {
+          console.log('  ❌ path traversal blocked:', fname);
+          continue;
+        }
         total++;
         const result = await download(urls[i], dest);
         if (result && fs.existsSync(dest) && fs.statSync(dest).size > 500) {
@@ -85,8 +115,8 @@ async function run() {
     console.log(`✅ ${ship.shipName} (${ok}/${total})`);
   }
 
-  // 매핑 저장
-  fs.writeFileSync(path.resolve(__dirname, '../images/photo-mapping.json'), JSON.stringify(mapping, null, 2));
+  // 매핑 저장 (atomic)
+  writeJsonAtomic(path.resolve(__dirname, '../images/photo-mapping.json'), mapping);
   console.log(`\n완료: ✅${ok} ❌${fail} / ${total}`);
 }
 

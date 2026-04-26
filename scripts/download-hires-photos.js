@@ -241,7 +241,10 @@ async function run() {
     await new Promise(r => setTimeout(r, 2000));
   }
 
-  fs.writeFileSync(MAPPING_FILE, JSON.stringify(mapping, null, 2));
+  // 2026-04-26 P1 fix audit (cruise codex follow-up): atomic write — partial 방지
+  const _tmp = MAPPING_FILE + '.tmp.' + process.pid;
+  fs.writeFileSync(_tmp, JSON.stringify(mapping, null, 2));
+  fs.renameSync(_tmp, MAPPING_FILE);
   console.log(`\n완료: ${ok}/${total}척 다운로드`);
 }
 
