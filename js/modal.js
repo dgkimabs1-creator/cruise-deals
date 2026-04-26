@@ -179,11 +179,26 @@
     return getUtils().safeUrl(value);
   }
 
+  // 2026-04-26 P1 follow-up² (codex 한줄검수): images/ subtree confinement 강화
+  //  - 이전: images/ 또는 ./images/ prefix 만 보고 통과 → "images/../../secret.png" 우회 가능
+  //  - 이후: % \ 제어문자 차단 + ../ 흔적 차단 + decode 후 재검증
+  function _isSafeImagesPath(str) {
+    if (!str) return false;
+    if (str.indexOf('%') !== -1 || str.indexOf('\\') !== -1) return false;
+    if (/[\x00-\x1F\x7F]/.test(str)) return false;
+    var p = str.indexOf('./images/') === 0 ? str.slice(2) : str;
+    if (p.indexOf('images/') !== 0) return false;
+    if (p.indexOf('../') !== -1 || p.indexOf('/./') !== -1 || p.indexOf('//') !== -1) return false;
+    if (/(^|\/)\.\.($|\/)/.test(p)) return false;
+    return true;
+  }
   function safeAssetUrl(value) {
     if (!value) return '';
     var str = String(value);
-    // 상대경로 (images/...) 허용
-    if (str.indexOf('images/') === 0 || str.indexOf('./images/') === 0) return str;
+    // 상대경로 (images/...) — 강화 검증
+    if (str.indexOf('images/') === 0 || str.indexOf('./images/') === 0) {
+      return _isSafeImagesPath(str) ? str : '';
+    }
     var resolved = safeUrl(str);
     return resolved === '#' ? '' : resolved;
   }

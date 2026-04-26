@@ -119,7 +119,7 @@ async function run() {
       salePrice: c.salePrice || null,
       discountPct: c.discountPct || 0,
       bookingUrl: c.bookingUrl || '',
-      itineraryImageUrl: c.itineraryImageUrl || null,
+      itineraryImageUrl: _safeRemoteUrl(c.itineraryImageUrl),
       shipPhotos: getShipPhotos(c.shipName, localPhotoMap, shipPhotoMap),
       itineraryUncertain: !c.detailedItinerary && (c.itinerary || '').split('→').length <= 2 && (c.nights || 0) > 1,
       listPriceOnly: !!c._listPriceOnly,
@@ -334,6 +334,18 @@ function _filterSafePathArray(arr) {
 }
 function _safeOrNull(v) {
   return _isSafeCabinPath(v) ? v : null;
+}
+
+// 2026-04-26 P1 follow-up² (codex 한줄검수): itineraryImageUrl 도 fail-closed
+//  - 이전: c.itineraryImageUrl || null 그대로 export
+//  - 위험: upstream 데이터에 "images/../../secret.png" 들어오면 클라 safeAssetUrl 가 prefix 만 보고 통과
+//  - 이후: http(s):// 만 허용. 비-URL (상대 경로) 은 fail-closed null.
+function _safeRemoteUrl(v) {
+  if (!v || typeof v !== 'string') return null;
+  if (!/^https?:\/\//i.test(v)) return null;
+  // 제어문자 / null byte 차단
+  if (/[\x00-\x1F\x7F]/.test(v)) return null;
+  return v;
 }
 
 function getShipPhotos(shipName, localMap, remoteMap) {
