@@ -92,6 +92,9 @@ fi
 # Push with timeout — 네트워크 hung 으로 무한 block 방지 (이 후 모든 run 이 lock 대기).
 # 2026-04-26 P1 fix audit (cruise): timeout 명령 macOS 기본 미설치 → gtimeout (coreutils) 또는 fallback.
 # 이전 `timeout 60 git push` 가 timeout 명령 부재로 즉시 실패하던 문제.
+# 2026-04-26 P1 follow-up (codex audit): fallback 보강
+#  - killer-fired flag 로 timeout 시 124 반환 (coreutils 호환)
+#  - process group kill (kill -- -PGID) 로 git 자식 (curl/ssh) 까지 정리
 _run_with_timeout() {
   local secs="$1"; shift
   if command -v timeout >/dev/null 2>&1; then
@@ -99,15 +102,35 @@ _run_with_timeout() {
   elif command -v gtimeout >/dev/null 2>&1; then
     gtimeout "$secs" "$@"
   else
-    # fallback: background + sleep + kill — 가장 단순한 portable timeout
-    "$@" &
+    # fallback: setsid 로 새 process group 시작 → 자식 프로세스 까지 한번에 종료 가능
+    local _flag="/tmp/cruise_timeout_killed.$$"
+    rm -f "$_flag"
+    # setsid 가 있으면 새 PG 로 실행, 없으면 그냥 background
+    if command -v setsid >/dev/null 2>&1; then
+      setsid "$@" &
+    else
+      "$@" &
+    fi
     local _pid=$!
-    ( sleep "$secs" && kill -TERM "$_pid" 2>/dev/null && sleep 5 && kill -KILL "$_pid" 2>/dev/null ) &
+    (
+      sleep "$secs"
+      if kill -0 "$_pid" 2>/dev/null; then
+        : > "$_flag"
+        # process group kill (음수 PID = PGID) — 자식 까지 정리
+        kill -TERM -- "-$_pid" 2>/dev/null || kill -TERM "$_pid" 2>/dev/null
+        sleep 5
+        kill -KILL -- "-$_pid" 2>/dev/null || kill -KILL "$_pid" 2>/dev/null
+      fi
+    ) &
     local _killer=$!
     wait "$_pid" 2>/dev/null
     local _rc=$?
     kill -TERM "$_killer" 2>/dev/null || true
     wait "$_killer" 2>/dev/null || true
+    if [[ -e "$_flag" ]]; then
+      rm -f "$_flag"
+      return 124  # coreutils timeout convention
+    fi
     return $_rc
   fi
 }
