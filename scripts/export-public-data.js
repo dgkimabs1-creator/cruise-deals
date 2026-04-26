@@ -303,10 +303,26 @@ function getLocalCabinAssetPath(fileName) {
 
 // 2026-04-26 P1 fix audit (cruise codex follow-up): photo-mapping path 검증
 //  - allow only paths under images/cabins/ (no ../, no absolute, no scheme)
+// 2026-04-26 P1 follow-up (codex 한줄검수): URL-encoded traversal 차단
+//  - 이전: raw 문자열만 검사 → "%2e%2e" / "%5c" 우회 가능
+//  - 이후: decodeURIComponent + backslash → forward + path.posix.normalize 후 재검증
 function _isSafeCabinPath(p) {
   if (typeof p !== 'string' || !p) return false;
-  if (p.includes('..') || p.startsWith('/') || /^[a-z]+:\/\//i.test(p)) return false;
-  return p.startsWith('images/cabins/');
+  if (p.startsWith('/') || p.startsWith('\\') || /^[a-z]+:/i.test(p)) return false;
+  // 정상 캐빈 파일명은 % / \ 포함 안함 — 인코딩 우회 차단 위해 reject
+  if (p.includes('%') || p.includes('\\')) return false;
+  let decoded;
+  try {
+    decoded = decodeURIComponent(p);
+  } catch (_) {
+    return false;
+  }
+  // decode 후 다시 % 또는 \ 등장 시 (이중 인코딩 흔적) reject
+  if (decoded !== p) return false;
+  const normalized = path.posix.normalize(decoded);
+  return normalized.startsWith('images/cabins/')
+    && normalized === decoded
+    && normalized !== 'images/cabins/';
 }
 function _filterSafePathArray(arr) {
   if (!Array.isArray(arr)) return [];
