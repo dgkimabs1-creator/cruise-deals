@@ -311,6 +311,10 @@ function _isSafeCabinPath(p) {
   if (p.startsWith('/') || p.startsWith('\\') || /^[a-z]+:/i.test(p)) return false;
   // 정상 캐빈 파일명은 % / \ 포함 안함 — 인코딩 우회 차단 위해 reject
   if (p.includes('%') || p.includes('\\')) return false;
+  // 2026-04-26 P1 follow-up² (codex 한줄검수): 제어문자 차단
+  //  - 이전: \t \n \r 등 통과 → 브라우저 URL 파서가 정규화하면서 traversal 가능
+  //  - 예: "images/cabins/..\t/secret.txt" → URL("...") 후 "/images/secret.txt" 가능
+  if (/[\x00-\x1F\x7F]/.test(p)) return false;
   let decoded;
   try {
     decoded = decodeURIComponent(p);
