@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-05-11T12:55:00.997Z",
+  "exportedAt": "2026-05-11T13:55:01.096Z",
   "exchangeRate": 1462.843227,
   "count": 4557,
   "cruises": [
@@ -727330,8 +727330,8 @@
       "nights": 4,
       "days": 5,
       "itinerary": "부산 → 상해, 제주 기항 → 부산",
-      "remaining": 1,
-      "soldOut": false,
+      "remaining": 0,
+      "soldOut": true,
       "shipName": "MSC Bellissima",
       "cruiseLine": "MSC",
       "departurePort": "부산",
